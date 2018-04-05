@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#01579b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButton">#eeeeee</color>
+    <color name="background">#0288d1</color>
+</resources>
+
+
+    <!-- cor para o funco do app: #0288d1 -->
