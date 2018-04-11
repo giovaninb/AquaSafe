@@ -5,7 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorButton">#eeeeee</color>
     <color name="background">#0288d1</color>
+    <color name="text">#FFFFFF</color>
 </resources>
-
-
-    <!-- cor para o funco do app: #0288d1 -->

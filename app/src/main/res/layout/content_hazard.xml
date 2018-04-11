@@ -42,23 +42,23 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/hazard"
+                android:id="@+id/physicist"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/button_selector"
                 android:clickable="true"
                 android:padding="15dp"
-                android:src="@drawable/speaker"
+                android:src="@drawable/physicist"
                 android:scaleType="fitCenter"
-                android:tag="fisico"/>
+                android:tag="physicist"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
-                android:text="Físico"
+                android:text="@string/physicist"
                 android:textColor="@color/text" />
         </LinearLayout>
 
@@ -72,25 +72,142 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/biosafety"
+                android:id="@+id/chemical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/button_selector"
                 android:clickable="true"
                 android:padding="15dp"
-                android:src="@drawable/flask"
-                android:scaleType="fitCenter"/>
+                android:src="@drawable/chemical"
+                android:scaleType="fitCenter"
+                android:tag="chemical"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:text="@string/biosafety"
+                android:text="@string/chemical"
                 android:textAlignment="center"
                 android:textColor="@color/text"/>
         </LinearLayout>
     </LinearLayout>
+
+        <!--Segunda Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/biological"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/biological"
+                    android:scaleType="fitCenter"
+                    android:tag="biological"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/biological"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ergonomic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/ergonomic"
+                    android:scaleType="fitCenter"
+                    android:tag="ergonomic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/ergonomic"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    <!--Terceira Linha -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/accident"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:clickable="true"
+                android:padding="15dp"
+                android:src="@drawable/accident"
+                android:scaleType="fitCenter"
+                android:tag="accident"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/accident"
+                android:textColor="@color/text" />
+        </LinearLayout>
+    </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
