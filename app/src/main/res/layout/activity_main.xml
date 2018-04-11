@@ -48,7 +48,7 @@
                        android:background="@drawable/button_selector"
                        android:clickable="true"
                        android:padding="15dp"
-                       android:src="@drawable/hazard1"
+                       android:src="@drawable/hazard"
                        android:scaleType="fitCenter"/>
 
                     <TextView
@@ -56,9 +56,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:layout_marginTop="10dp"
-                        android:text="Riscos"
-                        android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:text="@string/hazard"
+                        android:textColor="@color/text" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -76,17 +75,18 @@
                         android:layout_weight="1"
                         android:background="@drawable/button_selector"
                         android:clickable="true"
-                        android:padding="15dp"/>
+                        android:padding="15dp"
+                        android:src="@drawable/biosafety"
+                        android:scaleType="fitCenter"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_weight="1"
-                        android:text="Biossegurança"
+                        android:text="@string/biosafety"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textStyle="bold"/>
+                        android:textColor="@color/text"/>
                 </LinearLayout>
 
 
@@ -115,16 +115,18 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
-                    android:padding="15dp"/>
+                    android:padding="15dp"
+                    android:src="@drawable/immunization"
+                    android:scaleType="fitCenter"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="Imunização"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:text="@string/immunization"
+                    android:textColor="@color/text"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -142,16 +144,17 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
-                    android:padding="15dp"/>
+                    android:padding="15dp"
+                    android:src="@drawable/law"
+                    android:scaleType="fitCenter"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="Leis e Normas"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:text="@string/law"
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -182,16 +185,17 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
-                    android:padding="15dp"/>
+                    android:padding="15dp"
+                    android:src="@drawable/signalization"
+                    android:scaleType="fitCenter"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="Sinalização"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:text="@string/signalization"
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -209,16 +213,17 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
-                    android:padding="15dp"/>
+                    android:padding="15dp"
+                    android:src="@drawable/checklist"
+                    android:scaleType="fitCenter"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="CheckList"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:text="@string/checklist"
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -249,16 +254,17 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
-                    android:padding="15dp"/>
+                    android:padding="15dp"
+                    android:src="@drawable/about"
+                    android:scaleType="fitCenter"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="Sobre"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:text="@string/about"
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -276,16 +282,18 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
-                    android:padding="15dp"/>
+                    android:padding="15dp"
+                    android:src="@drawable/contact"
+                    android:scaleType="fitCenter"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="Contato"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:text="@string/contact"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
         </LinearLayout>
