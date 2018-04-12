@@ -27,6 +27,12 @@
 
     <string name="biological_title">Riscos Biológicos</string>
     <string name="biological">Biológico</string>
+    <string name="zoonoses">Zoonoses</string>
+    <string name="venomous_animals">Animais Peçonhentos</string>
+    <string name="residue">Resíduos de Origem Animal</string>
+    <string name="animal">Animal</string>
+    <string name="waste_pipe">Deficiência Sanitária</string>
+    
     <string name="ergonomic_title">Riscos Ergonômicos</string>
     <string name="ergonomic">Ergonômico</string>
     <string name="accident_title">Riscos de Acidentes</string>
@@ -37,4 +43,5 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_chemical">ChemicalActivity</string>
+    <string name="title_activity_biological">BiologicalActivity</string>
 </resources>
