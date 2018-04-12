@@ -2,11 +2,12 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/buttonContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PhysicistActivity"
     android:background="@color/background"
-    tools:context=".MainActivity">
+    tools:showIn="@layout/activity_physicist">
 
 
     <LinearLayout
@@ -21,10 +22,11 @@
         android:layout_alignParentLeft="true"
         tools:ignore="RtlCompat">
 
-<!--Primeira Linha -->
+        <!--Primeira Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
@@ -41,63 +43,77 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                   <ImageButton
-                       android:id="@+id/hazard"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_weight="1"
-                       android:background="@drawable/button_selector"
-                       android:clickable="true"
-                       android:padding="15dp"
-                       android:src="@drawable/hazard"
-                       android:scaleType="fitCenter"
-                       android:tag="hazard"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginTop="10dp"
-                        android:text="@string/hazard"
-                        android:textColor="@color/text" />
-                </LinearLayout>
-
-                <LinearLayout
+                <ImageButton
+                    android:id="@+id/electrocution"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/electrocution"
+                    android:scaleType="fitCenter"
+                    android:tag="electrocution"/>
 
-                    <ImageButton
-                        android:id="@+id/biosafety"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="@drawable/button_selector"
-                        android:clickable="true"
-                        android:padding="15dp"
-                        android:src="@drawable/biosafety"
-                        android:scaleType="fitCenter"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="1"
-                        android:text="@string/biosafety"
-                        android:textAlignment="center"
-                        android:textColor="@color/text"/>
-                </LinearLayout>
-
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/electrocution"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/text"/>
             </LinearLayout>
-            <!--Segunda Linha -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/temperature"
+                    android:scaleType="fitCenter"
+                    android:tag="temperature"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/temperature"
+                    android:textColor="@color/text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/extreme"
+                    android:textColor="@color/text"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Segunda Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
@@ -107,31 +123,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/immunization"
+                    android:id="@+id/noise"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/immunization"
+                    android:src="@drawable/noise"
                     android:scaleType="fitCenter"
-                    android:tag="immunization"/>
+                    android:tag="noise"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/immunization"
-                    android:textColor="@color/text"/>
-
+                    android:text="@string/noise"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -144,32 +161,32 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/law"
+                    android:id="@+id/humidity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/law"
+                    android:src="@drawable/humidity"
                     android:scaleType="fitCenter"
-                    android:tag="law"/>
+                    android:tag="humidity"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/law"
+                    android:layout_weight="1"
+                    android:text="@string/humidity"
                     android:textColor="@color/text"/>
             </LinearLayout>
-
         </LinearLayout>
 
         <!--Terceira Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
@@ -187,129 +204,55 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/signalization"
+                    android:id="@+id/radiaction"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/signalization"
+                    android:src="@drawable/radiation"
                     android:scaleType="fitCenter"
-                    android:tag="signalization"/>
+                    android:tag="radiaction"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/signalization"
-                    android:textColor="@color/text"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/checklist"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/checklist"
-                    android:scaleType="fitCenter"
-                    android:tag="checklist"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/checklist"
-                    android:textColor="@color/text"/>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <!--Quarta Linha -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="50dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/about"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/about"
-                    android:scaleType="fitCenter"
-                    android:tag="about"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/about"
-                    android:textColor="@color/text"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/contact"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/contact"
-                    android:scaleType="fitCenter"
-                    android:tag="contact"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/contact"
+                    android:text="@string/radiaction"
                     android:textColor="@color/text" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/sun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/sun"
+                    android:scaleType="fitCenter"
+                    android:tag="sun"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/sun"
+                    android:textColor="@color/text"/>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 

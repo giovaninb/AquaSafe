@@ -22,7 +22,9 @@ public class HazardActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.hazard);
 
         ImageButton physicist_button = (ImageButton) findViewById(R.id.physicist);
+        ImageButton chemical_button = (ImageButton) findViewById(R.id.chemical) ;
         physicist_button.setOnClickListener(click);
+        chemical_button.setOnClickListener(click);
 
     }
     private View.OnClickListener click = new View.OnClickListener(){
@@ -34,6 +36,14 @@ public class HazardActivity extends AppCompatActivity {
                 case R.id.physicist:
                     String valorTag = v.getTag().toString();
                     Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(HazardActivity.this, PhysicistActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.chemical:
+                    valorTag = v.getTag().toString();
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    intent = new Intent(HazardActivity.this, ChemicalActivity.class);
+                    startActivity(intent);
                     break;
             }
         }
