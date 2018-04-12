@@ -43,6 +43,11 @@
 
     <string name="accident_title">Riscos de Acidentes</string>
     <string name="accident">Acidente</string>
+    <string name="slide">Deslizamentos</string>
+    <string name="drowning">Afogamento</string>
+    <string name="cut">Cortes</string>
+    <string name="death">Acidentes Fatais</string>
+    <string name="accident_machine">Acidentes com Maquinário</string>
 
 
     <string name="title_activity_physicist">PhysicistActivity</string>
@@ -51,4 +56,5 @@
     <string name="title_activity_chemical">ChemicalActivity</string>
     <string name="title_activity_biological">BiologicalActivity</string>
     <string name="title_activity_ergonomic">ErgonomicActivity</string>
+    <string name="title_activity_accident">AccidentActivity</string>
 </resources>

@@ -26,11 +26,13 @@ public class HazardActivity extends AppCompatActivity {
         ImageButton chemical_button = (ImageButton) findViewById(R.id.chemical);
         ImageButton biological_button = (ImageButton) findViewById(R.id.biological);
         ImageButton ergonomic_button = (ImageButton) findViewById(R.id.ergonomic);
+        ImageButton accident_button = (ImageButton) findViewById(R.id.accident);
 
         physicist_button.setOnClickListener(click);
         chemical_button.setOnClickListener(click);
         biological_button.setOnClickListener(click);
         ergonomic_button.setOnClickListener(click);
+        accident_button.setOnClickListener(click);
 
     }
     private View.OnClickListener click = new View.OnClickListener(){
@@ -61,6 +63,12 @@ public class HazardActivity extends AppCompatActivity {
                     valorTag = v.getTag().toString();
                     Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, ErgonomicActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.accident:
+                    valorTag = v.getTag().toString();
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    intent = new Intent(HazardActivity.this, AccidentActivity.class);
                     startActivity(intent);
                     break;
             }
