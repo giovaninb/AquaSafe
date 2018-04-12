@@ -41,6 +41,11 @@
             android:name=".BiologicalActivity"
             android:label="@string/title_activity_biological"
             android:parentActivityName=".HazardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErgonomicActivity"
+            android:label="@string/title_activity_ergonomic"
+            android:parentActivityName=".HazardActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

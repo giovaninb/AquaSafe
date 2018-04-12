@@ -32,9 +32,15 @@
     <string name="residue">Resíduos de Origem Animal</string>
     <string name="animal">Animal</string>
     <string name="waste_pipe">Deficiência Sanitária</string>
-    
+
     <string name="ergonomic_title">Riscos Ergonômicos</string>
     <string name="ergonomic">Ergonômico</string>
+    <string name="posture">Postura Incorreta</string>
+    <string name="night_work">Trabalho Noturno</string>
+    <string name="heavy">Excesso de Esforço</string>
+    <string name="psychosocial">Psicossociais</string>
+    <string name="excessive_working">Jornada de Trabalho Excessiva</string>
+
     <string name="accident_title">Riscos de Acidentes</string>
     <string name="accident">Acidente</string>
 
@@ -44,4 +50,5 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_chemical">ChemicalActivity</string>
     <string name="title_activity_biological">BiologicalActivity</string>
+    <string name="title_activity_ergonomic">ErgonomicActivity</string>
 </resources>
