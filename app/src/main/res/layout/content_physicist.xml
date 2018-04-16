@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".PhysicistActivity"
+    tools:context=".Hazard.PhysicistActivity"
     android:background="@color/background"
     tools:showIn="@layout/activity_physicist">
 
@@ -53,7 +53,8 @@
                     android:padding="15dp"
                     android:src="@drawable/electrocution"
                     android:scaleType="fitCenter"
-                    android:tag="electrocution"/>
+                    android:tag="electrocution"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,7 +91,8 @@
                     android:padding="15dp"
                     android:src="@drawable/temperature"
                     android:scaleType="fitCenter"
-                    android:tag="temperature"/>
+                    android:tag="temperature"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,7 +142,8 @@
                     android:padding="15dp"
                     android:src="@drawable/noise"
                     android:scaleType="fitCenter"
-                    android:tag="noise"/>
+                    android:tag="noise"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -170,7 +173,8 @@
                     android:padding="15dp"
                     android:src="@drawable/humidity"
                     android:scaleType="fitCenter"
-                    android:tag="humidity"/>
+                    android:tag="humidity"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -204,7 +208,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/radiaction"
+                    android:id="@+id/radiation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -213,14 +217,15 @@
                     android:padding="15dp"
                     android:src="@drawable/radiation"
                     android:scaleType="fitCenter"
-                    android:tag="radiaction"/>
+                    android:tag="radiation"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/radiaction"
+                    android:text="@string/radiation"
                     android:textColor="@color/text" />
             </LinearLayout>
 
@@ -243,7 +248,8 @@
                     android:padding="15dp"
                     android:src="@drawable/sun"
                     android:scaleType="fitCenter"
-                    android:tag="sun"/>
+                    android:tag="sun"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"

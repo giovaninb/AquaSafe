@@ -23,34 +23,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HazardActivity"
+            android:name=".Hazard.HazardActivity"
             android:label="@string/title_activity_hazard"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".PhysicistActivity"
+            android:name=".Hazard.PhysicistActivity"
             android:label="@string/title_activity_physicist"
-            android:parentActivityName=".HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ChemicalActivity"
+            android:name=".Hazard.ChemicalActivity"
             android:label="@string/title_activity_chemical"
-            android:parentActivityName=".HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BiologicalActivity"
+            android:name=".Hazard.BiologicalActivity"
             android:label="@string/title_activity_biological"
-            android:parentActivityName=".HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ErgonomicActivity"
+            android:name=".Hazard.ErgonomicActivity"
             android:label="@string/title_activity_ergonomic"
-            android:parentActivityName=".HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".AccidentActivity"
+            android:name=".Hazard.AccidentActivity"
             android:label="@string/title_activity_accident"
-            android:parentActivityName=".HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hazard.GeneralScreenActivity"
+            android:label="@string/title_activity_general_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ChemicalActivity"
+    tools:context=".Hazard.ChemicalActivity"
     android:background="@color/background"
     tools:showIn="@layout/activity_chemical">
 
@@ -51,7 +51,8 @@
                     android:padding="15dp"
                     android:src="@drawable/gas"
                     android:scaleType="fitCenter"
-                    android:tag="gas"/>
+                    android:tag="gas"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -93,7 +94,8 @@
                     android:padding="15dp"
                     android:src="@drawable/products"
                     android:scaleType="fitCenter"
-                    android:tag="products"/>
+                    android:tag="products"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"

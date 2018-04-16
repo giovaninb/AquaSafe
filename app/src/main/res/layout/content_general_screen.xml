@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/general_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Hazard.GeneralScreenActivity"
+    tools:showIn="@layout/activity_general_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:paddingTop="20dp">
+        <!-- Causa/Fonte/Perigo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:tag="cause">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="Causa/Fonte/Perigo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_cause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+        <!-- Risco/Danos à Saúde -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:tag="hazard_general">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="Risco/Danos à Saúde"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_hazard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+        <!-- Controle e Prevenção -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:tag="control">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="Controle e Prevenção"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

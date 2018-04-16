@@ -1,15 +1,14 @@
-package com.example.flavielli_marques.aquasafe;
+package com.example.flavielli_marques.aquasafe.Hazard;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
+import com.example.flavielli_marques.aquasafe.R;
 
 public class HazardActivity extends AppCompatActivity {
 
@@ -43,31 +42,31 @@ public class HazardActivity extends AppCompatActivity {
 
                 case R.id.physicist:
                     String valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(HazardActivity.this, PhysicistActivity.class);
                     startActivity(intent);
                     break;
                 case R.id.chemical:
                     valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, ChemicalActivity.class);
                     startActivity(intent);
                     break;
                 case R.id.biological:
                     valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, BiologicalActivity.class);
                     startActivity(intent);
                     break;
                 case R.id.ergonomic:
                     valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                  //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, ErgonomicActivity.class);
                     startActivity(intent);
                     break;
                 case R.id.accident:
                     valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                  //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, AccidentActivity.class);
                     startActivity(intent);
                     break;

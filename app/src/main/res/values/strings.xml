@@ -15,9 +15,10 @@
     <string name="electrocution">Eletrocussão</string>
     <string name="temperature">Temperaturas</string>
     <string name="extreme">Extremas</string>
+    <string name="temp">Temperaturas Extremas</string>
     <string name="noise">Ruído</string>
     <string name="humidity">Umidade</string>
-    <string name="radiaction">Radiação</string>
+    <string name="radiation">Radiação</string>
     <string name="sun">Radiação Solar</string>
 
     <string name="chemical_title">Riscos Químicos</string>
@@ -49,6 +50,94 @@
     <string name="death">Acidentes Fatais</string>
     <string name="accident_machine">Acidentes com Maquinário</string>
 
+    <string name="cause_electrocution">"Contato da água com linhas de transmissão de energia elétrica \n\n"Falta de sistemas de aterramento nas fazendas \n\n"Choques ocorridos por localidades úmidas \n\n"Choques através da energia de reserva quando a energia principal é desligada por motivos de manutenção "</string>
+    <string name="hazard_electrocution">"Fios desencapados \n\n"Utilização de equipamentos elétricos perto da água \n\n"Queimaduras \n\n"Contração Muscular involuntária"</string>
+    <string name="control_electrocution">"Conscientizar os trabalhadores dos riscos de choque elétrico por equipamentos utilizados perto da água através de treinamentos \n\n"Assegurar o uso de fusíveis e um sistema de aterramento adequado \n\n"Certificar que todos os cabos estão intactos e impermeabilizados \n\n"As instalações elétricas devem ser revisadas e garantidas por um profissional qualificado para a função \n\n"Utilizar interruptores de falha de circuito (GFCI) eficaz em reduzir a probabilidade de choque elétrico \n\n"Nunca trabalhar sozinho para que em caso de acidente, tenha alguém que possa desligar a energia \n\n"Evitar o sobrecarregamento elétrico \n\n"A energia deve ser desligada quando o equipamento for manuseado \n\n"Garantir a manutenção de equipamentos \n\n"Sinalizar os equipamentos com risco de choque elétrico"</string>
+
+    <string name="cause_temperature">"Exposição intensa aos raios solares em temperaturas muito altas por causa de trabalhos a céu aberto \n\n"Exposição longa a temperaturas muito baixas, vento, chuva e água"</string>
+    <string name="hazard_temperature">"Insolação \n\n"Desidratação \n\n"Resfriados \n\n"Gripe \n\n"Pneumonia \n\n"Quadros de hipotermia"</string>
+    <string name="control_temperature">"Utilizar protetores solares, bonés ou chapéus \n\n"Utilizar roupas de proteção e calçados apropriados \n\n"Rotatividade de trabalho \n\n"Intervalos para a ingestão de líquidos evitando a desidratação em temperaturas elevadas \n\n"Intervalos para a ingestão de bebidas quentes evitando as consequências de temperaturas baixas"</string>
+
+    <string name="cause_noise">"A exposição constante a sons emitidos pelo motor do barco \n\n"Máquinas de lavagem de ostras \n\n"Lavadoras de alta pressão"</string>
+    <string name="hazard_noise">"Estresse físico e psicológico \n\n"Redução na produtividade \n\n"Interferência na comunicação e concentração \n\n"Dores de cabeça \n\n"Perda de audição temporária ou permanente"</string>
+    <string name="control_noise">"Usar protetor auricular \n\n"Rotatividade de trabalho \n\n"Intervalos entre as atividades \n\n"Usar equipamento de proteção individual (EPI)"</string>
+
+    <string name="cause_humidity">"Exposição durante a ocorrência de chuvas, raios e trovões \n\n"Exposição a água do mar \n\n"Exposição a água usada na limpeza e locais úmidos"</string>
+    <string name="hazard_humidity">""<b>Níveis elevados de umidade podem levar a:</b> \n\n"Cãibras de calor \n\n"Sensação de Calor \n\n""<b>Níveis reduzidos de umidade podem levar a:</b> \n\n"Queda da pressão arterial \n\n"Passagens Nasais Secas \n\n"Garganta dolorida ou raspada \n\n"Pele Seca \n\n"Lábios quebrados \n\n"Escorregões e quedas \n\n"Doenças Respiratórias \n\n\"Gripe"</string>
+    <string name="control_humidity">"Usar equipamentos de proteção individual (EPI) como luvas, botas e macacões"</string>
+
+    <string name="cause_radiation">"Problemas associados à radiação são causados pela exposição frequente do indivíduo com agentes radioativos, sejam eles ionizantes ou não."</string>
+    <string name="hazard_radiation">"<b>Radiação ionizante:</b> \n\n"Anemia \n\n"Leucemia \n\n"Câncer \n\n"Alterações genéticas que podem comprometer as próximas gerações \n\n"<b>Radiação não-ionizante:</b> \n\n"Queimaduras \n\n"Catarata \n\n"Superaquecimento dos órgãos \n\n"Dermatites \n\n"Câncer de pele"</string>
+    <string name="control_radiation">"Usar equipamentos de proteção individual (EPI) \n\n"Usar equipamentos de proteção coletiva (EPC) \n\n"Delimitar zonas e áreas \n\n"Proibir a comida e a bebida, fumar, mascar chicletes, manusear lentes de contato, a aplicação de cosméticos e ou produtos de higiene pessoal ou armazenar alimentos para consumo nos locais de uso de radiação e áreas adjacentes \n\n"Lavar as mãos antes e após ao manuseio de materiais radioativos, após a remoção das luvas e antes de saírem do laboratório \n\n"Manter líquidos antissépticos para uso, caso não exista lavatório no local \n\n"Evitar o uso de calçados que deixem os tornozelos à vista \n\n"Não colocar objetos na boca \n\n"As roupas de proteção não devem ser usadas em outros espaços que não sejam do laboratório (escritório, biblioteca, salas de estar e refeitório) \n\n"Presença de kits de primeiros socorros \n\n"O responsável pelo laboratório precisa assegurar a capacitação da equipe em relação às medidas de segurança e emergência \n\n"Providenciar exames médicos periódicos \n\n"Adoção de cuidados após a exposição à radiação"</string>
+
+    <string name="cause_sun">"Exposição a radiação ultravioleta do Sol"</string>
+    <string name="hazard_sun">"Queimaduras na pele (primeiro e segundo grau) \n\n"Dermatite \n\n"Câncer de pele"</string>
+    <string name="control_sun">"Usar roupas de proteção \n\n"Usar protetor solar \n\n"Reduzir a exposição a luz solar com rotatividade de trabalho \n\n"Realizar exames de pele em pontos suspeitos"</string>
+
+    <string name="cause_products">"Preparação e correção de viveiros \n\n"Tarefa de despesca \n\n"Contato com calcário, peróxido de hidrogênio, metabissulfito de sódio, pulverizadores de mochila e pulverizadores de forma manual \n\n"Manipulação de substâncias corrosivas"</string>
+    <string name="hazard_products">"Queimaduras \n\n"Irritação na pele e do trato respiratório \n\n"Envelhecimento precoce \n\n"Ansiedade \n\n"Depressão \n\n"Perda de memória \n\n"Envenenamento \n\n"Teratogênese(formação e desenvolvimento no útero de anomalias que levam a malformações) \n\n"Desordem genética \n\n"Câncer"</string>
+    <string name="control_products">"Equipamento de proteção individual (EPI) como: Calçado fechado, Luvas nitrílicas, Óculos de proteção e Máscaras apropriadas \n\n"Equipamentos mecânicos que reduzam o contato com agentes químicos \n\n"Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir \n\n"Treinamento \n\n"Utilizar espalhador mecânico \n\n"Detectar e reparar vazamentos \n\n"Instalar sistemas de supressão de sprinklers \n\n"Sinalização"</string>
+
+    <string name="cause_gas">"Terraplanagem e trabalhos que formam poeiras \n\n"Cuidado inadequado com os equipamentos \n\n"Manutenção precária dos motores de barcos"</string>
+    <string name="hazard_gas">"Desmaios \n\n"Tonturas \n\n"Irritação cutânea e respiratória"</string>
+    <string name="control_gas">Utilizar equipamentos de proteção individual (EPI) como máscara de proteção respiratória para poeira, gases e fumos e luvas de borracha \n\n"Substituir produtos químicos por outros menos tóxicos \n\n"Reduzir o tempo de exposição \n\n"Conscientizar os trabalhadores dos riscos no ambiente \n\n"Utilizar espalhador mecânico \n\n"Detectar e reparar vazamentos \n\n"Sinalização"</string>
+
+    <string name="causa_zoonoses">ok1</string>
+    <string name="risco_zoonoses">ok2</string>
+    <string name="controle_zoonoses">ok3</string>
+
+    <string name="causa_animais_peconhentos">ok4</string>
+    <string name="risco_animais_peconhentos">ok5</string>
+    <string name="controle_animais_peconhentos">ok6</string>
+
+    <string name="causa_residuo_animais">ok7</string>
+    <string name="risco_residuo_animais">ok8</string>
+    <string name="controle_residuo_animais">ok9</string>
+
+    <string name="causa_deficiencia_sanitaria">pk10</string>
+    <string name="risco_deficiencia_sanitaria">ok11</string>
+    <string name="controle_deficiencia_sanitaria">ok12</string>
+
+    <string name="causa_postura">ok13</string>
+    <string name="risco_postura">ok14</string>
+    <string name="controle_postura">ok15</string>
+
+    <string name="causa_trabalho_noturno">ok16</string>
+    <string name="risco_trabalho_noturno">ok17</string>
+    <string name="controle_trabalho_noturno">ok18</string>
+
+    <string name="causa_esforco">ok19</string>
+    <string name="risco_esforco">ok20</string>
+    <string name="controle_esforco">ok21</string>
+
+    <string name="causa_psicossociais">ok22</string>
+    <string name="risco_psicossociais">ok23</string>
+    <string name="controle_psicossociais">ok24</string>
+
+    <string name="causa_trabalho_excessiva">ok25</string>
+    <string name="risco_trabalho_excessiva">ok26</string>
+    <string name="controle_trabalho_excessiva">ok27</string>
+
+    <string name="causa_acidente_maquinario">ok28</string>
+    <string name="risco_acidente_maquinario">ok29</string>
+    <string name="controle_acidente_maquinario">ok30</string>
+
+    <string name="causa_deslizamento">ok31</string>
+    <string name="risco_deslizamento">ok32</string>
+    <string name="controle_deslizamento">ok33</string>
+
+    <string name="causa_afogamento">ok34</string>
+    <string name="risco_afogamento">ok35</string>
+    <string name="controle_afogamento">ok36</string>
+
+    <string name="causa_corte">ok37</string>
+    <string name="risco_corte">ok38</string>
+    <string name="controle_corte">ok39</string>
+
+    <string name="causa_acidente_fatal">ok40</string>
+    <string name="risco_acidente_fatal">ok41</string>
+    <string name="controle_acidente_fatal">ok42</string>
+
 
     <string name="title_activity_physicist">PhysicistActivity</string>
     <string name="action_settings">Settings</string>
@@ -57,4 +146,5 @@
     <string name="title_activity_biological">BiologicalActivity</string>
     <string name="title_activity_ergonomic">ErgonomicActivity</string>
     <string name="title_activity_accident">AccidentActivity</string>
+    <string name="title_activity_general_screen">GeneralScreenActivity</string>
 </resources>
