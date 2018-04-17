@@ -145,8 +145,8 @@
     <string name="hazard_death">ok41</string>
     <string name="control_death">ok42</string>
 
-
-
+    <string name="default_highscore">Você ainda não preencheu o checklist</string>
+    <string name="checklist_introduction">Texto para introduzir saude ocupacional e tals</string>
 
     <string name="title_activity_physicist">PhysicistActivity</string>
     <string name="action_settings">Settings</string>
@@ -156,4 +156,5 @@
     <string name="title_activity_ergonomic">ErgonomicActivity</string>
     <string name="title_activity_accident">AccidentActivity</string>
     <string name="title_activity_general_screen">GeneralScreenActivity</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
 </resources>

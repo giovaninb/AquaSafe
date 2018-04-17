@@ -13,6 +13,7 @@
     <color name="yellow">#EDC951</color>
     <color name="blue">#4DBCE9</color>
     <color name="general_background">#e0e0e0</color>
+    <color name="button_pressed">#33000000</color>
 </resources>
 
 <!--crédito pelos icones

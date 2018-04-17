@@ -4,7 +4,7 @@
 
     <item>
         <shape android:shape="oval">
-            <solid android:color="#33000000"/>
+            <solid android:color="@color/button_pressed"/>
         </shape>
     </item>
 </layer-list>
