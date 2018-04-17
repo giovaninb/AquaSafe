@@ -20,11 +20,13 @@
     <string name="humidity">Umidade</string>
     <string name="radiation">Radiação</string>
     <string name="sun">Radiação Solar</string>
+    <string name="exploding">Incêndios e Explosões</string>
 
     <string name="chemical_title">Riscos Químicos</string>
     <string name="chemical">Químico</string>
     <string name="gas">Poeiras e Gases</string>
     <string name="products">Substâncias, Compostos ou Produtos Químicos</string>
+    <string name="products_title">Produtos Químicos</string>
 
     <string name="biological_title">Riscos Biológicos</string>
     <string name="biological">Biológico</string>
@@ -41,6 +43,7 @@
     <string name="heavy">Excesso de Esforço</string>
     <string name="psychosocial">Psicossociais</string>
     <string name="excessive_working">Jornada de Trabalho Excessiva</string>
+    <string name="working">Trabalho Excessivo</string>
 
     <string name="accident_title">Riscos de Acidentes</string>
     <string name="accident">Acidente</string>
@@ -74,6 +77,10 @@
     <string name="hazard_sun">"Queimaduras na pele (primeiro e segundo grau) \n\n"Dermatite \n\n"Câncer de pele"</string>
     <string name="control_sun">"Usar roupas de proteção \n\n"Usar protetor solar \n\n"Reduzir a exposição a luz solar com rotatividade de trabalho \n\n"Realizar exames de pele em pontos suspeitos"</string>
 
+    <string name="cause_exploding">oi1</string>
+    <string name="hazard_exploding">oi2</string>
+    <string name="control_exploding">oi3</string>
+
     <string name="cause_products">"Preparação e correção de viveiros \n\n"Tarefa de despesca \n\n"Contato com calcário, peróxido de hidrogênio, metabissulfito de sódio, pulverizadores de mochila e pulverizadores de forma manual \n\n"Manipulação de substâncias corrosivas"</string>
     <string name="hazard_products">"Queimaduras \n\n"Irritação na pele e do trato respiratório \n\n"Envelhecimento precoce \n\n"Ansiedade \n\n"Depressão \n\n"Perda de memória \n\n"Envenenamento \n\n"Teratogênese(formação e desenvolvimento no útero de anomalias que levam a malformações) \n\n"Desordem genética \n\n"Câncer"</string>
     <string name="control_products">"Equipamento de proteção individual (EPI) como: Calçado fechado, Luvas nitrílicas, Óculos de proteção e Máscaras apropriadas \n\n"Equipamentos mecânicos que reduzam o contato com agentes químicos \n\n"Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir \n\n"Treinamento \n\n"Utilizar espalhador mecânico \n\n"Detectar e reparar vazamentos \n\n"Instalar sistemas de supressão de sprinklers \n\n"Sinalização"</string>
@@ -82,61 +89,63 @@
     <string name="hazard_gas">"Desmaios \n\n"Tonturas \n\n"Irritação cutânea e respiratória"</string>
     <string name="control_gas">Utilizar equipamentos de proteção individual (EPI) como máscara de proteção respiratória para poeira, gases e fumos e luvas de borracha \n\n"Substituir produtos químicos por outros menos tóxicos \n\n"Reduzir o tempo de exposição \n\n"Conscientizar os trabalhadores dos riscos no ambiente \n\n"Utilizar espalhador mecânico \n\n"Detectar e reparar vazamentos \n\n"Sinalização"</string>
 
-    <string name="causa_zoonoses">ok1</string>
-    <string name="risco_zoonoses">ok2</string>
-    <string name="controle_zoonoses">ok3</string>
+    <string name="cause_zoonoses">ok1</string>
+    <string name="hazard_zoonoses">ok2</string>
+    <string name="control_zoonoses">ok3</string>
 
-    <string name="causa_animais_peconhentos">ok4</string>
-    <string name="risco_animais_peconhentos">ok5</string>
-    <string name="controle_animais_peconhentos">ok6</string>
+    <string name="cause_venomous_animals">ok4</string>
+    <string name="hazard_venomous_animals">ok5</string>
+    <string name="control_venomous_animals">ok6</string>
 
-    <string name="causa_residuo_animais">ok7</string>
-    <string name="risco_residuo_animais">ok8</string>
-    <string name="controle_residuo_animais">ok9</string>
+    <string name="cause_waste_pipe">ok7</string>
+    <string name="hazard_waste_pipe">ok8</string>
+    <string name="control_waste_pipe">ok9</string>
 
-    <string name="causa_deficiencia_sanitaria">pk10</string>
-    <string name="risco_deficiencia_sanitaria">ok11</string>
-    <string name="controle_deficiencia_sanitaria">ok12</string>
+    <string name="cause_residue">ok10</string>
+    <string name="hazard_residue">ok11</string>
+    <string name="control_residue">ok12</string>
 
-    <string name="causa_postura">ok13</string>
-    <string name="risco_postura">ok14</string>
-    <string name="controle_postura">ok15</string>
+    <string name="cause_posture">ok13</string>
+    <string name="hazard_posture">ok14</string>
+    <string name="control_posture">ok15</string>
 
-    <string name="causa_trabalho_noturno">ok16</string>
-    <string name="risco_trabalho_noturno">ok17</string>
-    <string name="controle_trabalho_noturno">ok18</string>
+    <string name="cause_night_work">ok16</string>
+    <string name="hazard_night_work">ok17</string>
+    <string name="control_night_work">ok18</string>
 
-    <string name="causa_esforco">ok19</string>
-    <string name="risco_esforco">ok20</string>
-    <string name="controle_esforco">ok21</string>
+    <string name="cause_heavy">ok19</string>
+    <string name="hazard_heavy">ok20</string>
+    <string name="control_heavy">ok21</string>
 
-    <string name="causa_psicossociais">ok22</string>
-    <string name="risco_psicossociais">ok23</string>
-    <string name="controle_psicossociais">ok24</string>
+    <string name="cause_psychosocial">ok22</string>
+    <string name="hazard_psychosocial">ok23</string>
+    <string name="control_psychosocial">ok24</string>
 
-    <string name="causa_trabalho_excessiva">ok25</string>
-    <string name="risco_trabalho_excessiva">ok26</string>
-    <string name="controle_trabalho_excessiva">ok27</string>
+    <string name="cause_excessive_working">ok25</string>
+    <string name="hazard_excessive_working">ok26</string>
+    <string name="control_excessive_working">ok27</string>
 
-    <string name="causa_acidente_maquinario">ok28</string>
-    <string name="risco_acidente_maquinario">ok29</string>
-    <string name="controle_acidente_maquinario">ok30</string>
+    <string name="cause_accident_machine">ok28</string>
+    <string name="hazard_accident_machine">ok29</string>
+    <string name="control_accident_machine">ok30</string>
 
-    <string name="causa_deslizamento">ok31</string>
-    <string name="risco_deslizamento">ok32</string>
-    <string name="controle_deslizamento">ok33</string>
+    <string name="cause_slide">ok31</string>
+    <string name="hazard_slide">ok32</string>
+    <string name="control_slide">ok33</string>
 
-    <string name="causa_afogamento">ok34</string>
-    <string name="risco_afogamento">ok35</string>
-    <string name="controle_afogamento">ok36</string>
+    <string name="cause_drowning">ok34</string>
+    <string name="hazard_drowning">ok35</string>
+    <string name="control_drowning">ok36</string>
 
-    <string name="causa_corte">ok37</string>
-    <string name="risco_corte">ok38</string>
-    <string name="controle_corte">ok39</string>
+    <string name="cause_cut">ok37</string>
+    <string name="hazard_cut">ok38</string>
+    <string name="control_cut">ok39</string>
 
-    <string name="causa_acidente_fatal">ok40</string>
-    <string name="risco_acidente_fatal">ok41</string>
-    <string name="controle_acidente_fatal">ok42</string>
+    <string name="cause_death">ok40</string>
+    <string name="hazard_death">ok41</string>
+    <string name="control_death">ok42</string>
+
+
 
 
     <string name="title_activity_physicist">PhysicistActivity</string>

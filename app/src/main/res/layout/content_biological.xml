@@ -52,7 +52,8 @@
                     android:padding="15dp"
                     android:src="@drawable/zoonoses"
                     android:scaleType="fitCenter"
-                    android:tag="zoonoses"/>
+                    android:tag="zoonoses"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -83,7 +84,8 @@
                     android:padding="15dp"
                     android:src="@drawable/venomous_animals"
                     android:scaleType="fitCenter"
-                    android:tag="venomous animals"/>
+                    android:tag="venomous_animals"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -124,7 +126,8 @@
                     android:padding="15dp"
                     android:src="@drawable/waste_pipe"
                     android:scaleType="fitCenter"
-                    android:tag="waste_pipe"/>
+                    android:tag="waste_pipe"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -157,7 +160,8 @@
                     android:padding="15dp"
                     android:src="@drawable/residue"
                     android:scaleType="fitCenter"
-                    android:tag="residue"/>
+                    android:tag="residue"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"

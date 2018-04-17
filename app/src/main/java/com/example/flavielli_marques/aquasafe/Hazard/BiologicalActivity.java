@@ -1,11 +1,14 @@
-package com.example.flavielli_marques.aquasafe;
+package com.example.flavielli_marques.aquasafe.Hazard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+
+import com.example.flavielli_marques.aquasafe.R;
 
 public class BiologicalActivity extends AppCompatActivity {
 
@@ -21,6 +24,13 @@ public class BiologicalActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
 
+    }
+    public void click(View view) {
+        String valueTag = view.getTag().toString();
+        //   Toast.makeText(getBaseContext(), valueTag, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(BiologicalActivity.this, GeneralScreenActivity.class);
+        intent.putExtra("tagRiscos", valueTag);
+        startActivity(intent);
     }
 
 }
