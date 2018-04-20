@@ -148,6 +148,24 @@
     <string name="default_highscore">Você ainda não preencheu o checklist</string>
     <string name="checklist_introduction">Texto para introduzir saude ocupacional e tals</string>
 
+    <string name="checklist_text">Selecione as práticas adotadas em seu local de trabalho:</string>
+    <string name="checkbox_1">Utilizo equipamentos de proteção individual, tais como luvas, bonés, protetor solar, máscaras e colete salva-vidas.</string>
+    <string name="checkbox_2">A vegetação em torno de tanques e instalações é cortada frequentemente.</string>
+    <string name="checkbox_3">Frequentemente é realizado controle de pragas.</string>
+    <string name="checkbox_4">O ambiente de trabalho é limpo e organizado.</string>
+    <string name="checkbox_5">Todas as instalações elétricas são impermeabilizadas, possuem uso de fusíveis e conexão de aterramento adequada.</string>
+    <string name="checkbox_6">Para evitar afogamentos, os trabalhadores usam bóias ou coletes salva-vidas nas atividades em contato com a água.</string>
+    <string name="checkbox_7">Para evitar exposições prolongadas, há pausas frequentes e rotação de trabalhadores.</string>
+    <string name="checkbox_8">O ambiente de trabalho é sinalizado para riscos.</string>
+    <string name="checkbox_9">O transporte de carga pelo trabalhador é realizado a fim de evitar levantamento de peso em excesso.</string>
+    <string name="checkbox_10">As  pessoas envolvidas no processo produtivo foram suficientemente treinadas para suas funções.</string>
+    <string name="checkbox_11">Saber nadar é indispensável para contratação no local de trabalho.</string>
+    <string name="checkbox_12">Produtos químicos são aplicados utilizando máscaras e luvas apropriadas. </string>
+    <string name="checkbox_13">Trabalhadores são orientados a possuir algum tipo de imunização (tétano, hepatite A e B, febre tifóide, gripe e/ou febre amarela).</string>
+    <string name="checkbox_14">É possível realizar pausas ou mudança de posição após longos períodos de trabalho. </string>
+    <string name="checkbox_15">Utilizo luvas resistente ao corte no manuseio de equipamentos ou máquinas afiadas. </string>
+    <string name="confirm">Confirmar</string>
+
     <string name="title_activity_physicist">PhysicistActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
@@ -157,4 +175,8 @@
     <string name="title_activity_accident">AccidentActivity</string>
     <string name="title_activity_general_screen">GeneralScreenActivity</string>
     <string name="title_activity_checklist">ChecklistActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_question">QuestionActivity</string>
 </resources>
