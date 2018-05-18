@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
+import com.example.flavielli_marques.aquasafe.Checklist.ChecklistActivity;
 import com.example.flavielli_marques.aquasafe.Hazard.HazardActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 case R.id.checklist:
                     valorTag = v.getTag().toString();
-                 //   Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(MainActivity.this, ChecklistActivity.class);
                     startActivity(intent);
                     break;

@@ -30,15 +30,10 @@ public class ChecklistActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(R.string.app_name);
 
-        Button button_checklist = (Button) findViewById(R.id.buttonChecklist);
+        android.support.v4.app.Fragment fragment = new IntroductionFragment();
+        android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.container_fragment, fragment);
+        transaction.commit();
 
-        button_checklist.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ChecklistActivity.this, QuestionActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
