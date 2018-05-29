@@ -61,7 +61,7 @@
             android:label="@string/title_activity_checklist"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Checklist.CheckActivity"></activity>
+        <activity android:name=".Checklist.CheckActivity" />
     </application>
 
 </manifest>

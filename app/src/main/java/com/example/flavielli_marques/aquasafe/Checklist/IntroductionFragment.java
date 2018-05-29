@@ -28,6 +28,7 @@ public class IntroductionFragment extends Fragment implements View.OnClickListen
         Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
         AppCompatActivity activity = (AppCompatActivity) getActivity();
         activity.setSupportActionBar(toolbar);
+        activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Button button = (Button) view.findViewById(R.id.buttonChecklist);
         button.setVisibility(View.VISIBLE);
         button.setOnClickListener(this);
@@ -42,10 +43,6 @@ public class IntroductionFragment extends Fragment implements View.OnClickListen
         Toast.makeText(getActivity(), valorTag, Toast.LENGTH_SHORT).show();
         switch(view.getId()){
             case R.id.buttonChecklist:
-              /*  FragmentTransaction ft = getFragmentManager().beginTransaction();
-                ft.replace(R.id.container_fragment, new ChecklistFragment(), "NewFragmentTag");
-                ft.commit();
-                ft.addToBackStack(null);*/
                 Intent intent = new Intent(getActivity(), CheckActivity.class);
                 startActivity(intent);
                 break;

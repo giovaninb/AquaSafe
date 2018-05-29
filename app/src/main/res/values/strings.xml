@@ -175,6 +175,8 @@
     <string name="title_activity_accident">AccidentActivity</string>
     <string name="title_activity_general_screen">GeneralScreenActivity</string>
     <string name="title_activity_checklist">ChecklistActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
