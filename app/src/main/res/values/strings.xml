@@ -177,8 +177,26 @@
     <string name="title_activity_checklist">ChecklistActivity</string>
     <string name="title_activity_result">ResultActivity</string>
 
+    <string name="safety">Você trabalha em um local x% adequado!</string>
+    <string name="result_checklist">Confira algumas dicas baseadas em suas marcações para aumentar o nível de saúde e segurança:</string>
+    <string name="result_max">Você trabalha em um local adequado!!</string>
+    <string name="work">"Você trabalha em um local "</string>
+    <string name="porcent">% adequado!</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_question">QuestionActivity</string>
+    <string name="answer_1">Utilize sempre equipamentos de proteção individual para garantir sua saúde e proteção.</string>
+    <string name="answer_2"> Mantenha a vegetação sempre rasteira para evitar esconderijo e abundância de animais.</string>
+    <string name="answer_3">Faça controle de pragas periodicamente para evitar insetos e roedores no local de trabalho</string>
+    <string name="answer_4">Ambiente de trabalho limpo e organizado evita danos à saúde do trabalhador e influência na qualidade da empresa.</string>
+    <string name="answer_5">Uso de fusíveis, instalações elétricas impermeabilizadas e aterradas diminuem o risco de choque elétrico.</string>
+    <string name="answer_6">O uso de bóias ou coletes salva-vidas em atividades com contato de água evitam afogamentos e possíveis mortes.</string>
+    <string name="answer_7">Trabalhos que exigem algum tipo de exposição prolongada deve ser acompanhada de pausas frequentes e rotação de trabalhadores a fim de evitar problemas de saúde imediatos ou futuros.</string>
+    <string name="answer_8">A sinalização no ambiente de trabalho auxilia na prevenção de riscos e devem ser utilizados para alertar possíveis acidentes.</string>
+    <string name="answer_9">Caso a carga transportada estiver com peso em excesso é preciso retirar a carga excessiva a fim de evitar problemas de saúde futuros e acidentes.</string>
+    <string name="answer_10">O pessoal envolvido nas atividades da fazenda de criação de camarões deverá usar EPIs específicos e receber treinamentos e atualizações para suas funções.</string>
+    <string name="answer_11">Saber nadar pode evitar acidentes como afogamentos fatais.</string>
+    <string name="answer_12">O uso de máscaras e luvas ao manusear produtos químicos é necessário para evitar intoxicações e queimaduras.</string>
+    <string name="answer_13">O Brasil não possui uma normativa especial de vacinas para trabalhadores da aquicultura, porém é recomendado que trabalhadores que têm contato direto com animais e água realizem as vacinas de Tétano, Hepatite A e B, febre tifóide, gripe e/ou febre amarela.</string>
+    <string name="answer_14">Pausas ou mudanças de posição durante os períodos de trabalho são essenciais quando as tarefas são repetitivas ou precisam ser realizadas em uma posição específica.</string>
+    <string name="answer_15">Luvas resistentes para manusear equipamentos ou máquinas afiadas é recomendada para evitar cortes e perfurações mais graves.</string>
+
 </resources>

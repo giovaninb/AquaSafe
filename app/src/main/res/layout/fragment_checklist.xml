@@ -108,6 +108,46 @@
             android:text="@string/checkbox_10"
             android:textColor="#666" />
 
+        <CheckBox
+            android:id="@+id/checkbox_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_11"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_12"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_13"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_14"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_15"
+            android:textColor="#666" />
+
         <Button
             android:id="@+id/bt_confirma_checklist"
             android:layout_width="match_parent"

@@ -55,6 +55,7 @@ public class ChecklistFragment extends Fragment {
     private int[] getIdsDasCheckBoxes() {
         return new int[]{R.id.checkbox_1, R.id.checkbox_2, R.id.checkbox_3,
                 R.id.checkbox_4, R.id.checkbox_5, R.id.checkbox_6, R.id.checkbox_7, R.id.checkbox_8,
-                R.id.checkbox_9, R.id.checkbox_10};
+                R.id.checkbox_9, R.id.checkbox_10, R.id.checkbox_11, R.id.checkbox_12, R.id.checkbox_13,
+                R.id.checkbox_14, R.id.checkbox_15};
     }
 }
