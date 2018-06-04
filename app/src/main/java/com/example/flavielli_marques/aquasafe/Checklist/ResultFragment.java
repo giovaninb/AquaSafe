@@ -1,17 +1,21 @@
 package com.example.flavielli_marques.aquasafe.Checklist;
 
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.flavielli_marques.aquasafe.R;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class ResultFragment extends Fragment {
@@ -27,25 +31,21 @@ public class ResultFragment extends Fragment {
     }
 
     /*Nova instancia que pega o array de itens desmarcados */
-    public static ResultFragment newInstance(ArrayList<Integer> itensDesmarcados) {
+    public static Fragment newInstance(ArrayList<Integer> itensDesmarcados) {
         ResultFragment fragment = new ResultFragment();
         Bundle args = new Bundle();
         args.putIntArray(ARG_ITENS_DESMARCADOS, transformaListaEmArray(itensDesmarcados));
         fragment.setArguments(args);
         return fragment;
-
     }
 
-    /*rever resultado
     public static Fragment newInstance(int[] itensDesmarcados) {
         ResultFragment fragment = new ResultFragment();
-
         Bundle args = new Bundle();
         args.putIntArray(ARG_ITENS_DESMARCADOS, itensDesmarcados);
         fragment.setArguments(args);
         return fragment;
     }
-*/
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,11 +63,16 @@ public class ResultFragment extends Fragment {
 
         int score = getScore();
         textResult(score);
+        highScore(score);
+        saveLastScore();
 
+        Button button_OK = (Button) view.findViewById(R.id.button_ok);
+        button_OK.setOnClickListener(v -> getActivity().finish());
         return view;
     }
 
-  /*  tResultado na tela, mostra a orcentagem de local adequado e chama showTips */
+
+    /*  tResultado na tela, mostra a orcentagem de local adequado e chama showTips */
     private void textResult(int score) {
         TextView result = (TextView) view.findViewById(R.id.text_result);
         if (score == NOTA_MAXIMA) {
@@ -94,6 +99,37 @@ public class ResultFragment extends Fragment {
         String tips = builderTips.toString();
         TextView textViewDicas = (TextView) view.findViewById(R.id.tips);
         textViewDicas.setText(tips);
+    }
+
+    private void highScore(int score) {
+        SharedPreferences bank = getSharedPreferences();
+        int saveScore = bank.getInt(getString(R.string.score_checklist), VALOR_DEFAULT);
+
+        if (score > saveScore) {
+            saveScoreNew(bank, score);
+        }
+
+    }
+
+    private void saveScoreNew(SharedPreferences bank, int score) {
+        SharedPreferences.Editor editor = bank.edit();
+        editor.putInt(getString(R.string.score_checklist), score);
+        editor.apply();
+
+    }
+
+    private SharedPreferences getSharedPreferences() {
+        return getActivity()
+                .getSharedPreferences(getString(R.string.name_shared_pref), Context.MODE_PRIVATE);
+    }
+
+    private void saveLastScore() {
+        //Salva o último resultado como um toString de array
+        SharedPreferences bank = getSharedPreferences();
+        SharedPreferences.Editor editor = bank.edit();
+        editor.putString(getString(R.string.string_topics), Arrays.toString(itensDesmarcados));
+        //apply - commit assíncrono - do high score e último resultado - pro usuário poder rever dps
+        editor.apply();
     }
 
     /*vetor que pega o ID das respostas dos itens que nao foram marcados */
@@ -169,23 +205,4 @@ public class ResultFragment extends Fragment {
     private SharedPreferences getSharedPreferences() {
         return getActivity()
                 .getSharedPreferences(getString(R.string.nome_shared_pref), Context.MODE_PRIVATE);
-    }
-
-    /**
-     * Recuperei a informação dos ids em um array para poder recuperar num laço 'for'
-     *
-     * @return ID das frases de dicas que devem ser mostradas de acordo com o que o usuário deixou
-     * de marcar na ChecklistFragment
-     */
-/*    private int[] getDicasId() {
-        return new int[]{R.string.resposta_1, R.string.resposta_2, R.string.resposta_3,
-                R.string.resposta_4, R.string.resposta_5, R.string.resposta_6, R.string.resposta_7,
-                R.string.resposta_8, R.string.resposta_9, R.string.resposta_10};
-    }
-
-/**
- * Os dados são transformados em int[] para passar para a classe de resultados
- *
- * @param listaItensDesmarcados com Integers de 0..9
- * @return int array
- */
+    }*/

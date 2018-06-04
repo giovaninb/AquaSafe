@@ -76,7 +76,7 @@
         </android.support.v7.widget.CardView>
 
         <Button
-            android:id="@+id/bt_ok"
+            android:id="@+id/button_ok"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="26dp"

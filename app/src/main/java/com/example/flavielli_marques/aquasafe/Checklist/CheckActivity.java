@@ -1,6 +1,8 @@
 package com.example.flavielli_marques.aquasafe.Checklist;
 
+import android.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTabHost;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,10 +23,22 @@ public class CheckActivity extends AppCompatActivity{
         getSupportActionBar().setTitle(R.string.checklist);
         setContentView(R.layout.activity_check);
 
-        android.support.v4.app.Fragment fragment = new ChecklistFragment();
-        android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.content_frame, fragment);
-        transaction.commit();
+
+
+        int[] resultados = getIntent().getIntArrayExtra("resultado");
+        if (resultados == null) {
+            android.support.v4.app.Fragment fragment = new ChecklistFragment();
+            android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.content_frame, fragment);
+            transaction.commit();
+
+        } else {
+            FragmentTransaction fragment = getSupportFragmentManager().beginTransaction();
+            android.support.v4.app.Fragment resultFragment =ResultFragment.newInstance(resultados);
+            fragment.add(R.id.content_frame, resultFragment);
+            fragment.commit();
+
+        }
     }
 
 }

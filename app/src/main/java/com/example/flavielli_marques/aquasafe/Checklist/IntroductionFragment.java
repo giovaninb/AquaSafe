@@ -1,7 +1,9 @@
 package com.example.flavielli_marques.aquasafe.Checklist;
 
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -11,19 +13,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.flavielli_marques.aquasafe.Hazard.HazardActivity;
 import com.example.flavielli_marques.aquasafe.MainActivity;
 import com.example.flavielli_marques.aquasafe.R;
 
-public class IntroductionFragment extends Fragment implements View.OnClickListener {
+public class IntroductionFragment extends Fragment{
+
+    private View view;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-       View view = inflater.inflate(R.layout.fragment_introduction, container, false);
+        view = inflater.inflate(R.layout.fragment_introduction, container, false);
 
         Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
         AppCompatActivity activity = (AppCompatActivity) getActivity();
@@ -31,21 +36,52 @@ public class IntroductionFragment extends Fragment implements View.OnClickListen
         activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Button button = (Button) view.findViewById(R.id.buttonChecklist);
         button.setVisibility(View.VISIBLE);
-        button.setOnClickListener(this);
+        button.setOnClickListener(v -> {
+            startActivity(new Intent(getActivity(), CheckActivity.class));
 
+        });
         return view;
     }
 
 
     @Override
-    public void onClick(View view) {
-        String valorTag = view.getTag().toString();
-        Toast.makeText(getActivity(), valorTag, Toast.LENGTH_SHORT).show();
-        switch(view.getId()){
-            case R.id.buttonChecklist:
-                Intent intent = new Intent(getActivity(), CheckActivity.class);
-                startActivity(intent);
-                break;
+    public void onResume() {
+        super.onResume();
+        SharedPreferences sharedPref = getActivity()
+                .getSharedPreferences(getString(R.string.name_shared_pref), Context.MODE_PRIVATE);
+        int defaultValue = -1;
+        int score = sharedPref.getInt(getString(R.string.score_checklist), defaultValue);
+        if (score != defaultValue) {
+            TextView textView = (TextView) view.findViewById(R.id.text_highscore);
+            String texto = "Sua maior nota: " + score + "/10";
+            textView.setText(texto);
         }
+
+        String strLastResult = sharedPref.getString(getString(R.string.string_topics), null);
+        try {
+            if (strLastResult != null) {
+                int[] itensUltimoResultado = toIntArray(strLastResult);
+
+                Button btRever = (Button) view.findViewById(R.id.button_rever);
+                btRever.setVisibility(View.VISIBLE);
+                Intent intentResultados = new Intent(getActivity(), CheckActivity.class);
+                intentResultados.putExtra("resultado",itensUltimoResultado);
+                btRever.setOnClickListener(v -> startActivity(intentResultados));
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+    }
+
+
+    public static int[] toIntArray(String input) {
+        String beforeSplit = input.replaceAll("\\[|\\]|\\s", "");
+        String[] split = beforeSplit.split("\\,");
+        int[] result = new int[split.length];
+        for (int i = 0; i < split.length; i++) {
+            result[i] = Integer.parseInt(split[i]);
+        }
+        return result;
     }
 }

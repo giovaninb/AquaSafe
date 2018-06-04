@@ -199,4 +199,10 @@
     <string name="answer_14">Pausas ou mudanças de posição durante os períodos de trabalho são essenciais quando as tarefas são repetitivas ou precisam ser realizadas em uma posição específica.</string>
     <string name="answer_15">Luvas resistentes para manusear equipamentos ou máquinas afiadas é recomendada para evitar cortes e perfurações mais graves.</string>
 
+
+    <string name="name_shared_pref">br.gov.rs.fepagro.aquasafe.preferences</string>
+    <string name="score_checklist" translatable="false">scorechecklist</string>
+    <string name="string_topics" translatable="false">string_topics</string>
+
+
 </resources>

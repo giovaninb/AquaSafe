@@ -34,6 +34,6 @@ public class ChecklistActivity extends AppCompatActivity {
         android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.container_fragment, fragment);
         transaction.commit();
-
     }
+
 }
