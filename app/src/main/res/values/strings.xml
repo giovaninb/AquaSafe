@@ -203,6 +203,10 @@
     <string name="name_shared_pref">br.gov.rs.fepagro.aquasafe.preferences</string>
     <string name="score_checklist" translatable="false">scorechecklist</string>
     <string name="string_topics" translatable="false">string_topics</string>
-
-
+    
+    
+    <string name="sinalization_risk">Todo laboratório deve ter sinalizado o risco biológico, condições de acesso, nome e telefone do responsável pelo laboratório. Todo tipo de risco deve ser sinalizado como risco biológico, químico, físico ou outro. Devem ser utilizadas palavras de advertência como Perigo, Cuidado e Atenção.</string>
+    <string name="sinalization_emergency">Sinalização de Emergência deve ser utilizada, sempre que possível.</string>
+    <string name="sinalization_danger">Sinalização de proibição ou perigo devem estar visíveis nos locais de acesso e circulação de pessoal.</string>
+    <string name="sinalization_obrigation">Sinalização de obrigação ou comando igualmente deve estar visível nas áreas de acesso e circulação de pessoal.</string>
 </resources>

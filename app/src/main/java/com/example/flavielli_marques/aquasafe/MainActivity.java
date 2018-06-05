@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.example.flavielli_marques.aquasafe.Checklist.ChecklistActivity;
 import com.example.flavielli_marques.aquasafe.Hazard.HazardActivity;
+import com.example.flavielli_marques.aquasafe.Sinalization.SinalizationActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,9 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton hazard_button = (ImageButton) findViewById(R.id.hazard);
         ImageButton checklist_button = (ImageButton) findViewById(R.id.checklist);
+        ImageButton signalization_button = (ImageButton) findViewById(R.id.signalization);
 
         hazard_button.setOnClickListener(click);
         checklist_button.setOnClickListener(click);
+        signalization_button.setOnClickListener(click);
     }
     private View.OnClickListener click = new View.OnClickListener(){
 
@@ -40,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
                     valorTag = v.getTag().toString();
                     Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(MainActivity.this, ChecklistActivity.class);
+                    startActivity(intent);
+                    break;
+
+                case R.id.signalization:
+                    valorTag = v.getTag().toString();
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    intent = new Intent(MainActivity.this, SinalizationActivity.class);
                     startActivity(intent);
                     break;
 
