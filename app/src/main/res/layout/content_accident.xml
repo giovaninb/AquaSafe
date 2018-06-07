@@ -62,7 +62,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:text="@string/slide"
-                android:textColor="@color/text" />
+                android:textColor="@color/text_main" />
 
         </LinearLayout>
 
@@ -94,7 +94,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="@string/drowning"
-                android:textColor="@color/text"/>
+                android:textColor="@color/text_main"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -136,7 +136,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="@string/cut"
-                android:textColor="@color/text"
+                android:textColor="@color/text_main"
                 android:textAlignment="center"/>
         </LinearLayout>
 
@@ -170,7 +170,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:text="@string/death"
-                android:textColor="@color/text"
+                android:textColor="@color/text_main"
                 android:textAlignment="center"/>
         </LinearLayout>
     </LinearLayout>
@@ -213,7 +213,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="@string/accident_machine"
-                android:textColor="@color/text"
+                android:textColor="@color/text_main"
                 android:textAlignment="center"/>
         </LinearLayout>
         </LinearLayout>

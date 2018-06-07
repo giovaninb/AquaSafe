@@ -62,14 +62,14 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/electrocution"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text=""
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
 
             <LinearLayout
@@ -100,14 +100,14 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/temperature"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/extreme"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -151,7 +151,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/noise"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
             </LinearLayout>
 
             <LinearLayout
@@ -182,7 +182,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/humidity"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -226,7 +226,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/radiation"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
             </LinearLayout>
 
             <LinearLayout
@@ -257,7 +257,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/sun"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
         <!--Quarta Linha -->
@@ -300,7 +300,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/exploding"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

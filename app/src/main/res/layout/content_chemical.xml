@@ -60,7 +60,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/gas"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
             </LinearLayout>
         </LinearLayout>
 
@@ -104,7 +104,7 @@
                     android:layout_weight="1"
                     android:text="@string/products"
                     android:textAlignment="center"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 

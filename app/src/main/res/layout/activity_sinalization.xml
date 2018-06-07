@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sinalization.SinalizationActivity">
+    tools:context=".Sinalization.SinalizationActivity"
+    android:background="@color/general_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,15 +22,16 @@
         android:padding="16dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/sinalization_risk"/>
+            android:id="@+id/risk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sinalization_risk" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/risks"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:src="@drawable/risks3" />
     </LinearLayout>
 
         <!--Exit-->
@@ -45,11 +47,11 @@
                 android:text="@string/sinalization_emergency"/>
 
             <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
+                android:layout_width="195dp"
+                android:layout_height="155dp"
                 android:layout_gravity="center"
-                android:src="@drawable/exit"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:src="@drawable/exit3" />
         </LinearLayout>
 
         <!--Danger-->
@@ -67,7 +69,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/danger"
+                android:src="@drawable/danger2"
                 android:layout_marginTop="10dp"/>
         </LinearLayout>
 
@@ -86,8 +88,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/obrigation"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:src="@drawable/obrigation2" />
         </LinearLayout>
 
     </LinearLayout>

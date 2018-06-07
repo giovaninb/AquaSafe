@@ -61,7 +61,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/posture"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
             </LinearLayout>
 
             <LinearLayout
@@ -92,7 +92,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/night_work"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -136,7 +136,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/heavy"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
             </LinearLayout>
 
             <LinearLayout
@@ -167,7 +167,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/psychosocial"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -211,7 +211,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/excessive_working"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
 
             </LinearLayout>
         </LinearLayout>

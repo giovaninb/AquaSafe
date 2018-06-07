@@ -61,7 +61,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/zoonoses"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/text_main" />
 
             </LinearLayout>
 
@@ -93,7 +93,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/venomous_animals"
-                    android:textColor="@color/text"/>
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -135,7 +135,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/waste_pipe"
-                    android:textColor="@color/text"
+                    android:textColor="@color/text_main"
                     android:textAlignment="center"/>
             </LinearLayout>
 
@@ -169,7 +169,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/residue"
-                    android:textColor="@color/text"
+                    android:textColor="@color/text_main"
                     android:textAlignment="center"/>
 
             </LinearLayout>
