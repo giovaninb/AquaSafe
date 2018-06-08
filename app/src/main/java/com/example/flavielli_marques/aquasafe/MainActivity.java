@@ -1,6 +1,7 @@
 package com.example.flavielli_marques.aquasafe;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 
 import com.example.flavielli_marques.aquasafe.Checklist.ChecklistActivity;
 import com.example.flavielli_marques.aquasafe.Hazard.HazardActivity;
+import com.example.flavielli_marques.aquasafe.Immunization.ImmunizationActivity;
 import com.example.flavielli_marques.aquasafe.Sinalization.SinalizationActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,10 +23,12 @@ public class MainActivity extends AppCompatActivity {
         ImageButton hazard_button = (ImageButton) findViewById(R.id.hazard);
         ImageButton checklist_button = (ImageButton) findViewById(R.id.checklist);
         ImageButton signalization_button = (ImageButton) findViewById(R.id.signalization);
+        ImageButton immunization_button = (ImageButton) findViewById(R.id.immunization);
 
         hazard_button.setOnClickListener(click);
         checklist_button.setOnClickListener(click);
         signalization_button.setOnClickListener(click);
+        immunization_button.setOnClickListener(click);
     }
     private View.OnClickListener click = new View.OnClickListener(){
 
@@ -53,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                     break;
 
+                case R.id.immunization:
+                    valorTag = v.getTag().toString();
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    intent = new Intent(MainActivity.this, ImmunizationActivity.class);
+                    startActivity(intent);
+                    break;
             }
         }
     };
