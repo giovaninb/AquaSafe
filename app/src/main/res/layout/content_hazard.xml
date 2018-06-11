@@ -59,7 +59,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:text="@string/physicist"
-                android:textColor="@color/text_main" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -90,7 +90,7 @@
                 android:layout_weight="1"
                 android:text="@string/chemical"
                 android:textAlignment="center"
-                android:textColor="@color/text_main"/>
+                android:textColor="@color/text"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -132,7 +132,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/biological"
-                    android:textColor="@color/text_main" />
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -163,7 +163,7 @@
                     android:layout_weight="1"
                     android:text="@string/ergonomic"
                     android:textAlignment="center"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -205,7 +205,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:text="@string/accident"
-                android:textColor="@color/text_main" />
+                android:textColor="@color/text" />
         </LinearLayout>
     </LinearLayout>
 

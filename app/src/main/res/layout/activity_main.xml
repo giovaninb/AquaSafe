@@ -59,7 +59,7 @@
                         android:layout_weight="1"
                         android:layout_marginTop="10dp"
                         android:text="@string/hazard"
-                        android:textColor="@color/text_main" />
+                        android:textColor="@color/text" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -89,7 +89,7 @@
                         android:layout_weight="1"
                         android:text="@string/biosafety"
                         android:textAlignment="center"
-                        android:textColor="@color/text_main"/>
+                        android:textColor="@color/text"/>
                 </LinearLayout>
 
 
@@ -120,7 +120,7 @@
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/immunization2"
+                    android:src="@drawable/immunization"
                     android:scaleType="fitCenter"
                     android:tag="immunization"/>
 
@@ -130,7 +130,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/immunization"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text"/>
 
             </LinearLayout>
 
@@ -161,7 +161,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/law"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -204,7 +204,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/signalization"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -234,7 +234,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/checklist"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -277,7 +277,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/about"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -307,7 +307,7 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/contact"
-                    android:textColor="@color/text_main" />
+                    android:textColor="@color/text" />
             </LinearLayout>
 
         </LinearLayout>

@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#068190</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorButton">#ffffff</color>
-    <color name="background">#00BBD4</color>
+    <color name="background">#8DCCD4</color>
     <color name="text_main">#ffffff</color> <!-- ta branco, mas posso trocar pra preto-->
     <color name="text">#000000</color>
     <color name="green">#A8D46F</color>
