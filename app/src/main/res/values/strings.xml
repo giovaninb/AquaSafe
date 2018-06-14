@@ -7,7 +7,7 @@
     <string name="signalization">Sinalização</string>
     <string name="checklist">Checklist</string>
     <string name="about">Sobre</string>
-    <string name="contact">Contato</string>
+    <string name="contact">Fale Conosco</string>
     <string name="title_activity_hazard">HazardActivity</string>
 
     <string name="physicist_title">Riscos Físicos</string>
@@ -213,5 +213,34 @@
     <string name="immunization_animals">"Tríplice \n\n"Influenza \n\n"Raiva"</string>
     <string name="immunization_water">"Hepatite A \n\n"Hepatite B \n\n"Tríplice \n\n"Influenza \n\n"Febre Tifóide \n\n"Tétano"</string>
 
+    <string name="about_descrition">O objetivo do AquaSafe é trazer melhorias para a aquicultua brasileira através da disponibilixação de informações sobre saúde ocupacional de forma ágil e de fácil compreensão. Com o desenvolvimento do aplicativo, informações científicas que estavam distribuídas em inglês e em diferentes locais da internet agora estão disponíveis facilmente e de forma off-line aos produtores, trabalhadores e demais interessados.</string>
+    <string name="equipe">EQUIPE</string>
+    <string name="equipe_names">
+        "<b>Coordenadora:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
+        "<b>Desenvolvimento do Aplicativo:\n</b>"
+        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi)\n\n"
 
+        "<b>Equipe AquaSaúde:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
+        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi\n"
+        "Dr. Silvio Cazella (UFCSPA)\n"
+        "Dra. Maria Helena Firmino (DDPA/SEAPI-RS)\n"
+        "Dra. Marcia Regina Stech\n"
+        "Dr. Benito Brito (DDPA/SEAPI-RS)\n"
+        "Dra. Kelly Tagliari Brito (DDPA/SEAPI-RS)\n"
+        "Dr. Paulo César Abreu (FURG)\n"
+        "Dr. Luis Alberto Romano (FURG)\n"
+        "Dr. Arturo Sanchez-Paz (CIBNOR)"
+
+    </string>
+
+    <string name="instituicoes">INSTITUIÇÕES</string>
+    <string name="bibliotecas">BIBLIOTECAS UTILIZADAS</string>,
+    <string name="bibliotecas_descricao">
+        " Ícones: flaticon.com\n"
+            "Checklist: github.com/edupooch/AquaSaude-Camarao\n"
+    </string>
+
+    <string name="title_email">Aplicativo AquaSafe</string>
 </resources>

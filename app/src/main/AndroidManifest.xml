@@ -69,9 +69,12 @@
         <activity
             android:name=".Sinalization.SinalizationActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Immunization.ImmunizationActivity"
-            android:parentActivityName=".MainActivity" >
-        </activity>
+        <activity
+            android:name=".Immunization.ImmunizationActivity"
+            android:parentActivityName=".MainActivity"></activity>
+
+        <activity android:name=".About.AboutActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

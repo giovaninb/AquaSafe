@@ -88,16 +88,6 @@
             android:orientation="vertical"
             android:paddingTop="30dp">
 
-         <!--   <Button
-                android:id="@+id/link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:background="@drawable/button_background_dark"
-                android:text="Calendário de Vacinção Ocupacional"
-                android:layout_gravity="center"
-                android:textColor="@color/text_main" /> -->
-
             <android.support.design.widget.FloatingActionButton
 
                 android:id="@+id/link"
