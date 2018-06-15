@@ -92,23 +92,10 @@ public class GeneralScreenActivity extends AppCompatActivity {
             text_control = (TextView) findViewById(R.id.text_control);
             text_control.setText(R.string.control_radiation);
 
-        }else  if (tag.equals("sun")) {
-            View viewById = findViewById(R.id.content_general_screen);
-            viewById.setVisibility(View.VISIBLE);
-            getSupportActionBar().setTitle(R.string.sun);
-            getSupportActionBar().setLogo(R.drawable.toolbar_sun);
-            getSupportActionBar().setDisplayUseLogoEnabled(true);
-            text_cause = (TextView) findViewById(R.id.text_cause);
-            text_cause.setText(R.string.cause_sun);
-            text_hazard = (TextView) findViewById(R.id.text_hazard);
-            text_hazard.setText(R.string.hazard_sun);
-            text_control = (TextView) findViewById(R.id.text_control);
-            text_control.setText(R.string.control_sun);
-
         }else  if (tag.equals("exploding")) {
             View viewById = findViewById(R.id.content_general_screen);
             viewById.setVisibility(View.VISIBLE);
-            getSupportActionBar().setTitle(R.string.exploding);
+            getSupportActionBar().setTitle(R.string.fire_exploding);
             getSupportActionBar().setLogo(R.drawable.toolbar_exploding);
             getSupportActionBar().setDisplayUseLogoEnabled(true);
             text_cause = (TextView) findViewById(R.id.text_cause);

@@ -63,51 +63,39 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/electrocution"
                     android:textColor="@color/text_main" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/text_main"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/temperature"
+                    android:id="@+id/radiation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/temperature"
+                    android:src="@drawable/radiation"
                     android:scaleType="fitCenter"
-                    android:tag="temperature"
+                    android:tag="radiation"
                     android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/temperature"
-                    android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/extreme"
-                    android:textColor="@color/text_main"/>
+                    android:text="@string/radiation"
+                    android:textColor="@color/text_main" />
             </LinearLayout>
         </LinearLayout>
 
@@ -200,55 +188,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/radiation"
+                    android:id="@+id/temperature"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/radiation"
+                    android:src="@drawable/temperature"
                     android:scaleType="fitCenter"
-                    android:tag="radiation"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/radiation"
-                    android:textColor="@color/text_main" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/sun"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/sun"
-                    android:scaleType="fitCenter"
-                    android:tag="sun"
+                    android:tag="temperature"
                     android:onClick="click"/>
 
                 <TextView
@@ -256,19 +211,16 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/sun"
+                    android:text="@string/temperature"
+                    android:textColor="@color/text_main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/extreme"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
-        </LinearLayout>
-        <!--Quarta Linha -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -299,9 +251,17 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
+                    android:text="@string/fire"
+                    android:textColor="@color/text_main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
                     android:text="@string/exploding"
-                    android:textColor="@color/text_main" />
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 

@@ -6,90 +6,100 @@
     android:layout_height="match_parent"
     tools:context=".Sinalization.SinalizationActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="15dp"
-        android:paddingTop="20dp">
-
-<!-- Risk-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
-
-        <TextView
-            android:id="@+id/risk"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sinalization_risk" />
-
-        <ImageView
-            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/risks3" />
-    </LinearLayout>
+            android:orientation="vertical">
 
-        <!--Exit-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="match_parent"
+            <!-- Risk-->
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/sinalization_emergency"/>
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
 
-            <ImageView
-                android:layout_width="195dp"
-                android:layout_height="155dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/exit3" />
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="161dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/risk1"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinalization_risk"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Exit-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="161dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/exit1"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinalization_emergency"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <!--Danger-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="161dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/danger1"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinalization_danger"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Obrigation-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="161dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/obrigation1"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinalization_obrigation"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
         </LinearLayout>
 
-        <!--Danger-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/sinalization_danger"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/danger2"
-                android:layout_marginTop="10dp"/>
-        </LinearLayout>
-
-        <!--Obrigation-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/sinalization_obrigation"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/obrigation2" />
-        </LinearLayout>
-
-    </LinearLayout>
 </ScrollView>
