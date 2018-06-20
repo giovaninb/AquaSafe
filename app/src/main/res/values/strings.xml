@@ -4,7 +4,7 @@
     <string name="game">Jogo</string>
     <string name="simple_solution">Soluções Simples</string>
     <string name="law">Leis e Normas</string>
-    <string name="equipment">PPI / PPC</string>
+    <string name="equipment">EPI / EPC</string>
     <string name="checklist">Checklist</string>
     <string name="about">Sobre</string>
     <string name="contact">Fale Conosco</string>
@@ -174,7 +174,9 @@
     <string name="confirm">Confirmar</string>
 
     <string name="title_activity_physicist">PhysicistActivity</string>
-    <string name="action_settings">Settings</string>
+    <string name="Espanhol">Espanhol</string>
+    <string name="Inglês">Inglês</string>
+    <string name="Português">Português</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_chemical">ChemicalActivity</string>
     <string name="title_activity_biological">BiologicalActivity</string>

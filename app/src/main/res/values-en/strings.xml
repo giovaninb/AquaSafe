@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hazard">Hazards</string>
+    <string name="game">Game</string>
+    <string name="simple_solution">Simple Solution</string>
+    <string name="law">Laws</string>
+    <string name="equipment">PPI / PPC</string>
+    <string name="checklist">Checklist</string>
+    <string name="about">About</string>
+    <string name="contact">Contact us</string>
+
+</resources>

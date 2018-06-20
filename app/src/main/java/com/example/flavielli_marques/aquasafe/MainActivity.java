@@ -1,17 +1,26 @@
 package com.example.flavielli_marques.aquasafe;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.flavielli_marques.aquasafe.About.AboutActivity;
 import com.example.flavielli_marques.aquasafe.Checklist.ChecklistActivity;
 import com.example.flavielli_marques.aquasafe.Hazard.HazardActivity;
 import com.example.flavielli_marques.aquasafe.SimpleSolution.SimpleSolutionActivity;
 import com.example.flavielli_marques.aquasafe.ProtectionEquipment.ProtectionEquipmentActivity;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -92,5 +101,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
-
 }
