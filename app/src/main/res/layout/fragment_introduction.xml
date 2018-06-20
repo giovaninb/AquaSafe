@@ -55,7 +55,7 @@
                 android:clickable="true"
                 android:gravity="center"
                 android:tag="preencher checklist"
-                android:text="Preencher Checklist"
+                android:text="@string/fill_checklist"
                 android:textColor="#fff" />
 
             <Button
@@ -67,7 +67,7 @@
                 android:layout_marginTop="10dp"
                 android:clickable="true"
                 android:background="@drawable/button_background_dark"
-                android:text="Rever último resultado"
+                android:text="@string/back_result"
                 android:textColor="#fff"
                 android:visibility="gone" />
 

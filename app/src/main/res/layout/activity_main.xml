@@ -72,14 +72,14 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/biosafety"
+                        android:id="@+id/game"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:padding="15dp"
-                        android:src="@drawable/biosafety"
+                        android:src="@drawable/game"
                         android:scaleType="fitCenter"/>
 
                     <TextView
@@ -87,7 +87,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_weight="1"
-                        android:text="@string/biosafety"
+                        android:text="@string/game"
                         android:textAlignment="center"
                         android:textColor="@color/text"/>
                 </LinearLayout>
@@ -113,23 +113,23 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/immunization"
+                    android:id="@+id/simple_solution"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/immunization"
+                    android:src="@drawable/solution"
                     android:scaleType="fitCenter"
-                    android:tag="immunization"/>
+                    android:tag="simple_solution"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/immunization"
+                    android:text="@string/simple_solution"
                     android:textColor="@color/text"/>
 
             </LinearLayout>
@@ -187,23 +187,23 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/signalization"
+                    android:id="@+id/equipment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/signalization"
+                    android:src="@drawable/equipment"
                     android:scaleType="fitCenter"
-                    android:tag="signalization"/>
+                    android:tag="equipment"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/signalization"
+                    android:text="@string/equipment"
                     android:textColor="@color/text"/>
             </LinearLayout>
 

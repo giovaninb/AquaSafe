@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">AquaSafe</string>
     <string name="hazard">Riscos</string>
-    <string name="biosafety">Biossegurança</string>
-    <string name="immunization">Imunização</string>
+    <string name="game">Jogo</string>
+    <string name="simple_solution">Soluções Simples</string>
     <string name="law">Leis e Normas</string>
-    <string name="signalization">Sinalização</string>
+    <string name="equipment">PPI / PPC</string>
     <string name="checklist">Checklist</string>
     <string name="about">Sobre</string>
     <string name="contact">Fale Conosco</string>
@@ -54,6 +54,10 @@
     <string name="cut">Cortes</string>
     <string name="death">Acidentes Fatais</string>
     <string name="accident_machine">Acidentes com Maquinário</string>
+
+    <string name="cause">Causa/Fonte/Perigo</string>
+    <string name="type_hazard">Risco/Danos à Saúde</string>
+    <string name="control">Controle e Prevenção</string>
 
     <string name="cause_electrocution">"Contato da água com linhas de transmissão de energia elétrica \n\n""Falta de sistemas de aterramento nas fazendas \n\n""Choques ocorridos por localidades úmidas \n\n""Choques através da energia de reserva quando a energia principal é desligada por motivos de manutenção \n\n""Fios desencapados"</string>
     <string name="hazard_electrocution">"Queimaduras \n\n""Contração Muscular Involuntária</string>
@@ -146,6 +150,11 @@
     <string name="default_highscore">Você ainda não preencheu o checklist</string>
     <string name="checklist_introduction">Texto para introduzir saude ocupacional e tals</string>
 
+    <string name="fill_checklist">Preencher Checklist</string>
+    <string name="back_result">Rever último resultado</string>
+
+    <string name="ok">OK</string>
+
     <string name="checklist_text">Selecione as práticas adotadas em seu local de trabalho:</string>
     <string name="checkbox_1">Utilizo equipamentos de proteção individual, tais como luvas, bonés, protetor solar, máscaras e colete salva-vidas.</string>
     <string name="checkbox_2">A vegetação em torno de tanques e instalações é cortada frequentemente.</string>
@@ -221,15 +230,7 @@
 
         "<b>Equipe AquaSaúde:\n</b>"
         "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
-        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi\n"
-        "Dr. Silvio Cazella (UFCSPA)\n"
-        "Dra. Maria Helena Firmino (DDPA/SEAPI-RS)\n"
-        "Dra. Marcia Regina Stech\n"
-        "Dr. Benito Brito (DDPA/SEAPI-RS)\n"
-        "Dra. Kelly Tagliari Brito (DDPA/SEAPI-RS)\n"
-        "Dr. Paulo César Abreu (FURG)\n"
-        "Dr. Luis Alberto Romano (FURG)\n"
-        "Dr. Arturo Sanchez-Paz (CIBNOR)"
+        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi)\n"
 
     </string>
 

@@ -34,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="Causa/Fonte/Perigo"
+                    android:text="@string/cause"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textAlignment="center"/>
@@ -67,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="Risco/Danos à Saúde"
+                    android:text="@string/type_hazard"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textAlignment="center"/>
@@ -100,7 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="Controle e Prevenção"
+                    android:text="@string/control"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textAlignment="center"/>
