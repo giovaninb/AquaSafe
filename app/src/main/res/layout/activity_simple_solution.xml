@@ -7,95 +7,100 @@
     android:background="@color/general_background"
     tools:context=".SimpleSolution.SimpleSolutionActivity">
 
+
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="15dp"
-        android:paddingTop="20dp">
+        android:orientation="vertical">
 
-        <!-- Manejo com Animais -->
+        <!-- Risk-->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingTop="20dp">
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/colorPrimary"
-                android:gravity="center"
-                android:padding="10dp"
-                android:tag="cause">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="2dp"
-                    android:text="Manejo com Animais"
-                    android:textColor="#FFFFFF"
-                    android:textSize="16sp"
-                    android:textAlignment="center"/>
-
-            </LinearLayout>
+            <ImageView
+                android:layout_width="136dp"
+                android:layout_height="161dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/risk1"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="@string/immunization_animals"
+                android:text="@string/sinalization_risk"
                 android:layout_gravity="center"/>
-
         </LinearLayout>
-        <!-- Manejo em Água -->
+
+        <!--Exit-->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingTop="20dp">
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/colorPrimary"
-                android:gravity="center"
-                android:padding="10dp"
-                android:tag="hazard_general">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="2dp"
-                    android:text="Manejo em Água"
-                    android:textColor="#FFFFFF"
-                    android:textSize="16sp"
-                    android:textAlignment="center" />
-
-            </LinearLayout>
+            <ImageView
+                android:layout_width="136dp"
+                android:layout_height="161dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/exit1"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="@string/immunization_water"
+                android:text="@string/sinalization_emergency"
                 android:layout_gravity="center"/>
 
         </LinearLayout>
+
+        <!--Danger-->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingTop="30dp">
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
 
-            <android.support.design.widget.FloatingActionButton
+            <ImageView
+                android:layout_width="136dp"
+                android:layout_height="161dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/danger1"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp" />
 
-                android:id="@+id/link"
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:src="@drawable/download"/>
-
+                android:text="@string/sinalization_danger"
+                android:layout_gravity="center"/>
         </LinearLayout>
+
+        <!--Obrigation-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="136dp"
+                android:layout_height="161dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/obrigation1"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sinalization_obrigation"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

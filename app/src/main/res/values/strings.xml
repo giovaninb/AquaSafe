@@ -40,7 +40,7 @@
 
     <string name="ergonomic_title">Riscos Ergonômicos</string>
     <string name="ergonomic">Ergonômico</string>
-    <string name="posture">Postura Incorreta</string>
+    <string name="injuries">Lesões</string>
     <string name="night_work">Trabalho Noturno</string>
     <string name="heavy">Excesso de Esforço</string>
     <string name="psychosocial">Psicossociais</string>
@@ -75,13 +75,13 @@
     <string name="hazard_humidity">""<b>Níveis elevados de umidade podem levar a:</b> \n\n"Cãibras de calor \n\n"Sensação de Calor \n\n""<b>Níveis reduzidos de umidade podem levar a:</b> \n\n"Queda da pressão arterial \n\n"Passagens Nasais Secas \n\n"Garganta dolorida ou raspada \n\n"Pele Seca \n\n"Lábios quebrados \n\n"Escorregões e quedas \n\n"Doenças Respiratórias \n\n"Gripe"</string>
     <string name="control_humidity">"Usar equipamentos de proteção individual (EPI) como luvas, botas e macacões"</string>
 
-    <string name="cause_radiation">"Exposição frequente do indivíduo com agentes radioativos, sejam eles ionizantes ou não. A radiação ionizante consiste em ondas eletromagnéticas com energia capaz de desprender átomos e moléculas, alterando suas estruturas. A radiação não-ionizante não consegue alterar átomos e moléculas, mas consegue quebrar as ligações entre elas. A radiação não-ionizante está presente em radiações infravermelhas, presentes em operações de fornos, de solda oxiacetilênica, ultravioleta produzida pela solda elétrica e raios laser. Na aquicultura a exposição a radiação ultravioleta do Sol é a mais frequente."</string>
+    <string name="cause_radiation">"Exposição frequente do indivíduo com agentes radioativos, sejam ionizantes ou não. A radiação ionizante consiste em ondas eletromagnéticas com energia capaz de desprender átomos e moléculas, alterando suas estruturas. A radiação não-ionizante não consegue alterar átomos e moléculas, mas consegue quebrar as ligações entre elas. A radiação não-ionizante está presente em radiações infravermelhas, presentes em operações de fornos, de solda oxiacetilênica, ultravioleta produzida pela solda elétrica e raios laser. Na aquicultura a exposição a radiação ultravioleta do Sol é a mais frequente."</string>
     <string name="hazard_radiation">"<b>Radiação ionizante:</b> \n\n"Anemia \n\n"Leucemia \n\n"Câncer \n\n"Alterações genéticas que podem comprometer as próximas gerações \n\n"<b>Radiação não-ionizante:</b> \n\n"Queimaduras na pele (primeiro e segundo grau) \n\n"Catarata \n\n"Superaquecimento dos órgãos \n\n"Dermatites \n\n"Câncer de pele"</string>
     <string name="control_radiation">"Usar equipamentos de proteção individual (EPI) \n\n"Usar equipamentos de proteção coletiva (EPC) \n\n"Usar protetor solar \n\n"Reduzir a exposição a luz solar com rotatividade de trabalho \n\n"Realizar exames de pele em pontos suspeitos"</string>
 
-    <string name="cause_exploding">"Rede elétrica comprometida \n\n"Resíduos de cigarro \n\n"Utilização de produtos inflamáveis"</string>
+    <string name="cause_exploding">"Rede elétrica comprometida \n\n"Resíduos de cigarro \n\n"Utilização de produtos inflamáveis"Vazamento de gás natural \n\n"Construção de fogos \n\n"Terminal positivo da bateria exposta em barcos"</string>
     <string name="hazard_exploding">"Queimaduras \n\n"Invalidez por consequência de sequelas graves \n\n"Morte"</string>
-    <string name="control_exploding">"Cubrir terminais para evitar faíscas \n\n"Não fumar em torno de fontes de incêndios e explosões \n\n"Manter as fontes de faísca longe dos tanques de oxigênio e roupas \n\n"Treinamento e Sinalização</string>
+    <string name="control_exploding">"Cubrir terminais para evitar faíscas \n\n"Não fumar em torno de fontes de incêndios e explosões \n\n"Manter as fontes de faísca longe dos tanques de oxigênio e roupas \n\n"Treinamento e Sinalização \n\n"Detectar e reparar vazamentos \n\n"Instale sistemas de supressão de sprinklers"</string>
 
     <string name="cause_products">"Preparação e correção de viveiros \n\n"Tarefas de despesca \n\n"Contato com calcário, peróxido de hidrogênio, metabissulfito de sódio, pulverizadores de mochila e pulverizadores de forma manual \n\n"Manipulação de substâncias corrosivas"</string>
     <string name="hazard_products">"Queimaduras \n\n"Irritação na pele e do trato respiratório \n\n"Envelhecimento precoce \n\n"Ansiedade \n\n"Depressão \n\n"Perda de memória \n\n"Envenenamento \n\n"Teratogênese(formação e desenvolvimento no útero de anomalias que levam a malformações - somente em mulheres) \n\n"Desordem genética \n\n"Câncer"</string>
@@ -107,19 +107,19 @@
     <string name="hazard_residue">ok11</string>
     <string name="control_residue">ok12</string>
 
-    <string name="cause_posture">ok13</string>
-    <string name="hazard_posture">ok14</string>
-    <string name="control_posture">ok15</string>
+    <string name="cause_injuries">"A maioria dos problemas musculoesqueléticos se relaciona com o manuseio dos animais durante o processo de colheita, embora os movimentos de torção durante o trabalho também tenham resultado em distúrbios do joelho e quedas \n\n"Enchimento manual de tanques vivos com água \n\n"Descarregar peixe de banheiras ou redes \n\n"Rede e elevação de cargas de peixe \n\n"Rede, pesagem e transferência de peixe"</string>
+    <string name="hazard_injuries">"O recuo da água pode causar lesões por esforço ou derrubar um trabalhador, resultando em ferimentos graves"</string>
+    <string name="control_injuries">"Preencher parcialmente os tanques vivos com água das lagoas antes de esvaziar os peixes das redes de imersão no tanque \n\n"Usar uma lança de abastecimento de água posicionada sobre a escotilha do tanque para evitar o recuo."</string>
 
-    <string name="cause_night_work">ok16</string>
-    <string name="hazard_night_work">ok17</string>
-    <string name="control_night_work">ok18</string>
+    <string name="cause_night_work">"Ocorre quando a luz no local de trabalho está ausente ou inoperante. Trabalhadores que precisam limpar as telas de detritos estão mais expostos a esse risco"</string>
+    <string name="hazard_night_work">"Fraturas \n\n"Afogamento \n\n"Quedas \n\n"Cortes"</string>
+    <string name="control_night_work">"Manter calçadas livres de obstruções \n\n"Fornecer superfícies anteaderentes \n\n"Fornecer controles no nível do solo para abrir e fechar escotilhas elevadas \n\n"Instalar passarelas em arejadores \n\n"Disponibilizar iluminação adequada e iluminação de backup"</string>
 
-    <string name="cause_heavy">ok19</string>
-    <string name="hazard_heavy">ok20</string>
-    <string name="control_heavy">ok21</string>
+    <string name="cause_heavy">"Carregar redes de pesca cheias \n\n"Carregar sacas de ração sem auxílio mecânico"</string>
+    <string name="hazard_heavy">"Dor \n\n"Formigamento \n\n"Dormência \n\n"Fraqueza \n\n"Rigidez"</string>
+    <string name="control_heavy">"Fornecer assistência mecânica \n\n"Reduzir o peso de cargas elevadas (como redes de imersão cheias de peixes) \n\n"Diminuir as alturas dos tanques vivos \n\n"Instalar um sistema de vigas e polias suspensas para transportar carga \n\n"Fazer exercícios de alongamento"</string>
 
-    <string name="cause_psychosocial">ok22</string>
+    <string name="cause_psychosocial">Os riscos psicossociais são causados, principalmente, quando os trabalhadores são expostos a situações de estresse e quando ficam muito tempo longe da família e sem descanso</string>
     <string name="hazard_psychosocial">ok23</string>
     <string name="control_psychosocial">ok24</string>
 
@@ -131,13 +131,13 @@
     <string name="hazard_accident_machine">"Cortes e perfurações \n\n"Esmagamentos \n\n"Invalidez \n\n"Sequelas irreversíveis \n\n"Amputação de membros \n\n"Morte"</string>
     <string name="control_accident_machine">"Treinamentos de como utilizar o maquinário \n\n"Utilizar roupas apropriadas \n\n"Não trabalhar sozinho"</string>
 
-    <string name="cause_slide">"Os deslizamentos podem ser causados por piso molhado e escorregadio, resíduos descartados no chão, como ostras e calhas abertas."</string>
+    <string name="cause_slide">"Os deslizamentos podem ser causados por piso molhado e escorregadio, ferramentas deixadas em passarelas   e resíduos descartados no chão, como ostras e calhas abertas."</string>
     <string name="hazard_slide">"Fraturas \n\n"Contusões \n\n"Luxações"</string>
     <string name="control_slide">"Passarelas livres de obstáculos \n\n"Manter o chão seco \n\n"Calhas estreitas \n\n"Piso antiderrapante \n\n"Calçado antiderrapante \n\n"Mapa de riscos e Sinalização"</string>
 
     <string name="cause_drowning">"Quedas no mar ou açudes fundos \n\n"Falta de uso do Dispositivo de Flutuação Pessoal (PFD)"</string>
     <string name="hazard_drowning">"Morte \n\n"Sequelas ocorridas pelo afogamento \n\n"Ingestão de água excessiva através das vias orais e respiratórias \n\n"Desmaios"</string>
-    <string name="control_drowning">"Uso de dispositivo pessoal de flotação (PFD) como colete salva-vidas e boia para emergência \n\n"Instalações de linhas de flutuação para terra na lagoa \n\n"Treinamento \n\n"Ter conhecimentos de natação"</string>
+    <string name="control_drowning">"Uso de dispositivo pessoal de flotação (PFD) como colete salva-vidas e boia para emergência \n\n"Instalações de linhas de flutuação ou outros dispositivos para sair de tanques \n\n"Treinamento \n\n"Ter conhecimentos de natação \n\n"Fechar as válvulas da linha de drenagem ao trabalhar debaixo d'água perto de canos de drenagem \n\n"Equipar veículos (incluindo ATVs) com estruturas de proteção contra capotagem (ROPS)"</string>
 
     <string name="cause_cut">"Manuseio de equipamentos afiados e perfurantes \n\n"Utilização de rede de pesca, malhadeira, zagaia, arpão, flecha, anzol ou facas"</string>
     <string name="hazard_cut">"Dor intensa \n\n"Infecções \n\n"Cicatrizes \n\n"Hemorragias"</string>

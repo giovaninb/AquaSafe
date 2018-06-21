@@ -183,18 +183,18 @@ public class GeneralScreenActivity extends AppCompatActivity {
             text_control = (TextView) findViewById(R.id.text_control);
             text_control.setText(R.string.control_residue);
 
-        }else  if (tag.equals("posture")) {
+        }else  if (tag.equals("injuries")) {
             View viewById = findViewById(R.id.content_general_screen);
             viewById.setVisibility(View.VISIBLE);
-            getSupportActionBar().setTitle(R.string.posture);
-            getSupportActionBar().setLogo(R.drawable.toolbar_posture);
+            getSupportActionBar().setTitle(R.string.injuries);
+            getSupportActionBar().setLogo(R.drawable.toolbar_injuries);
             getSupportActionBar().setDisplayUseLogoEnabled(true);
             text_cause = (TextView) findViewById(R.id.text_cause);
-            text_cause.setText(R.string.cause_posture);
+            text_cause.setText(R.string.cause_injuries);
             text_hazard = (TextView) findViewById(R.id.text_hazard);
-            text_hazard.setText(R.string.hazard_posture);
+            text_hazard.setText(R.string.hazard_injuries);
             text_control = (TextView) findViewById(R.id.text_control);
-            text_control.setText(R.string.control_posture);
+            text_control.setText(R.string.control_injuries);
 
         }else  if (tag.equals("night_work")) {
             View viewById = findViewById(R.id.content_general_screen);

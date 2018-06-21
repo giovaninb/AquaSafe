@@ -43,16 +43,16 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/posture"
+                    android:id="@+id/injuries"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/posture"
+                    android:src="@drawable/injuries"
                     android:scaleType="fitCenter"
-                    android:tag="posture"
+                    android:tag="injuries"
                     android:onClick="click"/>
 
                 <TextView
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/posture"
+                    android:text="@string/injuries"
                     android:textColor="@color/text_main" />
             </LinearLayout>
 

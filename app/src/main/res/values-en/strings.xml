@@ -8,5 +8,247 @@
     <string name="checklist">Checklist</string>
     <string name="about">About</string>
     <string name="contact">Contact us</string>
+    <string name="app_name">AquaSafe</string>
+    <string name="title_activity_hazard">HazardActivity</string>
+
+    <string name="physicist_title">Physical Hazards</string>
+    <string name="physicist">Physical</string>
+    <string name="electrocution">Electrocution</string>
+    <string name="temperature">Extremes</string>
+    <string name="extreme">Temperatures</string>
+    <string name="temp">Extremes Temperatures</string>
+    <string name="noise">Noise</string>
+    <string name="humidity">Humidity</string>
+    <string name="radiation">Radiation</string>
+    <string name="sun">Sun Radiation</string>
+    <string name="fire">Fire and Explosions</string>
+    <string name="exploding"></string>
+    <string name="fire_exploding">Fire and Explosions</string>
+
+    <string name="chemical_title">Chemical Hazards</string>
+    <string name="chemical">Chemical</string>
+    <string name="gas">Dusts and Gases</string>
+    <string name="products">Substances and Compounds</string>
+    <string name="products_title">Substances</string>
+
+    <string name="biological_title">Biological Hazards</string>
+    <string name="biological">Biological</string>
+    <string name="zoonoses">Zoonoses</string>
+    <string name="venomous_animals">Venomous Animals</string>
+    <string name="residue">Residue of Origin Animal</string>
+    <string name="animal">Animal</string>
+    <string name="waste_pipe">Health Deficiency</string>
+
+    <string name="ergonomic_title">Ergonomic Hazards</string>
+    <string name="ergonomic">Ergonomic</string>
+    <string name="injuries">Injuries</string>
+    <string name="night_work">Night Work</string>
+    <string name="heavy">Excessive Effort</string>
+    <string name="psychosocial">Psychosocial</string>
+    <string name="excessive_working">Excessive Workday</string>
+    <string name="working">Excessive Workday</string>
+
+    <string name="accident_title">Accidents Hazards</string>
+    <string name="accident">Accidents</string>
+    <string name="slide">Splis and Falls</string>
+    <string name="drowning">Drowning</string>
+    <string name="cut">Cut</string>
+    <string name="death">Accidents Fatal</string>
+    <string name="accident_machine">Accidents with Equipments</string>
+
+    <string name="cause">Agent</string>
+    <string name="type_hazard">Hazard</string>
+    <string name="control">Countermeasure</string>
+
+    <string name="cause_electrocution">"Contato da água com linhas de transmissão de energia elétrica \n\n""Falta de sistemas de aterramento nas fazendas \n\n""Choques ocorridos por localidades úmidas \n\n""Choques através da energia de reserva quando a energia principal é desligada por motivos de manutenção \n\n""Fios desencapados"</string>
+    <string name="hazard_electrocution">"Queimaduras \n\n""Contração Muscular Involuntária</string>
+    <string name="control_electrocution">"Conscientizar os trabalhadores dos riscos de choque elétrico por equipamentos utilizados perto da água através de treinamentos \n\n""Assegurar o uso de fusíveis e um sistema de aterramento adequado \n\n""Certificar que todos os cabos estão intactos e impermeabilizados \n\n""As instalações elétricas devem ser revisadas e garantidas por um profissional qualificado para a função \n\n""Utilizar interruptores de falha de circuito (GFCI) eficaz em reduzir a probabilidade de choques elétricos \n\n""Nunca trabalhar sozinho para que em caso de acidente, tenha alguém que possa desligar a energia \n\n""Evitar o sobrecarregamento elétrico \n\n""A energia deve ser desligada quando o equipamento for manuseado \n\n""Garantir a manutenção de equipamentos \n\n""Sinalizar os equipamentos com risco de choque elétrico \n\n"</string>
+
+    <string name="cause_temperature">"Exposição intensa aos raios solares em temperaturas muito altas por causa de trabalhos a céu aberto \n\n"Exposição longa a temperaturas muito baixas, vento, chuva e água"</string>
+    <string name="hazard_temperature">"Insolação \n\n""Queimaduras \n\n""Desidratação \n\n""Resfriados \n\n""Gripe \n\n""Pneumonia \n\n""Quadros de hipotermia"</string>
+    <string name="control_temperature">"Utilizar protetores solares, bonés ou chapéus \n\n""Utilizar roupas de proteção e calçados apropriados \n\n""Rotatividade de trabalho \n\n""Intervalos para a ingestão de líquidos evitando a desidratação em temperaturas elevadas \n\n""Intervalos para a ingestão de bebidas quentes evitando as consequências de temperaturas baixas"</string>
+
+    <string name="cause_noise">"Exposição constante a sons emitidos pelo motor do barco \n\n"Máquinas de lavagem de ostras \n\n"Lavadoras de alta pressão"</string>
+    <string name="hazard_noise">"Estresse físico e psicológico \n\n"Redução na produtividade \n\n"Interferência na comunicação e concentração \n\n"Dores de cabeça \n\n"Perda de audição temporária ou permanente"</string>
+    <string name="control_noise">"Usar protetor auricular \n\n"Rotatividade de trabalho \n\n"Intervalos entre as atividades \n\n"Usar equipamento de proteção individual (EPI)"</string>
+
+    <string name="cause_humidity">"Exposição durante a ocorrência de chuvas, raios e trovões \n\n"Exposição a água do mar \n\n"Exposição a água usada na limpeza e locais úmidos"</string>
+    <string name="hazard_humidity">""<b>Níveis elevados de umidade podem levar a:</b> \n\n"Cãibras de calor \n\n"Sensação de Calor \n\n""<b>Níveis reduzidos de umidade podem levar a:</b> \n\n"Queda da pressão arterial \n\n"Passagens Nasais Secas \n\n"Garganta dolorida ou raspada \n\n"Pele Seca \n\n"Lábios quebrados \n\n"Escorregões e quedas \n\n"Doenças Respiratórias \n\n"Gripe"</string>
+    <string name="control_humidity">"Usar equipamentos de proteção individual (EPI) como luvas, botas e macacões"</string>
+
+    <string name="cause_radiation">"Exposição frequente do indivíduo com agentes radioativos, sejam ionizantes ou não. A radiação ionizante consiste em ondas eletromagnéticas com energia capaz de desprender átomos e moléculas, alterando suas estruturas. A radiação não-ionizante não consegue alterar átomos e moléculas, mas consegue quebrar as ligações entre elas. A radiação não-ionizante está presente em radiações infravermelhas, presentes em operações de fornos, de solda oxiacetilênica, ultravioleta produzida pela solda elétrica e raios laser. Na aquicultura a exposição a radiação ultravioleta do Sol é a mais frequente."</string>
+    <string name="hazard_radiation">"<b>Radiação ionizante:</b> \n\n"Anemia \n\n"Leucemia \n\n"Câncer \n\n"Alterações genéticas que podem comprometer as próximas gerações \n\n"<b>Radiação não-ionizante:</b> \n\n"Queimaduras na pele (primeiro e segundo grau) \n\n"Catarata \n\n"Superaquecimento dos órgãos \n\n"Dermatites \n\n"Câncer de pele"</string>
+    <string name="control_radiation">"Usar equipamentos de proteção individual (EPI) \n\n"Usar equipamentos de proteção coletiva (EPC) \n\n"Usar protetor solar \n\n"Reduzir a exposição a luz solar com rotatividade de trabalho \n\n"Realizar exames de pele em pontos suspeitos"</string>
+
+    <string name="cause_exploding">"Rede elétrica comprometida \n\n"Resíduos de cigarro \n\n"Utilização de produtos inflamáveis"Vazamento de gás natural \n\n"Construção de fogos \n\n"Terminal positivo da bateria exposta em barcos"</string>
+    <string name="hazard_exploding">"Queimaduras \n\n"Invalidez por consequência de sequelas graves \n\n"Morte"</string>
+    <string name="control_exploding">"Cubrir terminais para evitar faíscas \n\n"Não fumar em torno de fontes de incêndios e explosões \n\n"Manter as fontes de faísca longe dos tanques de oxigênio e roupas \n\n"Treinamento e Sinalização \n\n"Detectar e reparar vazamentos \n\n"Instale sistemas de supressão de sprinklers"</string>
+
+    <string name="cause_products">"Preparação e correção de viveiros \n\n"Tarefas de despesca \n\n"Contato com calcário, peróxido de hidrogênio, metabissulfito de sódio, pulverizadores de mochila e pulverizadores de forma manual \n\n"Manipulação de substâncias corrosivas"</string>
+    <string name="hazard_products">"Queimaduras \n\n"Irritação na pele e do trato respiratório \n\n"Envelhecimento precoce \n\n"Ansiedade \n\n"Depressão \n\n"Perda de memória \n\n"Envenenamento \n\n"Teratogênese(formação e desenvolvimento no útero de anomalias que levam a malformações - somente em mulheres) \n\n"Desordem genética \n\n"Câncer"</string>
+    <string name="control_products">"Equipamento de proteção individual (EPI) como: Calçado fechado, Luvas nitrílicas, Óculos de proteção e Máscaras apropriadas \n\n"Equipamentos mecânicos que reduzam o contato com agentes químicos \n\n"Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir \n\n"Treinamento \n\n"Utilizar espalhador mecânico \n\n"Detectar e reparar vazamentos \n\n"Instalar sistemas de supressão de sprinklers \n\n"Sinalização"</string>
+
+    <string name="cause_gas">"Terraplanagem e trabalhos que formam poeiras \n\n"Cuidado inadequado com os equipamentos \n\n"Manutenção precária dos motores de barcos"</string>
+    <string name="hazard_gas">"Desmaios \n\n"Tonturas \n\n"Irritação cutânea e respiratória"</string>
+    <string name="control_gas">Utilizar equipamentos de proteção individual (EPI) como máscara de proteção respiratória para poeira, gases e fumos e luvas de borracha \n\n"Substituir produtos químicos por outros menos tóxicos \n\n"Reduzir o tempo de exposição \n\n"Conscientizar os trabalhadores dos riscos no ambiente de trabalho \n\n"Utilizar espalhador mecânico \n\n"Detectar e reparar vazamentos \n\n"Sinalização"</string>
+
+    <string name="cause_zoonoses">"Manuseio inadequado que causa contato direto com patógenos \n\n"Contato acidental"</string>
+    <string name="hazard_zoonoses">"Infecções \n\n"Infestações de patógenos no local de trabalho"</string>
+    <string name="control_zoonoses">"Vacinação \n\n"Controle pesticida \n\n"Controle da vegetação em torno de tanques e instalações \n\n"Higienização \n\n"Equipamento de proteção individual apropriados"</string>
+
+    <string name="cause_venomous_animals">"O perigo biológico é exacerbado quando há manipulação de animais com dentes afiados ou espinhas que podem causar cortes e picadas \n\n"Picadas de cobras presentes na vegetação \n\n"Mordidas de Jacarés (em regiões propícias ao surgimento desses animais)"</string>
+    <string name="hazard_venomous_animals">"Picadas \n\n"Cortes profundos \n\n"Dores intensas \n\n"Infecções geradas através de feridas \n\n"Reações na pele ou generalizadas (alergias), dependendo do agente causador, podendo levar à morte \n\n"Mordidas"</string>
+    <string name="control_venomous_animals">"Sapatos fechados e luvas para manejo com animais \n\n"Controle pesticida \n\n"Controle da vegetação em torno de tanques e instalações"</string>
+
+    <string name="cause_waste_pipe">ok7</string>
+    <string name="hazard_waste_pipe">ok8</string>
+    <string name="control_waste_pipe">ok9</string>
+
+    <string name="cause_residue">ok10</string>
+    <string name="hazard_residue">ok11</string>
+    <string name="control_residue">ok12</string>
+
+    <string name="cause_injuries">"A maioria dos problemas musculoesqueléticos se relaciona com o manuseio dos animais durante o processo de colheita, embora os movimentos de torção durante o trabalho também tenham resultado em distúrbios do joelho e quedas \n\n"Enchimento manual de tanques vivos com água \n\n"Descarregar peixe de banheiras ou redes \n\n"Rede e elevação de cargas de peixe \n\n"Rede, pesagem e transferência de peixe"</string>
+    <string name="hazard_injuries">"O recuo da água pode causar lesões por esforço ou derrubar um trabalhador, resultando em ferimentos graves"</string>
+    <string name="control_injuries">"Preencher parcialmente os tanques vivos com água das lagoas antes de esvaziar os peixes das redes de imersão no tanque \n\n"Usar uma lança de abastecimento de água posicionada sobre a escotilha do tanque para evitar o recuo."</string>
+
+    <string name="cause_night_work">"Ocorre quando a luz no local de trabalho está ausente ou inoperante. Trabalhadores que precisam limpar as telas de detritos estão mais expostos a esse risco"</string>
+    <string name="hazard_night_work">"Fraturas \n\n"Afogamento \n\n"Quedas \n\n"Cortes"</string>
+    <string name="control_night_work">"Manter calçadas livres de obstruções \n\n"Fornecer superfícies anteaderentes \n\n"Fornecer controles no nível do solo para abrir e fechar escotilhas elevadas \n\n"Instalar passarelas em arejadores \n\n"Disponibilizar iluminação adequada e iluminação de backup"</string>
+
+    <string name="cause_heavy">"Carregar redes de pesca cheias \n\n"Carregar sacas de ração sem auxílio mecânico"</string>
+    <string name="hazard_heavy">"Pain \n\n"Tingling \n\n"Numbness \n\n"Weakness \n\n"Stiffness"</string>
+    <string name="control_heavy">"Fornecer assistência mecânica \n\n"Reduzir o peso de cargas elevadas (como redes de imersão cheias de peixes) \n\n"Diminuir as alturas dos tanques vivos \n\n"Instalar um sistema de vigas e polias suspensas para transportar carga \n\n"Fazer exercícios de alongamento"</string>
+
+    <string name="cause_psychosocial">Os riscos psicossociais são causados, principalmente, quando os trabalhadores são expostos a situações de estresse e quando ficam muito tempo longe da família e sem descanso</string>
+    <string name="hazard_psychosocial">ok23</string>
+    <string name="control_psychosocial">ok24</string>
+
+    <string name="cause_excessive_working">ok25</string>
+    <string name="hazard_excessive_working">ok26</string>
+    <string name="control_excessive_working">ok27</string>
+
+    <string name="cause_accident_machine">"Utilizar equipamentos sem treinamento ou sem estar com roupa apropriada"</string>
+    <string name="hazard_accident_machine">"Cortes e perfurações \n\n"Esmagamentos \n\n"Invalidez \n\n"Sequelas irreversíveis \n\n"Amputação de membros \n\n"Morte"</string>
+    <string name="control_accident_machine">"Treinamentos de como utilizar o maquinário \n\n"Utilizar roupas apropriadas \n\n"Não trabalhar sozinho"</string>
+
+    <string name="cause_slide">"Os deslizamentos podem ser causados por piso molhado e escorregadio, ferramentas deixadas em passarelas   e resíduos descartados no chão, como ostras e calhas abertas."</string>
+    <string name="hazard_slide">"Fraturas \n\n"Contusões \n\n"Luxações"</string>
+    <string name="control_slide">"Passarelas livres de obstáculos \n\n"Manter o chão seco \n\n"Calhas estreitas \n\n"Piso antiderrapante \n\n"Calçado antiderrapante \n\n"Mapa de riscos e Sinalização"</string>
+
+    <string name="cause_drowning">"Quedas no mar ou açudes fundos \n\n"Falta de uso do Dispositivo de Flutuação Pessoal (PFD)"</string>
+    <string name="hazard_drowning">"Morte \n\n"Sequelas ocorridas pelo afogamento \n\n"Ingestão de água excessiva através das vias orais e respiratórias \n\n"Desmaios"</string>
+    <string name="control_drowning">"Uso de dispositivo pessoal de flotação (PFD) como colete salva-vidas e boia para emergência \n\n"Instalações de linhas de flutuação ou outros dispositivos para sair de tanques \n\n"Treinamento \n\n"Ter conhecimentos de natação \n\n"Fechar as válvulas da linha de drenagem ao trabalhar debaixo d'água perto de canos de drenagem \n\n"Equipar veículos (incluindo ATVs) com estruturas de proteção contra capotagem (ROPS)"</string>
+
+    <string name="cause_cut">"Manuseio de equipamentos afiados e perfurantes \n\n"Utilização de rede de pesca, malhadeira, zagaia, arpão, flecha, anzol ou facas"</string>
+    <string name="hazard_cut">"Dor intensa \n\n"Infecções \n\n"Cicatrizes \n\n"Hemorragias"</string>
+    <string name="control_cut">"Treinamento \n\n"Utilização de Equipamentos de Proteção Individual como luvas e botas \n\n"Kit de primeiros socorros"</string>
+
+    <string name="cause_death">"Águas abertas durante à noite \n\n"Manuseio de Equipamentos elétricos"</string>
+    <string name="hazard_death">"Morte"</string>
+    <string name="control_death">"Treinamentos \n\n"Sinalização \n\n"Trabalhar em duplas ou equipes"</string>
+
+    <string name="default_highscore">Você ainda não preencheu o checklist</string>
+    <string name="checklist_introduction">Texto para introduzir saude ocupacional e tals</string>
+
+    <string name="fill_checklist">Preencher Checklist</string>
+    <string name="back_result">Rever último resultado</string>
+
+    <string name="ok">OK</string>
+
+    <string name="checklist_text">Selecione as práticas adotadas em seu local de trabalho:</string>
+    <string name="checkbox_1">Utilizo equipamentos de proteção individual, tais como luvas, bonés, protetor solar, máscaras e colete salva-vidas.</string>
+    <string name="checkbox_2">A vegetação em torno de tanques e instalações é cortada frequentemente.</string>
+    <string name="checkbox_3">Frequentemente é realizado controle de pragas.</string>
+    <string name="checkbox_4">O ambiente de trabalho é limpo e organizado.</string>
+    <string name="checkbox_5">Todas as instalações elétricas são impermeabilizadas, possuem uso de fusíveis e conexão de aterramento adequada.</string>
+    <string name="checkbox_6">Para evitar afogamentos, os trabalhadores usam bóias ou coletes salva-vidas nas atividades em contato com a água.</string>
+    <string name="checkbox_7">Para evitar exposições prolongadas, há pausas frequentes e rotação de trabalhadores.</string>
+    <string name="checkbox_8">O ambiente de trabalho é sinalizado para riscos.</string>
+    <string name="checkbox_9">O transporte de carga pelo trabalhador é realizado a fim de evitar levantamento de peso em excesso.</string>
+    <string name="checkbox_10">As  pessoas envolvidas no processo produtivo foram suficientemente treinadas para suas funções.</string>
+    <string name="checkbox_11">Saber nadar é indispensável para contratação no local de trabalho.</string>
+    <string name="checkbox_12">Produtos químicos são aplicados utilizando máscaras e luvas apropriadas. </string>
+    <string name="checkbox_13">Trabalhadores são orientados a possuir algum tipo de imunização (tétano, hepatite A e B, febre tifóide, gripe e/ou febre amarela).</string>
+    <string name="checkbox_14">É possível realizar pausas ou mudança de posição após longos períodos de trabalho. </string>
+    <string name="checkbox_15">Utilizo luvas resistente ao corte no manuseio de equipamentos ou máquinas afiadas. </string>
+    <string name="confirm">Confirmar</string>
+
+    <string name="title_activity_physicist">PhysicistActivity</string>
+    <string name="Espanhol">Spanish</string>
+    <string name="Inglês">English</string>
+    <string name="Português">Portuguese</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_chemical">ChemicalActivity</string>
+    <string name="title_activity_biological">BiologicalActivity</string>
+    <string name="title_activity_ergonomic">ErgonomicActivity</string>
+    <string name="title_activity_accident">AccidentActivity</string>
+    <string name="title_activity_general_screen">GeneralScreenActivity</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+    <string name="safety">Você trabalha em um local x% adequado!</string>
+    <string name="result_checklist">Confira algumas dicas baseadas em suas marcações para aumentar o nível de saúde e segurança:</string>
+    <string name="result_max">Você trabalha em um local adequado!!</string>
+    <string name="work">"Você trabalha em um local "</string>
+    <string name="porcent">% adequado!</string>
+
+    <string name="answer_1">Utilize sempre equipamentos de proteção individual para garantir sua saúde e proteção.</string>
+    <string name="answer_2"> Mantenha a vegetação sempre rasteira para evitar esconderijo e abundância de animais.</string>
+    <string name="answer_3">Faça controle de pragas periodicamente para evitar insetos e roedores no local de trabalho</string>
+    <string name="answer_4">Ambiente de trabalho limpo e organizado evita danos à saúde do trabalhador e influência na qualidade da empresa.</string>
+    <string name="answer_5">Uso de fusíveis, instalações elétricas impermeabilizadas e aterradas diminuem o risco de choque elétrico.</string>
+    <string name="answer_6">O uso de bóias ou coletes salva-vidas em atividades com contato de água evitam afogamentos e possíveis mortes.</string>
+    <string name="answer_7">Trabalhos que exigem algum tipo de exposição prolongada deve ser acompanhada de pausas frequentes e rotação de trabalhadores a fim de evitar problemas de saúde imediatos ou futuros.</string>
+    <string name="answer_8">A sinalização no ambiente de trabalho auxilia na prevenção de riscos e devem ser utilizados para alertar possíveis acidentes.</string>
+    <string name="answer_9">Caso a carga transportada estiver com peso em excesso é preciso retirar a carga excessiva a fim de evitar problemas de saúde futuros e acidentes.</string>
+    <string name="answer_10">O pessoal envolvido nas atividades da fazenda de criação de camarões deverá usar EPIs específicos e receber treinamentos e atualizações para suas funções.</string>
+    <string name="answer_11">Saber nadar pode evitar acidentes como afogamentos fatais.</string>
+    <string name="answer_12">O uso de máscaras e luvas ao manusear produtos químicos é necessário para evitar intoxicações e queimaduras.</string>
+    <string name="answer_13">O Brasil não possui uma normativa especial de vacinas para trabalhadores da aquicultura, porém é recomendado que trabalhadores que têm contato direto com animais e água realizem as vacinas de Tétano, Hepatite A e B, febre tifóide, gripe e/ou febre amarela.</string>
+    <string name="answer_14">Pausas ou mudanças de posição durante os períodos de trabalho são essenciais quando as tarefas são repetitivas ou precisam ser realizadas em uma posição específica.</string>
+    <string name="answer_15">Luvas resistentes para manusear equipamentos ou máquinas afiadas é recomendada para evitar cortes e perfurações mais graves.</string>
+
+
+    <string name="name_shared_pref">br.gov.rs.fepagro.aquasafe.preferences</string>
+    <string name="score_checklist" translatable="false">scorechecklist</string>
+    <string name="string_topics" translatable="false">string_topics</string>
+
+
+    <string name="sinalization_risk">Todo laboratório deve ter sinalizado o risco biológico, condições de acesso, nome e telefone do responsável pelo laboratório. Todo tipo de risco deve ser sinalizado como risco biológico, químico, físico ou outro. Devem ser utilizadas palavras de advertência como Perigo, Cuidado e Atenção.</string>
+    <string name="sinalization_emergency">Sinalização de Emergência deve ser utilizada, sempre que possível.</string>
+    <string name="sinalization_danger">Sinalização de proibição ou perigo devem estar visíveis nos locais de acesso e circulação de pessoal.</string>
+    <string name="sinalization_obrigation">Sinalização de obrigação ou comando igualmente deve estar visível nas áreas de acesso e circulação de pessoal.</string>
+
+    <string name="immunization_animals">"Tríplice \n\n"Influenza \n\n"Raiva"</string>
+    <string name="immunization_water">"Hepatite A \n\n"Hepatite B \n\n"Tríplice \n\n"Influenza \n\n"Febre Tifóide \n\n"Tétano"</string>
+
+    <string name="about_descrition">O objetivo do AquaSafe é trazer melhorias para a aquicultua brasileira através da disponibilixação de informações sobre saúde ocupacional de forma ágil e de fácil compreensão. Com o desenvolvimento do aplicativo, informações científicas que estavam distribuídas em inglês e em diferentes locais da internet agora estão disponíveis facilmente e de forma off-line aos produtores, trabalhadores e demais interessados.</string>
+    <string name="equipe">EQUIPE</string>
+    <string name="equipe_names">
+        "<b>Coordenadora:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
+        "<b>Desenvolvimento do Aplicativo:\n</b>"
+        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi)\n\n"
+
+        "<b>Equipe AquaSaúde:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
+        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi)\n"
+
+    </string>
+
+    <string name="instituicoes">INSTITUIÇÕES</string>
+    <string name="bibliotecas">BIBLIOTECAS UTILIZADAS</string>,
+    <string name="bibliotecas_descricao">
+        " Ícones: flaticon.com\n"
+            "Checklist: github.com/edupooch/AquaSaude-Camarao\n"
+    </string>
+
+    <string name="title_email">Aplicativo AquaSafe</string>
+
+
 
 </resources>
+
+
+
