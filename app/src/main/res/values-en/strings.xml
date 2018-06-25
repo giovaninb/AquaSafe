@@ -55,14 +55,15 @@
     <string name="cut">Cut</string>
     <string name="death">Accidents Fatal</string>
     <string name="accident_machine">Accidents with Equipments</string>
+    <string name="with_machine">with Equipments</string>
 
     <string name="cause">Agent</string>
     <string name="type_hazard">Hazard</string>
     <string name="control">Countermeasure</string>
 
-    <string name="cause_electrocution">"Contato da água com linhas de transmissão de energia elétrica \n\n""Falta de sistemas de aterramento nas fazendas \n\n""Choques ocorridos por localidades úmidas \n\n""Choques através da energia de reserva quando a energia principal é desligada por motivos de manutenção \n\n""Fios desencapados"</string>
-    <string name="hazard_electrocution">"Queimaduras \n\n""Contração Muscular Involuntária</string>
-    <string name="control_electrocution">"Conscientizar os trabalhadores dos riscos de choque elétrico por equipamentos utilizados perto da água através de treinamentos \n\n""Assegurar o uso de fusíveis e um sistema de aterramento adequado \n\n""Certificar que todos os cabos estão intactos e impermeabilizados \n\n""As instalações elétricas devem ser revisadas e garantidas por um profissional qualificado para a função \n\n""Utilizar interruptores de falha de circuito (GFCI) eficaz em reduzir a probabilidade de choques elétricos \n\n""Nunca trabalhar sozinho para que em caso de acidente, tenha alguém que possa desligar a energia \n\n""Evitar o sobrecarregamento elétrico \n\n""A energia deve ser desligada quando o equipamento for manuseado \n\n""Garantir a manutenção de equipamentos \n\n""Sinalizar os equipamentos com risco de choque elétrico \n\n"</string>
+    <string name="cause_electrocution">"Water contact with the transmission lines of electric power \n\n"Lack of grounding system in farms \n\n"Shocks occurred by humid locations \n\n"Shocks through reserve power when main power is turned off for maintenance reasons \n\n"Bare Wires"</string>
+    <string name="hazard_electrocution">"Burns \n\n""Involuntary Muscle Contraction</string>
+    <string name="control_electrocution">"Make workers aware of the risks of eletric shock by equipment udes near the water throungh training \n\n"Ensure the use of fuses and a suitable grounding system \n\n"Make sure all cables are intact and impermeable \n\n"Electrical installations must be reviewed and guaranteed by a professional qualified \n\n"Use Electrical Fault Circuit Interrupter (EFCI) to reduce the likelihood of eletric shock \n\n"Never work alone so that in case of an accident, have someone who can turn off the power \n\n"Avoid electric overload \n\n"Power must be switched off when the equipment will be handled \n\n"Ensure equipment maintenance \n\n"Equipment with risk of electric shock should be signaled"</string>
 
     <string name="cause_temperature">"Exposição intensa aos raios solares em temperaturas muito altas por causa de trabalhos a céu aberto \n\n"Exposição longa a temperaturas muito baixas, vento, chuva e água"</string>
     <string name="hazard_temperature">"Insolação \n\n""Queimaduras \n\n""Desidratação \n\n""Resfriados \n\n""Gripe \n\n""Pneumonia \n\n""Quadros de hipotermia"</string>

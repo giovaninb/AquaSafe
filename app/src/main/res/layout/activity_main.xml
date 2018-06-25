@@ -120,7 +120,7 @@
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/solution"
+                    android:src="@drawable/signaling"
                     android:scaleType="fitCenter"
                     android:tag="simple_solution"/>
 
