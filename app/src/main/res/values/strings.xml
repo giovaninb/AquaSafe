@@ -96,7 +96,7 @@
     <string name="hazard_zoonoses">"Infecções \n\n"Infestações de patógenos no local de trabalho"</string>
     <string name="control_zoonoses">"Vacinação \n\n"Controle pesticida \n\n"Controle da vegetação em torno de tanques e instalações \n\n"Higienização \n\n"Equipamento de proteção individual apropriados"</string>
 
-    <string name="cause_venomous_animals">"O perigo biológico é exacerbado quando há manipulação de animais com dentes afiados ou espinhas que podem causar cortes e picadas \n\n"Picadas de cobras presentes na vegetação \n\n"Mordidas de Jacarés (em regiões propícias ao surgimento desses animais)"</string>
+    <string name="cause_venomous_animals">"O perigo biológico é exacerbado quando há manipulação de animais com dentes afiados ou espinhos que podem causar cortes e picadas \n\n"Picadas de cobras presentes na vegetação \n\n"Mordidas de Jacarés (em regiões propícias ao surgimento desses animais)"</string>
     <string name="hazard_venomous_animals">"Picadas \n\n"Cortes profundos \n\n"Dores intensas \n\n"Infecções geradas através de feridas \n\n"Reações na pele ou generalizadas (alergias), dependendo do agente causador, podendo levar à morte \n\n"Mordidas"</string>
     <string name="control_venomous_animals">"Sapatos fechados e luvas para manejo com animais \n\n"Controle pesticida \n\n"Controle da vegetação em torno de tanques e instalações"</string>
 
@@ -108,7 +108,7 @@
     <string name="hazard_residue">ok11</string>
     <string name="control_residue">ok12</string>
 
-    <string name="cause_injuries">"A maioria dos problemas musculoesqueléticos se relaciona com o manuseio dos animais durante o processo de colheita, embora os movimentos de torção durante o trabalho também tenham resultado em distúrbios do joelho e quedas \n\n"Enchimento manual de tanques vivos com água \n\n"Descarregar peixe de banheiras ou redes \n\n"Rede e elevação de cargas de peixe \n\n"Rede, pesagem e transferência de peixe"</string>
+    <string name="cause_injuries">"A maioria dos problemas musculoesqueléticos se relaciona com o manuseio dos animais durante o processo de colheita, embora os movimentos de torção durante o trabalho também tenham resultado em quedas \n\n"Enchimento manual de tanques vivos com água \n\n"Descarregar peixe de banheiras ou redes \n\n"Rede e elevação de cargas de peixe \n\n"Rede, pesagem e transferência de peixe"</string>
     <string name="hazard_injuries">"O recuo da água pode causar lesões por esforço ou derrubar um trabalhador, resultando em ferimentos graves"</string>
     <string name="control_injuries">"Preencher parcialmente os tanques vivos com água das lagoas antes de esvaziar os peixes das redes de imersão no tanque \n\n"Usar uma lança de abastecimento de água posicionada sobre a escotilha do tanque para evitar o recuo."</string>
 
@@ -210,7 +210,7 @@
     <string name="answer_15">Luvas resistentes para manusear equipamentos ou máquinas afiadas é recomendada para evitar cortes e perfurações mais graves.</string>
 
 
-    <string name="name_shared_pref">br.gov.rs.fepagro.aquasafe.preferences</string>
+    <string name="name_shared_pref">br.gov.rs.ddpa-seapi.aquasafe.preferences</string>
     <string name="score_checklist" translatable="false">scorechecklist</string>
     <string name="string_topics" translatable="false">string_topics</string>
 
