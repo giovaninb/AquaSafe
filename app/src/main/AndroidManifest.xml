@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="br.gov.rs.ddpa_seapi.aquasafe.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,56 +25,60 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity"
+            android:name=".Hazard.HazardActivity"
             android:label="@string/title_activity_hazard"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.PhysicistActivity"
+            android:name=".Hazard.PhysicistActivity"
             android:label="@string/title_activity_physicist"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.ChemicalActivity"
+            android:name=".Hazard.ChemicalActivity"
             android:label="@string/title_activity_chemical"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.BiologicalActivity"
+            android:name=".Hazard.BiologicalActivity"
             android:label="@string/title_activity_biological"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.ErgonomicActivity"
+            android:name=".Hazard.ErgonomicActivity"
             android:label="@string/title_activity_ergonomic"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.AccidentActivity"
+            android:name=".Hazard.AccidentActivity"
             android:label="@string/title_activity_accident"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity"
+            android:parentActivityName=".Hazard.HazardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Hazard.GeneralScreenActivity"
+            android:name=".Hazard.GeneralScreenActivity"
             android:label="@string/title_activity_general_screen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Checklist.ChecklistActivity"
+            android:name=".Checklist.ChecklistActivity"
             android:label="@string/title_activity_checklist"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.Checklist.CheckActivity"
+            android:name=".Checklist.CheckActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.ProtectionEquipment.ProtectionEquipmentActivity"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.MainActivity" />
+            android:name=".ProtectionEquipment.ProtectionEquipmentActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="br.gov.rs.ddpa_seapi.aquasafe.SimpleSolution.SimpleSolutionActivity"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.MainActivity"></activity>
-
-        <activity android:name="br.gov.rs.ddpa_seapi.aquasafe.About.AboutActivity"
-            android:parentActivityName="br.gov.rs.ddpa_seapi.aquasafe.MainActivity"></activity>
+            android:name=".SimpleSolution.SimpleSolutionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".About.AboutActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProtectionEquipment.GeneralEquipamentActivity"
+            android:parentActivityName=".ProtectionEquipment.ProtectionEquipmentActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

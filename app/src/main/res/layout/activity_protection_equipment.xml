@@ -4,102 +4,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".ProtectionEquipment.ProtectionEquipmentActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat">
+
+        <!--Primeira Linha -->
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
-            <!-- Risk-->
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="136dp"
-                    android:layout_height="161dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/risk1"
-                    android:paddingRight="4dp"
-                    android:paddingLeft="4dp" />
+                <ImageButton
+                    android:id="@+id/epi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/equipment"
+                    android:scaleType="fitCenter"
+                    android:tag="epi"
+                    android:onClick="click"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sinalization_risk"
-                    android:layout_gravity="center"/>
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/epi"
+                    android:textColor="@color/text_main" />
             </LinearLayout>
-
-            <!--Exit-->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
-
-                <ImageView
-                    android:layout_width="136dp"
-                    android:layout_height="161dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/exit1"
-                    android:paddingRight="4dp"
-                    android:paddingLeft="4dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sinalization_emergency"
-                    android:layout_gravity="center"/>
-
-            </LinearLayout>
-
-            <!--Danger-->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
-
-                <ImageView
-                    android:layout_width="136dp"
-                    android:layout_height="161dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/danger1"
-                    android:paddingRight="4dp"
-                    android:paddingLeft="4dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sinalization_danger"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <!--Obrigation-->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
-
-                <ImageView
-                    android:layout_width="136dp"
-                    android:layout_height="161dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/obrigation1"
-                    android:paddingRight="4dp"
-                    android:paddingLeft="4dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sinalization_obrigation"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
         </LinearLayout>
+
+        <!--Segunda Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/epc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/fire_extinguisher"
+                    android:scaleType="fitCenter"
+                    android:tag="epc"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/epc"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_main"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 
 </ScrollView>

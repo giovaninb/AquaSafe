@@ -245,4 +245,8 @@
     </string>
 
     <string name="title_email">Aplicativo AquaSafe</string>
+
+
+    <string name="epi">EPI</string>
+    <string name="epc">EPC</string>
 </resources>
