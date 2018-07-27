@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hazard">Hazards</string>
-    <string name="game">Game</string>
-    <string name="simple_solution">Simple Solution</string>
-    <string name="law">Laws</string>
-    <string name="equipment">PPI / PPC</string>
+    <string name="hazard">Risks</string>
+    <string name="quiz">Quiz</string>
+    <string name="tools">Tools</string>
+    <string name="osh">OSH</string>
+    <string name="workplace">Workplace</string>
+    <string name="management">OSH management</string>
+    <string name="equipment">PPI and PPC</string>
     <string name="checklist">Checklist</string>
     <string name="about">About</string>
     <string name="contact">Contact us</string>
     <string name="app_name">AquaSafe</string>
     <string name="title_activity_hazard">HazardActivity</string>
+    <string name="hierarchy">Hierarchy of Controls</string>
+    <string name="risk_explanation">Quick Risk Explanation</string>
 
-    <string name="physicist_title">Physical Hazards</string>
+    <string name="physicist_title">Physical Risks</string>
     <string name="physicist">Physical</string>
     <string name="electrocution">Electrocution</string>
     <string name="temperature">Extremes</string>
@@ -25,13 +29,13 @@
     <string name="exploding">Explosions</string>
     <string name="fire_exploding">Fire and Explosions</string>
 
-    <string name="chemical_title">Chemical Hazards</string>
+    <string name="chemical_title">Chemical Risks</string>
     <string name="chemical">Chemical</string>
     <string name="gas">Dusts and Gases</string>
-    <string name="products">Substances, Compounds or Chemicals</string>
+    <string name="products">Substances, compounds or products chemical</string>
     <string name="products_title">Substances</string>
 
-    <string name="biological_title">Biological Hazards</string>
+    <string name="biological_title">Biological Riks</string>
     <string name="biological">Biological</string>
     <string name="zoonoses">Zoonoses</string>
     <string name="venomous_animals">Venomous Animals</string>
@@ -57,9 +61,9 @@
     <string name="accident_machine">Accidents with Equipments</string>
     <string name="with_machine">with Equipments</string>
 
-    <string name="cause">Agent</string>
-    <string name="type_hazard">Hazard</string>
-    <string name="control">Countermeasure</string>
+    <string name="cause">Hazard</string>
+    <string name="type_hazard">Risks</string>
+    <string name="control">Prevention and Control</string>
 
     <string name="cause_electrocution">"Water contact with the transmission lines of electric power \n\n"Lack of grounding system in farms \n\n"Shocks occurred by humid locations \n\n"Shocks through reserve power when main power is turned off for maintenance reasons \n\n"Bare Wires"</string>
     <string name="hazard_electrocution">"Burns \n\n""Involuntary Muscle Contraction</string>
@@ -85,9 +89,9 @@
     <string name="hazard_exploding">"Burns \n\n"Disability due to serious sequelae \n\n"Death"</string>
     <string name="control_exploding">"Cover terminals to avoid sparks \n\n"No smoking around sources of fires and explosions \n\n"Keep spark sources away from oxygen tanks and clothing \n\n"Training and Signaling \n\n"Detect and repair leaks \n\n"Install sprinkler suppression systems"</string>
 
-    <string name="cause_products">"Preparation and correction of nurseries \n\n"Harvest fish \n\n"Contact with limestone, hydrogen peroxide, sodium metabisulfite, backpack sprayers and manual sprayers \n\n"Handling corrosive substances"</string>
-    <string name="hazard_products">"Burns \n\n"Irritation of the skin and respiratory tract \n\n"Premature aging \n\n"Anxiety \n\n"Depression \n\n"Memory loss \n\n"Poisoning \n\n"Teratogenesis (formation and development in the uterus of abnormalities leading to malformations - only in women) \n\n"Genetic disorder \n\n"Cancer"</string>
-    <string name="control_products">"Personal protective equipment (PPE) such as: Closed-toe shoes, Nitrile gloves, Goggles and appropriate masks \n\n"Mechanical equipment that reduces contact with chemical agents \n\n"Chemicals should be stored properly in well-ventilated areas and away from reactive substances \n\n"Training \n\n"Use mechanical spreader \n\n"Detect and repair leaks \n\n"Install sprinkler suppression systems \n\n"Signaling"</string>
+    <string name="cause_products">"Substances for preparation and correction of ponds \n\n"Products used in harvesting activities \n\n"Contact with limestone, hydrogen peroxide, sodium metabisulfite, backpack sprays and sprayers manually \n\n"Handling corrosive substances"</string>
+    <string name="hazard_products">"Burns \n\n"Irritation of the skin and respiratory tract \n\n"Premature aging \n\n"Anxiety \n\n"Depression \n\n"Memory loss \n\n"Poisoning \n\n"Teratogenesis (formation and development in the uterus of abnormalities leading to malformations - only in women) \n\n"Genetic disorder \n\n"Cancer \n\n"Death"</string>
+    <string name="control_products">"<b>Elimination or replacement:</b> \n\n"Replace toxic or lethal products \n\n"<b>Engineering controls:</b> \n\n"Chemicals should be stored properly in well-ventilated areas and away from reactive substances \n\n"Detect and repair leaks \n\n"Install sprinkler suppression systems \n\n"Mechanical equipment that reduces contact with chemical agents \n\n"<b>Administrative and PPE:</b> \n\n"Personal protective equipment (PPE) such as: Closed-toe shoes, Nitrile gloves, Goggles and appropriate masks \n\n"Training \n\n"Do not use pesticides or herbicides to avoid intoxication or contamination of water \n\n"Signaling"</string>
 
     <string name="cause_gas">"Earthmoving works \n\n"Improper care of equipments \n\n"Precarious maintenance of boat engines"</string>
     <string name="hazard_gas">"Fainting \n\n"Dizziness \n\n"Skin and respiratory irritation"</string>
@@ -216,14 +220,6 @@
     <string name="string_topics" translatable="false">string_topics</string>
 
 
-    <string name="sinalization_risk">Todo laboratório deve ter sinalizado o risco biológico, condições de acesso, nome e telefone do responsável pelo laboratório. Todo tipo de risco deve ser sinalizado como risco biológico, químico, físico ou outro. Devem ser utilizadas palavras de advertência como Perigo, Cuidado e Atenção.</string>
-    <string name="sinalization_emergency">Sinalização de Emergência deve ser utilizada, sempre que possível.</string>
-    <string name="sinalization_danger">Sinalização de proibição ou perigo devem estar visíveis nos locais de acesso e circulação de pessoal.</string>
-    <string name="sinalization_obrigation">Sinalização de obrigação ou comando igualmente deve estar visível nas áreas de acesso e circulação de pessoal.</string>
-
-    <string name="immunization_animals">"Tríplice \n\n"Influenza \n\n"Raiva"</string>
-    <string name="immunization_water">"Hepatite A \n\n"Hepatite B \n\n"Tríplice \n\n"Influenza \n\n"Febre Tifóide \n\n"Tétano"</string>
-
     <string name="about_descrition">O objetivo do AquaSafe é trazer melhorias para a aquicultua brasileira através da disponibilixação de informações sobre saúde ocupacional de forma ágil e de fácil compreensão. Com o desenvolvimento do aplicativo, informações científicas que estavam distribuídas em inglês e em diferentes locais da internet agora estão disponíveis facilmente e de forma off-line aos produtores, trabalhadores e demais interessados.</string>
     <string name="equipe">EQUIPE</string>
     <string name="equipe_names">
@@ -247,6 +243,18 @@
 
     <string name="title_email">Aplicativo AquaSafe</string>
 
+    <string name="floating">Floating</string>
+    <string name="equipment_float">Equipment</string>
+    <string name="protecting">Protecting</string>
+    <string name="cloths">Cloths</string>
+    <string name="face_protection">Face Protection</string>
+    <string name="hearing_protection">Hearing Protection</string>
+    <string name="sign_protection">Signalization</string>
+    <string name="fire_protection">Fire Protection</string>
+    <string name="first_aid">First Aid</string>
+    <string name="shock_protection">Shock Protection</string>
+    <string name="chemical_protection">Chemical Protection</string>
+    <string name="diving_protection">Diving Protection</string>
 
 
 </resources>

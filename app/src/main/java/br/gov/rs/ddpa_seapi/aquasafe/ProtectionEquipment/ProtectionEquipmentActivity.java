@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import br.gov.rs.ddpa_seapi.aquasafe.Hazard.BiologicalActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.Hazard.GeneralScreenActivity;
@@ -23,9 +24,6 @@ public class ProtectionEquipmentActivity extends AppCompatActivity {
     }
     public void click(View view) {
         String valueTag = view.getTag().toString();
-        //   Toast.makeText(getBaseContext(), valueTag, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(ProtectionEquipmentActivity.this, GeneralEquipamentActivity.class);
-        intent.putExtra("tagRiscos", valueTag);
-        startActivity(intent);
+        Toast.makeText(getBaseContext(), valueTag, Toast.LENGTH_SHORT).show();
     }
 }

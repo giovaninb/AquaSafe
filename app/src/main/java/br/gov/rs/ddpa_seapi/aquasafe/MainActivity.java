@@ -9,8 +9,7 @@ import android.widget.ImageButton;
 
 import br.gov.rs.ddpa_seapi.aquasafe.About.AboutActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.Checklist.ChecklistActivity;
-import br.gov.rs.ddpa_seapi.aquasafe.Hazard.HazardActivity;
-import br.gov.rs.ddpa_seapi.aquasafe.SimpleSolution.SimpleSolutionActivity;
+import br.gov.rs.ddpa_seapi.aquasafe.Hazard.MainSpecificActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.ProtectionEquipment.ProtectionEquipmentActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,14 +22,12 @@ public class MainActivity extends AppCompatActivity {
         ImageButton hazard_button = (ImageButton) findViewById(R.id.hazard);
         ImageButton checklist_button = (ImageButton) findViewById(R.id.checklist);
         ImageButton equipment_button = (ImageButton) findViewById(R.id.equipment);
-        ImageButton simple_solution_button = (ImageButton) findViewById(R.id.simple_solution);
         ImageButton about_button = (ImageButton) findViewById(R.id.about);
         ImageButton contact_button = (ImageButton) findViewById(R.id.contact);
 
         hazard_button.setOnClickListener(click);
         checklist_button.setOnClickListener(click);
         equipment_button.setOnClickListener(click);
-        simple_solution_button.setOnClickListener(click);
         about_button.setOnClickListener(click);
         contact_button.setOnClickListener(click);
     }
@@ -43,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.hazard:
                     String valorTag = v.getTag().toString();
                   //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, HazardActivity.class);
+                    Intent intent = new Intent(MainActivity.this, MainSpecificActivity.class);
                     startActivity(intent);
                     break;
 
@@ -58,13 +55,6 @@ public class MainActivity extends AppCompatActivity {
                     valorTag = v.getTag().toString();
                 //    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(MainActivity.this, ProtectionEquipmentActivity.class);
-                    startActivity(intent);
-                    break;
-
-                case R.id.simple_solution:
-                    valorTag = v.getTag().toString();
-                //    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    intent = new Intent(MainActivity.this, SimpleSolutionActivity.class);
                     startActivity(intent);
                     break;
 

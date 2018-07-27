@@ -27,7 +27,7 @@
         <activity
             android:name=".Hazard.HazardActivity"
             android:label="@string/title_activity_hazard"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Hazard.MainSpecificActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Hazard.PhysicistActivity"
@@ -69,16 +69,13 @@
         <activity
             android:name=".ProtectionEquipment.ProtectionEquipmentActivity"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".SimpleSolution.SimpleSolutionActivity"
-            android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".About.AboutActivity"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ProtectionEquipment.GeneralEquipamentActivity"
-            android:parentActivityName=".ProtectionEquipment.ProtectionEquipmentActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Hazard.MainSpecificActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

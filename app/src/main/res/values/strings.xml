@@ -1,14 +1,18 @@
 <resources>
     <string name="app_name">AquaSafe</string>
     <string name="hazard">Riscos</string>
-    <string name="game">Jogo</string>
-    <string name="simple_solution">Soluções Simples</string>
-    <string name="law">Leis e Normas</string>
-    <string name="equipment">EPI / EPC</string>
+    <string name="quiz">Quiz</string>
+    <string name="tools">Ferramentas</string>
+    <string name="osh">OSH</string>
+    <string name="workplace">Gestão de OSH</string>
+    <string name="management">no local de trabalho</string>
+    <string name="equipment">EPI e EPC</string>
     <string name="checklist">Checklist</string>
     <string name="about">Sobre</string>
     <string name="contact">Fale Conosco</string>
     <string name="title_activity_hazard">HazardActivity</string>
+    <string name="hierarchy">Hierarquia de Controles</string>
+    <string name="risk_explanation">Explicação Rápida de Risco</string>
 
     <string name="physicist_title">Riscos Físicos</string>
     <string name="physicist">Físico</string>
@@ -214,16 +218,7 @@
     <string name="score_checklist" translatable="false">scorechecklist</string>
     <string name="string_topics" translatable="false">string_topics</string>
 
-
-    <string name="sinalization_risk">Todo laboratório deve ter sinalizado o risco biológico, condições de acesso, nome e telefone do responsável pelo laboratório. Todo tipo de risco deve ser sinalizado como risco biológico, químico, físico ou outro. Devem ser utilizadas palavras de advertência como Perigo, Cuidado e Atenção.</string>
-    <string name="sinalization_emergency">Sinalização de Emergência deve ser utilizada, sempre que possível.</string>
-    <string name="sinalization_danger">Sinalização de proibição ou perigo devem estar visíveis nos locais de acesso e circulação de pessoal.</string>
-    <string name="sinalization_obrigation">Sinalização de obrigação ou comando igualmente deve estar visível nas áreas de acesso e circulação de pessoal.</string>
-
-    <string name="immunization_animals">"Tríplice \n\n"Influenza \n\n"Raiva"</string>
-    <string name="immunization_water">"Hepatite A \n\n"Hepatite B \n\n"Tríplice \n\n"Influenza \n\n"Febre Tifóide \n\n"Tétano"</string>
-
-    <string name="about_descrition">O objetivo do AquaSafe é trazer melhorias para a aquicultura brasileira através da disponibilização de informações sobre saúde ocupacional de forma ágil e de fácil compreensão. Com o desenvolvimento do aplicativo, informações científicas que estavam distribuídas em outras línguas e em diferentes locais da internet agora estão disponíveis facilmente e de forma off-line aos produtores, trabalhadores e demais interessados.</string>
+    <string name="about_descrition"></string>
     <string name="equipe">EQUIPE</string>
     <string name="equipe_names">
         "<b>Coordenadora:\n</b>"
@@ -249,4 +244,16 @@
 
     <string name="epi">EPI</string>
     <string name="epc">EPC</string>
+    <string name="floating">Equipamento</string>
+    <string name="equipment_float"> de Flutuação</string>
+    <string name="protecting">Roupas</string>
+    <string name="cloths">de Proteção</string>
+    <string name="face_protection">Proteção Facial</string>
+    <string name="hearing_protection">Prtoteção Auditiva</string>
+    <string name="sign_protection">Sinalização</string>
+    <string name="fire_protection">Proteção de Incêndio</string>
+    <string name="first_aid">Primeiros Socorros</string>
+    <string name="shock_protection">Proteção contra choques</string>
+    <string name="chemical_protection">Proteção de Produtos Químicos</string>
+    <string name="diving_protection">Proteção durante mergulho</string>
 </resources>

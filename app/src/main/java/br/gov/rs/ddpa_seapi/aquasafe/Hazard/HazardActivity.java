@@ -16,10 +16,10 @@ public class HazardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hazard);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(R.string.hazard);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
 
         ImageButton physicist_button = (ImageButton) findViewById(R.id.physicist);
         ImageButton chemical_button = (ImageButton) findViewById(R.id.chemical);

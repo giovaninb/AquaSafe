@@ -40,16 +40,17 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/epi"
+                    android:id="@+id/floating_equipment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/equipment"
+                    android:layout_gravity="center"
+                    android:src="@drawable/floating_equipment"
                     android:scaleType="fitCenter"
-                    android:tag="epi"
+                    android:tag="floating_equipment"
                     android:onClick="click"/>
 
                 <TextView
@@ -57,7 +58,60 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/epi"
+                    android:text="@string/floating"
+                    android:textColor="@color/text_main"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/equipment_float"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/protecting_cloths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:src="@drawable/cloths"
+                    android:scaleType="fitCenter"
+                    android:tag="protecting_cloths"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/protecting"
+                    android:textColor="@color/text_main" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/cloths"
                     android:textColor="@color/text_main" />
             </LinearLayout>
         </LinearLayout>
@@ -83,7 +137,123 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/epc"
+                    android:id="@+id/face_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:src="@drawable/face_protection"
+                    android:scaleType="fitCenter"
+                    android:tag="face_protection"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="@string/face_protection"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_main"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/hearing_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hearing_protection"
+                    android:scaleType="fitCenter"
+                    android:tag="hearing_protection"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="@string/hearing_protection"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_main"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Terceira Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/sign_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/sign_protection"
+                    android:scaleType="fitCenter"
+                    android:tag="sign_protection"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/sign_protection"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_main"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/fire_protection"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -92,7 +262,7 @@
                     android:padding="15dp"
                     android:src="@drawable/fire_extinguisher"
                     android:scaleType="fitCenter"
-                    android:tag="epc"
+                    android:tag="fire_protection"
                     android:onClick="click"/>
 
                 <TextView
@@ -100,12 +270,165 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/epc"
+                    android:text="@string/fire_protection"
                     android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
 
+        <!--Quarta Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/first_aid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/first_aid"
+                    android:scaleType="fitCenter"
+                    android:tag="first_aid"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/first_aid"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_main"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/electrical_shock_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/shock_protection"
+                    android:scaleType="fitCenter"
+                    android:tag="electrical_shock_protection"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/shock_protection"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_main"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Quinta Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/chemical_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/equipment"
+                    android:scaleType="fitCenter"
+                    android:tag="chemical_protection"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/chemical_protection"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/diving_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/diving_protection"
+                    android:scaleType="fitCenter"
+                    android:tag="diving_protection"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/diving_protection"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
