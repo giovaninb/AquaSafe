@@ -196,6 +196,7 @@
     <string name="result_max">Você trabalha em um local adequado!!</string>
     <string name="work">"Você trabalha em um local "</string>
     <string name="porcent">% adequado!</string>
+    <string name="score">Sua maior nota:</string>
 
     <string name="answer_1">Utilize sempre equipamentos de proteção individual para garantir sua saúde e proteção.</string>
     <string name="answer_2"> Mantenha a vegetação sempre rasteira para evitar esconderijo e abundância de animais.</string>
@@ -254,6 +255,7 @@
     <string name="fire_protection">Proteção de Incêndio</string>
     <string name="first_aid">Primeiros Socorros</string>
     <string name="shock_protection">Proteção contra choques</string>
-    <string name="chemical_protection">Proteção de Produtos Químicos</string>
-    <string name="diving_protection">Proteção durante mergulho</string>
+    <string name="protection">Proteção</string>
+    <string name="chemical_protection">de Produtos Químicos</string>
+    <string name="diving_protection">durante mergulho</string>
 </resources>

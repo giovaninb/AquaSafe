@@ -50,7 +50,7 @@ public class IntroductionFragment extends Fragment{
         int score = sharedPref.getInt(getString(R.string.score_checklist), defaultValue);
         if (score != defaultValue) {
             TextView textView = (TextView) view.findViewById(R.id.text_highscore);
-            String texto = "Sua maior nota: " + score + "/15";
+            String texto = "Your highest score:"+ score + "/15";
             textView.setText(texto);
         }
 

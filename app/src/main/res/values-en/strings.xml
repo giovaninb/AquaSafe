@@ -153,31 +153,31 @@
     <string name="hazard_death">"Morte"</string>
     <string name="control_death">"Treinamentos \n\n"Sinalização \n\n"Trabalhar em duplas ou equipes"</string>
 
-    <string name="default_highscore">Você ainda não preencheu o checklist</string>
-    <string name="checklist_introduction">Texto para introduzir saude ocupacional e tals</string>
+    <string name="default_highscore">You have not filled out the checklist yet.</string>
+    <string name="checklist_introduction">introduction text</string>
 
-    <string name="fill_checklist">Preencher Checklist</string>
-    <string name="back_result">Rever último resultado</string>
+    <string name="fill_checklist">Fill Checklist</string>
+    <string name="back_result">Review last result</string>
 
     <string name="ok">OK</string>
 
-    <string name="checklist_text">Selecione as práticas adotadas em seu local de trabalho:</string>
-    <string name="checkbox_1">Utilizo equipamentos de proteção individual, tais como luvas, bonés, protetor solar, máscaras e colete salva-vidas.</string>
-    <string name="checkbox_2">A vegetação em torno de tanques e instalações é cortada frequentemente.</string>
-    <string name="checkbox_3">Frequentemente é realizado controle de pragas.</string>
-    <string name="checkbox_4">O ambiente de trabalho é limpo e organizado.</string>
-    <string name="checkbox_5">Todas as instalações elétricas são impermeabilizadas, possuem uso de fusíveis e conexão de aterramento adequada.</string>
-    <string name="checkbox_6">Para evitar afogamentos, os trabalhadores usam bóias ou coletes salva-vidas nas atividades em contato com a água.</string>
-    <string name="checkbox_7">Para evitar exposições prolongadas, há pausas frequentes e rotação de trabalhadores.</string>
-    <string name="checkbox_8">O ambiente de trabalho é sinalizado para riscos.</string>
-    <string name="checkbox_9">O transporte de carga pelo trabalhador é realizado a fim de evitar levantamento de peso em excesso.</string>
-    <string name="checkbox_10">As  pessoas envolvidas no processo produtivo foram suficientemente treinadas para suas funções.</string>
-    <string name="checkbox_11">Saber nadar é indispensável para contratação no local de trabalho.</string>
-    <string name="checkbox_12">Produtos químicos são aplicados utilizando máscaras e luvas apropriadas. </string>
-    <string name="checkbox_13">Trabalhadores são orientados a possuir algum tipo de imunização (tétano, hepatite A e B, febre tifóide, gripe e/ou febre amarela).</string>
-    <string name="checkbox_14">É possível realizar pausas ou mudança de posição após longos períodos de trabalho. </string>
-    <string name="checkbox_15">Utilizo luvas resistente ao corte no manuseio de equipamentos ou máquinas afiadas. </string>
-    <string name="confirm">Confirmar</string>
+    <string name="checklist_text">Select the practices adopted at your workplace</string>
+    <string name="checkbox_1">I use personal protective equipment such as gloves, caps, sunscreen, masks and lifejackets.</string>
+    <string name="checkbox_2">The vegetation around tanks and facilities is often cut. </string>
+    <string name="checkbox_3">Often pest and vector control is performed.</string>
+    <string name="checkbox_4">Workplace is clean and organized.</string>
+    <string name="checkbox_5">All electrical installations are waterproof, have use of fuses and proper ground connection.</string>
+    <string name="checkbox_6">To avoid drowning, workers use buoys or lifejackets in contact with water.</string>
+    <string name="checkbox_7">To avoid prolonged exposures, there are frequent breaks and rotation of workers.</string>
+    <string name="checkbox_8">The workplace is flagged for risk.</string>
+    <string name="checkbox_9">The transport of load by the worker is carried out in order to avoid excess weight lifting.</string>
+    <string name="checkbox_10">People involved in the production process were sufficiently trained for their functions.</string>
+    <string name="checkbox_11">Swimming or diving is a must for hiring in the workplace.</string>
+    <string name="checkbox_12">Chemicals are applied using appropriate masks and gloves.</string>
+    <string name="checkbox_13">Workers are advised to have some type of immunization (tetanus, hepatitis A and B, typhoid, influenza and / or yellow fever).</string>
+    <string name="checkbox_14">In my work environment, it is possible to take breaks or change of position after long periods of activity.</string>
+    <string name="checkbox_15">I use cut resistant gloves when handling equipment or sharp machines.</string>
+    <string name="confirm">Confirm</string>
 
     <string name="title_activity_physicist">PhysicistActivity</string>
     <string name="Espanhol">Spanish</string>
@@ -192,28 +192,29 @@
     <string name="title_activity_checklist">ChecklistActivity</string>
     <string name="title_activity_result">ResultActivity</string>
 
-    <string name="safety">Você trabalha em um local x% adequado!</string>
-    <string name="result_checklist">Confira algumas dicas baseadas em suas marcações para aumentar o nível de saúde e segurança:</string>
-    <string name="result_max">Você trabalha em um local adequado!!</string>
-    <string name="work">"Você trabalha em um local "</string>
-    <string name="porcent">% adequado!</string>
+    <string name="safety">You work in a place x% appropriate!</string>
+    You work in a place x% appropriate!
+    <string name="result_checklist">Check out some tips based on your markups to increase the level of health and safety:</string>
+    <string name="result_max">You work in a place appropriate!</string>
+    <string name="work">"You work in a place "</string>
+    <string name="porcent">% appropriate!</string>
+    <string name="score">Your highest score:</string>
 
-    <string name="answer_1">Utilize sempre equipamentos de proteção individual para garantir sua saúde e proteção.</string>
-    <string name="answer_2"> Mantenha a vegetação sempre rasteira para evitar esconderijo e abundância de animais.</string>
-    <string name="answer_3">Faça controle de pragas periodicamente para evitar insetos e roedores no local de trabalho</string>
-    <string name="answer_4">Ambiente de trabalho limpo e organizado evita danos à saúde do trabalhador e influência na qualidade da empresa.</string>
-    <string name="answer_5">Uso de fusíveis, instalações elétricas impermeabilizadas e aterradas diminuem o risco de choque elétrico.</string>
-    <string name="answer_6">O uso de bóias ou coletes salva-vidas em atividades com contato de água evitam afogamentos e possíveis mortes.</string>
-    <string name="answer_7">Trabalhos que exigem algum tipo de exposição prolongada deve ser acompanhada de pausas frequentes e rotação de trabalhadores a fim de evitar problemas de saúde imediatos ou futuros.</string>
-    <string name="answer_8">A sinalização no ambiente de trabalho auxilia na prevenção de riscos e devem ser utilizados para alertar possíveis acidentes.</string>
-    <string name="answer_9">Caso a carga transportada estiver com peso em excesso é preciso retirar a carga excessiva a fim de evitar problemas de saúde futuros e acidentes.</string>
-    <string name="answer_10">O pessoal envolvido nas atividades da fazenda de criação de camarões deverá usar EPIs específicos e receber treinamentos e atualizações para suas funções.</string>
-    <string name="answer_11">Saber nadar pode evitar acidentes como afogamentos fatais.</string>
-    <string name="answer_12">O uso de máscaras e luvas ao manusear produtos químicos é necessário para evitar intoxicações e queimaduras.</string>
-    <string name="answer_13">O Brasil não possui uma normativa especial de vacinas para trabalhadores da aquicultura, porém é recomendado que trabalhadores que têm contato direto com animais e água realizem as vacinas de Tétano, Hepatite A e B, febre tifóide, gripe e/ou febre amarela.</string>
-    <string name="answer_14">Pausas ou mudanças de posição durante os períodos de trabalho são essenciais quando as tarefas são repetitivas ou precisam ser realizadas em uma posição específica.</string>
-    <string name="answer_15">Luvas resistentes para manusear equipamentos ou máquinas afiadas é recomendada para evitar cortes e perfurações mais graves.</string>
-
+    <string name="answer_1">Always wear personal protective equipment to ensure your health and safety.</string>
+    <string name="answer_2">Keep the vegetation always low to avoid hiding and abundance of animals</string>
+    <string name="answer_3">Take pest control periodically to prevent insects, rodents and other animals or disease vectors in the workplace.</string>
+    <string name="answer_4">Clean and organized work environment avoids damage to the workers health and influence on the quality of the company.</string>
+    <string name="answer_5">Use of fuses, waterproofed and grounded electrical installations reduces the risk of electric shock.</string>
+    <string name="answer_6">The use of buoys, lines or lifejackets in water contact activities prevents drowning and possible deaths.</string>
+    <string name="answer_7">Jobs that require some type of prolonged exposure should be accompanied by frequent breaks and rotation of workers to avoid immediate or future health problems.</string>
+    <string name="answer_8">Signaling in the workplace helps to prevent risks and should be used to warn of possible accidents.</string>
+    <string name="answer_9">Use mechanical equipment to eliminate or reduce physical exertion. Use pulley, rail or crane to raise nets in the warehouse or transport loads. If the load carried is excess weight, the excess load must be removed in order to avoid future health problems and accidents.</string>
+    <string name="answer_10">Personnel involved in aquaculture activities should use specific PPE and receive training and updates for their functions.</string>
+    <string name="answer_11">Knowing how to swim or dive can avoid accidents like fatal drownings.</string>
+    <string name="answer_12">The use of masks and gloves when handling chemicals is necessary to avoid poisoning and burns. Check the product instruction manual for correct use of protective equipment. Whenever possible, replace toxic or lethal products. Chemicals should be stored in a well-ventilated area away from incompatible substances.</string>
+    <string name="answer_13">Most countries do not have a special regulation of vaccines for aquaculture workers, however, it is recommended that workers who have direct contact with animals and water carry out Tetanus, Hepatitis A and B vaccines, typhoid, influenza and / or yellow fever.</string>
+    <string name="answer_14">Pauses, maintaining good posture or changes of position during periods of work are essential when tasks are repetitive or need to be performed in a specific position.</string>
+    <string name="answer_15">Resistant gloves to handle sharp equipment or machines are recommended to avoid cuts and more serious punctures. There are high strength polyurethane gloves on the market that protect the worker against cuts and other injuries.</string>
 
     <string name="name_shared_pref">br.gov.rs.fepagro.aquasafe.preferences</string>
     <string name="score_checklist" translatable="false">scorechecklist</string>

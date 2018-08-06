@@ -59,14 +59,13 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/floating"
-                    android:textColor="@color/text_main"
-                    android:layout_gravity="center"/>
+                    android:textColor="@color/text_main" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:layout_gravity="center"
                     android:text="@string/equipment_float"
                     android:textColor="@color/text_main" />
             </LinearLayout>
@@ -100,7 +99,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:text="@string/protecting"
                     android:textColor="@color/text_main" />
@@ -110,7 +108,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:layout_gravity="center"
                     android:text="@string/cloths"
                     android:textColor="@color/text_main" />
             </LinearLayout>
@@ -155,9 +152,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:layout_gravity="center"
                     android:text="@string/face_protection"
-                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
 
@@ -191,9 +186,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:layout_gravity="center"
                     android:text="@string/hearing_protection"
-                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
@@ -237,7 +230,6 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/sign_protection"
-                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
 
@@ -271,7 +263,6 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/fire_protection"
-                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
@@ -315,7 +306,6 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/first_aid"
-                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
 
@@ -349,7 +339,6 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/shock_protection"
-                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
@@ -392,6 +381,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
+                    android:text="@string/protection"
+                    android:textColor="@color/text_main" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
                     android:text="@string/chemical_protection"
                     android:textColor="@color/text_main" />
             </LinearLayout>
@@ -419,6 +416,14 @@
                     android:scaleType="fitCenter"
                     android:tag="diving_protection"
                     android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/protection"
+                    android:textColor="@color/text_main" />
 
                 <TextView
                     android:layout_width="wrap_content"

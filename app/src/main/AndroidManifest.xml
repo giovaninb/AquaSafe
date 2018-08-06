@@ -69,13 +69,15 @@
         <activity
             android:name=".ProtectionEquipment.ProtectionEquipmentActivity"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".About.AboutActivity"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Hazard.MainSpecificActivity"
+            android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".Hazard.MainSpecificActivity"
-            android:parentActivityName=".MainActivity"></activity>
+
+        <activity android:name=".Tools_OSH.ToolsActivity"></activity>
     </application>
 
 </manifest>

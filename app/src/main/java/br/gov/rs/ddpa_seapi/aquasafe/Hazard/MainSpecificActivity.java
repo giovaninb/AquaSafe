@@ -3,12 +3,12 @@ package br.gov.rs.ddpa_seapi.aquasafe.Hazard;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
 import br.gov.rs.ddpa_seapi.aquasafe.R;
+import br.gov.rs.ddpa_seapi.aquasafe.Tools_OSH.ToolsActivity;
+
 
 public class MainSpecificActivity extends AppCompatActivity {
 
@@ -33,21 +33,21 @@ public class MainSpecificActivity extends AppCompatActivity {
     private View.OnClickListener click = new View.OnClickListener() {
 
         @Override
-        public void onClick(View view) {
-            switch (view.getId()) {
+        public void onClick(View v) {
+            switch (v.getId()) {
 
                 case R.id.risk_explanation:
-                    String valorTag = view.getTag().toString();
+                    String valorTag = v.getTag().toString();
                     Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.hierarchy_control:
-                    valorTag = view.getTag().toString();
+                    valorTag = v.getTag().toString();
                     Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.risks:
-                    valorTag = view.getTag().toString();
+                    valorTag = v.getTag().toString();
                   //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainSpecificActivity.this,HazardActivity.class);
+                    Intent intent = new Intent(MainSpecificActivity.this, HazardActivity.class);
                     startActivity(intent);
                     break;
             }

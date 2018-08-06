@@ -51,6 +51,7 @@
                 android:padding="15dp"
                 android:src="@drawable/physicist"
                 android:scaleType="fitCenter"
+                android:onClick="click"
                 android:tag="physicist"/>
 
             <TextView
