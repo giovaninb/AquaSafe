@@ -61,11 +61,12 @@
         <activity
             android:name=".Checklist.ChecklistActivity"
             android:label="@string/title_activity_checklist"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Checklist.CheckActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Checklist.CheckActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Checklist.CheckActivity"/>
         <activity
             android:name=".ProtectionEquipment.ProtectionEquipmentActivity"
             android:parentActivityName=".MainActivity" />

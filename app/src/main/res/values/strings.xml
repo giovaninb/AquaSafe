@@ -158,6 +158,10 @@
     <string name="fill_checklist">Preencher Checklist</string>
     <string name="back_result">Rever último resultado</string>
 
+    <string name="general_checklist">Checklist Geral</string>
+    <string name="management_checklist">CheckList Gerenciamento</string>
+    <string name="workers_checklist">Checklist Trabalhadores</string>
+
     <string name="ok">OK</string>
 
     <string name="checklist_text">Selecione as práticas adotadas em seu local de trabalho:</string>
@@ -258,4 +262,7 @@
     <string name="protection">Proteção</string>
     <string name="chemical_protection">de Produtos Químicos</string>
     <string name="diving_protection">durante mergulho</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -159,6 +159,10 @@
     <string name="fill_checklist">Fill Checklist</string>
     <string name="back_result">Review last result</string>
 
+    <string name="general_checklist">General Checklist</string>
+    <string name="management_checklist">Management Checklist</string>
+    <string name="workers_checklist">Workers Checklist</string>
+
     <string name="ok">OK</string>
 
     <string name="checklist_text">Select the practices adopted at your workplace</string>

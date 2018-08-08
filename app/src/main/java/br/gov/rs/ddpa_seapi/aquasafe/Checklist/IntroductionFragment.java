@@ -36,6 +36,7 @@ public class IntroductionFragment extends Fragment{
         button.setOnClickListener(v -> {
             startActivity(new Intent(getActivity(), CheckActivity.class));
 
+
         });
         return view;
     }

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginTop="56dp"
+    tools:context=".Checklist.GeneralFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:layout_alignParentLeft="true"
+            tools:ignore="RtlCompat">
+
+
+            <Button
+                android:id="@+id/generalChecklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:gravity="center"
+                android:tag="generalChecklist"
+                android:text="@string/general_checklist"
+                android:textColor="#fff" />
+
+
+            <Button
+                android:id="@+id/managementChecklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:gravity="center"
+                android:tag="managementChecklist"
+                android:text="@string/management_checklist"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/workerstChecklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:gravity="center"
+                android:tag="workersChecklist"
+                android:text="@string/workers_checklist"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
