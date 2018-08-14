@@ -61,12 +61,11 @@
         <activity
             android:name=".Checklist.ChecklistActivity"
             android:label="@string/title_activity_checklist"
-            android:parentActivityName=".Checklist.CheckActivity"
+            android:parentActivityName=".Checklist.GeneralChecklistActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Checklist.CheckActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName=".Checklist.CheckActivity"/>
+            android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
             android:name=".ProtectionEquipment.ProtectionEquipmentActivity"
             android:parentActivityName=".MainActivity" />
@@ -76,9 +75,10 @@
         <activity
             android:name=".Hazard.MainSpecificActivity"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".Tools_OSH.ToolsActivity" />
 
-
-        <activity android:name=".Tools_OSH.ToolsActivity"></activity>
+        <activity android:name=".Checklist.GeneralChecklistActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

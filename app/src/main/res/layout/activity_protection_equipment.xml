@@ -154,6 +154,13 @@
                     android:layout_weight="1"
                     android:text="@string/face_protection"
                     android:textColor="@color/text_main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
 
             <LinearLayout
@@ -187,6 +194,13 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/hearing_protection"
+                    android:textColor="@color/text_main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text=""
                     android:textColor="@color/text_main"/>
             </LinearLayout>
         </LinearLayout>
@@ -231,6 +245,13 @@
                     android:layout_weight="1"
                     android:text="@string/sign_protection"
                     android:textColor="@color/text_main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
 
             <LinearLayout
@@ -257,6 +278,13 @@
                     android:tag="fire_protection"
                     android:onClick="click"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/protection_fire"
+                    android:textColor="@color/text_main"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -307,6 +335,13 @@
                     android:layout_weight="1"
                     android:text="@string/first_aid"
                     android:textColor="@color/text_main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/text_main"/>
             </LinearLayout>
 
             <LinearLayout
@@ -333,6 +368,13 @@
                     android:tag="electrical_shock_protection"
                     android:onClick="click"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/protection"
+                    android:textColor="@color/text_main"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

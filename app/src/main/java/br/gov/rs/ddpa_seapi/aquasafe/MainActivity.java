@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import br.gov.rs.ddpa_seapi.aquasafe.About.AboutActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.Checklist.ChecklistActivity;
+import br.gov.rs.ddpa_seapi.aquasafe.Checklist.GeneralChecklistActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.Hazard.MainSpecificActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.ProtectionEquipment.ProtectionEquipmentActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.Tools_OSH.ToolsActivity;
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.checklist:
                     valorTag = v.getTag().toString();
                  //   Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    intent = new Intent(MainActivity.this, ChecklistActivity.class);
+                    intent = new Intent(MainActivity.this, GeneralChecklistActivity.class);
                     startActivity(intent);
                     break;
 

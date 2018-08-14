@@ -255,9 +255,11 @@
     <string name="face_protection">Face Protection</string>
     <string name="hearing_protection">Hearing Protection</string>
     <string name="sign_protection">Signalization</string>
-    <string name="fire_protection">Fire Protection</string>
+    <string name="fire_protection">Protection</string>
+    <string name="protection_fire">Fire</string>
     <string name="first_aid">First Aid</string>
-    <string name="shock_protection">Shock Protection</string>
+    <string name="protection">Shock</string>
+    <string name="shock_protection">Protection</string>
     <string name="chemical_protection">Chemical Protection</string>
     <string name="diving_protection">Diving Protection</string>
 

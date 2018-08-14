@@ -82,4 +82,5 @@ public class IntroductionFragment extends Fragment{
         }
         return result;
     }
+
 }
