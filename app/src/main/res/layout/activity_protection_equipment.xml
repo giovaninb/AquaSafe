@@ -61,13 +61,6 @@
                     android:text="@string/floating"
                     android:textColor="@color/text_main" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/equipment_float"
-                    android:textColor="@color/text_main" />
             </LinearLayout>
 
             <LinearLayout
@@ -103,13 +96,7 @@
                     android:text="@string/protecting"
                     android:textColor="@color/text_main" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/cloths"
-                    android:textColor="@color/text_main" />
+
             </LinearLayout>
         </LinearLayout>
 
@@ -154,13 +141,7 @@
                     android:layout_weight="1"
                     android:text="@string/face_protection"
                     android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/text_main"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -195,13 +176,7 @@
                     android:layout_weight="1"
                     android:text="@string/hearing_protection"
                     android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/text_main"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -245,13 +220,7 @@
                     android:layout_weight="1"
                     android:text="@string/sign_protection"
                     android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/text_main"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -285,13 +254,7 @@
                     android:layout_weight="1"
                     android:text="@string/protection_fire"
                     android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/fire_protection"
-                    android:textColor="@color/text_main"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -335,13 +298,7 @@
                     android:layout_weight="1"
                     android:text="@string/first_aid"
                     android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/text_main"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -373,15 +330,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/protection"
+                    android:text="@string/shock"
                     android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/shock_protection"
-                    android:textColor="@color/text_main"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -423,16 +374,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/protection"
-                    android:textColor="@color/text_main" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
                     android:text="@string/chemical_protection"
                     android:textColor="@color/text_main" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -464,16 +408,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/protection"
-                    android:textColor="@color/text_main" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
                     android:text="@string/diving_protection"
                     android:textColor="@color/text_main" />
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

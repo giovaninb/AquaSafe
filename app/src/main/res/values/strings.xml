@@ -249,20 +249,18 @@
 
     <string name="epi">EPI</string>
     <string name="epc">EPC</string>
-    <string name="floating">Equipamento</string>
-    <string name="equipment_float"> de Flutuação</string>
-    <string name="protecting">Roupas</string>
-    <string name="cloths">de Proteção</string>
-    <string name="face_protection">Proteção Facial</string>
-    <string name="hearing_protection">Proteção Auditiva</string>
-    <string name="sign_protection">Sinalização</string>
-    <string name="protection_fire">Proteção</string>
-    <string name="fire_protection">de Incêndio</string>
-    <string name="first_aid">Primeiros Socorros</string>
-    <string name="shock_protection">contra choques</string>
-    <string name="protection">Proteção</string>
-    <string name="chemical_protection">de Produtos Químicos</string>
-    <string name="diving_protection">durante mergulho</string>
+
+    <string name="floating">Equipamentos de flutuação</string>
+    <string name="protecting">Roupas de proteção</string>
+    <string name="face_protection">Proteção facial</string>
+    <string name="hearing_protection">Proteção auditiva</string>
+    <string name="sign_protection">Sinalização de Proteção</string>
+    <string name="protection_fire">Proteção de incêndio</string>
+    <string name="first_aid">Primeiros socorros</string>
+    <string name="shock">Proteção contra choque</string>
+    <string name="chemical_protection">Produtos químicos</string>
+    <string name="diving_protection">Proteção durante mergulho</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

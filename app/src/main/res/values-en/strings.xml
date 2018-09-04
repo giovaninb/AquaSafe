@@ -248,20 +248,16 @@
 
     <string name="title_email">Aplicativo AquaSafe</string>
 
-    <string name="floating">Floating</string>
-    <string name="equipment_float">Equipment</string>
-    <string name="protecting">Protecting</string>
-    <string name="cloths">Cloths</string>
-    <string name="face_protection">Face Protection</string>
-    <string name="hearing_protection">Hearing Protection</string>
-    <string name="sign_protection">Signalization</string>
-    <string name="fire_protection">Protection</string>
-    <string name="protection_fire">Fire</string>
-    <string name="first_aid">First Aid</string>
-    <string name="protection">Shock</string>
-    <string name="shock_protection">Protection</string>
-    <string name="chemical_protection">Chemical Protection</string>
-    <string name="diving_protection">Diving Protection</string>
+    <string name="floating">Floating Equipment</string>
+    <string name="protecting">Protection clothes</string>
+    <string name="face_protection">Face protection</string>
+    <string name="hearing_protection">Ear protection</string>
+    <string name="sign_protection">Sign protection</string>
+    <string name="protection_fire">Fire protection</string>
+    <string name="first_aid">First aid</string>
+    <string name="shock">Shock protection</string>
+    <string name="chemical_protection">Chemical protection</string>
+    <string name="diving_protection">Diving protection</string>
 
 
 </resources>
