@@ -17,7 +17,7 @@ public class BiologicalActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.biological_title);
+        getSupportActionBar().setTitle(R.string.biologic);
         getSupportActionBar().setLogo(R.drawable.toolbar_biological);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 

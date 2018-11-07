@@ -9,185 +9,222 @@
     android:background="@color/background"
     tools:showIn="@layout/activity_accident">
 
-
-    <LinearLayout
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="6"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:gravity="center"
+        android:layout_gravity="center|top"
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_alignParentLeft="true"
         tools:ignore="RtlCompat">
 
-    <!--Primeira Linha -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="2dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp">
+        <!--Primeira Linha: Slips and Drowning -->
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
-            <ImageButton
-                android:id="@+id/slide"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/button_selector"
-                android:clickable="true"
-                android:padding="15dp"
-                android:src="@drawable/slide"
-                android:scaleType="fitCenter"
-                android:tag="slide"
-                android:onClick="click"/>
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginTop="10dp"
-                android:text="@string/slide"
-                android:textColor="@color/text_main" />
+                <ImageButton
+                    android:id="@+id/slips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/slips"
+                    android:scaleType="fitCenter"
+                    android:tag="slips"
+                    android:onClick="click"/>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:id="@+id/drowning"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/button_selector"
-                android:clickable="true"
-                android:padding="15dp"
-                android:src="@drawable/drowning"
-                android:scaleType="fitCenter"
-                android:tag="drowning"
-                android:onClick="click"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="@string/drowning"
-                android:textColor="@color/text_main"/>
-        </LinearLayout>
-    </LinearLayout>
-
-    <!--Segunda Linha -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="2dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:id="@+id/cut"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/button_selector"
-                android:clickable="true"
-                android:padding="15dp"
-                android:src="@drawable/cut"
-                android:scaleType="fitCenter"
-                android:tag="cut"
-                android:onClick="click"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="@string/cut"
-                android:textColor="@color/text_main"
-                android:textAlignment="center"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text=""
-                android:textColor="@color/text_main"
-                android:textAlignment="center"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:id="@+id/accident_machine"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/button_selector"
-                android:clickable="true"
-                android:padding="15dp"
-                android:src="@drawable/accident_machine"
-                android:scaleType="fitCenter"
-                android:tag="accident_machine"
-                android:onClick="click"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="@string/accident"
-                android:textColor="@color/text_main"
-                android:textAlignment="center"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="@string/with_machine"
-                android:textColor="@color/text_main"
-                android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/slips"
+                    android:textColor="@color/text_main" />
 
             </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/drowning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:src="@drawable/drowning"
+                    android:scaleType="fitCenter"
+                    android:tag="drowning"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/drowning"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+        </TableRow>
+
+        <!--Segunda Linha: Cutting and Drilling and Machinery-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/utting_drilling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/cutting_drilling"
+                    android:scaleType="fitCenter"
+                    android:tag="cutting_drilling"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/cutting_drilling"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/machinery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/machinery"
+                    android:scaleType="fitCenter"
+                    android:tag="machinery"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/machinery"
+                    android:textColor="@color/text_main"/>
+
+            </LinearLayout>
+        </TableRow>
+
+        <!--Terceira Linha: Night Work -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/night_work"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/nigth_work_blue"
+                    android:scaleType="fitCenter"
+                    android:tag="night_work"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/night_work"
+                    android:textColor="@color/text_main"/>
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
 </ScrollView>

@@ -18,7 +18,7 @@ public class ErgonomicActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.ergonomic_title);
+        getSupportActionBar().setTitle(R.string.ergonomic);
         getSupportActionBar().setLogo(R.drawable.toolbar_ergonomic);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
     }

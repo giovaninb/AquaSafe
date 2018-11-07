@@ -23,11 +23,11 @@ public class HazardActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
 
-        ImageButton physicist_button = (ImageButton) findViewById(R.id.physicist);
+        ImageButton physicist_button = (ImageButton) findViewById(R.id.physic);
         ImageButton chemical_button = (ImageButton) findViewById(R.id.chemical);
-        ImageButton biological_button = (ImageButton) findViewById(R.id.biological);
+        ImageButton biological_button = (ImageButton) findViewById(R.id.biologic);
         ImageButton ergonomic_button = (ImageButton) findViewById(R.id.ergonomic);
-        ImageButton accident_button = (ImageButton) findViewById(R.id.accident);
+        ImageButton accident_button = (ImageButton) findViewById(R.id.injurious_incidents);
 
         physicist_button.setOnClickListener(click);
         chemical_button.setOnClickListener(click);
@@ -42,7 +42,7 @@ public class HazardActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
 
-                case R.id.physicist:
+                case R.id.physic:
                     String valorTag = v.getTag().toString();
                    // Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(HazardActivity.this, PhysicistActivity.class);
@@ -54,7 +54,7 @@ public class HazardActivity extends AppCompatActivity {
                     intent = new Intent(HazardActivity.this, ChemicalActivity.class);
                     startActivity(intent);
                     break;
-                case R.id.biological:
+                case R.id.biologic:
                     valorTag = v.getTag().toString();
                    // Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, BiologicalActivity.class);
@@ -66,7 +66,7 @@ public class HazardActivity extends AppCompatActivity {
                     intent = new Intent(HazardActivity.this, ErgonomicActivity.class);
                     startActivity(intent);
                     break;
-                case R.id.accident:
+                case R.id.injurious_incidents:
                     valorTag = v.getTag().toString();
                   //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
                     intent = new Intent(HazardActivity.this, AccidentActivity.class);

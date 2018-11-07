@@ -18,7 +18,7 @@ public class ChemicalActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.chemical_title);
+        getSupportActionBar().setTitle(R.string.chemical);
         getSupportActionBar().setLogo(R.drawable.toolbar_chemical);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
     }

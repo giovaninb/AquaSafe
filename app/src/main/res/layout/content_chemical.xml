@@ -9,22 +9,24 @@
     android:background="@color/background"
     tools:showIn="@layout/activity_chemical">
 
-    <LinearLayout
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="6"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:gravity="center"
+        android:layout_gravity="center|top"
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_alignParentLeft="true"
         tools:ignore="RtlCompat">
 
-        <!--Primeira Linha -->
-        <LinearLayout
+        <!--Primeira Linha: dust_gases -->
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
@@ -34,24 +36,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/gas"
+                    android:id="@+id/dust_gases"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:textAlignment="center"
                     android:padding="15dp"
-                    android:src="@drawable/gas"
+                    android:src="@drawable/dust_gases"
                     android:scaleType="fitCenter"
-                    android:tag="gas"
+                    android:tag="dust_gases"
                     android:onClick="click"/>
 
                 <TextView
@@ -59,15 +60,19 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/gas"
+                    android:gravity="center"
+                    android:text="@string/dust_gases"
                     android:textColor="@color/text_main" />
-            </LinearLayout>
-        </LinearLayout>
 
-        <!--Segunda Linha -->
-        <LinearLayout
+            </LinearLayout>
+        </TableRow>
+
+        <!--Segunda Linha: Produtos -->
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
@@ -91,6 +96,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:textAlignment="center"
                     android:padding="15dp"
                     android:src="@drawable/products"
                     android:scaleType="fitCenter"
@@ -100,13 +106,57 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/products"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+        </TableRow>
+
+        <!--Terceira Linha: Resistência -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/resistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/resistance"
+                    android:scaleType="fitCenter"
+                    android:tag="resistance"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/products"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="@string/resistance"
                     android:textColor="@color/text_main"/>
-            </LinearLayout>
-        </LinearLayout>
 
-    </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
 </ScrollView>

@@ -9,21 +9,21 @@
     android:background="@color/background"
     tools:showIn="@layout/activity_physicist">
 
-
-    <LinearLayout
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="6"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:gravity="center"
+        android:layout_gravity="center|top"
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_alignParentLeft="true"
         tools:ignore="RtlCompat">
 
-        <!--Primeira Linha -->
-        <LinearLayout
+        <!--Primeira Linha: Eletrocussão e Ruído -->
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="2dp"
@@ -36,8 +36,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
@@ -50,6 +48,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:textAlignment="center"
                     android:padding="15dp"
                     android:src="@drawable/electrocution"
                     android:scaleType="fitCenter"
@@ -61,60 +60,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
+                    android:gravity="center"
                     android:text="@string/electrocution"
                     android:textColor="@color/text_main" />
-            </LinearLayout>
 
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/radiation"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/radiation"
-                    android:scaleType="fitCenter"
-                    android:tag="radiation"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/radiation"
-                    android:textColor="@color/text_main" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <!--Segunda Linha -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="50dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
@@ -128,6 +82,7 @@
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
+                    android:textAlignment="center"
                     android:src="@drawable/noise"
                     android:scaleType="fitCenter"
                     android:tag="noise"
@@ -137,11 +92,138 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:layout_marginTop="10dp"
                     android:text="@string/noise"
                     android:textColor="@color/text_main" />
             </LinearLayout>
+        </TableRow>
 
+        <!--Segunda Linha: Radiação Solar e Incêncidos e Explosões -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/solar_radiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/solar_radiation"
+                    android:scaleType="fitCenter"
+                    android:tag="solar_radiation"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/solar_radiation"
+                    android:textColor="@color/text_main" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/fire_explosion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/fire_explosion"
+                    android:scaleType="fitCenter"
+                    android:tag="fire_explosion"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/fire_explosion"
+                    android:textColor="@color/text_main"/>
+
+            </LinearLayout>
+        </TableRow>
+
+        <!--Terceira Linha: Temperaturas Extremas e Incêndios e Explosões -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/extreme_temperatures"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/extreme_temperatures"
+                    android:scaleType="fitCenter"
+                    android:tag="extreme_temperatures"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/extreme_temperatures"
+                    android:textColor="@color/text_main"/>
+
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -158,6 +240,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:textAlignment="center"
                     android:padding="15dp"
                     android:src="@drawable/humidity"
                     android:scaleType="fitCenter"
@@ -169,100 +252,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:text="@string/humidity"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
-        </LinearLayout>
-
-        <!--Terceira Linha -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="50dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/temperature"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/temperature"
-                    android:scaleType="fitCenter"
-                    android:tag="temperature"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/temperature"
-                    android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/extreme"
-                    android:textColor="@color/text_main"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/exploding"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/exploding"
-                    android:scaleType="fitCenter"
-                    android:tag="exploding"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/fire"
-                    android:textColor="@color/text_main"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/exploding"
-                    android:textColor="@color/text_main"/>
-            </LinearLayout>
-
-        </LinearLayout>
-    </LinearLayout>
-
+        </TableRow>
+    </TableLayout>
 </ScrollView>

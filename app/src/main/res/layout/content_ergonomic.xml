@@ -9,20 +9,67 @@
     android:background="@color/background"
     tools:showIn="@layout/activity_ergonomic">
 
-    <LinearLayout
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="6"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:gravity="center"
+        android:layout_gravity="center|top"
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_alignParentLeft="true"
         tools:ignore="RtlCompat">
 
-        <!--Primeira Linha -->
-        <LinearLayout
+        <!--Primeira Linha: Excessive physical effort -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/excessive_physical_effort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:padding="15dp"
+                    android:src="@drawable/excessive_physical_effort"
+                    android:scaleType="fitCenter"
+                    android:tag="excessive_physical_effort"
+                    android:onClick="click"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/excessive_physical_effort"
+                    android:textColor="@color/text_main" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <!--Segunda Linha: Psychosocial -->
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="2dp"
@@ -37,112 +84,6 @@
                 android:layout_weight="1"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/injuries"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/injuries"
-                    android:scaleType="fitCenter"
-                    android:tag="injuries"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/injuries"
-                    android:textColor="@color/text_main" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/night_work"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/night_work"
-                    android:scaleType="fitCenter"
-                    android:tag="night_work"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/night_work"
-                    android:textColor="@color/text_main"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <!--Segunda Linha -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="50dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/heavy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_selector"
-                    android:clickable="true"
-                    android:padding="15dp"
-                    android:src="@drawable/heavy"
-                    android:scaleType="fitCenter"
-                    android:tag="heavy"
-                    android:onClick="click"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/heavy"
-                    android:textColor="@color/text_main" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center"
@@ -155,6 +96,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:textAlignment="center"
                     android:padding="15dp"
                     android:src="@drawable/psychosocial"
                     android:scaleType="fitCenter"
@@ -164,15 +106,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
                     android:text="@string/psychosocial"
-                    android:textColor="@color/text_main"/>
+                    android:textColor="@color/text_main" />
             </LinearLayout>
-        </LinearLayout>
+        </TableRow>
 
-        <!--Terceira Linha -->
-        <LinearLayout
+        <!--Terceira Linha: Excessive Workday -->
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="2dp"
@@ -193,16 +137,17 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/excessive_working"
+                    android:id="@+id/excessive_workday"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:textAlignment="center"
                     android:padding="15dp"
-                    android:src="@drawable/excessive_working"
+                    android:src="@drawable/excessive_workday"
                     android:scaleType="fitCenter"
-                    android:tag="excessive_working"
+                    android:tag="excessive_workday"
                     android:onClick="click"/>
 
                 <TextView
@@ -210,11 +155,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/excessive_working"
+                    android:gravity="center"
+                    android:text="@string/excessive_workday"
                     android:textColor="@color/text_main" />
-
             </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
+        </TableRow>
+    </TableLayout>
 </ScrollView>
