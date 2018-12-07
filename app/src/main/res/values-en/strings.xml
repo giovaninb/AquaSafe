@@ -20,7 +20,7 @@
     <string name="solar_radiation">Solar Radiation</string>
     <string name="fire_explosion">Fire and Explosion</string>
     <string name="extreme_temperatures">Extreme \n Temperatures</string>
-    <string name="humidity">Humidity and \n exposure to water</string>
+    <string name="humidity">Humidity and \nwetwork</string>
     <string name="dust_gases">Dust and Gases</string>
     <string name="products">Substances, compounds \n or products chemical</string>
     <string name="resistance">Antimicrobial Resistance (AMR)</string>
@@ -35,73 +35,84 @@
     <string name="drowning">Drowning</string>
     <string name="cutting_drilling">Cutting and Drilling</string>
 
-    <string name="physic">Physic</string>
+    <string name="physic">Physical</string>
     <string name="chemical">Chemical</string>
     <string name="biologic">Biologic</string>
     <string name="ergonomic">Ergonomic</string>
     <string name="injurious_incidents">Injurious Incidents</string>
 
-
-    <string name="cause">Hazard</string>
-    <string name="type_hazard">Risks</string>
+    <string name="cause">Hazard Source</string>
+    <string name="type_hazard">Health Risks</string>
     <string name="control">Prevention and Control</string>
 
     <string name="cause_electrocution">"Water contact with power transmission lines \n
 Lack of grounding systems \n
-Shocks Occurred by Humid Locations \n
-Shocks through standby power when main power is turned off for maintenance reasons \n
+Electric shock caused by working in high humidity locations \n
+Electric shocks caused by standby power when main power is turned off for maintenance
+reasons \n
 Bare wires"</string>
     <string name="hazard_electrocution">"Burns \n
-Involuntary Muscle Contraction \n
+Abnormal and irregular heart rhythm \n
+Nerve disorders \n
+Involuntary Muscle Contraction (spasm) \n
 Death"</string>
     <string name="control_electrocution">"<b>Elimination or replacement:</b>
-Use circuit breakers (GFCI) to reduce the likelihood of electric shock; earth ground fault circuit breakers, fuses and circuit breakers \n
-
+Use Ground Fault Circuit Interrupters (GFCI), fuses and circuit breakers to reduce the
+likelihood of electric shock \n
 <b>Engineering controls:</b>
 Ensure the use of fuses and an adequate grounding system \n
 Make sure all cables are intact and waterproof \n
 Avoid electric overload
 
 <b>Administrative and PPE:</b>
-To make workers aware of the risks of electric shock by equipment close to the water through training \n
-Electrical installations must be reviewed and guaranteed by a qualified \n
-Never work alone so that in case of an electric shock, have someone who can turn off the power \n
+Training workers on the risks of electric shock associated with using equipment
+close to water \n
+Electrical installations must be reviewed and guaranteed by a qualified electrician \n
+Never work alone so that in case of an electric shock, you have someone who can turn off the power \n
 The power must be turned off when the equipment is handled \n
-Ensure equipment maintenance \n
-Indicate equipment with risk of electric shock"</string>
+Ensure regular equipment maintenance \n
+Place electrical hazard signs on equipment with risk of electric shock</string>
 
-    <string name="cause_noise">"Constant exposure to sounds emitted by the boat engine \n
-Oyster washing machines \n
-High pressure washers"</string>
-    <string name="hazard_noise">"Physical and psychological stress \n
-Reduced productivity \n
-Interference in communication and concentration \n
+    <string name="cause_noise">"Constant exposure to noise emitted by vehicles and machines (boat engine, Oyster washing
+machines and high pressure washers) and water movements"</string>
+    <string name="hazard_noise">"Temporary or permanent hearing loss \n
+Inner ear injury (Acoustic trauma) from sudden very loud noise exposure \n
+Ringing/buzzing in the ear \n
+Physical and psychological stress \n
+Annoyance \n
+Rapid heart rate and hypertension \n
+Sleep disturbance \n
 Headaches \n
-Temporary or permanent hearing loss"</string>
+Interference in communication and concentration"</string>
     <string name="control_noise">"<b>Elimination or replacement:</b>
 Replacement for less noise equipment
 
 <b>Engineering controls:</b>
-Build barriers that prevent noise from reaching the worker.
+Build barriers that prevent noise from reaching the worker \n
+Isolate the noise source in an insulated room or enclosure \n
+Maintain tools and equipment routinely\n
 
 <b>Administrative and PPE:</b>
 Using headset \n
-Rotating work \n
+Work Rotation \n
 Intervals between activities \n
-Wear personal protective equipment (PPE)"</string>
+Wear hearing protectors \n
+Medical surveillance to detect early signs of hearing loss"</string>
 
-    <string name="cause_solar_radiation">"Frequent exposure of the individual to radioactive agents. In aquaculture exposure to ultraviolet radiation from the sun is the most frequent"</string>
+    <string name="cause_solar_radiation">"Exposure to ultraviolet radiation from the sun"</string>
     <string name="hazard_solar_radiation">"Skin cancer \n
 Dehydration \n
 Headache \n
 Skin burns (first and second degree) \n
 Cataract \n
+Blindness \n
 Insolation \n
 Dermatitis"</string>
     <string name="control_solar_radiation">"<b>Elimination or replacement:</b>
 Working in covered areas and protected from the sun
 
 <b>Engineering controls:</b>
+N.A
 
 <b>Administrative and PPE:</b>
 Wear sunscreen, hats and sunglasses \n
@@ -109,64 +120,75 @@ Reduce exposure to sunlight with labor turnover \n
 Perform skin examinations at suspect points"</string>
 
     <string name="cause_fire_explosion">"Damaged power supply \n
-Cigarette waste \n
+Faulty electrical equipment \n
+Improperly discarded cigarettes \n
 Incorrect use and storage of flammable products \n
-Gas leakage \n
+Flammable gas leakage \n
 Positive Battery Terminal Exposed on Boats"</string>
     <string name="hazard_fire_explosion">"Burns \n
 Disability as a result of serious sequelae \n
 Death"</string>
-    <string name="control_fire_explosion">"<b>Elimination or replacement:</b>
+    <string name="control_fire_explosion"> fire extinguishers and check expiration d"<b>Elimination or replacement:</b>
 Replace flammable substances
 
 <b>Engineering controls:</b>
 Cover terminals to avoid sparks \n
 Keep spark sources away from oxygen tanks and clothing \n
-Install sprinkler suppression systems and exhaust fans
+Install sprinkler suppression systems and exhaust fans \n
+Regular maintenance of electrical equipment
 
 <b>Administrative and PPE:</b>
 No smoking around sources of fires and explosions \n
-Keep separate incompatible substances \n
-Training and Signaling \n
+Provide designated smoking area and enforce proper extinguishing of smoking materials \n
+Good housekeeping to avoid clutter \n
+Ensure safe use and storage of chemical substances \n
+Training and signaling \n
 Detect and repair leaks \n
 Have fire extinguishers and check expiration dates"</string>
 
-    <string name="cause_extreme_temperatures">"Intense exposure to the solar rays at very high temperatures because of openwork \n
+    <string name="cause_extreme_temperatures">"Intense exposure to the sun at very high temperatures because of outdoor work \n
 Long exposure to very low temperatures, wind, rain and water"</string>
-    <string name="hazard_extreme_temperatures">"Insolation \n
-Burns \n
+    <string name="hazard_extreme_temperatures"><b>High temperature</b> \n
+Insolation \n
+Sunburns \n
 Dehydration \n
-Colds \n
-Flu \n
-Pneumonia \n
-Hypothermia"</string>
+Heat rashes, swelling, cramps and exhaustion \n
+Heat stroke\n
+<b>Low Temperature</b> \n
+Hypothermia \n
+Frostbite \n
+Chilblain</string>
     <string name="control_extreme_temperatures">"<b>Elimination or replacement:</b>
-Working in covered areas
+<b>High temperature:</b> Working in covered areas; avoid working in extremely hot environments
+<b>Low temperature:</b> Avoid working in extremely cold environments
 
 <b>Engineering controls:</b>
-Ventilation, exhaust fans and thermal insulation
+<b>High temperature:</b> automation and mechanization of tasks; ventilation and air
+conditioning, installing exhaust fans; insulating hot surfaces; shielding
+<b>Low temperature: </b>Thermal insulation
 
 <b>Administrative and PPE:</b>
-Wear sunscreens, caps or hats \n
-Wear suitable protective clothing and shoes \n
-Rotation of work \n
-Intervals for fluid intake avoiding dehydration at elevated temperatures \n
-Intervals for the ingestion of hot drinks avoiding the consequences of low temperatures"</string>
+<b>High temperature:</b>Rotation of work; shorten exposure duration and use frequent rest breaks; Intervals for fluid intake
+avoiding dehydration at elevated temperatures; train workers in recognition of symptoms of heat
+exposure; wear sunscreens, caps or hats; wear loose clothing that will allow sweat evaporation. \n
+<b>Low temperature:</b> Intervals for the ingestion of hot drinks avoiding the consequences of low
+temperatures; Stay dry; keep active; rotation of work; train workers in recognition of symptoms of
+low temperature exposure; dress in layers of warm clothing including water proof and wind resistant wear;</string>
 
     <string name="cause_humidity">"Exposure during the occurrence of rainfall \n
 Exposure to seawater, tanks and ponds \n
 Exposure to water used in cleaning and damp locations"</string>
-    <string name="hazard_humidity">"Drop in blood pressure \n
-Dryness of upper airways, mucous membranes and skin \n
-Slides and falls \n
-Respiratory, urinary and other infectious diseases"</string>
+    <string name="hazard_humidity">"Skin disease (irritant dermatitis) \n
+Slips, trips and falls"</string>
     <string name="control_humidity">"<b>Elimination or replacement:</b>
+N.A
 
 <b>Engineering controls:</b>
 Building barriers that avoid direct contact with moisture
 
 <b>Administrative and PPE:</b>
 Intervals between activities \n
+Minimize wet work to less than 2 hours \n
 Wear personal protective equipment (PPE) such as gloves, boots, clothing and overalls"</string>
 
     <string name="cause_dust_gases">"Earth moving and dust forming jobs \n
@@ -244,65 +266,63 @@ Change into clean clothes kept in an enclosed space \n
 Avoid placing personal items, such as mobile phones, in production areas \n
 Use appropriate personal protective equipment (PPE)"</string>
 
-    <string name="cause_zoonoses">"Handling or activities that promote direct contact with pathogens \n
-Unintentional contact \n
-Contact through water \n
-Contact through contact with animals"</string>
-    <string name="hazard_zoonoses">"Infections \n
-Infestation of pathogens in the workplace"</string>
+    <string name="cause_zoonoses">"Handling or activities that promote direct unintentional contact with pathogens \n
+Contact through contaminated water \n
+Contact through interaction with animals"</string>
+    <string name="hazard_zoonoses">"Infections"</string>
     <string name="control_zoonoses">"<b>Elimination or replacement:</b>
 Control and elimination of pests and vectors
 
 <b>Engineering controls:</b>
 Control of vegetation around tanks and installations \n
-Vaccination
 
 <b>Administrative and PPE:</b>
 Sanitation \n
-Appropriate personal protective equipment"</string>
+Appropriate personal protective equipment \n
+Vaccination"</string>
 
     <string name="cause_animals">"<b>Venomous</b>
-The biological hazard is exacerbated when there is manipulation of animals with sharp teeth or spines that can cause cuts and stings \n
-Snake bites and scorpions present in vegetation and water \n
-Contact with poisonous animals such as taturana, frogs and fish \n
+Handling fish with sharp teeth or spines that can cause cuts and stings \n
+Poisonous snakes, and scorpions, spiders, caterpillars, mosquitos, wasps and bees present in vegetation and water \n
 
 <b>Wild</b>
 Bites and attacks of alligators and other animals (in regions favorable to the appearance of these animals)"</string>
     <string name="hazard_animals">"Stings \n
-Deep cuts \n
+Bites \n
+Deep cuts that may be infected \n
 Intense pain \n
 Wound-borne infections \n
-Skin or generalized reactions (allergies), depending on the causative agent, leading to death \n
-Bites \n
+Skin or generalized reactions (allergies), depending on the causative agent \n
 Poisoning \n
 Death"</string>
     <string name="control_animals">"<b>Elimination or replacement:</b>
+N.A
 
 <b>Engineering controls:</b>
 Control of vegetation around tanks and installations
+Setting traps to catch venomous animals and insects
 
 <b>Administrative and PPE:</b>
 Put in sight emergency phones and local poisoning centers \n
 Closed shoes and gloves for animal handling"</string>
 
-    <string name="cause_excessive_physical_effort">"Musculoskeletal problems are related to the loading of excess weight, poor posture during the handling of the animals in the harvesting process, falls and slips \n
+    <string name="cause_excessive_physical_effort">"lLoading of excess weight \n
+Awkward work posture during the handling of the animals in the harvesting process \n
 Manual filling of live tanks with water \n
-Download fish from tanks or nets \n
+Loading fish from tanks or nets \n
 Netting and lifting of fish loads \n
 Netting, weighing and transfer of fish \n
 Repetitive movements \n
-Extended position \n
+Static loading (holding one position for extended period of time) \n
 Load full fishing nets \n
 Carrying sacks of feed without mechanical aid"</string>
-    <string name="hazard_excessive_physical_effort">"Retreating water can cause injury or overturning of a worker, resulting in serious injury \n
-Repetitive stress injury (RSI) \n
+    <string name="hazard_excessive_physical_effort">"
+Low back, neck and shoulder pain \n
+Repetitive strain injury (RSI) \n
 Muscle aches and pains \n
-Tingling \n
 Weakness \n
 Stiffness \n
-Fatigue \n
-Muscle pain in the limbs and spine \n
-Wear of musculoskeletal structures"</string>
+Fatigue"</string>
     <string name="control_excessive_physical_effort">"<b>Elimination or replacement:</b>
 Use mechanical equipment to eliminate or reduce physical exertion \n
 Use pulley, rail or crane to raise nets at the expense or transport loads
@@ -314,18 +334,20 @@ Decrease tank height to improve lifting postures
 Maintain good posture and frequently changing \n
 Where possible, reduce the weight of the load \n
 Reduce the weight of high loads (such as fish nets filled with fish) \n
-Take breaks"</string>
+Take breaks \n
+Worker training"</string>
 
-    <string name="cause_psychosocial">"Psychosocial risks are mainly caused when workers are exposed to stress situations and when they are away from the family a long time and without rest"</string>
-    <string name="hazard_psychosocial">"Work-Related Anxiety \n
-Depression \n
-Stress"</string>
+    <string name="cause_psychosocial">"Large fish kills, remote locations away from family, abusive social environment, sleep deprivation,
+high demand and low control situations"</string>
+    <string name="hazard_psychosocial">"Work-Related Anxiety, depression, and stress"</string>
     <string name="control_psychosocial"><b>"Elimination or replacement:</b>
+N.A
 
 <b>Engineering controls:</b>
+N.A
 
 <b>Administrative and PPE:</b>
-Lectures and seminars focused on the worker's quality of life"</string>
+Worker education and training focused on the worker&#39;s quality of life</string>
 
     <string name="cause_excessive_workday">"Working hours longer than 8 hours per day or greater than 44 hours per week \n
 Little rest time or intervals"</string>
@@ -364,7 +386,6 @@ Machines without protective equipment"</string>
     <string name="hazard_machinery">"Cuts and punctures \n
 Crushing \n
 Permanent disability \n
-Irreversible sequelae \n
 Amputation of limbs \n
 Death"</string>
     <string name="control_machinery">"<b>Elimination or replacement:</b>
@@ -378,7 +399,7 @@ Install protectors in equipment and machines \n
 Training to use machines and equipment \n
 Use appropriate protective equipment \n
 Avoid working alone \n
-Do not work while tired"</string>
+Avoid working while tired"</string>
 
     <string name="cause_slips">"Slips and falls can be caused by wet and slippery floors, tools left on runways, and discarded debris on the floor, such as oysters and open gutters \n
 Falls of heights, floating or fixed platforms"</string>
@@ -401,14 +422,15 @@ Map of risks and signs"</string>
 
     <string name="cause_drowning">"Falls at sea or dams \n
 Lack of use of the Personal Flotation Device (PFD) \n
-Drowning by diving, shortness of breath and decompression \n
-Slippery surfaces"</string>
-    <string name="hazard_drowning">"Death \n
-Sequelae caused by drowning \n
+Diving"</string>
+    <string name="hazard_drowning">"Hypothermia \n
+Drowning sequelae \n
+Pneumonia, acute respiratory distress syndrome, brain damage, chemical and fluid imbalances in the body, permanent vegetative state \n
 Ingestion of excessive water through the oral and respiratory routes \n
-Fainting \n
-Decompression"</string>
+Decompression illness
+Death"</string>
     <string name="control_drowning">"<b>Elimination or replacement:</b>
+N.A
 
 <b>Engineering controls:</b>
 Install floating life lines or other devices to exit ponds and tanks coated with plastic or smooth or muddy surfaces
