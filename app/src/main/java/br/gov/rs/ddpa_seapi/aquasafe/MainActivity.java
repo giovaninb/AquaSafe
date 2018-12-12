@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import br.gov.rs.ddpa_seapi.aquasafe.About.AboutActivity;
 import br.gov.rs.ddpa_seapi.aquasafe.Checklist.ChecklistActivity;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton checklist_button = (ImageButton) findViewById(R.id.checklist);
         ImageButton equipment_button = (ImageButton) findViewById(R.id.equipment);
         ImageButton tools_button = (ImageButton) findViewById(R.id.tools);
+        ImageButton OSH_button = (ImageButton) findViewById(R.id.OSH);
         ImageButton about_button = (ImageButton) findViewById(R.id.about);
         ImageButton contact_button = (ImageButton) findViewById(R.id.contact);
 
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         checklist_button.setOnClickListener(click);
         equipment_button.setOnClickListener(click);
         tools_button.setOnClickListener(click);
+        OSH_button.setOnClickListener(click);
         about_button.setOnClickListener(click);
         contact_button.setOnClickListener(click);
     }
@@ -64,10 +67,16 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.tools:
-                    valorTag = v.getTag().toString();
-                  //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    intent = new Intent(MainActivity.this, ToolsActivity.class);
-                    startActivity(intent);
+                    valorTag = "Em Breve";
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+               //     intent = new Intent(MainActivity.this, ToolsActivity.class);
+              //      startActivity(intent);
+                    break;
+
+                case R.id.OSH:
+                    valorTag = "Em Breve";
+                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+
                     break;
 
                 case R.id.about:

@@ -18,7 +18,7 @@ public class AccidentActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(R.string.injurious_incidents);
-        getSupportActionBar().setLogo(R.drawable.toolbar_accident);
+        getSupportActionBar().setLogo(R.drawable.toolbar_safety);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
     }
     public void click(View view) {
