@@ -76,9 +76,16 @@
             android:name=".Hazard.MainSpecificActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".Tools_OSH.ToolsActivity" />
-
-        <activity android:name=".Checklist.GeneralChecklistActivity"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".Checklist.GeneralChecklistActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Hazard.HierarchyActivity"
+            android:parentActivityName=".Hazard.GeneralScreenActivity" />
+        <activity
+            android:name=".ProtectionEquipment.GeneralEquipmentActivity"
+            android:label="@string/title_activity_general_equipment"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

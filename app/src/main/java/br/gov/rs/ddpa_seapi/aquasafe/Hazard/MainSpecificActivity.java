@@ -20,12 +20,12 @@ public class MainSpecificActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.hazard);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
-        ImageButton explanation_button = (ImageButton) findViewById(R.id.risk_explanation);
+     //   ImageButton explanation_button = (ImageButton) findViewById(R.id.risk_explanation);
         ImageButton hierarchy_button = (ImageButton) findViewById(R.id.hierarchy_control);
         ImageButton risks_button = (ImageButton) findViewById(R.id.risks);
 
 
-        explanation_button.setOnClickListener(click);
+    //    explanation_button.setOnClickListener(click);
         hierarchy_button.setOnClickListener(click);
         risks_button.setOnClickListener(click);
     }
@@ -36,18 +36,20 @@ public class MainSpecificActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()) {
 
-                case R.id.risk_explanation:
-                    String valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    break;
+          //      case R.id.risk_explanation:
+            //        String valorTag = v.getTag().toString();
+              //      Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+              //      break;
                 case R.id.hierarchy_control:
-                    valorTag = v.getTag().toString();
-                    Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                   // valorTag = v.getTag().toString();
+                 //   Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainSpecificActivity.this, HierarchyActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.risks:
-                    valorTag = v.getTag().toString();
+                    //valorTag = v.getTag().toString();
                   //  Toast.makeText(getBaseContext(), valorTag, Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainSpecificActivity.this, HazardActivity.class);
+                    intent = new Intent(MainSpecificActivity.this, HazardActivity.class);
                     startActivity(intent);
                     break;
             }

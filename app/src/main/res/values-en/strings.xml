@@ -564,6 +564,13 @@ Well equipped first aid kit"</string>
     <string name="chemical_protection">Chemical protection</string>
     <string name="diving_protection">Diving protection</string>
 
+    <string name="hierarchy_text">According to OSHA, effective controls protect workers from workplace hazards. There is a wealth of information to help employers investigate options for controlling identified hazards. Before selecting any control measure, it is essential to request information from stakeholders (workers and employers) on their feasibility and effectiveness.
+
+Employers should select the most viable, effective and permanent controls.
+Select controls according to a hierarchy that emphasizes solutions including elimination or replacement first, followed by safe work practices, administrative controls, and finally personal protective equipment.
+Avoid selecting controls that can directly or indirectly introduce new hazards.
+</string>
+    <string name="risk">Occupational risk is the probability of occurrence of a health effect due to exposure to the hazard (OHSAS 18001). In aquaculture activities, workers are exposed to different hazards, which may be physical, chemical, biological, ergonomic and psychosocial. To eliminate, avoid or mitigate health risks related to these hazards, it is necessary to establish hazard control and risk management.</string>
 
 </resources>
 

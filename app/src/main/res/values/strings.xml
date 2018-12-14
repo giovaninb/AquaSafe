@@ -20,7 +20,7 @@
     <string name="fire_explosion">Incêndios e\n Explosões</string>
     <string name="extreme_temperatures">Temperaturas \nExtremas</string>
     <string name="humidity">Umidade e\n exposição a àgua</string>
-    <string name="dust_gases">Poeiras e Gases</string>
+    <string name="dust_gases">Gases Tóxicos</string>
     <string name="products">Substâncias, compostos \n ou produtos químicos</string>
     <string name="resistance">Resistência Antimicrobiana</string>
     <string name="zoonoses">Zoonoses</string>
@@ -101,7 +101,7 @@ Dermatites</string>
 Trabalho em áreas cobertas e protegidas do sol
 
 <b>Controles de Engenharia:</b>
-
+N/A \n
 <b>Administrativos e EPIs:</b>
 Usar protetor solar, chapéus e óculos solares \n
 Reduzir a exposição a luz solar com rotatividade de trabalho \n
@@ -161,6 +161,7 @@ Ressecamento das vias aéreas superiores, mucosas e pele \n
 Escorregões e quedas \n
 Doenças Respiratórias, urinárias e infecciosas"</string>
     <string name="control_humidity">"<b>Eliminação ou substituição:</b>
+N/A \n
 
 <b>Controles de Engenharia:</b>
 Construir barreiras que evitem o contato direto com a umidade
@@ -176,7 +177,7 @@ Manutenção precária dos motores de barcos"</string>
 Tonturas \n
 Irritação cutânea e respiratória"</string>
     <string name="control_dust_gases">"<b>Eliminação ou substituição:</b>
-
+N/A \n
 <b>Controles de Engenharia:</b>
 Detectar e reparar vazamentos
 
@@ -255,7 +256,7 @@ Mordidas \n
 Envenenamento \n
 Morte"</string>
     <string name="control_animals">"<b>Eliminação ou substituição:</b>
-
+N/A \n
 <b>Controles de Engenharia:</b>
 Controle da vegetação em torno de tanques e instalações
 
@@ -299,9 +300,9 @@ Fazer pausas"</string>
 Depressão \n
 Estresse relacionado ao trabalho"</string>
     <string name="control_psychosocial">"<b>Eliminação ou substituição:</b>
-
+N/A \n
 <b>Controles de Engenharia:</b>
-
+N/A \n
 <b>Administrativos e EPIs:</b>
 Palestras e seminários voltados a qualidade de vida do trabalhador"</string>
 
@@ -315,8 +316,9 @@ Dores musculares"</string>
 Manter a jornada de trabalho adequada
 
 <b>Controles de Engenharia:</b>
-
-<b>Administrativos e EPIs:</b>b>"</string>
+N/A \n
+<b>Administrativos e EPIs:</b>
+N/A"</string>
 
     <string name="cause_night_work">"Trabalho no período da noite com baixa visibilidade"</string>
     <string name="hazard_night_work">"Fraturas \n
@@ -347,7 +349,7 @@ Sequelas irreversíveis \n
 Amputação de membros \n
 Morte"</string>
     <string name="control_machinery">"<b>Eliminação ou substituição:</b>
-
+N/A \n
 <b>Controles de Engenharia:</b>
 Equipar veículos (incluindo ATVs) com estruturas de proteção contra capotagem (ROPS) \n
 Regular a tomada de força (PTO) traseira dos implementos rotativos na transmissão terminal do equipamento  \n
@@ -368,7 +370,7 @@ Potencial de afogamento de trabalhador ferido \n
 Desmaio e perda da consciência \n
 Afogamentos"</string>
     <string name="control_slips">"<b>Eliminação ou substituição:</b>
-
+N/A \n
 <b>Controles de Engenharia:</b>
 Piso antiderrapante
 
@@ -387,7 +389,7 @@ Ingestão de água excessiva através das vias orais e respiratórias \n
 Desmaios \n
 Descompressão"</string>
     <string name="control_drowning">"<b>Eliminação ou substituição:</b>
-
+N/A \n
 <b>Controles de Engenharia:</b>
 Instalar linhas de vida flutuantes ou outros dispositivos para sair de lagoas e tanques revestidos de plástico ou de superfícies lisas ou lamacentas
 
@@ -528,4 +530,14 @@ Kit de primeiros socorros"</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hierarchy_text">De acordo com a OSHA, controles efetivos protegem os trabalhadores dos perigos do local de trabalho. Existe uma grande quantidade de informações para ajudar os empregadores a investigar opções para o controle de riscos identificados. Antes de selecionar qualquer opção de controle, é essencial solicitar informações dos stakeholders  (trabalhadores e empregadores) sobre sua viabilidade e eficácia.
+
+Os empregadores devem selecionar os controles mais viáveis, eficazes e permanentes.
+Selecionar os controles de acordo com uma hierarquia que enfatize soluções incluindo eliminação ou substituição primeiro, seguidas por práticas seguras de trabalho, controles administrativos e, finalmente, equipamentos de proteção individual.
+Evite selecionar controles que possam, direta ou indiretamente, introduzir novos perigos.
+</string>
+
+    <string name="risk">Risco ocupacional é a probabilidade de ocorrência de um dano devido a exposição ao perigo (OHSAS 18001). Nas atividades de aquicultura, os trabalhadores e outros colaboradores estão expostos a diferentes riscos, que podem ser físicos, químicos, biológicos, ergonômicos e de acidentes. Para evitar ou mitigar os riscos, é necessário estabelecer controle e gerenciamento de riscos."</string>
+    <string name="title_activity_general_equipment">GeneralEquipmentActivity</string>
 </resources>

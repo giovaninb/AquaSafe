@@ -22,8 +22,12 @@ public class ProtectionEquipmentActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.equipment);
 
     }
+
     public void click(View view) {
         String valueTag = view.getTag().toString();
         Toast.makeText(getBaseContext(), valueTag, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(ProtectionEquipmentActivity.this, GeneralScreenActivity.class);
+        intent.putExtra("tagRiscos", valueTag);
+        startActivity(intent);
     }
 }
