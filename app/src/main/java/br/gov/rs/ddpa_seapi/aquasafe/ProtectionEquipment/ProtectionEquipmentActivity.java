@@ -26,8 +26,8 @@ public class ProtectionEquipmentActivity extends AppCompatActivity {
     public void click(View view) {
         String valueTag = view.getTag().toString();
         Toast.makeText(getBaseContext(), valueTag, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(ProtectionEquipmentActivity.this, GeneralScreenActivity.class);
-        intent.putExtra("tagRiscos", valueTag);
+        Intent intent = new Intent(ProtectionEquipmentActivity.this, GeneralEquipmentActivity.class);
+        intent.putExtra("tagEquipamentos", valueTag);
         startActivity(intent);
     }
 }

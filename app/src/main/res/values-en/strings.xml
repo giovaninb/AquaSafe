@@ -572,6 +572,31 @@ Avoid selecting controls that can directly or indirectly introduce new hazards.
 </string>
     <string name="risk">Occupational risk is the probability of occurrence of a health effect due to exposure to the hazard (OHSAS 18001). In aquaculture activities, workers are exposed to different hazards, which may be physical, chemical, biological, ergonomic and psychosocial. To eliminate, avoid or mitigate health risks related to these hazards, it is necessary to establish hazard control and risk management.</string>
 
+
+    <string name="text_floating_equipment">
+<b>Life jacket</b>"
+The lifejacket should allow the person to wear it correctly and quickly; be comfortable; resistant to different types of water, temperatures and faults;be provided with an oxidation resistant whistle, firmly attached to the vest.
+The lifejacket must take into account the weight and size of the user to allow stable buoyancy.
+Models with specific shape and volume collar are able to keep the face at a safe distance from the water or untap the person quickly in cases of unconsciousness. Check for models that have this specificity.
+Lifejackets are classified and should be used according to the form and conditions of use." \n
+
+\n<b>Buoys and lifelines</b>"
+The buoys are devices for calm and inner waters in which help is always near. They are not safe for unconscious people or for long periods in the water.
+Life lines are used to rescue people in the water or to protect against falls.
+</string>
+    
+    <string name="protective_clothing">
+<b>Gloves</b>\nGloves should be worn when handling animals, products, knives, needles, chemicals and hazardous substances.
+Wear work gloves if you have injuries, abrasions, or irritations on your hands and arms, except when using them may cause a risk.
+Rubber gloves can provide protection against moisture and cold and are effective when handling equipment.
+Fabric gloves can be worn underneath for even thermal comfort, and mesh gloves provide good protection when handling equipment or gear with sharp edges. When working near a hoist, spear, saw or treadmill, wear anti-cutting gloves, tie long hair and do not wear loose clothing or jewelry."
+<b>Shoes</b>\nWear safety boots or shoes with good traction that avoid slipping and falling, as well as when operating vehicles and machines."
+\n<b>Overalls</b>\nWear appropriate clothing for the season and task to be performed.
+Clothing should be protected from prolonged exposure to cold weather, especially if clothing is soaked with water or by direct immersion, which can result in hypothermia, mental and muscular confusion, and death."
+<b>Hats and sun protection</b>\nWorkers should wear a hat that holds direct sunlight away from their head, ears and face.
+They should be protected from direct sunlight and ultraviolet rays using sunscreen."
+\n<b>Wetsuit / diving equipment</b>\nEach diver must be equipped with a strong, sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.
+</string>
 </resources>
 
 

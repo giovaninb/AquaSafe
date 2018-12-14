@@ -75,7 +75,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/protecting_cloths"
+                    android:id="@+id/protective_clothing"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -85,7 +85,7 @@
                     android:padding="15dp"
                     android:src="@drawable/cloths"
                     android:scaleType="fitCenter"
-                    android:tag="protecting_cloths"
+                    android:tag="protective_clothing"
                     android:onClick="click"/>
 
                 <TextView

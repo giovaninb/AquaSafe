@@ -540,4 +540,7 @@ Evite selecionar controles que possam, direta ou indiretamente, introduzir novos
 
     <string name="risk">Risco ocupacional é a probabilidade de ocorrência de um dano devido a exposição ao perigo (OHSAS 18001). Nas atividades de aquicultura, os trabalhadores e outros colaboradores estão expostos a diferentes riscos, que podem ser físicos, químicos, biológicos, ergonômicos e de acidentes. Para evitar ou mitigar os riscos, é necessário estabelecer controle e gerenciamento de riscos."</string>
     <string name="title_activity_general_equipment">GeneralEquipmentActivity</string>
+
+
+
 </resources>
