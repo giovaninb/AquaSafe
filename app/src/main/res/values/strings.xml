@@ -518,12 +518,12 @@ Kit de primeiros socorros"</string>
 
     <string name="floating">Equipamentos de flutuação</string>
     <string name="protecting">Roupas de proteção</string>
-    <string name="face_protection">Proteção facial</string>
+    <string name="eye_protection">Proteção facial</string>
     <string name="hearing_protection">Proteção auditiva</string>
     <string name="sign_protection">Sinalização de Proteção</string>
-    <string name="protection_fire">Proteção de incêndio</string>
+    <string name="fire_protection">Proteção de incêndio</string>
     <string name="first_aid">Primeiros socorros</string>
-    <string name="shock">Proteção contra choque</string>
+    <string name="electrical_shock_protection">Proteção contra choque</string>
     <string name="chemical_protection">Produtos químicos</string>
     <string name="diving_protection">Proteção durante mergulho</string>
 
@@ -540,7 +540,155 @@ Evite selecionar controles que possam, direta ou indiretamente, introduzir novos
 
     <string name="risk">Risco ocupacional é a probabilidade de ocorrência de um dano devido a exposição ao perigo (OHSAS 18001). Nas atividades de aquicultura, os trabalhadores e outros colaboradores estão expostos a diferentes riscos, que podem ser físicos, químicos, biológicos, ergonômicos e de acidentes. Para evitar ou mitigar os riscos, é necessário estabelecer controle e gerenciamento de riscos."</string>
     <string name="title_activity_general_equipment">GeneralEquipmentActivity</string>
+    <string name="chemical_protection_title" />
 
+    <string name="text_floating_equipment">
+<b>Colete salva-vidas</b>\n
+• O colete salva vidas deve permitir que a pessoa possa vesti-lo correta e rapidamente; ser confortável; resistente a diferentes tipos de água, temperaturas e avarias; ser dotado de um apito de material resistente à oxidação, firmemente preso ao colete.\n
+• O colete salva-vidas deve levar em consideração o peso e tamanho do usuário, para permitir uma flutuabilidade estável.\n
+• Modelos com gola de formato e volume específicos são capazes de manter o rosto em distância segura da água ou desvirar a pessoa rapidamente em casos de inconsciência. Verificar modelos que possuem esta especificidade.\n
+• Os coletes salva-vidas são classificados e devem ser utilizados de acordo com a forma e condições de uso. \n
+\n
+<b>Bóias e linhas salva-vidas</b>\n
+• As bóias são dispositivos para águas calmas e interiores no qual a ajuda está sempre próxima. Não são seguras para pessoas inconscientes ou para longos períodos na água.\n
+• As linhas salva-vidas são usadas para resgate de pessoas na água ou para proteger contra quedas. (safety line)
+</string>
 
+    <string name="protective_clothing">
+<b>Luvas</b>\n
+• Luvas devem ser usadas ao manusear animais, produtos, facas, agulhas, produtos químicos e substâncias perigosas.\n
+• Use luvas de trabalho se estiver com lesões, escoriações ou irritações nas mãos e braços, exceto quando usá-las, puderem causar um risco.\n
+• Luvas de borracha podem fornecer proteção contra a umidade e o frio e são eficazes ao manusear equipamentos.\n
+• Luvas de tecido podem ser usadas por baixo para conforto inclusive térmico e luvas de rede de malha fornecem uma boa proteção quando se lida com equipamento ou engrenagem com bordas afiadas. Ao trabalhar perto de uma talha, lança, serra ou esteira, use luvas anti-corte, amarre o cabelo comprido e não use roupas soltas ou jóias.\n
+\n
+<b>Calçados</b>\n
+• Use botas de segurança ou calçado com boa tração que evitem escorregões e quedas. Também ao operar veículos e máquinas.\n
+\n
+<b>Macacão</b>\n
+• Use a roupa apropriada para a estação do ano e tarefa a ser realizada.\n
+• As roupas devem proteger da exposição prolongada ao tempo frio, especialmente se as  roupas estiverem encharcadas de água ou por imersão direta, que pode resultar em hipotermia, confusão mental e muscular e morte.\n
+\n
+<b>Chapéus e proteção solar</b>\n
+• Os trabalhadores devem usar um chapéu que mantenha a luz solar direta longe de sua cabeça, orelhas e rosto.\n
+• Devem estar protegidos da luz direta do sol e raios ultra-violetas usando bloqueador solar.\n
+\n
+<b>Roupa de mergulho/equipamentos de mergulho</b>\n
+• Cada mergulhador deve estar equipado com uma faca forte e afiada; pesos com um mecanismo de liberação rápida que são suficientes para controlar a flutuabilidade;   um traje de mergulho ou outra roupa protetora; e proteção adequada da cabeça durante a condução de um mergulho, que expõe o mergulhador a riscos de queda de objetos ou ferimentos na cabeça.
+
+    </string>
+
+    <string name="eye_protection_text">Protect eyes with safety or protective eyewear when activity requires eye protection.
+Workers should wear sunglasses to protect their eyes from direct sunlight or the reflection of water or ice.
+Do not wear standard sunglasses as a substitute for safety glasses when performing tasks that require the use of eye protection. For these tasks, wear appropriate glasses or protective masks.
+</string>
+
+    <string name="hearing_protection_text">Wear hearing protection (protectors, dampers, and earplugs) when using equipment or noisy machines (whenever the noise level exceeds 85 decibels). A good rule of thumb is if someone else is talking and can not be heard when they are at arm\'s length, then hearing protection should be used.
+Some of the most common equipment used by fish farmers where hearing protection should be used include a chainsaw (115 decibels), a gasoline engine (100 decibels), a tractor (80-110 decibels), oyster washing machines (> 80 decibels).
+</string>
+
+    <string name="sign_protection_text">Place warning signs and emergency numbers in any chemical or noxious storage area. The signs should be placed according to the risks found in the workplace. \n
+\n
+<b>Here are some examples:</b> \n \n
+
+<b>Warning Signs (yellow)</b> \n
+• Corrosive substance \n
+• Toxic substance \n
+• Eflammable substance \n
+• Harmful or irritant \n
+• Vehicles \n
+• Electrocution \n
+• Fall \n
+• Low temperature \n
+\n
+<b>Signs of Obligation (blue)</b> \n
+• Use of PPE \n
+• Gloves \n
+• Mask \n
+• Hearing protection \n
+\n
+<b>Emergency Signs (green)</b> \n
+• Indicates, in case of danger, emergency exits, the way to the emergency station or where there are life-saving devices. \n
+• Emergency Exit \n
+\n
+<b>Prohibition Signs (red)</b> \n
+• Warn of a situation or action that may cause damage or risk to the facility. \n
+• No smoking \n
+• No entry \n
+• Do not open the safety device</string>
+
+    <string name="fire_protection_text">
+<b>Fire extinguisher</b>\n
+Fire extinguishers must be on the validity date.\n
+"No smoking" signs should be affixed to all deposits or areas where flammable products are present.\n
+Fire extinguishers must be kept fully charged and renewed as specified by the manufacturer.\n
+Workers should be trained in the use of fire extinguishers.\n
+\n
+
+<b>Types of extinguishers:</b>\n
+<b>• Chemical powder:</b> suitable for flammable liquids.\n
+<b>• Carbon dioxide (CO2):</b> suitable for fires of electrical equipment.\n
+<b>• Water:</b> Suitable for wood fires, fabric, paper and solid materials in general.\n
+</string>
+
+    <string name= "first_aid_text">
+Workers should be trained on first aid measures whenever possible.\n
+Keep list of useful telephones visible and a kit for simple procedures.\n
+\n
+<b>The First Aid Kit may include:</b>\n
+• Procedure gloves\n
+• Sterile gauze\n
+• Cotton\n
+• Plaster\n
+• Neutral Soap\n
+• Tray\n
+• Clinical Thermometer\n
+• Bandages\n
+</string>
+
+    <string name="electrical_shock_protection_text">
+Safe procedures should be adopted since electricity is an essential component in aquaculture activity. \n
+\n
+• Lock the main switches and place the locks and labels on them before working on power circuits so that no one else can use them while you are working.\n
+• Periodic electrical inspections by qualified personnel.\n
+• Allow only qualified personnel to work on electrical repairs and use suitable instruments to test circuits.\n
+• Make sure wiring, equipment, cables, and plugs are in good condition and grounded.\n
+• Do not overload your electrical wiring.\n
+• Ensure that all devices and equipment are properly grounded, especially equipment used in wet areas.\n
+• When replacing a fuse or circuit breaker, make sure that its rating is correct for the circuit.\n
+</string>
+
+    <string name="chemical_protection_text">
+The route of exposure or target organ damage of the chemical assists in making decisions about the protective equipment to be used.\n
+\n
+<b>Eyes</b>\n
+• Danger of chemical or metallic splashes, dust, gas and vapor.\n
+• Wear safety glasses, face shields, suitable visors.\n
+\n
+<b>Hands and arms</b>\n
+• Danger of chemicals\n
+• Wear gloves, gloves with wrists, mittens and sleeves that cover part or all of the arm. The choice of material should take into account the chemical product handled.\n
+\n
+<b>Feet and legs</b>\n
+• Danger of chemicals\n
+• Wear safety boots. Appropriate footwear should be selected for identified hazards including oil resistant soles or chemicals.\n
+\n
+<b>Lungs</b>\n
+• Danger of dust, gas and vapors.\n
+• Wear respiratory protective equipment (RPE). Some respirators rely on the filtering of airborne contaminants in the workplace. These include simple filtering face masks and respirators. The right kind of respiratory filter should be used because each of them is effective only for a limited range of substances.\n
+\n
+<b>Whole body</b>\n
+• Danger of splashes of chemicals.\n
+• Wear conventional or disposable overalls, aprons.\n
+</string>
+    <string name="diving_protection_text">
+The diving equipment must be tested according to the manufacturer\'s specifications. The diving equipment test record must be maintained. Before use, you should check that it is working properly.\n
+\n
+Dive team members who become aware of a malfunction or risk of diving equipment at the dive site must notify other divers who may be affected by the malfunction immediately. If the fault occurs during a dive and there are no replacements available on site, the dive must be immediately aborted in cooperation with the other members of the dive team.\n
+\n
+Each diver must be equipped with a  sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.\n
+\n
+A dive should not be performed if a health and safety hazard can be caused by equipment near the dive site.\n
+
+    </string>
 
 </resources>

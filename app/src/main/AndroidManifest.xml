@@ -86,7 +86,8 @@
         <activity
             android:name=".ProtectionEquipment.GeneralEquipmentActivity"
             android:label="@string/title_activity_general_equipment"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ProtectionEquipment.ProtectionEquipmentActivity"></activity>
     </application>
 
 </manifest>

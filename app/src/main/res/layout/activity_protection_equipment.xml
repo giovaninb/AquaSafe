@@ -59,11 +59,21 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/floating"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main" />
 
             </LinearLayout>
+        </LinearLayout>
+        <!--Segunda Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
-            <LinearLayout
+        <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -94,13 +104,14 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/protecting"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main" />
 
 
             </LinearLayout>
         </LinearLayout>
 
-        <!--Segunda Linha -->
+        <!--Terceira Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -121,7 +132,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/face_protection"
+                    android:id="@+id/eye_protection"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -131,7 +142,7 @@
                     android:padding="15dp"
                     android:src="@drawable/face_protection"
                     android:scaleType="fitCenter"
-                    android:tag="face_protection"
+                    android:tag="eye_protection"
                     android:onClick="click"/>
 
                 <TextView
@@ -139,10 +150,21 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/face_protection"
+                    android:text="@string/eye_protection"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
 
             </LinearLayout>
+        </LinearLayout>
+
+        <!--Quarta Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -175,12 +197,13 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/hearing_protection"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
 
             </LinearLayout>
         </LinearLayout>
 
-        <!--Terceira Linha -->
+        <!--Quinta Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -219,9 +242,19 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/sign_protection"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
 
             </LinearLayout>
+        </LinearLayout>
+        <!--Sexta Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -252,13 +285,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/protection_fire"
+                    android:text="@string/fire_protection"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
 
             </LinearLayout>
         </LinearLayout>
 
-        <!--Quarta Linha -->
+        <!--Sétima Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -297,9 +331,20 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/first_aid"
+                    android:textAlignment="center"
                     android:textColor="@color/text_main"/>
 
             </LinearLayout>
+        </LinearLayout>
+
+        <!--Oitava Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -330,13 +375,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="@string/shock"
-                    android:textColor="@color/text_main"/>
+                    android:text="@string/electrical_shock_protection"
+                    android:textColor="@color/text_main"
+                    android:textAlignment="center"/>
 
             </LinearLayout>
         </LinearLayout>
 
-        <!--Quinta Linha -->
+        <!--Nona Linha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -375,9 +421,20 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/chemical_protection"
-                    android:textColor="@color/text_main" />
+                    android:textColor="@color/text_main"
+                    android:textAlignment="center"/>
 
             </LinearLayout>
+        </LinearLayout>
+
+        <!--Décima Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -409,7 +466,8 @@
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:text="@string/diving_protection"
-                    android:textColor="@color/text_main" />
+                    android:textColor="@color/text_main"
+                    android:textAlignment="center"/>
 
             </LinearLayout>
         </LinearLayout>
