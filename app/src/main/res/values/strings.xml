@@ -11,7 +11,7 @@
     <string name="about">Sobre</string>
     <string name="contact">Fale Conosco</string>
     <string name="title_activity_hazard">HazardActivity</string>
-    <string name="hierarchy">Hierarquia de Controles</string>
+    <string name="information">Informações Gerais</string>
     <string name="risk_explanation">Explicação Rápida de Risco</string>
 
     <string name="electrocution">Eletrocussão</string>
@@ -54,20 +54,20 @@ Fios desencapados"</string>
 Contração Muscular Involuntária \n
 Morte"</string>
     <string name="control_electrocution">"<b>Eliminação ou substituição:</b>
-Utilizar interruptores de falha de circuito (GFCI) eficaz em reduzir a probabilidade de choques elétricos \n
+• Utilizar interruptores de falha de circuito (GFCI) eficaz em reduzir a probabilidade de choques elétricos \n
 
 <b>Controles de Engenharia:</b>
-Assegurar o uso de fusíveis e um sistema de aterramento adequado \n
-Certificar que todos os cabos estão intactos e impermeabilizados \n
-Evitar o sobrecarregamento elétrico \n
+• Assegurar o uso de fusíveis e um sistema de aterramento adequado \n
+• Certificar que todos os cabos estão intactos e impermeabilizados \n
+• Evitar o sobrecarregamento elétrico \n
 
 <b>Administrativos e EPIs:</b>
-Tornar os trabalhadores conscientes dos riscos de choque elétrico por equipamentos próximos à água através de treinamento \n
-As instalações elétricas devem ser revisadas e garantidas por um profissional qualificado para a função \n
-Nunca trabalhar sozinho para que em caso de acidente, tenha alguém que possa desligar a energia \n
-A energia deve ser desligada quando o equipamento for manuseado \n
-Garantir a manutenção de equipamentos \n
-Sinalizar os equipamentos com risco de choque elétrico"</string>
+• Tornar os trabalhadores conscientes dos riscos de choque elétrico por equipamentos próximos à água através de treinamento \n
+• As instalações elétricas devem ser revisadas e garantidas por um profissional qualificado para a função \n
+• Nunca trabalhar sozinho para que em caso de acidente, tenha alguém que possa desligar a energia \n
+• A energia deve ser desligada quando o equipamento for manuseado \n
+• Garantir a manutenção de equipamentos \n
+• Sinalizar os equipamentos com risco de choque elétrico"</string>
 
     <string name="cause_noise">"Exposição constante a sons emitidos pelo motor do barco \n
 Máquinas de lavagem de ostras \n
@@ -78,16 +78,16 @@ Interferência na comunicação e concentração \n
 Dores de cabeça \n
 Perda de audição temporária ou permanente</string>
     <string name="control_noise">"<b>Eliminação ou substituição:</b>
-Substituição por equipamento de menor ruído
+• Substituição por equipamento de menor ruído
 
 <b>Controles de Engenharia:</b>
-Construir barreiras que evitem que o ruído chegue ao trabalhador
+• Construir barreiras que evitem que o ruído chegue ao trabalhador
 
 <b>Administrativos e EPIs:</b>
-Usar protetor auricular \n
-Rotatividade de trabalho \n
-Intervalos entre as atividades \n
-Usar equipamento de proteção individual (EPI)</string>
+• Usar protetor auricular \n
+• Rotatividade de trabalho \n
+• Intervalos entre as atividades \n
+• Usar equipamento de proteção individual (EPI)</string>
 
     <string name="cause_solar_radiation">"Exposição frequente do indivíduo com agentes radioativos. Na aquicultura a exposição a radiação ultravioleta do Sol é a mais frequente"</string>
     <string name="hazard_solar_radiation">"Câncer de pele \n
@@ -98,14 +98,14 @@ Catarata \n
 Insolação \n
 Dermatites</string>
     <string name="control_solar_radiation">"<b>Eliminação ou substituição:</b>
-Trabalho em áreas cobertas e protegidas do sol
+• Trabalho em áreas cobertas e protegidas do sol
 
 <b>Controles de Engenharia:</b>
 N/A \n
 <b>Administrativos e EPIs:</b>
-Usar protetor solar, chapéus e óculos solares \n
-Reduzir a exposição a luz solar com rotatividade de trabalho \n
-Realizar exames de pele em pontos suspeitos"</string>
+• Usar protetor solar, chapéus e óculos solares \n
+• Reduzir a exposição a luz solar com rotatividade de trabalho \n
+• Realizar exames de pele em pontos suspeitos"</string>
 
     <string name="cause_fire_explosion">"Rede elétrica comprometida \n
 Resíduos de cigarro \n
@@ -116,19 +116,19 @@ Terminal positivo da bateria exposta em barcos</string>
 Invalidez por consequência de sequelas graves \n
 Morte</string>
     <string name="control_fire_explosion">"<b>Eliminação ou substituição:</b>
-Substituir substâncias inflamáveis
+• Substituir substâncias inflamáveis
 
 <b>Controles de Engenharia:</b>
-Cobrir terminais para evitar faíscas \n
-Manter as fontes de faísca longe dos tanques de oxigênio e roupas \n
-Instale sistemas de supressão de sprinklers e exaustores
+• Cobrir terminais para evitar faíscas \n
+• Manter as fontes de faísca longe dos tanques de oxigênio e roupas \n
+• Instale sistemas de supressão de sprinklers e exaustores
 
 <b>Administrativos e EPIs:</b>
-Não fumar em torno de fontes de incêndios e explosões \n
-Manter substâncias incompatíveis separadas \n
-Treinamento e Sinalização \n
-Detectar e reparar vazamentos \n
-Possuir extintores de incêndio e na validade</string>
+• Não fumar em torno de fontes de incêndios e explosões \n
+• Manter substâncias incompatíveis separadas \n
+• Treinamento e Sinalização \n
+• Detectar e reparar vazamentos \n
+• Possuir extintores de incêndio e na validade</string>
 
     <string name="cause_extreme_temperatures">"Exposição intensa aos raios solares em temperaturas muito altas por causa de trabalhos a céu aberto \n
 Exposição longa a temperaturas muito baixas, vento, chuva e água"</string>
@@ -140,17 +140,17 @@ Gripe \n
 Pneumonia \n
 Quadros de hipotermia</string>
     <string name="control_extreme_temperatures">"<b>Eliminação ou substituição:</b>
-Trabalho em áreas cobertas \n
+• Trabalho em áreas cobertas \n
 
 <b>Controles de Engenharia:</b>
-Ventilação, exaustores e isolamento térmico \n
+• Ventilação, exaustores e isolamento térmico \n
 
 <b>Administrativos e EPIs:</b>
-Utilizar protetores solares, bonés ou chapéus \n
-Utilizar roupas de proteção e calçados apropriados \n
-Rotatividade de trabalho \n
-Intervalos para a ingestão de líquidos evitando a desidratação em temperaturas elevadas \n
-Intervalos para a ingestão de bebidas quentes evitando as consequências de temperaturas baixas</string>
+• Utilizar protetores solares, bonés ou chapéus \n
+• Utilizar roupas de proteção e calçados apropriados \n
+• Rotatividade de trabalho \n
+• Intervalos para a ingestão de líquidos evitando a desidratação em temperaturas elevadas \n
+• Intervalos para a ingestão de bebidas quentes evitando as consequências de temperaturas baixas</string>
 
     <string name="cause_humidity">"Exposição durante a ocorrência de chuvas \n
 Exposição a água do mar, tanques e viveiros \n
@@ -164,11 +164,11 @@ Doenças Respiratórias, urinárias e infecciosas"</string>
 N/A \n
 
 <b>Controles de Engenharia:</b>
-Construir barreiras que evitem o contato direto com a umidade
+• Construir barreiras que evitem o contato direto com a umidade
 
 <b>Administrativos e EPIs:</b>
-Intervalos entre as atividades \n
-Usar equipamentos de proteção individual (EPI) como luvas, botas e macacões</string>
+• Intervalos entre as atividades \n
+• Usar equipamentos de proteção individual (EPI) como luvas, botas e macacões</string>
 
     <string name="cause_dust_gases">"Terraplanagem e trabalhos que formam poeiras \n
 Cuidado inadequado com os equipamentos \n
@@ -179,15 +179,15 @@ Irritação cutânea e respiratória"</string>
     <string name="control_dust_gases">"<b>Eliminação ou substituição:</b>
 N/A \n
 <b>Controles de Engenharia:</b>
-Detectar e reparar vazamentos
+• Detectar e reparar vazamentos
 
 <b>Administrativos e EPIs:</b>
-Utilizar equipamentos de proteção individual (EPI) como luvas de borracha e máscara de proteção respiratória para poeiras e gases \n
-Substituir produtos químicos por outros menos tóxicos \n
-Reduzir o tempo de exposição \n
-Conscientizar os trabalhadores dos riscos no ambiente de trabalho \n
-Utilizar espalhador mecânico \n
-Sinalização"</string>
+• Utilizar equipamentos de proteção individual (EPI) como luvas de borracha e máscara de proteção respiratória para poeiras e gases \n
+• Substituir produtos químicos por outros menos tóxicos \n
+• Reduzir o tempo de exposição \n
+• Conscientizar os trabalhadores dos riscos no ambiente de trabalho \n
+• Utilizar espalhador mecânico \n
+• Sinalização"</string>
 
     <string name="cause_products">"Substâncias para preparação e correção de viveiros \n
 Produtos utilizados nas atividades de despesca \n
@@ -205,23 +205,51 @@ Desordem genética \n
 Câncer \n
 Morte"</string>
     <string name="control_products">"<b>Eliminação ou substituição:</b>
-Substituir produtos tóxicos ou letais
+• Substituir produtos tóxicos ou letais
 
 <b>Controles de Engenharia:</b>
-Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir \n
-Detectar e reparar vazamentos \n
-Instalar sistemas de supressão de sprinklers \n
-Equipamentos mecânicos que reduzam o contato com agentes químicos
+• Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir \n
+• Detectar e reparar vazamentos \n
+• Instalar sistemas de supressão de sprinklers \n
+• Equipamentos mecânicos que reduzam o contato com agentes químicos
 
 <b>Administrativos e EPIs:</b>
-Equipamento de proteção individual (EPI) como: Calçado fechado, Luvas nitrílicas, Óculos de proteção e Máscaras apropriadas \n
-Treinamento \n
-Não usar pesticidas ou herbicidas para evitar intoxicações ou contaminação da água \n
-Sinalização"</string>
+• Equipamento de proteção individual (EPI) como: Calçado fechado, Luvas nitrílicas, Óculos de proteção e Máscaras apropriadas \n
+• Treinamento \n
+• Não usar pesticidas ou herbicidas para evitar intoxicações ou contaminação da água \n
+• Sinalização"</string>
 
-    <string name="cause_resistance">"teste"</string>
-    <string name="hazard_resistance">"teste"</string>
-    <string name="control_resistance">"teste"</string>
+    <string name="cause_resistance">"Resistência antimicrobiana (AMR) é a capacidade de um microrganismo (como bactérias, vírus e alguns parasitas) impedir que um antimicrobiano (como antibióticos, antivirais e antimaláricos) trabalhe contra ele. Como resultado, os tratamentos padrão tornam-se ineficazes, as infecções persistem e podem se espalhar para outras pessoas."</string>
+    <string name="hazard_resistance">"
+Trabalhadores em fazendas ou abatedouros estão sob alto risco de exposição a \"super bactérias\" que, em alguns casos, podem resistir a 12 antibióticos diferentes.\n
+Os trabalhadores podem transportar esses microorganismos perigosos para a família e a comunidade.\n
+Cepas de AMR de <i>E. coli</i>, <i>estafilococos</i>, <i>salmonela</i> e <i>campylobacter</i> são patógenos que apresentam riscos aos trabalhadores.\n
+O Risco de contrair uma doença infecciosa AMR por meio do manuseio carcaças, ferramentas de trabalho infectadas e produtos de carne crua. O risco de contrair uma doença AMR aumenta muito quando o trabalhador sofre laceração cutânea, corte ou ferida (por menor que seja), porque muitos microorganismos patógenos só podem entrar no corpo através do ferimento na pele. Outras doenças relacionadas à AMR também podem se espalhar por inalação e ingestão.\n
+"</string>
+    <string name="control_resistance">
+<b>Eliminação ou substituição:</b>\n
+• Restrição completa do uso de todas as classes de antimicrobianos medicamente importantes em animais produtores de alimentos para a prevenção de doenças infecciosas que ainda não foram diagnosticadas clinicamente; ou para promoção do crescimento.\n
+\n
+• Não use antimicrobianos classificados como de maior prioridade criticamente importantes para a medicina humana para o tratamento de animais para consumo alimentar com uma doença infecciosa clinicamente diagnosticada.\n
+\n
+<b>Controles de Engenharia:</b>\n
+• Recomendamos uma redução geral no uso de todas as classes de medicamentos antimicrobianos importantes em animais produzidos para alimentos.\n
+\n
+• Uso de estoques certificados e livres de patógenos, excluindo vetores e fontes externas de contaminação, e evitando a contaminação cruzada interna.\n
+\n
+<b>Administrativos e EPIs:</b>\n
+• Limpe e desinfete botas \n\n
+• Remova a roupa de trabalho antes de sair da fazenda\n\n
+• Lave bem as mãos com água morna e sabão\n\n
+• Seque as mãos com toalha de papel\n\n
+• Quando as mãos estiverem completamente secas, desinfete com o sanitizante e esfregue por pelo menos 30 segundos \n\n
+• Tome sempre um banho antes de ir para casa \n\n
+• Coloque roupas limpas, mantidas em um espaço fechado \n\n
+• Evite colocar itens pessoais, como telefones celulares, em áreas de produção. \n\n
+• Use equipamento de proteção individual (EPI) apropriado. \n\n
+
+
+        "</string>
 
     <string name="cause_zoonoses">"Manuseio ou atividades que promovem o contato direto com patógenos \n
 Contato acidental \n
@@ -230,15 +258,15 @@ Contato através de contato com animais"</string>
     <string name="hazard_zoonoses">"Infecções \n
 Infestação de patógenos no local de trabalho"</string>
     <string name="control_zoonoses">"<b>Eliminação ou substituição:</b>
-Controle e eliminação de pragas e vetores
+• Controle e eliminação de pragas e vetores
 
 <b>Controles de Engenharia:</b>
-Controle da vegetação em torno de tanques e instalações \n
-Vacinação
+• Controle da vegetação em torno de tanques e instalações \n
+• Vacinação
 
 <b>Administrativos e EPIs:</b>
-Higienização \n
-Equipamento de proteção individual apropriados"</string>
+vHigienização \n
+• Equipamento de proteção individual apropriados"</string>
 
     <string name="cause_animals">"<b>Peçonhentos e venenosos</b>
 O perigo biológico é exacerbado quando há manipulação de animais com dentes afiados ou espinhos que podem causar cortes e picadas \n
@@ -258,11 +286,11 @@ Morte"</string>
     <string name="control_animals">"<b>Eliminação ou substituição:</b>
 N/A \n
 <b>Controles de Engenharia:</b>
-Controle da vegetação em torno de tanques e instalações
+• Controle da vegetação em torno de tanques e instalações
 
 <b>Administrativos e EPIs:</b>
-Colocar à vista telefones de emergência e CIT local \n
-Sapatos fechados e luvas para manejo com animais"</string>
+• Colocar à vista telefones de emergência e CIT local \n
+• Sapatos fechados e luvas para manejo com animais"</string>
 
     <string name="cause_excessive_physical_effort">"Os problemas musculoesqueléticos estão relacionados ao carregamento de excesso de peso, má postura durante o manuseio dos animais no processo de colheita, quedas e escorregões \n
 Enchimento manual de tanques vivos com água \n
@@ -283,17 +311,17 @@ Fadiga \n
 Dores musculares nos membros e coluna vertebral \n
 Desgastes das estruturas musculoesqueléticas"</string>
     <string name="control_excessive_physical_effort">"<b>Eliminação ou substituição:</b>
-Utilizar equipamentos mecânicos para eliminar ou diminuir o esforço físico \n
-Utilizar polia, trilho ou guindaste para levantar redes na despesca ou transportar cargas \n
+• Utilizar equipamentos mecânicos para eliminar ou diminuir o esforço físico \n
+• Utilizar polia, trilho ou guindaste para levantar redes na despesca ou transportar cargas \n
 
 <b>Controles de Engenharia:</b>
-Diminuir a altura dos tanques para melhorar posturas de elevação
+• Diminuir a altura dos tanques para melhorar posturas de elevação
 
 <b>Administrativos e EPIs:</b>
-Manter boa postura e modificar frequentemente \n
-Quando possível, reduzir o peso da carga \n
-Reduzir o peso de cargas elevadas (como redes de imersão cheias de peixes) \n
-Fazer pausas"</string>
+• Manter boa postura e modificar frequentemente \n
+• Quando possível, reduzir o peso da carga \n
+• Reduzir o peso de cargas elevadas (como redes de imersão cheias de peixes) \n
+• Fazer pausas"</string>
 
     <string name="cause_psychosocial">"Os riscos psicossociais são causados, principalmente, quando os trabalhadores são expostos a situações de estresse e quando ficam muito tempo longe da família e sem descanso"</string>
     <string name="hazard_psychosocial">"Ansiedade \n
@@ -304,7 +332,7 @@ N/A \n
 <b>Controles de Engenharia:</b>
 N/A \n
 <b>Administrativos e EPIs:</b>
-Palestras e seminários voltados a qualidade de vida do trabalhador"</string>
+• Palestras e seminários voltados a qualidade de vida do trabalhador"</string>
 
     <string name="cause_excessive_workday">"Jornadas de trabalho maiores que 8 horas diárias ou maiores que 44 horas semanais \n
 Pouco tempo de descanso ou intervalos"</string>
@@ -313,7 +341,7 @@ Diminuição da produtividade \n
 Descuido e desatenção \n
 Dores musculares"</string>
     <string name="control_excessive_workday">"<b>Eliminação ou substituição:</b>
-Manter a jornada de trabalho adequada
+• Manter a jornada de trabalho adequada
 
 <b>Controles de Engenharia:</b>
 N/A \n
@@ -330,13 +358,13 @@ Sono e cansaço \n
 Estresse e outros distúrbios psicológicos \n
 Aumento da propensão a acidentes"</string>
     <string name="control_night_work">"<b>Eliminação ou substituição:</b>
-Mudança de turno de trabalho para horário diurno
+• Mudança de turno de trabalho para horário diurno
 
 <b>Controles de Engenharia:</b>
-Disponibilizar iluminação adequada e iluminação de backup
+• Disponibilizar iluminação adequada e iluminação de backup
 
 <b>Administrativos e EPIs:</b>
-Limitar o trabalho noturno ao mínimo de horas possível
+• Limitar o trabalho noturno ao mínimo de horas possível
 "</string>
 
     <string name="cause_machinery">"Capotamento de trator \n
@@ -351,15 +379,15 @@ Morte"</string>
     <string name="control_machinery">"<b>Eliminação ou substituição:</b>
 N/A \n
 <b>Controles de Engenharia:</b>
-Equipar veículos (incluindo ATVs) com estruturas de proteção contra capotagem (ROPS) \n
-Regular a tomada de força (PTO) traseira dos implementos rotativos na transmissão terminal do equipamento  \n
-Instalar protetores em equipamentos e máquinas
+• Equipar veículos (incluindo ATVs) com estruturas de proteção contra capotagem (ROPS) \n
+• Regular a tomada de força (PTO) traseira dos implementos rotativos na transmissão terminal do equipamento  \n
+• Instalar protetores em equipamentos e máquinas
 
 <b>Administrativos e EPIs:</b>
-Treinamentos para utilizar máquinas e equipamentos \n
-Utilizar equipamentos de proteção apropriados \n
-Evitar trabalhar sozinho \n
-Não trabalhar com sono"</string>
+• Treinamentos para utilizar máquinas e equipamentos \n
+• Utilizar equipamentos de proteção apropriados \n
+• Evitar trabalhar sozinho \n
+• Não trabalhar com sono"</string>
 
     <string name="cause_slips">"Os deslizamentos e quedas podem ser causados por piso molhado e escorregadio, ferramentas deixadas em passarelas e resíduos descartados no chão, como ostras e calhas abertas \n
 Quedas de alturas, plataformas flutuantes ou fixas"</string>
@@ -372,13 +400,13 @@ Afogamentos"</string>
     <string name="control_slips">"<b>Eliminação ou substituição:</b>
 N/A \n
 <b>Controles de Engenharia:</b>
-Piso antiderrapante
+• Piso antiderrapante
 
 <b>Administrativos e EPIs:</b>
-Passarelas livres de obstáculos \n
-Manter o chão seco \n
-Calçado antiderrapante \n
-Mapa de riscos e Sinalização"</string>
+• Passarelas livres de obstáculos \n
+• Manter o chão seco \n
+• Calçado antiderrapante \n
+• Mapa de riscos e Sinalização"</string>
 
     <string name="cause_drowning">"Quedas no mar ou açudes \n
 Falta de uso do Dispositivo de Flutuação Pessoal (PFD) \n
@@ -391,13 +419,13 @@ Descompressão"</string>
     <string name="control_drowning">"<b>Eliminação ou substituição:</b>
 N/A \n
 <b>Controles de Engenharia:</b>
-Instalar linhas de vida flutuantes ou outros dispositivos para sair de lagoas e tanques revestidos de plástico ou de superfícies lisas ou lamacentas
+• Instalar linhas de vida flutuantes ou outros dispositivos para sair de lagoas e tanques revestidos de plástico ou de superfícies lisas ou lamacentas
 
 <b>Administrativos e EPIs:</b>
-Uso de dispositivo pessoal de flotação (PFD) como colete salva-vidas e boia para emergência \n
-Treinamento \n
-Ter conhecimentos de mergulho e natação \n
-Certificar-se sobre segurança no mergulho e em duplas no mínimo"</string>
+• Uso de dispositivo pessoal de flotação (PFD) como colete salva-vidas e boia para emergência \n
+• Treinamento \n
+• Ter conhecimentos de mergulho e natação \n
+• Certificar-se sobre segurança no mergulho e em duplas no mínimo"</string>
 
     <string name="cause_cutting_drilling">"Manuseio de equipamentos afiados e perfurantes \n
 Utilização de rede de pesca, malhadeira, zagaia, arpão, flecha,anzol ou facas \n
@@ -408,15 +436,15 @@ Cicatrizes \n
 Hemorragias \n
 Perfuração com agulhas"</string>
     <string name="control_cutting_drilling">"<b>Eliminação ou substituição:</b>
-Instalar equipamento de vacinação automática
+• Instalar equipamento de vacinação automática
 
 <b>Controles de Engenharia:</b>
-Use mesa ondulada para imobilizar o peixe no sulco ondulado
+• Use mesa ondulada para imobilizar o peixe no sulco ondulado
 
 <b>Administrativos e EPIs:</b>
-Treinamento em aplicação de vacinas \n
-Utilização de Equipamentos de Proteção Individual como luvas anti-corte (poliuretano de alta resistência) para manuseio de facas e outros equipamentos de corte \n
-Kit de primeiros socorros"</string>
+• Treinamento em aplicação de vacinas \n
+• Utilização de Equipamentos de Proteção Individual como luvas anti-corte (poliuretano de alta resistência) para manuseio de facas e outros equipamentos de corte \n
+• Kit de primeiros socorros"</string>
 
     <string name="default_highscore">Você ainda não preencheu o checklist</string>
     <string name="checklist_introduction">Texto para introduzir saude ocupacional e tals</string>
@@ -516,29 +544,32 @@ Kit de primeiros socorros"</string>
     <string name="epi">EPI</string>
     <string name="epc">EPC</string>
 
-    <string name="floating">Equipamentos de flutuação</string>
-    <string name="protecting">Roupas de proteção</string>
-    <string name="eye_protection">Proteção facial</string>
-    <string name="hearing_protection">Proteção auditiva</string>
+    <string name="floating">Equipamentos de Flutuação</string>
+    <string name="protecting">Roupas de Proteção</string>
+    <string name="eye_protection">Proteção Ocular</string>
+    <string name="hearing_protection">Proteção Auditiva</string>
     <string name="sign_protection">Sinalização de Proteção</string>
-    <string name="fire_protection">Proteção de incêndio</string>
-    <string name="first_aid">Primeiros socorros</string>
-    <string name="electrical_shock_protection">Proteção contra choque</string>
-    <string name="chemical_protection">Produtos químicos</string>
-    <string name="diving_protection">Proteção durante mergulho</string>
+    <string name="fire_protection">Proteção de Incêndio</string>
+    <string name="first_aid">Primeiros Socorros</string>
+    <string name="electrical_shock_protection">Proteção Contra Choque</string>
+    <string name="chemical_protection">Produtos Químicos</string>
+    <string name="diving_protection">Proteção durante Mergulho</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="hierarchy_text">De acordo com a OSHA, controles efetivos protegem os trabalhadores dos perigos do local de trabalho. Existe uma grande quantidade de informações para ajudar os empregadores a investigar opções para o controle de riscos identificados. Antes de selecionar qualquer opção de controle, é essencial solicitar informações dos stakeholders  (trabalhadores e empregadores) sobre sua viabilidade e eficácia.
-
-Os empregadores devem selecionar os controles mais viáveis, eficazes e permanentes.
-Selecionar os controles de acordo com uma hierarquia que enfatize soluções incluindo eliminação ou substituição primeiro, seguidas por práticas seguras de trabalho, controles administrativos e, finalmente, equipamentos de proteção individual.
-Evite selecionar controles que possam, direta ou indiretamente, introduzir novos perigos.
+    <string name="information_about_hazard">
+Risco ocupacional é a probabilidade de ocorrência de um dano devido a exposição ao perigo (OHSAS 18001). Nas atividades de aquicultura, os trabalhadores e outros colaboradores estão expostos a diferentes riscos, que podem ser físicos, químicos, biológicos, ergonômicos e de acidentes. Para evitar ou mitigar os riscos, é necessário estabelecer controle e gerenciamento de riscos. \n
+\n
+De acordo com a OSHA, controles efetivos protegem os trabalhadores dos perigos do local de trabalho. Existe uma grande quantidade de informações para ajudar os empregadores a investigar opções para o controle de riscos identificados. Antes de selecionar qualquer opção de controle, é essencial solicitar informações dos stakeholders  (trabalhadores e empregadores) sobre sua viabilidade e eficácia.\n
+\n
+• Os empregadores devem selecionar os controles mais viáveis, eficazes e permanentes.\n
+• Selecionar os controles de acordo com uma hierarquia que enfatize soluções incluindo eliminação ou substituição primeiro, seguidas por práticas seguras de trabalho, controles administrativos e, finalmente, equipamentos de proteção individual.\n
+• Evite selecionar controles que possam, direta ou indiretamente, introduzir novos perigos.\n
 </string>
 
-    <string name="risk">Risco ocupacional é a probabilidade de ocorrência de um dano devido a exposição ao perigo (OHSAS 18001). Nas atividades de aquicultura, os trabalhadores e outros colaboradores estão expostos a diferentes riscos, que podem ser físicos, químicos, biológicos, ergonômicos e de acidentes. Para evitar ou mitigar os riscos, é necessário estabelecer controle e gerenciamento de riscos."</string>
+    <string name="risk">"</string>
     <string name="title_activity_general_equipment">GeneralEquipmentActivity</string>
     <string name="chemical_protection_title" />
 
@@ -570,124 +601,138 @@ Evite selecionar controles que possam, direta ou indiretamente, introduzir novos
 \n
 <b>Chapéus e proteção solar</b>\n
 • Os trabalhadores devem usar um chapéu que mantenha a luz solar direta longe de sua cabeça, orelhas e rosto.\n
-• Devem estar protegidos da luz direta do sol e raios ultra-violetas usando bloqueador solar.\n
+• Devem estar protegidos da luz direta do sol e raios <ultra-vio></ultra-vio>letas usando bloqueador solar.\n
 \n
 <b>Roupa de mergulho/equipamentos de mergulho</b>\n
 • Cada mergulhador deve estar equipado com uma faca forte e afiada; pesos com um mecanismo de liberação rápida que são suficientes para controlar a flutuabilidade;   um traje de mergulho ou outra roupa protetora; e proteção adequada da cabeça durante a condução de um mergulho, que expõe o mergulhador a riscos de queda de objetos ou ferimentos na cabeça.
 
     </string>
 
-    <string name="eye_protection_text">Protect eyes with safety or protective eyewear when activity requires eye protection.
-Workers should wear sunglasses to protect their eyes from direct sunlight or the reflection of water or ice.
-Do not wear standard sunglasses as a substitute for safety glasses when performing tasks that require the use of eye protection. For these tasks, wear appropriate glasses or protective masks.
+    <string name="eye_protection_text">
+• Proteja os olhos com óculos de segurança ou óculos de proteção quando a atividade requer proteção para os olhos.\n
+• Os trabalhadores devem usar óculos de sol para proteger os olhos da luz direta do sol ou do reflexo da água ou do gelo.\n
+• Não use óculos de sol padrão como substituto de óculos de segurança ao realizar tarefas que exijam o uso de proteção para os olhos. Para estas tarefas, utilize óculos ou máscaras de proteção adequadas. \n
+
 </string>
 
-    <string name="hearing_protection_text">Wear hearing protection (protectors, dampers, and earplugs) when using equipment or noisy machines (whenever the noise level exceeds 85 decibels). A good rule of thumb is if someone else is talking and can not be heard when they are at arm\'s length, then hearing protection should be used.
-Some of the most common equipment used by fish farmers where hearing protection should be used include a chainsaw (115 decibels), a gasoline engine (100 decibels), a tractor (80-110 decibels), oyster washing machines (> 80 decibels).
+<string name="hearing_protection_text">
+• Use proteção auditiva (Protetores, abafadores e plugues auriculares) ao usar equipamentos ou máquinas barulhentas (se o nível de ruído exceder 85 decibéis). Uma boa regra é se outra pessoa estiver falando e não puder ser ouvida quando estiver a uma distância do braço, então a proteção auditiva deve ser usada.\n
+\n
+• Alguns dos equipamentos mais comuns usados pelos aquicultores onde a proteção auditiva deve ser usada incluem uma motosserra (115 decibéis), um motor a gasolina (100 decibéis), trator (80-110 decibéis), máquinas de lavar ostras (>80 decibéis).\n
 </string>
 
-    <string name="sign_protection_text">Place warning signs and emergency numbers in any chemical or noxious storage area. The signs should be placed according to the risks found in the workplace. \n
+<string name="sign_protection_text">
+Coloque sinais de aviso e números de emergência em qualquer área de armazenamento de substâncias químicas ou nocivas. A sinalização deve ser colocada de acordo com os riscos encontrados no local de trabalho.\n
 \n
-<b>Here are some examples:</b> \n \n
-
-<b>Warning Signs (yellow)</b> \n
-• Corrosive substance \n
-• Toxic substance \n
-• Eflammable substance \n
-• Harmful or irritant \n
-• Vehicles \n
-• Electrocution \n
-• Fall \n
-• Low temperature \n
+<b>Veja alguns exemplos:</b> \n
 \n
-<b>Signs of Obligation (blue)</b> \n
-• Use of PPE \n
-• Gloves \n
-• Mask \n
-• Hearing protection \n
+<b>Sinais de Aviso (amarelo)</b>\n
 \n
-<b>Emergency Signs (green)</b> \n
-• Indicates, in case of danger, emergency exits, the way to the emergency station or where there are life-saving devices. \n
-• Emergency Exit \n
+• Substância Corrosiva\n
+• Substância Tóxica\n
+• Substância Explosiva\n
+• Substância Inflamável\n
+• Nociva ou Irritante\n
+• Veículos\n
+• Eletrocussão\n
+• Queda\n
+• Baixa Temperatura\n
 \n
-<b>Prohibition Signs (red)</b> \n
-• Warn of a situation or action that may cause damage or risk to the facility. \n
-• No smoking \n
-• No entry \n
-• Do not open the safety device</string>
+<b>Sinais de Obrigação (azul)</b>\n
+• Uso de EPI\n
+• Luvas\n
+• Máscara\n
+• Protetor Auricular\n
+\n
+<b>Sinais de Emergência (verde)</b>\n
+Indica, em caso de perigo, saídas de emergência, o caminho para o posto de socorro ou local onde existam dispositivos de salvação.\n
+\n
+<b>Sinais de Proibição (vermelho)</b>\n
+Advertem para uma situação ou ação que pode gerar dano ou risco nas instalações.\n
+• Proibido Fumar\n
+• Proibido Entrada\n
+• Não abra o dispositivo de segurança\n
+</string>
 
     <string name="fire_protection_text">
-<b>Fire extinguisher</b>\n
-Fire extinguishers must be on the validity date.\n
-"No smoking" signs should be affixed to all deposits or areas where flammable products are present.\n
-Fire extinguishers must be kept fully charged and renewed as specified by the manufacturer.\n
-Workers should be trained in the use of fire extinguishers.\n
+<b>Extintor de incêndio</b>\n
+• Os extintores de incêndio devem estar na data de validade.\n
+• Os sinais “Não fumar” devem estar afixados em todos os depósitos ou áreas onde houver produtos inflamáveis.\n
+• Os extintores de incêndio devem ser mantidos totalmente carregados e renovados conforme especificado fabricante.\n
+• Trabalhadores devem ser treinados no uso dos extintores de incêndio.\n
 \n
-
-<b>Types of extinguishers:</b>\n
-<b>• Chemical powder:</b> suitable for flammable liquids.\n
-<b>• Carbon dioxide (CO2):</b> suitable for fires of electrical equipment.\n
-<b>• Water:</b> Suitable for wood fires, fabric, paper and solid materials in general.\n
+<b>Tipos de extintores: </b>\n
+<b>• Pó químico:</b> indicado para líquidos inflamáveis.\n
+<b>• Gás carbônico (CO2):</b> indicado para incêndios de equipamentos elétricos.\n
+<b>• Água:</b> Indicado para incêndios de madeira, tecido, papel e materiais sólidos em geral.\n
 </string>
 
-    <string name= "first_aid_text">
-Workers should be trained on first aid measures whenever possible.\n
-Keep list of useful telephones visible and a kit for simple procedures.\n
+<string name= "first_aid_text">
+• Trabalhadores devem ser treinados em medidas de primeiros socorros, sempre que possível.\n
+• Manter lista de telefones úteis visível e um kit para procedimentos simples.\n
 \n
-<b>The First Aid Kit may include:</b>\n
-• Procedure gloves\n
-• Sterile gauze\n
-• Cotton\n
-• Plaster\n
-• Neutral Soap\n
-• Tray\n
-• Clinical Thermometer\n
-• Bandages\n
+<b>O Kit de primeiros socorros pode incluir:</b>\n
+• Luvas de procedimento\n
+• Gaze Esterilizada\n
+• Algodão\n
+• Esparadrapo\n
+• Sabonete Neutro\n
+• Bandeja\n
+• Termômetro Clínico\n
+• Ataduras\n
 </string>
 
-    <string name="electrical_shock_protection_text">
-Safe procedures should be adopted since electricity is an essential component in aquaculture activity. \n
+<string name="electrical_shock_protection_text">
+Procedimentos seguros devem ser adotados uma vez que eletricidade é um componente essencial na atividade de aquicultura. \n
 \n
-• Lock the main switches and place the locks and labels on them before working on power circuits so that no one else can use them while you are working.\n
-• Periodic electrical inspections by qualified personnel.\n
-• Allow only qualified personnel to work on electrical repairs and use suitable instruments to test circuits.\n
-• Make sure wiring, equipment, cables, and plugs are in good condition and grounded.\n
-• Do not overload your electrical wiring.\n
-• Ensure that all devices and equipment are properly grounded, especially equipment used in wet areas.\n
-• When replacing a fuse or circuit breaker, make sure that its rating is correct for the circuit.\n
+• Bloqueie os interruptores principais e coloque as travas e etiquetas neles antes de trabalhar em circuitos de energia para que ninguém mais possa usá-los enquanto você estiver trabalhando.\n
+• Inspeções elétricas periódicas feitas por pessoas qualificadas.\n
+• Permita que apenas pessoas qualificadas trabalhem em reparos elétricos e use instrumentos adequados para testar circuitos.\n
+• Certifique-se de que a fiação, o equipamento, os cabos e os plugues estejam em boas condições e aterrados.\n
+• Não sobrecarregue sua instalação elétrica.\n
+• Certifique-se de que todos os dispositivos e equipamentos estejam adequadamente aterrados, especialmente o equipamento usado em áreas molhadas.\n
+• Ao substituir um fusível ou disjuntor, certifique-se de que sua classificação esteja correta para o circuito.\n
 </string>
 
-    <string name="chemical_protection_text">
-The route of exposure or target organ damage of the chemical assists in making decisions about the protective equipment to be used.\n
+<string name="chemical_protection_text">
+A rota de entrada ou dano do produto químico auxilia na tomada de decisão sobre o equipamento de proteção que se deve utilizar.\n
 \n
-<b>Eyes</b>\n
-• Danger of chemical or metallic splashes, dust, gas and vapor.\n
-• Wear safety glasses, face shields, suitable visors.\n
+<b>Olhos</b>\n
+<b>Perigo - </b> respingos químicos ou metálicos, poeira, gás e vapor.\n
 \n
-<b>Hands and arms</b>\n
-• Danger of chemicals\n
-• Wear gloves, gloves with wrists, mittens and sleeves that cover part or all of the arm. The choice of material should take into account the chemical product handled.\n
+• Utilize óculos de segurança, óculos de proteção, telas de rosto, viseiras adequados.\n
 \n
-<b>Feet and legs</b>\n
-• Danger of chemicals\n
-• Wear safety boots. Appropriate footwear should be selected for identified hazards including oil resistant soles or chemicals.\n
+<b>Mãos e braços</b>\n
+<b>Perigo - </b> produtos químicos \n
 \n
-<b>Lungs</b>\n
-• Danger of dust, gas and vapors.\n
-• Wear respiratory protective equipment (RPE). Some respirators rely on the filtering of airborne contaminants in the workplace. These include simple filtering face masks and respirators. The right kind of respiratory filter should be used because each of them is effective only for a limited range of substances.\n
+• Utilize luvas, luvas com punho, manoplas e mangas que cobrem parte ou todo o braço. A escolha do material deve levar em consideração o produto químico manuseado.\n
 \n
-<b>Whole body</b>\n
-• Danger of splashes of chemicals.\n
-• Wear conventional or disposable overalls, aprons.\n
+<b>Pés e pernas</b>\n
+<b>Perigo - </b>de produtos químicos\n
+\n
+• Utilize botas de segurança. Calçado adequado deve ser selecionado para os riscos identificados incluindo solas resistentes a óleo ou produtos químicos.\n
+\n
+<b>Pulmões</b>\n
+<b>Perigo - </b> poeiras, gases e vapores.\n
+\n
+• Utilize equipamento de proteção respiratória (RPE). Alguns respiradores contam com a filtragem de contaminantes do ar no local de trabalho. Estes incluem máscaras faciais de filtragem simples e respiradores.O tipo certo de filtro respiratório deve ser usado, pois cada um deles é eficaz apenas para uma gama limitada de substâncias.\n
+\n
+<b>Todo o corpo</b>\n
+<b>Perigo</b> de respingos de produtos químicos.\n
+\n
+• Utilize macacões convencionais ou descartáveis, aventais.\n
+
 </string>
     <string name="diving_protection_text">
-The diving equipment must be tested according to the manufacturer\'s specifications. The diving equipment test record must be maintained. Before use, you should check that it is working properly.\n
+• O equipamento de mergulho deve ser testado de acordo com as especificações do fabricante.  O registro do teste do equipamento de mergulho deve ser mantido. Antes do uso, deve verificar se está funcionando corretamente.\n
 \n
-Dive team members who become aware of a malfunction or risk of diving equipment at the dive site must notify other divers who may be affected by the malfunction immediately. If the fault occurs during a dive and there are no replacements available on site, the dive must be immediately aborted in cooperation with the other members of the dive team.\n
+• Os membros da equipe de mergulho que tomarem conhecimento de um mau funcionamento ou risco de equipamento de mergulho no local de mergulho devem notificar os outros mergulhadores que podem ser afetados pelo mau funcionamento imediatamente. Se a avaria ocorrer durante um mergulho e não houver substituições disponíveis.\n
+no local, o mergulho deve ser imediatamente abortado em cooperação com os outros membros da equipe de mergulho.\n
 \n
-Each diver must be equipped with a  sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.\n
+• Cada mergulhador deve estar equipado com uma faca forte e afiada; pesos com um mecanismo de liberação rápida que são suficientes para controlar a flutuabilidade; um traje de mergulho ou outra roupa protetora; e proteção adequada da cabeça durante a condução de um mergulho, que expõe o mergulhador a riscos de queda de objetos ou ferimentos na cabeça.\n
 \n
-A dive should not be performed if a health and safety hazard can be caused by equipment near the dive site.\n
+• Um mergulho não deve ser realizado se um risco à saúde e à segurança puder ser causado por equipamento próximo ao local de mergulho.\n
+
 
     </string>
 

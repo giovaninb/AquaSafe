@@ -12,6 +12,6 @@ public class HierarchyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hierarchy);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.hierarchy);
+        getSupportActionBar().setTitle(R.string.information);
     }
 }

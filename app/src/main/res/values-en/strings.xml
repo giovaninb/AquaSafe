@@ -12,7 +12,7 @@
     <string name="contact">Contact us</string>
     <string name="app_name">AquaSafe</string>
     <string name="title_activity_hazard">HazardActivity</string>
-    <string name="hierarchy">Hierarchy of Controls</string>
+    <string name="information">General Information</string>
     <string name="risk_explanation">Quick Risk Explanation</string>
 
     <string name="electrocution">Electrocution</string>
@@ -57,21 +57,20 @@ Nerve disorders \n
 Involuntary Muscle Contraction (spasm) \n
 Death"</string>
     <string name="control_electrocution">"<b>Elimination or replacement:</b>
-Use Ground Fault Circuit Interrupters (GFCI), fuses and circuit breakers to reduce the
-likelihood of electric shock \n
+• Use Ground Fault Circuit Interrupters (GFCI), fuses and circuit breakers to reduce the likelihood of electric shock \n
 <b>Engineering controls:</b>
-Ensure the use of fuses and an adequate grounding system \n
-Make sure all cables are intact and waterproof \n
-Avoid electric overload
+• Ensure the use of fuses and an adequate grounding system \n
+• Make sure all cables are intact and waterproof \n
+• Avoid electric overload
 
 <b>Administrative and PPE:</b>
-Training workers on the risks of electric shock associated with using equipment
+• Training workers on the risks of electric shock associated with using equipment
 close to water \n
-Electrical installations must be reviewed and guaranteed by a qualified electrician \n
-Never work alone so that in case of an electric shock, you have someone who can turn off the power \n
-The power must be turned off when the equipment is handled \n
-Ensure regular equipment maintenance \n
-Place electrical hazard signs on equipment with risk of electric shock</string>
+• Electrical installations must be reviewed and guaranteed by a qualified electrician \n
+• Never work alone so that in case of an electric shock, you have someone who can turn off the power \n
+• The power must be turned off when the equipment is handled \n
+• Ensure regular equipment maintenance \n
+• Place electrical hazard signs on equipment with risk of electric shock</string>
 
     <string name="cause_noise">"Constant exposure to noise emitted by vehicles and machines (boat engine, Oyster washing
 machines and high pressure washers) and water movements"</string>
@@ -85,19 +84,19 @@ Sleep disturbance \n
 Headaches \n
 Interference in communication and concentration"</string>
     <string name="control_noise">"<b>Elimination or replacement:</b>
-Replacement for less noise equipment
+• Replacement for less noise equipment
 
 <b>Engineering controls:</b>
-Build barriers that prevent noise from reaching the worker \n
-Isolate the noise source in an insulated room or enclosure \n
-Maintain tools and equipment routinely\n
+• Build barriers that prevent noise from reaching the worker \n
+• Isolate the noise source in an insulated room or enclosure \n
+• Maintain tools and equipment routinely\n
 
 <b>Administrative and PPE:</b>
-Using headset \n
-Work Rotation \n
-Intervals between activities \n
-Wear hearing protectors \n
-Medical surveillance to detect early signs of hearing loss"</string>
+• Using headset \n
+• Work Rotation \n
+• Intervals between activities \n
+• Wear hearing protectors \n
+• Medical surveillance to detect early signs of hearing loss"</string>
 
     <string name="cause_solar_radiation">"Exposure to ultraviolet radiation from the sun"</string>
     <string name="hazard_solar_radiation">"Skin cancer \n
@@ -109,15 +108,15 @@ Blindness \n
 Insolation \n
 Dermatitis"</string>
     <string name="control_solar_radiation">"<b>Elimination or replacement:</b>
-Working in covered areas and protected from the sun
+• Working in covered areas and protected from the sun
 
 <b>Engineering controls:</b>
 N/A
 
 <b>Administrative and PPE:</b>
-Wear sunscreen, hats and sunglasses \n
-Reduce exposure to sunlight with labor turnover \n
-Perform skin examinations at suspect points"</string>
+• Wear sunscreen, hats and sunglasses \n
+• Reduce exposure to sunlight with labor turnover \n
+• Perform skin examinations at suspect points"</string>
 
     <string name="cause_fire_explosion">"Damaged power supply \n
 Faulty electrical equipment \n
@@ -129,22 +128,22 @@ Positive Battery Terminal Exposed on Boats"</string>
 Disability as a result of serious sequelae \n
 Death"</string>
     <string name="control_fire_explosion"><b>"Elimination or replacement:</b>
-Replace flammable substances \n
+• Replace flammable substances \n
 
 <b>Engineering controls:</b>
-Cover terminals to avoid sparks \n
-Keep spark sources away from oxygen tanks and clothing \n
-Install sprinkler suppression systems and exhaust fans \n
-Regular maintenance of electrical equipment \n
+• Cover terminals to avoid sparks \n
+• Keep spark sources away from oxygen tanks and clothing \n
+• Install sprinkler suppression systems and exhaust fans \n
+• Regular maintenance of electrical equipment \n
 
 <b>Administrative and PPE:</b>
-No smoking around sources of fires and explosions \n
-Provide designated smoking area and enforce proper extinguishing of smoking materials \n
-Good housekeeping to avoid clutter \n
-Ensure safe use and storage of chemical substances \n
-Training and signaling \n
-Detect and repair leaks \n
-Have fire extinguishers and check expiration dates"</string>
+• No smoking around sources of fires and explosions \n
+• Provide designated smoking area and enforce proper extinguishing of smoking materials \n
+• Good housekeeping to avoid clutter \n
+• Ensure safe use and storage of chemical substances \n
+• Training and signaling \n
+• Detect and repair leaks \n
+• Have fire extinguishers and check expiration dates"</string>
 
     <string name="cause_extreme_temperatures">"Intense exposure to the sun at very high temperatures because of outdoor work \n
 Long exposure to very low temperatures, wind, rain and water"</string>
@@ -184,12 +183,12 @@ Slips, trips and falls"</string>
 N/A
 
 <b>Engineering controls:</b>
-Building barriers that avoid direct contact with moisture
+• Building barriers that avoid direct contact with moisture
 
 <b>Administrative and PPE:</b>
-Intervals between activities \n
-Minimize wet work to less than 2 hours \n
-Wear personal protective equipment (PPE) such as gloves, boots, clothing and overalls"</string>
+• Intervals between activities \n
+• Minimize wet work to less than 2 hours \n
+• Wear personal protective equipment (PPE) such as gloves, boots, clothing and overalls"</string>
 
     <string name="cause_dust_gases">"Earth moving and dust forming jobs \n
 Improper care of equipment \n
@@ -200,15 +199,15 @@ Skin and respiratory irritation"</string>
     <string name="control_dust_gases">"<b>Elimination or replacement:</b>
 N/A \n
 <b>Engineering controls:</b>
-Detect and repair leaks
+• Detect and repair leaks
 
 <b>Administrative and PPE:</b>
-Use personal protective equipment (PPE) such as rubber gloves and respiratory protection mask for dust and gases \n
-Replace chemicals with less toxic products \n
-Reduce exposure time \n
-Raising workers' awareness in the workplace \n
-Use mechanical spreader \n
-Signaling"</string>
+• Use personal protective equipment (PPE) such as rubber gloves and respiratory protection mask for dust and gases \n
+• Replace chemicals with less toxic products \n
+• Reduce exposure time \n
+• Raising workers' awareness in the workplace \n
+• Use mechanical spreader \n
+• Signaling"</string>
 
     <string name="cause_products">"Substances for preparation and correction of ponds \n
 Products used in harvesting activities \n
@@ -226,60 +225,60 @@ Genetic disorder \n
 Cancer \n
 Death"</string>
     <string name="control_products">"<b>Elimination or replacement:</b>
-Replace toxic or lethal products
+• Replace toxic or lethal products
 
 <b>Engineering controls:</b>
-Chemicals should be stored properly in well-ventilated areas and away from reactive substances \n
-Detect and repair leaks \n
-Install sprinkler suppression systems \n
-Mechanical equipment that reduces contact with chemical agents
+• Chemicals should be stored properly in well-ventilated areas and away from reactive substances \n
+• Detect and repair leaks \n
+• Install sprinkler suppression systems \n
+• Mechanical equipment that reduces contact with chemical agents
 
 <b>Administrative and PPE:</b>
-Personal protective equipment (PPE) such as: Closed-toe shoes, Nitrile gloves, Goggles and appropriate masks \n
-Training \n
-Do not use pesticides or herbicides to avoid intoxication or contamination of water \n
-Signaling"</string>
+• Personal protective equipment (PPE) such as: Closed-toe shoes, Nitrile gloves, Goggles and appropriate masks \n
+• Training \n
+• Do not use pesticides or herbicides to avoid intoxication or contamination of water \n
+• Signaling"</string>
 
     <string name="cause_resistance">"Antimicrobial resistance (AMR) is the ability of a microorganism (like bacteria, viruses, and some parasites) to stop an antimicrobial (such as antibiotics, antivirals and antimalarials) from working against it. As a result, standard treatments become ineffective, infections persist and may spread to others \n
 Aquacultural workers: handling fish, molluscs, crustaceans - in ponds, lakes, rivers, wetlands and coastal or offshore waters"</string>
     <string name="hazard_resistance">"Workers on farms and in slaughtering houses are at high risk of exposure to ‘super bugs’ that in some cases can resist as many as 12 antibiotics \n
 Workers may carry these dangerous microbes home to family and community \n
-AMR strains of E Coli, Staphylococci bacteria, Salmonella and Campylobacter are all pathogens in the food chain that pose risks to workers \n
+AMR strains of <i>E Coli</i>, <i>Staphylococci</i>, <i>Salmonella</i> and <i>Campylobacter</i> are all pathogens in the food chain that pose risks to workers \n
 Risk of contracting an AMR infectious disease through handling carcasses, infected work tools and raw meat products. The risk of contracting an AMR disease is greatly increased when a worker has suffered a skin laceration, cut or wound (however small) because many disease carrying microbes can only enter the body through roken skin \n
 Other AMR diseases can also spread through inhalation and ingestion"</string>
     <string name="control_resistance">"<b>Elimination or replacement:</b>
-Complete restriction of use of all classes of medically important antimicrobials in food-producing animals for prevention of infectious diseases that have not yet been clinically diagnosed; or for growth promotion \n
-Do not use antimicrobials classified as highest priority critically important for human medicine for treatment of food-producing animals with a clinically diagnosed infectious disease \n
+• Complete restriction of use of all classes of medically important antimicrobials in food-producing animals for prevention of infectious diseases that have not yet been clinically diagnosed; or for growth promotion \n
+• Do not use antimicrobials classified as highest priority critically important for human medicine for treatment of food-producing animals with a clinically diagnosed infectious disease \n
 
 <b>Engineering controls:</b>
-We recommend an overall reduction in use of all classes of medically important antimicrobials in food-producing animals \n
-Use of quarantine and specific pathogen-free certified stocks, excluding vectors and external sources of contamination, and preventing internal cross-contamination
+• We recommend an overall reduction in use of all classes of medically important antimicrobials in food-producing animals \n
+• Use of quarantine and specific pathogen-free certified stocks, excluding vectors and external sources of contamination, and preventing internal cross-contamination
 
 <b>Administrative and PPE:</b>
-Clean and disinfect boots- dispose of covers for shoes \n
-Remove work clothes before leaving the farm \n
-Wash hands thoroughly with warm water and soap \n
-Dry hands with a paper towel \n
-When hands are completely dry, disinfect with sanitizer and rub for at least 30 seconds \n
-Always take a shower before going home \n
-Change into clean clothes kept in an enclosed space \n
-Avoid placing personal items, such as mobile phones, in production areas \n
-Use appropriate personal protective equipment (PPE)"</string>
+• Clean and disinfect boots- dispose of covers for shoes \n
+• Remove work clothes before leaving the farm \n
+• Wash hands thoroughly with warm water and soap \n
+• Dry hands with a paper towel \n
+• When hands are completely dry, disinfect with sanitizer and rub for at least 30 seconds \n
+• Always take a shower before going home \n
+• Change into clean clothes kept in an enclosed space \n
+• Avoid placing personal items, such as mobile phones, in production areas \n
+• Use appropriate personal protective equipment (PPE)"</string>
 
     <string name="cause_zoonoses">"Handling or activities that promote direct unintentional contact with pathogens \n
 Contact through contaminated water \n
 Contact through interaction with animals"</string>
     <string name="hazard_zoonoses">"Infections"</string>
     <string name="control_zoonoses">"<b>Elimination or replacement:</b>
-Control and elimination of pests and vectors
+• Control and elimination of pests and vectors
 
 <b>Engineering controls:</b>
-Control of vegetation around tanks and installations \n
+• Control of vegetation around tanks and installations \n
 
 <b>Administrative and PPE:</b>
-Sanitation \n
-Appropriate personal protective equipment \n
-Vaccination"</string>
+• Sanitation \n
+• Appropriate personal protective equipment \n
+• Vaccination"</string>
 
     <string name="cause_animals">"<b>Venomous</b>
 Handling fish with sharp teeth or spines that can cause cuts and stings \n
@@ -299,12 +298,12 @@ Death"</string>
 N/A
 
 <b>Engineering controls:</b>
-Control of vegetation around tanks and installations
-Setting traps to catch venomous animals and insects
+• Control of vegetation around tanks and installations
+• Setting traps to catch venomous animals and insects
 
 <b>Administrative and PPE:</b>
-Put in sight emergency phones and local poisoning centers \n
-Closed shoes and gloves for animal handling"</string>
+• Put in sight emergency phones and local poisoning centers \n
+• Closed shoes and gloves for animal handling"</string>
 
     <string name="cause_excessive_physical_effort">"Loading of excess weight \n
 Awkward work posture during the handling of the animals in the harvesting process \n
@@ -324,18 +323,18 @@ Weakness \n
 Stiffness \n
 Fatigue"</string>
     <string name="control_excessive_physical_effort">"<b>Elimination or replacement:</b>
-Use mechanical equipment to eliminate or reduce physical exertion \n
-Use pulley, rail or crane to raise nets at the expense or transport loads
+• Use mechanical equipment to eliminate or reduce physical exertion \n
+• Use pulley, rail or crane to raise nets at the expense or transport loads
 
 <b>Engineering controls:</b>
-Decrease tank height to improve lifting postures
+• Decrease tank height to improve lifting postures
 
 <b>Administrative and PPE:</b>
-Maintain good posture and frequently changing \n
-Where possible, reduce the weight of the load \n
-Reduce the weight of high loads (such as fish nets filled with fish) \n
-Take breaks \n
-Worker training"</string>
+• Maintain good posture and frequently changing \n
+• Where possible, reduce the weight of the load \n
+• Reduce the weight of high loads (such as fish nets filled with fish) \n
+• Take breaks \n
+• Worker training"</string>
 
     <string name="cause_psychosocial">"Large fish kills \n
 Rremote locations away from family \n
@@ -350,19 +349,19 @@ N/A
 N/A
 
 <b>Administrative and PPE:</b>
-Worker education and training focused on the worker's quality of life</string>
+• Worker education and training focused on the worker's quality of life</string>
 
     <string name="cause_excessive_workday">"Working hours longer than 8 hours per day or greater than 44 hours per week \n
 Little rest time or intervals"</string>
     <string name="hazard_excessive_workday">"Tiredness and fatigue leading to poor attention and decreased productivity \n
 Muscle aches"</string>
     <string name="control_excessive_workday">"<b>Elimination or replacement:</b>
-Maintain adequate working hours
+• Maintain adequate working hours
 
 <b>Engineering controls:</b>
 N/A \n
 <b>Administrative and PPE:</b>
-"Better work organization"</string>
+• "Better work organization"</string>
 
     <string name="cause_night_work">"Working at night with low visibility"</string>
     <string name="hazard_night_work">"Fractures \n
@@ -374,13 +373,13 @@ Sleep and tiredness \n
 Stress and other psychological disorders \n
 Increased propensity to accidents"</string>
     <string name="control_night_work">"<b>Elimination or replacement:</b>
-Change shift to daylight hours
+• Change shift to daylight hours
 
 <b>Engineering controls:</b>
-Provide adequate lighting and backup lighting
+• Provide adequate lighting and backup lighting
 
 <b>Administrative and PPE:</b>
-Limit night work to as few hours as possible"</string>
+• Limit night work to as few hours as possible"</string>
 
     <string name="cause_machinery">"Tractor overturning \n
 Miscellaneous incidents with machines, aerators and equipment \n
@@ -393,15 +392,15 @@ Death"</string>
     <string name="control_machinery">"<b>Elimination or replacement:</b>
 N/A \n
 <b>Engineering controls:</b>
-Equip vehicles (including ATVs) with rollover protection structures (ROPS) \n
-Regulate the rear PTO of the rotary implements on the terminal drive of the equipment \n
-Install protectors in equipment and machines \n
+• Equip vehicles (including ATVs) with rollover protection structures (ROPS) \n
+• Regulate the rear PTO of the rotary implements on the terminal drive of the equipment \n
+• Install protectors in equipment and machines \n
 
 <b>Administrative and PPE:</b>
-Training to use machines and equipment \n
-Use appropriate protective equipment \n
-Avoid working alone \n
-Avoid working while tired"</string>
+• Training to use machines and equipment \n
+• Use appropriate protective equipment \n
+• Avoid working alone \n
+• Avoid working while tired"</string>
 
     <string name="cause_slips">"Slips and falls can be caused by wet and slippery floors, tools left on runways, and discarded debris on the floor, such as oysters and open gutters \n
 Falls of heights, floating or fixed platforms"</string>
@@ -414,13 +413,13 @@ Drowning"</string>
     <string name="control_slips">"<b>Elimination or replacement:</b>
 N/A \n
 <b>Engineering controls:</b>
-Non-slip floor
+• Non-slip floor
 
 <b>Administrative and PPE:</b>
-Obstacle walkways \n
-Keep the floor dry \n
-Non-slip footwear \n
-Map of risks and signs"</string>
+• Obstacle walkways \n
+• Keep the floor dry \n
+• Non-slip footwear \n
+• Map of risks and signs"</string>
 
     <string name="cause_drowning">"Falls at sea or dams \n
 Lack of use of the Personal Flotation Device (PFD) \n
@@ -433,29 +432,29 @@ Death"</string>
 N/A
 
 <b>Engineering controls:</b>
-Install floating life lines or other devices to exit ponds and tanks coated with plastic or smooth or muddy surfaces
+• Install floating life lines or other devices to exit ponds and tanks coated with plastic or smooth or muddy surfaces
 
 <b>Administrative and PPE:</b>
-Use of personal flotation device (PFD) such as lifejacket and emergency buoy \n
-Training \n
-Have knowledge of diving and swimming \n
-Make sure on safety in diving and in doubles at least"</string>
+• Use of personal flotation device (PFD) such as lifejacket and emergency buoy \n
+• Training \n
+• Have knowledge of diving and swimming \n
+• Make sure on safety in diving and in doubles at least"</string>
 
     <string name="cause_cutting_drilling">"Handling of syringe and needle in vaccination"</string>
     <string name="hazard_cutting_drilling">"Local inflammation and severe pain \n
 Infections \n
-<b>Influenza</b> like syndrome with fever, muscle ache, and general malaise \n
+\"Influenza\" like syndrome with fever, muscle ache, and general malaise \n
 Anaphylactic reactions with coma, dyspnoea, and confusion"</string>
     <string name="control_cutting_drilling">"<b>Elimination or replacement:</b>
-Install automatic vaccination equipment
+• Install automatic vaccination equipment
 
 <b>Engineering controls:</b>
-Use corrugated table to immobilize the fish in the wavy groove
+• Use corrugated table to immobilize the fish in the wavy groove
 
 <b>Administrative and PPE:</b>
-Vaccine training \n
-Use of Personal Protective Equipment such as anti-cutting gloves (high strength polyurethane) \n
-Well equipped first aid kit"</string>
+• Vaccine training \n
+• Use of Personal Protective Equipment such as anti-cutting gloves (high strength polyurethane) \n
+• Well equipped first aid kit"</string>
 
 
     <string name="default_highscore">You have not filled out the checklist yet.</string>
@@ -556,7 +555,7 @@ Well equipped first aid kit"</string>
     <string name="floating">Floating Equipment</string>
     <string name="protecting">Protective Clothing</string>
     <string name="eye_protection">Eye protection</string>
-    <string name="hearing_protection">Ear protection</string>
+    <string name="hearing_protection">Hearing protection</string>
     <string name="sign_protection">Sign protection</string>
     <string name="fire_protection">Fire protection</string>
     <string name="first_aid">First aid \n</string>
@@ -564,14 +563,15 @@ Well equipped first aid kit"</string>
     <string name="chemical_protection">Chemical protection</string>
     <string name="diving_protection">Diving protection</string>
 
-    <string name="hierarchy_text">According to OSHA, effective controls protect workers from workplace hazards. There is a wealth of information to help employers investigate options for controlling identified hazards. Before selecting any control measure, it is essential to request information from stakeholders (workers and employers) on their feasibility and effectiveness.
-
-Employers should select the most viable, effective and permanent controls.
-Select controls according to a hierarchy that emphasizes sol'utions including elimination or replacement first, followed by safe work practices, administrative controls, and finally personal protective equipment.
-Avoid selecting controls that can directly or indirectly introduce new hazards.
+    <string name="information_about_hazard">
+Occupational risk is the probability of occurrence of a health effect due to exposure to the hazard (OHSAS 18001). In aquaculture activities, workers are exposed to different hazards, which may be physical, chemical, biological, ergonomic and psychosocial. To eliminate, avoid or mitigate health risks related to these hazards, it is necessary to establish hazard control and risk management.\n
+\n
+According to OSHA, effective controls protect workers from workplace hazards. There is a wealth of information to help employers investigate options for controlling identified hazards. Before selecting any control measure, it is essential to request information from stakeholders (workers and employers) on their feasibility and effectiveness.\n
+\n
+• Employers should select the most viable, effective and permanent controls.\n
+• Select controls according to a hierarchy that emphasizes solutions including elimination or replacement first, followed by safe work practices, administrative controls, and finally personal protective equipment.\n
+• Avoid selecting controls that can directly or indirectly introduce new hazards.\n
 </string>
-    <string name="risk">Occupational risk is the probability of occurrence of a health effect due to exposure to the hazard (OHSAS 18001). In aquaculture activities, workers are exposed to different hazards, which may be physical, chemical, biological, ergonomic and psychosocial. To eliminate, avoid or mitigate health risks related to these hazards, it is necessary to establish hazard control and risk management.</string>
-
 
     <string name="text_floating_equipment">
 <b>Life jacket</b>"
@@ -607,13 +607,16 @@ Avoid selecting controls that can directly or indirectly introduce new hazards.
 • Each diver must be equipped with a strong, sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.
 </string>
 
-<string name="eye_protection_text">Protect eyes with safety or protective eyewear when activity requires eye protection.
-Workers should wear sunglasses to protect their eyes from direct sunlight or the reflection of water or ice.
-Do not wear standard sunglasses as a substitute for safety glasses when performing tasks that require the use of eye protection. For these tasks, wear appropriate glasses or protective masks.
+<string name="eye_protection_text">
+• Protect eyes with safety or protective eyewear when activity requires eye protection.\n
+• Workers should wear sunglasses to protect their eyes from direct sunlight or the reflection of water or ice.\n
+• Do not wear standard sunglasses as a substitute for safety glasses when performing tasks that require the use of eye protection. For these tasks, wear appropriate glasses or protective masks.\n
 </string>
 
-<string name="hearing_protection_text">Wear hearing protection (protectors, dampers, and earplugs) when using equipment or noisy machines (whenever the noise level exceeds 85 decibels). A good rule of thumb is if someone else is talking and can not be heard when they are at arm\'s length, then hearing protection should be used.
-Some of the most common equipment used by fish farmers where hearing protection should be used include a chainsaw (115 decibels), a gasoline engine (100 decibels), a tractor (80-110 decibels), oyster washing machines (> 80 decibels).
+<string name="hearing_protection_text">
+• Wear hearing protection (protectors, dampers, and earplugs) when using equipment or noisy machines (whenever the noise level exceeds 85 decibels). A good rule of thumb is if someone else is talking and can not be heard when they are at arm\'s length, then hearing protection should be used.\n
+\n
+• Some of the most common equipment used by fish farmers where hearing protection should be used include a chainsaw (115 decibels), a gasoline engine (100 decibels), a tractor (80-110 decibels), oyster washing machines (> 80 decibels).\n
 </string>
 
 <string name="sign_protection_text">Place warning signs and emergency numbers in any chemical or noxious storage area. The signs should be placed according to the risks found in the workplace. \n
@@ -648,10 +651,10 @@ Some of the most common equipment used by fish farmers where hearing protection 
     
     <string name="fire_protection_text">
 <b>Fire extinguisher</b>\n
-Fire extinguishers must be on the validity date.\n
-"No smoking" signs should be affixed to all deposits or areas where flammable products are present.\n
-Fire extinguishers must be kept fully charged and renewed as specified by the manufacturer.\n
-Workers should be trained in the use of fire extinguishers.\n
+• Fire extinguishers must be on the validity date.\n
+• "No smoking" signs should be affixed to all deposits or areas where flammable products are present.\n
+• Fire extinguishers must be kept fully charged and renewed as specified by the manufacturer.\n
+• Workers should be trained in the use of fire extinguishers.\n
 \n
 
 <b>Types of extinguishers:</b>\n
@@ -661,8 +664,8 @@ Workers should be trained in the use of fire extinguishers.\n
 </string>
 
 <string name= "first_aid_text">
-Workers should be trained on first aid measures whenever possible.\n
-Keep list of useful telephones visible and a kit for simple procedures.\n
+• Workers should be trained on first aid measures whenever possible.\n
+• Keep list of useful telephones visible and a kit for simple procedures.\n
 \n
 <b>The First Aid Kit may include:</b>\n
 • Procedure gloves\n
@@ -711,13 +714,13 @@ The route of exposure or target organ damage of the chemical assists in making d
 • Wear conventional or disposable overalls, aprons.\n
 </string>
     <string name="diving_protection_text">
-The diving equipment must be tested according to the manufacturer\'s specifications. The diving equipment test record must be maintained. Before use, you should check that it is working properly.\n
+• The diving equipment must be tested according to the manufacturer\'s specifications. The diving equipment test record must be maintained. Before use, you should check that it is working properly.\n
 \n
-Dive team members who become aware of a malfunction or risk of diving equipment at the dive site must notify other divers who may be affected by the malfunction immediately. If the fault occurs during a dive and there are no replacements available on site, the dive must be immediately aborted in cooperation with the other members of the dive team.\n
+• Dive team members who become aware of a malfunction or risk of diving equipment at the dive site must notify other divers who may be affected by the malfunction immediately. If the fault occurs during a dive and there are no replacements available on site, the dive must be immediately aborted in cooperation with the other members of the dive team.\n
 \n
-Each diver must be equipped with a  sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.\n
+• Each diver must be equipped with a  sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.\n
 \n
-A dive should not be performed if a health and safety hazard can be caused by equipment near the dive site.\n
+• A dive should not be performed if a health and safety hazard can be caused by equipment near the dive site.\n
 
     </string>
 </resources>
