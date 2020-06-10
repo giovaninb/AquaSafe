@@ -40,13 +40,24 @@
             android:gravity="center"
             android:orientation="vertical">
 
+            <ImageButton
+                android:id="@+id/risk_explanation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:clickable="true"
+                android:padding="15dp"
+                android:src="@drawable/explanation"
+                android:scaleType="fitCenter"
+                android:tag="risk_explanation"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="2dp"
-                android:text="@string/risk"
+                android:text="@string/risk_explanation"
                 android:textColor="@color/text"
                 android:textAlignment="center"
                 android:layout_gravity="center"/>
@@ -80,7 +91,7 @@
                     android:background="@drawable/button_selector"
                     android:clickable="true"
                     android:padding="15dp"
-                    android:src="@drawable/information"
+                    android:src="@drawable/hierarchy"
                     android:scaleType="fitCenter"
                     android:tag="hierarchy_control"/>
 
@@ -89,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/information"
+                    android:text="@string/hierarchy_control"
                     android:textColor="@color/text" />
             </LinearLayout>
         </LinearLayout>

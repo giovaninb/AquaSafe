@@ -1,0 +1,1389 @@
+<resources>
+    <string name="app_name">AquaSafe</string>
+    <string name="hazard">Riscos</string>
+    <string name="types_of_hazard">Tipos de Riscos</string>
+    <string name="quiz">Quiz</string>
+    <string name="tools">Ferramentas</string>
+    <string name="management">no local de trabalho</string>
+    <string name="equipment">EPI e EPC</string>
+    <string name="checklist">Checklist</string>
+    <string name="about">Sobre</string>
+    <string name="contact">Fale Conosco</string>
+    <string name="youtube">Vídeos</string>
+    <string name="title_activity_hazard">HazardActivity</string>
+    <string name="information">Informações Gerais</string>
+    <string name="risk_explanation">Explicação Rápida de Risco</string>
+    <string name="hierarchy_control">Hierarquia de Controles</string>
+
+    <string name="electrocution">Eletrocussão</string>
+    <string name="noise">Ruído</string>
+    <string name="solar_radiation">Radiação Solar\n</string>
+    <string name="fire_explosion">Incêndios e\n Explosões</string>
+    <string name="extreme_temperatures">Temperaturas \nExtremas</string>
+    <string name="humidity">Umidade e\n exposição a àgua</string>
+    <string name="dust_gases">Poeiras e Gases</string>
+    <string name="products">Substâncias, compostos \n ou produtos químicos</string>
+    <string name="resistance">Resistência Antimicrobiana</string>
+    <string name="zoonoses">Zoonoses</string>
+    <string name="animals">Animais</string>
+    <string name="excessive_physical_effort">Excesso de esforço físico</string>
+    <string name="psychosocial">Psicossociais</string>
+    <string name="excessive_workday">Jornada de Trabalho Excessiva</string>
+    <string name="night_work">Trabalho Noturno</string>
+    <string name="machinery">Acidentes com Maquinário</string>
+    <string name="slips">Deslizamentos</string>
+    <string name="drowning">Afogamento</string>
+    <string name="cutting_drilling">Cortes e Perfurações</string>
+
+
+    <string name="physic">Físico</string>
+    <string name="chemical">Químico</string>
+    <string name="biologic">Biológico</string>
+    <string name="ergonomic">Ergonômico</string>
+    <string name="injurious_incidents">Acidente</string>
+
+    <string name="cause">Causa/Fonte/Perigo</string>
+    <string name="type_hazard">Risco/Danos à Saúde</string>
+    <string name="control">Controle e Prevenção</string>
+
+    <string name="cause_electrocution">"Contato da água com linhas de transmissão de energia elétrica; \n
+Falta de sistemas de aterramento nas fazendas; \n
+Choques ocorridos por localidades úmidas; \n
+Choques através da energia de reserva quando a energia principal é desligada por motivos de manutenção; \n
+Fios desencapados."</string>
+    <string name="hazard_electrocution">"Queimaduras; \n
+Contração Muscular Involuntária; \n
+Morte."</string>
+    <string name="control_electrocution">"<b>Eliminação ou substituição:</b>
+• Utilizar interruptores de falha de circuito (GFCI) eficaz em reduzir a probabilidade de choques elétricos .\n
+
+<b>Controles de Engenharia:</b>
+• Assegurar o uso de fusíveis e um sistema de aterramento adequado; \n
+• Certificar que todos os cabos estão intactos e impermeabilizados; \n
+• Evitar o sobrecarregamento elétrico. \n
+
+<b>Administrativos e EPIs:</b>
+• Tornar os trabalhadores conscientes dos riscos de choque elétrico por equipamentos próximos à água através de treinamento; \n
+• As instalações elétricas devem ser revisadas e garantidas por um profissional qualificado para a função; \n
+• Nunca trabalhar sozinho para que em caso de acidente, tenha alguém que possa desligar a energia; \n
+• A energia deve ser desligada quando o equipamento for manuseado; \n
+• Garantir a manutenção de equipamentos; \n
+• Sinalizar os equipamentos com risco de choque elétrico."</string>
+
+    <string name="cause_noise">"Exposição constante a sons emitidos pelo motor do barco; \n
+Máquinas de lavagem de ostras; \n
+Lavadoras de alta pressão.</string>
+    <string name="hazard_noise">"Estresse físico e psicológico; \n
+Redução na produtividade; \n
+Interferência na comunicação e concentração; \n
+Dores de cabeça; \n
+Perda de audição temporária ou permanente.</string>
+    <string name="control_noise">"<b>Eliminação ou substituição:</b>
+• Substituição por equipamento de menor ruído.
+
+<b>Controles de Engenharia:</b>
+• Construir barreiras que evitem que o ruído chegue ao trabalhador.
+
+<b>Administrativos e EPIs:</b>
+• Usar protetor auricular; \n
+• Rotatividade de trabalho; \n
+• Intervalos entre as atividades; \n
+• Usar equipamento de proteção individual (EPI).</string>
+
+    <string name="cause_solar_radiation">"Exposição frequente do indivíduo com agentes radioativos. Na aquicultura a exposição a radiação ultravioleta do Sol é a mais frequente."</string>
+    <string name="hazard_solar_radiation">"Câncer de pele; \n
+Desidratação; \n
+Dor de cabeça; \n
+Queimaduras na pele (primeiro e segundo grau); \n
+Catarata; \n
+Insolação; \n
+Dermatites.</string>
+    <string name="control_solar_radiation">"<b>Eliminação ou substituição:</b>
+• Trabalho em áreas cobertas e protegidas do sol.
+
+<b>Controles de Engenharia:</b>
+N/A \n
+<b>Administrativos e EPIs:</b>
+• Usar protetor solar, chapéus e óculos solares; \n
+• Reduzir a exposição a luz solar com rotatividade de trabalho; \n
+• Realizar exames de pele em pontos suspeitos."</string>
+
+    <string name="cause_fire_explosion">"Rede elétrica comprometida; \n
+Resíduos de cigarro; \n
+Utilização e armazenamento incorreto de produtos inflamáveis; \n
+Vazamento de gases; \n
+Terminal positivo da bateria exposta em barcos;</string>
+    <string name="hazard_fire_explosion">"Queimaduras; \n
+Invalidez por consequência de sequelas graves; \n
+Morte.</string>
+    <string name="control_fire_explosion">"<b>Eliminação ou substituição:</b>
+• Substituir substâncias inflamáveis.
+
+<b>Controles de Engenharia:</b>
+• Cobrir terminais para evitar faíscas; \n
+• Manter as fontes de faísca longe dos tanques de oxigênio e roupas; \n
+• Instale sistemas de supressão de sprinklers e exaustores.
+
+<b>Administrativos e EPIs:</b>
+• Não fumar em torno de fontes de incêndios e explosões; \n
+• Manter substâncias incompatíveis separadas; \n
+• Treinamento e Sinalização; \n
+• Detectar e reparar vazamentos; \n
+• Possuir extintores de incêndio e na validade.</string>
+
+    <string name="cause_extreme_temperatures">"Exposição intensa aos raios solares em temperaturas muito altas por causa de trabalhos a céu aberto; \n
+Exposição longa a temperaturas muito baixas, vento, chuva e água."</string>
+    <string name="hazard_extreme_temperatures">"Insolação; \n
+Queimaduras; \n
+Desidratação; \n
+Resfriados; \n
+Gripe; \n
+Pneumonia; \n
+Quadros de hipotermia.</string>
+    <string name="control_extreme_temperatures">"<b>Eliminação ou substituição:</b>
+• Trabalho em áreas cobertas. \n
+
+<b>Controles de Engenharia:</b>
+• Ventilação, exaustores e isolamento térmico. \n
+
+<b>Administrativos e EPIs:</b>
+• Utilizar protetores solares, bonés ou chapéus; \n
+• Utilizar roupas de proteção e calçados apropriados; \n
+• Rotatividade de trabalho; \n
+• Intervalos para a ingestão de líquidos evitando a desidratação em temperaturas elevadas; \n
+• Intervalos para a ingestão de bebidas quentes evitando as consequências de temperaturas baixas.</string>
+
+    <string name="cause_humidity">"Exposição durante a ocorrência de chuvas; \n
+Exposição a água do mar, tanques e viveiros; \n
+Exposição a água usada na limpeza e locais úmidos.</string>
+    <string name="hazard_humidity">"<b>Níveis reduzidos de umidade podem levar a:</b>
+Queda da pressão arterial; \n
+Ressecamento das vias aéreas superiores, mucosas e pele; \n
+Escorregões e quedas; \n
+Doenças Respiratórias, urinárias e infecciosas."</string>
+    <string name="control_humidity">"<b>Eliminação ou substituição:</b>
+N/A \n
+
+<b>Controles de Engenharia:</b>
+• Construir barreiras que evitem o contato direto com a umidade.
+
+<b>Administrativos e EPIs:</b>
+• Intervalos entre as atividades; \n
+• Usar equipamentos de proteção individual (EPI) como luvas, botas e macacões.</string>
+
+    <string name="cause_dust_gases">"Terraplanagem e trabalhos que formam poeiras; \n
+Cuidado inadequado com os equipamentos; \n
+Manutenção precária dos motores de barcos."</string>
+    <string name="hazard_dust_gases">"Desmaios; \n
+Tonturas; \n
+Irritação cutânea e respiratória."</string>
+    <string name="control_dust_gases">"<b>Eliminação ou substituição:</b>
+N/A \n
+<b>Controles de Engenharia:</b>
+• Detectar e reparar vazamentos.
+
+<b>Administrativos e EPIs:</b>
+• Utilizar equipamentos de proteção individual (EPI) como luvas de borracha e máscara de proteção respiratória para poeiras e gases; \n
+• Substituir produtos químicos por outros menos tóxicos; \n
+• Reduzir o tempo de exposição; \n
+• Conscientizar os trabalhadores dos riscos no ambiente de trabalho; \n
+• Utilizar espalhador mecânico; \n
+• Sinalização."</string>
+
+    <string name="cause_products">"Substâncias para preparação e correção de viveiros; \n
+Produtos utilizados nas atividades de despesca; \n
+Contato com calcário, peróxido de hidrogênio, metabissulfito de sódio, pulverizadores de mochila e pulverizadores de forma manual; \n
+Manipulação de substâncias corrosivas."</string>
+    <string name="hazard_products">"Queimaduras; \n
+Irritação na pele e do trato respiratório; \n
+Envelhecimento precoce; \n
+Ansiedade; \n
+Depressão; \n
+Perda de memória; \n
+Envenenamento; \n
+Teratogênese(formação e desenvolvimento no útero de anomalias que levam a malformações - somente em mulheres); \n
+Desordem genética; \n
+Câncer; \n
+Morte."</string>
+    <string name="control_products">"<b>Eliminação ou substituição:</b>
+• Substituir produtos tóxicos ou letais.
+
+<b>Controles de Engenharia:</b>
+• Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir; \n
+• Detectar e reparar vazamentos; \n
+• Instalar sistemas de supressão de sprinklers; \n
+• Equipamentos mecânicos que reduzam o contato com agentes químicos.
+
+<b>Administrativos e EPIs:</b>
+• Equipamento de proteção individual (EPI) como: Calçado fechado, Luvas nitrílicas, Óculos de proteção e Máscaras apropriadas; \n
+• Treinamento; \n
+• Não usar pesticidas ou herbicidas para evitar intoxicações ou contaminação da água; \n
+• Sinalização."</string>
+
+    <string name="cause_resistance">"Resistência antimicrobiana (AMR) é a capacidade de um microrganismo (como bactérias, vírus e alguns parasitas) impedir que um antimicrobiano (como antibióticos, antivirais e antimaláricos) trabalhe contra ele. Como resultado, os tratamentos padrão tornam-se ineficazes, as infecções persistem e podem se espalhar para outras pessoas."</string>
+    <string name="hazard_resistance">"
+Trabalhadores em fazendas ou abatedouros estão sob alto risco de exposição a \"super bactérias\" que, em alguns casos, podem resistir a 12 antibióticos diferentes;\n
+Os trabalhadores podem transportar esses microorganismos perigosos para a família e a comunidade;\n
+Cepas de AMR de <i>E. coli</i>, <i>estafilococos</i>, <i>salmonela</i> e <i>campylobacter</i> são patógenos que apresentam riscos aos trabalhadores;\n
+O Risco de contrair uma doença infecciosa AMR por meio do manuseio carcaças, ferramentas de trabalho infectadas e produtos de carne crua. O risco de contrair uma doença AMR aumenta muito quando o trabalhador sofre laceração cutânea, corte ou ferida (por menor que seja), porque muitos microorganismos patógenos só podem entrar no corpo através do ferimento na pele. Outras doenças relacionadas à AMR também podem se espalhar por inalação e ingestão.\n
+"</string>
+    <string name="control_resistance">
+<b>Eliminação ou substituição:</b>\n
+• Restrição completa do uso de todas as classes de antimicrobianos medicamente importantes em animais produtores de alimentos para a prevenção de doenças infecciosas que ainda não foram diagnosticadas clinicamente; ou para promoção do crescimento;\n
+\n
+• Não use antimicrobianos classificados como de maior prioridade criticamente importantes para a medicina humana para o tratamento de animais para consumo alimentar com uma doença infecciosa clinicamente diagnosticada.\n
+\n
+<b>Controles de Engenharia:</b>\n
+• Recomendamos uma redução geral no uso de todas as classes de medicamentos antimicrobianos importantes em animais produzidos para alimentos;\n
+\n
+• Uso de estoques certificados e livres de patógenos, excluindo vetores e fontes externas de contaminação, e evitando a contaminação cruzada interna.\n
+\n
+<b>Administrativos e EPIs:</b>\n
+• Limpe e desinfete botas; \n\n
+• Remova a roupa de trabalho antes de sair da fazenda;\n\n
+• Lave bem as mãos com água morna e sabão;\n\n
+• Seque as mãos com toalha de papel;\n\n
+• Quando as mãos estiverem completamente secas, desinfete com o sanitizante e esfregue por pelo menos 30 segundos; \n\n
+• Tome sempre um banho antes de ir para casa; \n\n
+• Coloque roupas limpas, mantidas em um espaço fechado; \n\n
+• Evite colocar itens pessoais, como telefones celulares, em áreas de produção; \n\n
+• Use equipamento de proteção individual (EPI) apropriado. \n\n
+
+
+        "</string>
+
+    <string name="cause_zoonoses">"Manuseio ou atividades que promovem o contato direto com patógenos; \n
+Contato acidental; \n
+Contato através da água; \n
+Contato através de contato com animais."</string>
+    <string name="hazard_zoonoses">"Infecções; \n
+Infestação de patógenos no local de trabalho."</string>
+    <string name="control_zoonoses">"<b>Eliminação ou substituição:</b>
+• Controle e eliminação de pragas e vetores.
+
+<b>Controles de Engenharia:</b>
+• Controle da vegetação em torno de tanques e instalações; \n
+• Vacinação.
+
+<b>Administrativos e EPIs:</b>
+• Higienização; \n
+• Equipamento de proteção individual apropriados."</string>
+
+    <string name="cause_animals">"<b>Peçonhentos e venenosos</b>
+O perigo biológico é exacerbado quando há manipulação de animais com dentes afiados ou espinhos que podem causar cortes e picadas; \n
+Picadas de serpente, escorpiões  presentes na vegetação e água; \n
+Contato com animais venenosos como taturana, sapos e peixes.
+
+<b>Silvestres</b>
+Mordidas e ataques de Jacarés e outros animais(em regiões propícias ao surgimento desses animais)."</string>
+    <string name="hazard_animals">"Picadas; \n
+Cortes profundos; \n
+Dores intensas; \n
+Infecções geradas através de feridas; \n
+Reações na pele ou generalizadas (alergias), dependendo do agente causador, podendo levar à morte; \n
+Mordidas; \n
+Envenenamento; \n
+Morte."</string>
+    <string name="control_animals">"<b>Eliminação ou substituição:</b>
+N/A \n
+<b>Controles de Engenharia:</b>
+• Controle da vegetação em torno de tanques e instalações.
+
+<b>Administrativos e EPIs:</b>
+• Colocar à vista telefones de emergência e CIT local. \n
+• Sapatos fechados e luvas para manejo com animais;"</string>
+
+    <string name="cause_excessive_physical_effort">"Os problemas musculoesqueléticos estão relacionados ao carregamento de excesso de peso, má postura durante o manuseio dos animais no processo de colheita, quedas e escorregões;\n
+Enchimento manual de tanques vivos com água; \n
+Descarregar peixe de tanques ou redes; \n
+Rede e elevação de cargas de pescado; \n
+Rede, pesagem e transferência de pescado; \n
+Movimentos repetitivos; \n
+Posição prolongada; \n
+Carregar redes de pesca cheias; \n
+Carregar sacas de ração sem auxílio mecânico."</string>
+    <string name="hazard_excessive_physical_effort">"O recuo da água pode causar lesões por esforço ou derrubar um trabalhador, resultando em ferimentos graves; \n
+Lesão por esforço repetitivo (LER); \n
+Dores e doenças musculares; \n
+Formigamento; \n
+Fraqueza; \n
+Rigidez; \n
+Fadiga; \n
+Dores musculares nos membros e coluna vertebral; \n
+Desgastes das estruturas musculoesqueléticas."</string>
+    <string name="control_excessive_physical_effort">"<b>Eliminação ou substituição:</b>
+• Utilizar equipamentos mecânicos para eliminar ou diminuir o esforço físico; \n
+• Utilizar polia, trilho ou guindaste para levantar redes na despesca ou transportar cargas. \n
+
+<b>Controles de Engenharia:</b>
+• Diminuir a altura dos tanques para melhorar posturas de elevação.
+
+<b>Administrativos e EPIs:</b>
+• Manter boa postura e modificar frequentemente; \n
+• Quando possível, reduzir o peso da carga; \n
+• Reduzir o peso de cargas elevadas (como redes de imersão cheias de peixes); \n
+• Fazer pausas."</string>
+
+    <string name="cause_psychosocial">"Os riscos psicossociais são causados, principalmente, quando os trabalhadores são expostos a situações de estresse e quando ficam muito tempo longe da família e sem descanso."</string>
+    <string name="hazard_psychosocial">"Ansiedade; \n
+Depressão; \n
+Estresse relacionado ao trabalho."</string>
+    <string name="control_psychosocial">"<b>Eliminação ou substituição:</b>
+N/A \n
+<b>Controles de Engenharia:</b>
+N/A \n
+<b>Administrativos e EPIs:</b>
+• Palestras e seminários voltados a qualidade de vida do trabalhador."</string>
+
+    <string name="cause_excessive_workday">"Jornadas de trabalho maiores que 8 horas diárias ou maiores que 44 horas semanais; \n
+Pouco tempo de descanso ou intervalos."</string>
+    <string name="hazard_excessive_workday">"Cansaço e fadiga; \n
+Diminuição da produtividade; \n
+Descuido e desatenção; \n
+Dores musculares."</string>
+    <string name="control_excessive_workday">"<b>Eliminação ou substituição:</b>
+• Manter a jornada de trabalho adequada.
+
+<b>Controles de Engenharia:</b>
+N/A \n
+<b>Administrativos e EPIs:</b>
+N/A"</string>
+
+    <string name="cause_night_work">"Trabalho no período da noite com baixa visibilidade."</string>
+    <string name="hazard_night_work">"Fraturas; \n
+Afogamento; \n
+Quedas; \n
+Cortes; \n
+Distúrbios de Visão; \n
+Sono e cansaço; \n
+Estresse e outros distúrbios psicológicos; \n
+Aumento da propensão a acidentes."</string>
+    <string name="control_night_work">"<b>Eliminação ou substituição:</b>
+• Mudança de turno de trabalho para horário diurno.
+
+<b>Controles de Engenharia:</b>
+• Disponibilizar iluminação adequada e iluminação de backup.
+
+<b>Administrativos e EPIs:</b>
+• Limitar o trabalho noturno ao mínimo de horas possível.
+"</string>
+
+    <string name="cause_machinery">"Capotamento de trator; \n
+Acidentes diversos com máquinas, aeradores e equipamentos; \n
+Máquinas sem equipamentos de proteção."</string>
+    <string name="hazard_machinery">"Cortes e perfurações; \n
+Esmagamentos; \n
+Invalidez; \n
+Sequelas irreversíveis; \n
+Amputação de membros; \n
+Morte."</string>
+    <string name="control_machinery">"<b>Eliminação ou substituição:</b>
+N/A \n
+<b>Controles de Engenharia:</b>
+• Equipar veículos (incluindo ATVs) com estruturas de proteção contra capotagem (ROPS); \n
+• Regular a tomada de força (PTO) traseira dos implementos rotativos na transmissão terminal do equipamento;  \n
+• Instalar protetores em equipamentos e máquinas.
+
+<b>Administrativos e EPIs:</b>
+• Treinamentos para utilizar máquinas e equipamentos; \n
+• Utilizar equipamentos de proteção apropriados; \n
+• Evitar trabalhar sozinho; \n
+• Não trabalhar com sono."</string>
+
+    <string name="cause_slips">"Os deslizamentos e quedas podem ser causados por piso molhado e escorregadio, ferramentas deixadas em passarelas e resíduos descartados no chão, como ostras e calhas abertas; \n
+Quedas de alturas, plataformas flutuantes ou fixas."</string>
+    <string name="hazard_slips">"Fraturas; \n
+Contusões; \n
+Luxações; \n
+Potencial de afogamento de trabalhador ferido; \n
+Desmaio e perda da consciência; \n
+Afogamentos."</string>
+    <string name="control_slips">"<b>Eliminação ou substituição:</b>
+N/A \n
+<b>Controles de Engenharia:</b>
+• Piso antiderrapante.
+
+<b>Administrativos e EPIs:</b>
+• Passarelas livres de obstáculos; \n
+• Manter o chão seco; \n
+• Calçado antiderrapante; \n
+• Mapa de riscos e Sinalização."</string>
+
+    <string name="cause_drowning">"Quedas no mar ou açudes; \n
+Falta de uso do Dispositivo de Flutuação Pessoal (PFD); \n
+Afogamento por mergulho, falta de ar e descompressão."</string>
+    <string name="hazard_drowning">"Morte; \n
+Sequelas ocorridas pelo afogamento; \n
+Ingestão de água excessiva através das vias orais e respiratórias; \n
+Desmaios; \n
+Descompressão."</string>
+    <string name="control_drowning">"<b>Eliminação ou substituição:</b>
+N/A \n
+<b>Controles de Engenharia:</b>
+• Instalar linhas de vida flutuantes ou outros dispositivos para sair de lagoas e tanques revestidos de plástico ou de superfícies lisas ou lamacentas.
+
+<b>Administrativos e EPIs:</b>
+• Uso de dispositivo pessoal de flotação (PFD) como colete salva-vidas e boia para emergência; \n
+• Treinamento; \n
+• Ter conhecimentos de mergulho e natação; \n
+• Certificar-se sobre segurança no mergulho e em duplas no mínimo."</string>
+
+    <string name="cause_cutting_drilling">"Manuseio de equipamentos afiados e perfurantes; \n
+Utilização de rede de pesca, malhadeira, zagaia, arpão, flecha,anzol ou facas; \n
+Manuseio de seringa e agulha em vacinação."</string>
+    <string name="hazard_cutting_drilling">"Dor intensa; \n
+Infecções; \n
+Cicatrizes; \n
+Hemorragias; \n
+Perfuração com agulhas."</string>
+    <string name="control_cutting_drilling">"<b>Eliminação ou substituição:</b>
+• Instalar equipamento de vacinação automática.
+
+<b>Controles de Engenharia:</b>
+• Use mesa ondulada para imobilizar o peixe no sulco ondulado.
+
+<b>Administrativos e EPIs:</b>
+• Treinamento em aplicação de vacinas; \n
+• Utilização de Equipamentos de Proteção Individual como luvas anti-corte (poliuretano de alta resistência) para manuseio de facas e outros equipamentos de corte; \n
+• Kit de primeiros socorros."</string>
+
+    <string name="highscore">Sua maior nota: </string>
+    <string name="default_highscore">Você ainda não preencheu o checklist</string>
+    <string name="checklist_introduction">A Saúde Ocupacional é responsável pela prevenção e redução da saúde das pessoas, atuando em ações visando a promoção e a preservação da saúde dos mesmos. Para te ajudar - e incentivar -, montamos esta checklist de inspeção geral:</string>
+
+    <string name="fill_checklist">Preencher Checklist</string>
+    <string name="back_result">Rever último resultado</string>
+
+    <string name="general_checklist">Checklist Geral</string>
+    <string name="management_checklist">CheckList Gerenciamento</string>
+    <string name="workers_checklist">Checklist Trabalhadores</string>
+
+    <string name="ok">OK</string>
+
+    <string name="checklist_text">Selecione as práticas adotadas em seu local de trabalho:</string>
+    <string name="checkbox_1">Utilizo equipamentos de proteção individual, tais como luvas, bonés, protetor solar, máscaras e colete salva-vidas.</string>
+    <string name="checkbox_2">A vegetação em torno de tanques e instalações é cortada frequentemente.</string>
+    <string name="checkbox_3">Frequentemente é realizado controle de pragas e vetores.</string>
+    <string name="checkbox_4">Ambiente de trabalho é limpo e organizado.</string>
+    <string name="checkbox_5">Todas as instalações elétricas são impermeabilizadas, possuem uso de fusíveis e conexão de aterramento adequada.</string>
+    <string name="checkbox_6">Para evitar afogamentos, os trabalhadores usam bóias ou coletes salva-vidas nas atividades em contato com a água.</string>
+    <string name="checkbox_7">Para evitar exposições prolongadas, há pausas frequentes e rotação de trabalhadores.</string>
+    <string name="checkbox_8">O ambiente de trabalho é sinalizado para riscos.</string>
+    <string name="checkbox_9">O transporte de carga pelo trabalhador é realizado a fim de evitar levantamento de peso em excesso.</string>
+    <string name="checkbox_10">As  pessoas envolvidas no processo produtivo foram suficientemente treinadas para suas funções.</string>
+    <string name="checkbox_11">Saber nadar ou mergulhar é indispensável para contratação no local de trabalho. </string>
+    <string name="checkbox_12">Produtos químicos são aplicados utilizando máscaras e luvas apropriadas. </string>
+    <string name="checkbox_13">Trabalhadores são orientados a possuir algum tipo de imunização (tétano, hepatite A e B, febre tifóide, gripe e/ou febre amarela).</string>
+    <string name="checkbox_14">No meu ambiente de trabalho, é  possível realizar pausas ou mudança de posição após longos períodos de atividade.</string>
+    <string name="checkbox_15">Utilizo luvas resistente ao corte no manuseio de equipamentos ou máquinas afiadas. </string>
+    <string name="checkbox_16">Equipamentos ou máquinas no meu local de trabalho possuem “chave de bloqueio” para não ser acionado durante o manuseio.</string>
+    <string name="checkbox_17">Os trabalhadores estão cientes das suas responsabilidades de saúde e segurança e foram avisados ​​de quaisquer riscos potenciais (físicos, químicos, ergonomia, saúde, biológicos) que eles podem encontrar no trabalho?</string>
+    <string name="checkbox_18">Somente funcionários autorizados e treinados podem operar ferramentas e equipamentos ou usar produtos químicos?</string>
+    <string name="checkbox_19">Existem oportunidades de capacitação profissional e familiarização para novos trabalhadores?</string>
+    <string name="checkbox_20">Existem trabalhadores experientes e responsáveis ​​a quem recorrer se outros trabalhadores precisarem assistência?</string>
+
+    <string name="confirm">Confirmar</string>
+
+    <string name="title_activity_physicist">PhysicistActivity</string>
+    <string name="Espanhol">Espanhol</string>
+    <string name="Inglês">Inglês</string>
+    <string name="Português">Português</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_chemical">ChemicalActivity</string>
+    <string name="title_activity_biological">BiologicalActivity</string>
+    <string name="title_activity_ergonomic">ErgonomicActivity</string>
+    <string name="title_activity_accident">AccidentActivity</string>
+    <string name="title_activity_general_screen">GeneralScreenActivity</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+
+    <string name="result_checklist">Confira algumas dicas baseadas em suas marcações para aumentar o nível de saúde e segurança:</string>
+    <string name="result_max">Você trabalha em um local adequado!!</string>
+    <string name="work">"Você trabalha em um local "</string>
+    <string name="score">Sua maior nota:</string>
+
+    <string name="answer_1">Utilize sempre equipamentos de proteção individual para garantir sua saúde e proteção.</string>
+    <string name="answer_2">Mantenha a vegetação sempre rasteira para evitar esconderijo e abundância de animais.</string>
+    <string name="answer_3">Faça controle de pragas periodicamente para evitar insetos, roedores e outros animais ou vetores de doenças  no local de trabalho.</string>
+    <string name="answer_4">Ambiente de trabalho limpo e organizado evita danos à saúde do trabalhador e influência na qualidade da empresa.</string>
+    <string name="answer_5">Uso de fusíveis, instalações elétricas impermeabilizadas e aterradas diminuem o risco de choque elétrico.</string>
+    <string name="answer_6">O uso de bóias ou coletes salva-vidas em atividades com contato de água evitam afogamentos e possíveis mortes.</string>
+    <string name="answer_7">Trabalhos que exigem algum tipo de exposição prolongada deve ser acompanhada de pausas frequentes e rotação de trabalhadores a fim de evitar problemas de saúde imediatos ou futuros.</string>
+    <string name="answer_8">A sinalização no ambiente de trabalho auxilia na prevenção de riscos e devem ser utilizados para alertar possíveis acidentes.</string>
+    <string name="answer_9">Utilizar equipamentos mecânicos para eliminar ou diminuir o esforço físico. Utilizar polia, trilho ou guindaste para levantar redes na despesca ou transportar cargas. Caso a carga transportada estiver com peso em excesso é preciso retirar a carga excessiva a fim de evitar problemas de saúde futuros e acidentes.</string>
+    <string name="answer_10">O pessoal envolvido nas atividades na aquicultura deverá usar EPIs específicos e receber treinamentos e atualizações para suas funções.</string>
+    <string name="answer_11">Saber nadar ou mergulhar pode evitar acidentes como afogamentos fatais.</string>
+    <string name="answer_12">O uso de máscaras e luvas ao manusear produtos químicos é necessário para evitar intoxicações e queimaduras. Verifique o manual de instruções do produto para correta utilização de equipamentos de proteção. Sempre que possível, substituir produtos tóxicos ou letais. Produtos químicos devem ser armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias incompatíveis.</string>
+    <string name="answer_13">A maioria dos países não possui uma normativa especial de vacinas para trabalhadores da aquicultura, porém é recomendado que trabalhadores que têm contato direto com animais e água realizem as vacinas de Tétano, Hepatite A e B, febre tifóide, gripe e/ou febre amarela.</string>
+    <string name="answer_14">Pausas, manter boa postura ou mudanças de posição durante os períodos de trabalho são essenciais quando as tarefas são repetitivas ou precisam ser realizadas em uma posição específica.</string>
+    <string name="answer_15">Luvas resistentes para manusear equipamentos ou máquinas afiadas é recomendada para evitar cortes e perfurações mais graves. Existem no mercado luvas de poliuretano de alta resistência que protegem o trabalhador contra cortes e outras lesões.</string>
+    <string name="answer_16">Chaves de bloqueio de máquinas e equipamentos devem ser instaladas e os trabalhadores treinados e orientados  sobre a exigência deste mecanismo para evitar acionar equipamentos durante limpeza ou outro trabalho. Dessa forma, evita-se lesões graves como perdas de membros ou acidentes fatais como acionar fornalhas, trituradores ou câmaras de refrigeração (e assemelhados) quando um trabalhador estiver dentro.</string>
+    <string name="answer_17">Os trabalhadores devem estar cientes e treinados sobre suas responsabilidades em saúde e segurança, bem como sobre os riscos potenciais.</string>
+    <string name="answer_18">Todos trabalhadores devem ser treinados para operar máquinas, ferramentas, equipamentos e produtos químicos, de forma a minimizar o risco de acidentes.</string>
+    <string name="answer_19">Capacitação de trabalhadores é fundamental.</string>
+    <string name="answer_20">Trabalhadores ou profissionais experientes são importantes para recorrer em casos de necessidade de assistência ou suporte nas atividades.</string>
+
+
+    <string name="name_shared_pref">br.gov.rs.ddpa-seapi.aquasafe.preferences</string>
+    <string name="score_checklist">score_checklist</string>
+    <string name="string_topics">string_topics</string>
+
+    <string name="about_descrition">Aquasafe é uma plataforma de atenção à saúde do trabalhador na aquicultura, com ações dirigidas aos trabalhadores e produtores da aquicultura, estudantes e profissionais.\nSão abordados os principais riscos, fontes e perigos nas atividades de trabalho. Informações sobre prevenção, uso de equipamentos de segurança e danos à saúde estão disponíveis no app.\nAquaSafe pode ser utilizado como plataforma de checagem e avaliação de riscos ocupacionais, através do checklist e outras ferramentas. Auxilia na tomada de decisões de métodos, técnicas ou medidas de prevenção de acidentes, através das informações sobre eliminação ou redução de riscos de acidentes, controles de engenharia e/ou controles administrativos e uso de EPIs.\nA aprendizagem pode ainda ser realizada através do quiz que é um ambiente altamente interativo.\n</string>
+    <string name="about_information"><b>*Este aplicativo não substitui gerenciamento e avaliações de profissionais capacitados in loco.\n</b></string>
+    <string name="other_projects">Conheça mais</string>
+    <string name="equipe">EQUIPE</string>
+    <string name="equipe_names">
+        "<b>Coordenadora:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
+
+        "<b>Desenvolvimento do Aplicativo:\n</b>"
+        "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Bruno Tavares (UFCSPA | CNPq)\n\n"
+
+        "<b>Equipe Principal AquaSafe:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
+        "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Bruno Tavares (UFCSPA | CNPq)\n"
+        "Dr. Silvio Cazella (UFCSPA)\n"
+        "Dra. Rebecca Mitchell (Macquarie University, Austrália)\n"
+        "Dra. Luceni Hellebrandt\n"
+        "Dr. Kirill Buketov (IUF)\n"
+        "Dr. Andrew Watterson (University of Stirling, Escócia)\n"
+        "Dr. Mohamed Jeebhay (University of Cape Town, África do Sul)\n"
+        "Dra. Dorothy Ngajilo (University of Cape Town, África do Sul)\n"
+        "Dr. Deji Adeoye (Federal University of Agriculture, Nigéria)\n\n"
+
+        "<b>Equipe de Consultoria técnica <i>(ad hoc)</i>:\n</b>"
+        "Dr. Arpita Sharma (ICAR-CIFE)\n"
+        "Dra. Maria Helena Fermino (DDPA/SEAPI-RS)\n"
+        "Dr. Benito Brito (DDPA/SEAPI-RS)\n"
+        "Dra. Kelly Cristina Tagliari de Brito (DDPA/SEAPI-RS)\n"
+        "Julio Bastola (<i>ad hoc</i> Ferramentas da Qualidade e Gestão)\n"
+        "Henrique Fonseca (<i>ad hoc</i> Técnico em Segurança no Trabalho)\n\n"
+
+    </string>
+
+    <string name="instituicoes">INSTITUIÇÕES</string>
+    <string name="bibliotecas">REFERÊNCIAS</string>,
+    <string name="bibliotecas_descricao">
+        " Ícones: flaticon.com\n\n"
+        " Checklist: github.com/edupooch/AquaSaude-Camarao\n\n"
+        " http://www.wcb.pe.ca/DocumentManagement/Document/pub_aquaculturesafetycodeofpractice.pdf\n\n"
+        " https://www.aquaculturecouncilwa.com/files/5814/0462/8115/WAAquaIndustryOHSCode2002.pdf\n\n"
+        " https://novascotia.ca/lae/healthandsafety/docs/FishSafe.pdf\n\n"
+        " https://www.dpc.mar.mil.br/sites/default/files/normam05.pdf\n\n"
+        " https://www.ccaimo.mar.mil.br/sites/default/files/solas_indice-2014_2.pdf\n\n"
+        " http://www.hse.gov.uk/toolbox/ppe.htm\n\n"
+        " http://www.fao.org/cofi/aq/90408/en/\n\n"
+        " http://www.fao.org/cofi/46125-015d659aed398efe120a5953620684aea.pdf\n\n"
+        " http://www.who.int/foodsafety/areas_work/antimicrobial-resistance/en/\n\n"
+        " http://apps.who.int/iris/bitstream/handle/10665/258970/9789241550130-eng.pdf?sequence=1\n\n"
+        " IUF meat division - AMR\n\n"
+        " OHSAS 18001\n\n"
+        " ILO\n\n"
+        " Koonse B. 2012. Good aquaculture practices to minimize bacterial resistance. In: Improving biosecurity through prudent and responsible use of veterinary medicines in aquatic food production. FAO fisheries and Aquaculture Technical Paper 547. Rome, Italy, 208p.\n\n"
+        " Myers ML, Durborow RM. Aquacultural safety and health. In: Edmir Carvalho ed. Health and Environment in Aquaculture. Croatia: InTech; 2012. doi: 10.5772/29258. Available at: http://www.intechopen.com/books/health-and-environment-in-aquaculture/aquacultural-safety-and-health\n\n"
+        " Myers ML, Cole HP. Simple solutions for reduced fish farm hazards. J Agromedicine. 2009;14:150–156.\n\n"
+        " Myers ML, Durborow RM, Cole HP. 2012. Inherently safer - Aquacultural work: Hierarchical hazard controls. Professional Safety: 44-51.\n\n"
+
+    </string>
+
+    <string name="title_email">Aplicativo AquaSafe</string>
+
+
+    <string name="epi">EPI</string>
+    <string name="epc">EPC</string>
+
+    <string name="floating">Equipamentos de Flutuação</string>
+    <string name="protecting">Roupas de Proteção</string>
+    <string name="eye_protection">Proteção Ocular</string>
+    <string name="hearing_protection">Proteção Auditiva</string>
+    <string name="sign_protection">Sinalização de Proteção (EPC)</string>
+    <string name="fire_protection">Proteção de Incêndio (EPC)</string>
+    <string name="first_aid">Primeiros Socorros (EPC)</string>
+    <string name="electrical_shock_protection">Proteção Contra Choque</string>
+    <string name="chemical_protection">Produtos Químicos</string>
+    <string name="diving_protection">Proteção durante Mergulho</string>
+
+    <string name="risk_about_hazard">
+        Risco ocupacional é a probabilidade de ocorrência de um dano devido a exposição ao perigo (OHSAS 18001). Nas atividades de aquicultura, os trabalhadores e outros colaboradores estão expostos a diferentes riscos, que podem ser físicos, químicos, biológicos, ergonômicos e de acidentes. Para evitar ou mitigar os riscos, é necessário estabelecer controle e gerenciamento de riscos. \n<b>A classificação dos riscos pode variar de acordo com a legislação de cada país.</b> \n
+    </string>
+
+    <string name="information_about_hazard">
+    De acordo com a OSHA, controles efetivos protegem os trabalhadores dos perigos do local de trabalho. Existe uma grande quantidade de informações para ajudar os empregadores a investigar opções para o controle de riscos identificados. Antes de selecionar qualquer opção de controle, é essencial solicitar informações dos stakeholders  (trabalhadores e empregadores) sobre sua viabilidade e eficácia.\n
+    \n
+    • Os empregadores devem selecionar os controles mais viáveis, eficazes e permanentes.\n\n
+
+    • Selecionar os controles de acordo com uma hierarquia que enfatize soluções incluindo eliminação ou substituição primeiro, seguidas por práticas seguras de trabalho, controles administrativos e, finalmente, equipamentos de proteção individual.\n\n
+
+    • Evite selecionar controles que possam, direta ou indiretamente, introduzir novos perigos.\n
+    </string>
+
+    <string name="risk">Risco</string>
+    <string name="title_activity_general_equipment">GeneralEquipmentActivity</string>
+    <string name="chemical_protection_title">Titulo Quimico</string>
+
+    <string name="text_floating_equipment">
+<b>Colete salva-vidas</b>\n
+• O colete salva-vidas deve permitir que a pessoa possa vesti-lo correta e rapidamente; ser confortável; resistente a diferentes tipos de água, temperaturas e avarias; ser dotado de um apito de material resistente à oxidação, firmemente preso ao colete.\n
+• O colete salva-vidas deve levar em consideração o peso e tamanho do usuário, para permitir uma flutuabilidade estável.\n
+• Modelos com gola de formato e volume específicos são capazes de manter o rosto em distância segura da água ou desvirar a pessoa rapidamente em casos de inconsciência. Verificar modelos que possuem esta especificidade.\n
+• Os coletes salva-vidas são classificados e devem ser utilizados de acordo com a forma e condições de uso. \n
+\n
+<b>Bóias e linhas salva-vidas</b>\n
+• As bóias são dispositivos para águas calmas e interiores no qual a ajuda está sempre próxima. Não são seguras para pessoas inconscientes ou para longos períodos na água.\n
+• As linhas salva-vidas são usadas para resgate de pessoas na água ou para proteger contra quedas. (safety line)
+</string>
+
+    <string name="protective_clothing">
+<b>Luvas</b>\n
+• Luvas devem ser usadas ao manusear animais, produtos, facas, agulhas, produtos químicos e substâncias perigosas.\n
+• Use luvas de trabalho se estiver com lesões, escoriações ou irritações nas mãos e braços, exceto quando usá-las, puderem causar um risco.\n
+• Luvas de borracha podem fornecer proteção contra a umidade e o frio e são eficazes ao manusear equipamentos.\n
+• Luvas de tecido podem ser usadas por baixo para conforto inclusive térmico.\n
+• Luvas de rede de malha fornecem uma boa proteção ao utilizar facas e material cortante.\n
+• <b>Ao trabalhar perto de uma talha, lança, serra ou esteira, amarre o cabelo comprido e não use roupas soltas ou jóias.</b>\n
+
+\n
+<b>Calçados</b>\n
+• Use botas de segurança ou calçado com boa tração que evitem escorregões e quedas. Também ao operar veículos e máquinas.\n
+\n
+<b>Macacão</b>\n
+• Use a roupa apropriada para a estação do ano e tarefa a ser realizada.\n
+• As roupas devem proteger da exposição prolongada ao tempo frio, especialmente se as  roupas estiverem encharcadas de água ou por imersão direta, que pode resultar em hipotermia, confusão mental e muscular e morte.\n
+\n
+<b>Chapéus e proteção solar</b>\n
+• Os trabalhadores devem usar um chapéu que impeça a incidência direta da luz solar sobre cabeça, orelhas e rosto.\n
+• Devem estar protegidos da luz direta do sol e raios <ultra-vio></ultra-vio>letas usando bloqueador solar.\n
+\n
+<b>Roupa de mergulho/equipamentos de mergulho</b>\n
+• Cada mergulhador deve estar equipado com uma faca forte e afiada; pesos com um mecanismo de liberação rápida que são suficientes para controlar a flutuabilidade;   um traje de mergulho ou outra roupa protetora; e proteção adequada da cabeça durante a condução de um mergulho, que expõe o mergulhador a riscos de queda de objetos ou ferimentos na cabeça.
+
+    </string>
+
+    <string name="eye_protection_text">
+• Proteja os olhos com óculos de segurança ou óculos de proteção quando a atividade requer proteção para os olhos.\n
+• Os trabalhadores devem usar óculos de sol para proteger os olhos da luz direta do sol ou do reflexo da água ou do gelo.\n
+• Não use óculos de sol padrão como substituto de óculos de segurança ao realizar tarefas que exijam o uso de proteção para os olhos. Para estas tarefas, utilize óculos ou máscaras de proteção adequadas. \n
+
+</string>
+
+    <string name="hearing_protection_text">
+• Use proteção auditiva (Protetores e abafadores) ao usar equipamentos ou máquinas barulhentas (se o nível de ruído exceder 80 decibéis). Uma boa regra é se outra pessoa estiver falando e não puder ser ouvida quando estiver a uma distância do braço, então a proteção auditiva deve ser usada.\n
+\n
+• Alguns dos equipamentos mais comuns usados pelos aquicultores onde a proteção auditiva deve ser usada incluem uma motosserra (115 decibéis), um motor a gasolina (100 decibéis), trator (80-110 decibéis), máquinas de lavar ostras (>80 decibéis).\n
+</string>
+
+    <string name="sign_protection_text">
+Coloque sinais de aviso e números de emergência em qualquer área de armazenamento de substâncias químicas ou nocivas. A sinalização deve ser colocada de acordo com os riscos encontrados no local de trabalho.\n
+\n
+<b>Veja alguns exemplos:</b> \n
+\n
+<b>Sinais de Aviso (amarelo)</b>\n
+\n
+• Substância Corrosiva\n
+• Substância Tóxica\n
+• Substância Explosiva\n
+• Substância Inflamável\n
+• Nociva ou Irritante\n
+• Veículos\n
+• Eletrocussão\n
+• Queda\n
+• Baixa Temperatura\n
+\n
+<b>Sinais de Obrigação (azul)</b>\n
+• Uso de EPI\n
+• Luvas\n
+• Máscara\n
+• Protetor Auricular\n
+\n
+<b>Sinais de Emergência (verde)</b>\n
+Indica, em caso de perigo, saídas de emergência, o caminho para o posto de socorro ou local onde existam dispositivos de salvação.\n
+\n
+<b>Sinais de Proibição (vermelho)</b>\n
+Advertem para uma situação ou ação que pode gerar dano ou risco nas instalações.\n
+• Proibido Fumar\n
+• Proibido Entrada\n
+• Não abra o dispositivo de segurança\n
+</string>
+
+    <string name="fire_protection_text">
+<b>Extintor de incêndio</b>\n
+• Os extintores de incêndio devem estar na data de validade.\n
+• Os sinais “Não fumar” devem estar afixados em todos os depósitos ou áreas onde houver produtos inflamáveis.\n
+• Os extintores de incêndio devem ser mantidos totalmente carregados e renovados conforme especificado fabricante.\n
+• Trabalhadores devem ser treinados no uso dos extintores de incêndio.\n
+\n
+<b>Tipos de extintores: </b>\n
+<b>• Pó químico:</b> indicado para líquidos inflamáveis.\n
+<b>• Gás carbônico (CO2):</b> indicado para incêndios de equipamentos elétricos.\n
+<b>• Água:</b> Indicado para incêndios de madeira, tecido, papel e materiais sólidos em geral.\n
+</string>
+
+    <string name="first_aid_text">
+• Trabalhadores devem ser treinados em medidas de primeiros socorros, sempre que possível.\n
+• Manter lista de telefones úteis visível e um kit para procedimentos simples.\n
+\n
+<b>O Kit de primeiros socorros pode incluir:</b>\n
+• Luvas de procedimento\n
+• Gaze Esterilizada\n
+• Algodão\n
+• Esparadrapo\n
+• Sabonete Neutro\n
+• Bandeja\n
+• Termômetro Clínico\n
+• Ataduras\n
+</string>
+
+    <string name="electrical_shock_protection_text">
+Procedimentos seguros devem ser adotados uma vez que eletricidade é um componente essencial na atividade de aquicultura. \n
+\n
+• Bloqueie os interruptores principais e coloque as travas e etiquetas neles antes de trabalhar em circuitos de energia para que ninguém mais possa usá-los enquanto você estiver trabalhando.\n
+• Inspeções elétricas periódicas feitas por pessoas qualificadas.\n
+• Permita que apenas pessoas qualificadas trabalhem em reparos elétricos e use instrumentos adequados para testar circuitos.\n
+• Certifique-se de que a fiação, o equipamento, os cabos e os plugues estejam em boas condições e aterrados.\n
+• Não sobrecarregue sua instalação elétrica.\n
+• Certifique-se de que todos os dispositivos e equipamentos estejam adequadamente aterrados, especialmente o equipamento usado em áreas molhadas.\n
+• Ao substituir um fusível ou disjuntor, certifique-se de que sua classificação esteja correta para o circuito.\n
+</string>
+
+    <string name="chemical_protection_text">
+A rota de entrada ou dano do produto químico auxilia na tomada de decisão sobre o equipamento de proteção que se deve utilizar.\n
+\n
+<b>Olhos</b>\n
+<b>Perigo - </b> respingos químicos ou metálicos, poeira, gás e vapor.\n
+\n
+• Utilize óculos de segurança, óculos de proteção, telas de rosto, viseiras adequados.\n
+\n
+<b>Mãos e braços</b>\n
+<b>Perigo - </b> produtos químicos \n
+\n
+• Utilize luvas, luvas com punho, manoplas e mangas que cobrem parte ou todo o braço. A escolha do material deve levar em consideração o produto químico manuseado.\n
+\n
+<b>Pés e pernas</b>\n
+<b>Perigo - </b>de produtos químicos\n
+\n
+• Utilize botas de segurança. Calçado adequado deve ser selecionado para os riscos identificados incluindo solas resistentes a óleo ou produtos químicos.\n
+\n
+<b>Pulmões</b>\n
+<b>Perigo - </b> poeiras, gases e vapores.\n
+\n
+• Utilize equipamento de proteção respiratória (RPE). Alguns respiradores contam com a filtragem de contaminantes do ar no local de trabalho. Estes incluem máscaras faciais de filtragem simples e respiradores.O tipo certo de filtro respiratório deve ser usado, pois cada um deles é eficaz apenas para uma gama limitada de substâncias.\n
+\n
+<b>Todo o corpo</b>\n
+<b>Perigo</b> de respingos de produtos químicos.\n
+\n
+• Utilize macacões convencionais ou descartáveis, aventais.\n
+
+</string>
+    <string name="diving_protection_text">
+• O equipamento de mergulho deve ser testado de acordo com as especificações do fabricante.  O registro do teste do equipamento de mergulho deve ser mantido. Antes do uso, deve verificar se está funcionando corretamente.\n
+\n
+• Os membros da equipe de mergulho que tomarem conhecimento de um mau funcionamento ou risco de equipamento de mergulho no local de mergulho devem notificar os outros mergulhadores que podem ser afetados pelo mau funcionamento imediatamente. Se a avaria ocorrer durante um mergulho e não houver substituições disponíveis.\n
+no local, o mergulho deve ser imediatamente abortado em cooperação com os outros membros da equipe de mergulho.\n
+\n
+• Cada mergulhador deve estar equipado com uma faca forte e afiada; pesos com um mecanismo de liberação rápida que são suficientes para controlar a flutuabilidade; um traje de mergulho ou outra roupa protetora; e proteção adequada da cabeça durante a condução de um mergulho, que expõe o mergulhador a riscos de queda de objetos ou ferimentos na cabeça.\n
+\n
+• Um mergulho não deve ser realizado se um risco à saúde e à segurança puder ser causado por equipamento próximo ao local de mergulho.\n
+
+
+    </string>
+
+    <!-- Strings related to Checklists -->
+    <string name="yes_rdbtn">Sim</string>
+    <string name="no_rdbtn">Não</string>
+    <string name="corrective_action">Insira ação corretiva a ser realizada</string>
+    <string name="required_field">Campo obrigatório!</string>
+    <string name="how_to_save_file">Como deseja salvar o arquivo?</string>
+    <string name="save_on_device">Salvar no aparelho</string>
+    <string name="external_app">Compartilhar com aplicação externa</string>
+    <string name="responsable">Pessoa Responsável</string>
+    <string name="inspection_data">Data da Inspeção (DD-MM-AAAA)</string>
+    <string name="export_csv">Exportar para CSV</string>
+    <string name="export_csv_file">Exportar arquivo CSV</string>
+    <string name="export_pdf">Exportar para PDF</string>
+    <string name="export_pdf_file">Exportar arquivo PDF</string>
+    <string name="license">Disponbilizado pelo AquaSafe.</string>
+
+    <!--String related to Worker Checklist -->
+    <string name="worker_name">Trabalhador Checklist</string>
+    <string name="worker_q1"> 1 - Os trabalhadores são filiados a algum sindicato?</string>
+    <string name="worker_q2"> 2 - O sindicato tem um membro especificamente treinado para tratar de questões de saúde e segurança neste local de trabalho?</string>
+    <string name="worker_q3"> 3 - Existe um comitê de gerenciamento sindical em Saúde e Segurança Ocupacional  e está funcionando regularmente?</string>
+    <string name="worker_q4"> 4 - Existe um acordo de negociação coletiva, com disposições sobre Saúde e Segurança Ocupacional, assinado entre sindicato e gerência?</string>
+    <string name="worker_q5"> 5 - Para as questões de direitos das mulheres - existe um comitê sindical de mulheres no local de trabalho ou um representante sindical feminino, treinado para abordar questões de igualdade de gênero, direitos de maternidade e violência baseada em gênero?</string>
+
+    <!-- Management Checklists Categories -->
+    <string name="info_management">Abaixo temos algumas checklists para te auxiliar num melhor gerenciamento</string>
+    <string name="diving_name">Mergulho</string>
+    <string name="protection_name">Equipamento de Proteção</string>
+    <string name="machines_name">Máquinas e Equipamentos</string>
+    <string name="eletrical_name">Choque Elétrico</string>
+    <string name="boating_name">Quedas e Embarcações</string>
+    <string name="chemicals_name">Químicos</string>
+    <string name="womens_name">Saúde da Mulher</string>
+
+    <!--String related to Diving Checklist -->
+    <string name="diving_q1"> 1 - O equipamento de mergulho foi testado de acordo com as especificações do fabricante?</string>
+    <string name="diving_q2"> 2 - Antes de usar o equipamento é realizado uma verificação de funcionamento correto?</string>
+    <string name="diving_q3"> 3 - Cada mergulhador está sempre equipado com uma faca forte e afiada, pesos com um mecanismo de liberação rápida para controlar a flutuabilidade, um traje de mergulho ou outra roupa protetora e proteção adequada da cabeça durante a condução do mergulho?</string>
+    <string name="diving_q4"> 4 - Se ocorrer uma avaria ou imprevisibilidade durante um mergulho e não houver substituições disponíveis no local, o mergulho é imediatamente abortado em cooperação com os outros membros da equipe de mergulho?</string>
+    <string name="diving_q5"> 5 - Os membros da equipe de mergulho ao tomarem conhecimento de um mau funcionamento ou risco de equipamento de mergulho no local de mergulho notificam os outros mergulhadores imediatamente?</string>
+
+    <!--String related to Protection Equipament Checklist -->
+    <string name="protection_q1"> 1 - Os equipamentos de proteção individual (EPI) são fornecidos sem custo aos trabalhadores e colaboradores?</string>
+    <string name="protection_q2"> 2 - Os equipamentos de proteção coletiva (EPC) estão disponíveis e visíveis aos trabalhadores?</string>
+    <string name="protection_q3"> 3 - Os profissionais são treinados no uso e manutenção dos equipamentos individuais e coletivos?</string>
+    <string name="protection_q4"> 4 - Os trabalhadores utilizam roupas adequadas para proteger-se de temperaturas extremas?</string>
+    <string name="protection_q5"> 5 - Equipamentos de proteção são utilizados pelos trabalhadores ao manusear produtos químicos?</string>
+    <string name="protection_q6"> 6 - Os trabalhadores usam roupas ajustadas ao corpo e cabelos presos ao trabalhar perto de máquinas?</string>
+
+    <!--String related to Machines and Equipament Checklist -->
+    <string name="machines_q1"> 1 - Os manuais de instrução dos equipamentos estão disponíveis para os operadores?</string>
+    <string name="machines_q2"> 2 - Os tratores são equipados com cabine de segurança (ROPS) para evitar esmagamento ou afogamento em caso de capotamento?</string>
+    <string name="machines_q3"> 3 - Os equipamentos estão em boas condições mecânicas e possuem proteção de segurança para evitar acidentes?</string>
+    <string name="machines_q4"> 4 - Os operadores de máquinas e equipamentos estão cientes dos riscos?</string>
+    <string name="machines_q5"> 5 - Os operadores foram treinados para utilização das máquinas e equipamentos que utilizam?</string>
+    <string name="machines_q6"> 6 - Os guinchos hidráulicos são abaixados no final de uma tarefa e as cargas suspensas nunca são deixadas desacompanhadas?</string>
+    <string name="machines_q7"> 7 - Os procedimentos adequados de bloqueio (tagout) são usados em máquinas e equipamentos?</string>
+
+    <!--String related to Eletrical Checklist -->
+    <string name="eletrical_q1"> 1 - Os interruptores principais estão desenergizados, bloqueados e sinalizados com etiquetas antes de iniciar um trabalho em circuitos de energia, para que ninguém mais possa usá-los enquanto outro estiver trabalhando?</string>
+    <string name="eletrical_q2"> 2 - Inspeções elétricas periódicas são feitas por pessoas qualificadas?</string>
+    <string name="eletrical_q3"> 3 - Apenas pessoas qualificadas trabalham em reparos elétricos e utiliza instrumentos adequados para testar circuitos?</string>
+    <string name="eletrical_q4"> 4 - Fiação, equipamentos, cabos e plugues estão em boas condições e aterrados?</string>
+    <string name="eletrical_q5"> 5 - Os trabalhadores estão cientes do procedimento em caso de contato acidental com linhas de energia?</string>
+    <string name="eletrical_q6"> 6 - O sistema elétrico tem ampla capacidade de lidar com todas as cargas?</string>
+    <string name="eletrical_q7"> 7 - Todos os interruptores elétricos têm um dispositivo de bloqueio para evitar partida acidental do equipamento durante a manutenção?</string>
+
+    <!--String related to Boating Checklist -->
+    <string name="boating_q1"> 1 - A embarcação é segura e adequada à atividade?</string>
+    <string name="boating_q2"> 2 - Rádio e outros equipamentos de comunicação estão a bordo e estão funcionando?</string>
+    <string name="boating_q3"> 3 - Os trabalhadores possuem equipamentos e roupas de proteção, como roupas de proteção térmica,  colete salva-vidas ou outros dispositivos de flutuação?</string>
+    <string name="boating_q4"> 4 - As condições meteorológicas foram checadas antes de realizar atividades no mar?</string>
+    <string name="boating_q5"> 5 - Os equipamentos de segurança estão em boas condições de funcionamento?</string>
+    <string name="boating_q6"> 6 - Ao subir ou descer de barcos, há um corredor ou passarela adequada para evitar quedas de trabalhadores no mar?</string>
+
+    <!--String related to Chemicals Checklist -->
+    <string name="chemicals_q1"> 1 - Os produtos químicos são armazenados apropriadamente em áreas bem ventiladas e separadas das substâncias que podem reagir?</string>
+    <string name="chemicals_q2"> 2 - Vazamentos de gases são detectados periodicamente e reparados?</string>
+    <string name="chemicals_q3"> 3 - Os trabalhadores são treinados e estão conscientes dos riscos químicos no ambiente de trabalho?</string>
+    <string name="chemicals_q4"> 4 - Equipamento de proteção individual (EPI) como calçado fechado, luvas nitrílicas, óculos de proteção e máscaras/respiradores apropriados são fornecidos e utilizados ao manusear produtos químicos?</string>
+    <string name="chemicals_q5"> 5 - Sinais de aviso e números de emergência em áreas de armazenamento de substâncias químicas ou nocivas estão disponíveis e visíveis?</string>
+
+    <!--String related to Womens Checklist -->
+    <string name="womens_q1"> 1 - As trabalhadoras mulheres recebem o mesmo salário que os homens para executar a mesma função ou tarefa?</string>
+    <string name="womens_q2"> 2 - As trabalhadoras grávidas ou que amamentam são removidas de situações insalubres e colocadas em atividades de menor risco potencial à sua saúde e ao bebê?</string>
+    <string name="womens_q3"> 3 - São  permitidas pausas para amamentação ou existe algum tipo de suporte para lactantes e/ou seus filhos?</string>
+    <string name="womens_q4"> 4 - As trabalhadoras têm pausas programadas ao realizar atividades com longos períodos de imersão ou exposição a água e/ou ao frio?</string>
+    <string name="womens_q5"> 5 - O transporte manual de cargas efetuado por mulheres e jovens é inferior àquele admitido para homens?</string>
+    <string name="womens_q6"> 6 - Há acesso a banheiro limpo e em condições de uso, sempre que preciso, durante o horário de trabalho? </string>
+
+    <string name="five_name">5 Porquês</string>
+    <string name="problem">Problema</string>
+    <string name="main_problem">Insira o problema aqui</string>
+    <string name="five_q1"> Por que isso ocorreu?</string>
+    <string name="five_q2"> Se não, por que isso ocorreu?</string>
+    <string name="five_q3"> Se não, por que isso ocorreu?</string>
+    <string name="five_q4"> Se não, por que isso ocorreu?</string>
+    <string name="five_q5"> Se não, por que isso ocorreu?</string>
+    <string name="five_q6"> Se não, por que isso ocorreu?</string>
+    <string name="five_q7"> Se não, por que isso ocorreu?</string>
+    <string name="five_q8"> Se não, por que isso ocorreu?</string>
+    <string name="root">Isso é uma causa raiz?</string>
+    <string name="root_text">Causa raiz: </string>
+    <string name="solution">Quais as soluções possíveis?</string>
+    <string name="creators">Flavielle | Giovani</string>
+
+    <string name="soon">Em breve</string>
+    <string name="review_method">Você chegou em 8 tentativas. Reveja o método!</string>
+
+    <string name="question_csv">PERGUNTA</string>
+    <string name="answer_csv">RESPOSTA</string>
+    <string name="corrective_csv">AÇÃO CORRETIVA</string>
+    <string name="fail_file">Falha ao salvar arquivo</string>
+    <string name="hello_blank_fragment">Olá fragment em branco</string>
+
+    <string name="what_if">E se?</string>
+
+
+    <string name="osh_management_work">Local de Trabalho</string>
+    <string name="osh_management_work_1">"Gerenciamento de SST"</string>
+    <string name="osh_management_work_2">Representação dos Trabalhadores e Oportunidades</string>
+
+    <string name="text_workplace">
+        "Protocolos e diretrizes internacionais servem de base para a adaptação ou criação de normas relacionadas à saúde e bem-estar animal, segurança alimentar, integridade ambiental e aspectos socioeconômicos. A FAO e a OIT vêm realizando importantes trabalhos nesse sentido, estabelecendo diretrizes para o trabalho decente, erradicando o trabalho infantil e o trabalho escravo moderno, e estabelecendo igualdade de gênero e etnia minoritária no conceito de Trabalho Decente, bem como desenvolvendo padrões de SSO.\n"
+        "A Convenção nº 184 da Organização Internacional do Trabalho (OIT) e a Recomendação nº 192 sobre Segurança e Saúde na Agricultura adotam várias propostas relativas à saúde e segurança na agricultura.\n\n"
+    </string>
+    <string name="title_workplace"><b>Aplicando a Lei:</b></string>
+
+    <string name="text_workplace_2">
+        \n
+        • Identificar leis nacionais relevantes.\n
+        • Uso da Convenção nº 184 da OIT sobre Segurança e Saúde na Agricultura.\n
+        • Aplicar padrões aos problemas.\n
+        \n
+    </string>
+
+    <string name="title_workplace_2"><b>Convenção nº 184 da OIT</b></string>
+
+    <string name="text_workplace_3">
+        "Esta é a primeira vez que a saúde e a segurança na agricultura são abordadas. A convenção aborda:\n"
+        \n
+        (1) Proteção de saúde e segurança para trabalhadores agrícolas;\n
+        (2) Direitos dos trabalhadores;\n
+        (3) Deveres do empregador (avaliação de risco; treinamento e informação);\n
+        (4) Obrigações do governo.\n
+        \n
+
+        "<b>Artigo 7: Deveres dos empregadores em relação à avaliação de riscos, treinamento e interrupção de operações perigosas\nO empregador deve:\n</b>"
+        "a) Efectuar avaliações de riscos adequadas em relação à segurança e à saúde dos trabalhadores e, com base nestes resultados, adotar medidas preventivas e de protecção para assegurar que, em todas as condições a que se destinam, todas as actividades agrícolas, locais de trabalho, máquinas, equipamentos, produtos químicos, ferramentas e processos sob o controle do empregador são seguros e cumprem os padrões prescritos de segurança e saúde;\n"
+        "b) Garantir que sejam ministradas instruções adequadas sobre segurança e saúde compreensíveis e adequadas e quaisquer orientações ou supervisões necessárias aos trabalhadores da agricultura, incluindo informações sobre os perigos e riscos associados ao seu trabalho, bem como as medidas a tomar para a sua proteção; tendo em conta o seu nível de educação e as diferenças de língua; e\n"
+        "c) Tomar medidas imediatas para impedir qualquer operação em que exista um perigo iminente e grave para a segurança e a saúde e para evacuar os trabalhadores, conforme adequado.\n\n"
+
+        "<b>Artigo 8: Direitos e deveres dos trabalhadores\nArtigo 8.1. Os trabalhadores da agricultura terão o direito de:\n</b>"
+        "(a) Ser informado e consultado sobre questões de segurança e saúde, incluindo os riscos decorrentes de novas tecnologias;\n"
+        "(b) Participar da aplicação e revisão de medidas de segurança e saúde e, de acordo com a legislação e prática nacionais, selecionar representantes e representantes de segurança e saúde nos comitês de segurança e saúde; e\n"
+        "(c) Para se afastarem do perigo resultante de sua atividade de trabalho quando tiverem uma justificativa razoável para acreditar que existe um risco iminente e sério à sua segurança e saúde e, assim, informar imediatamente seu supervisor. Eles não serão colocados em desvantagem como resultado dessas ações.\n\n"
+
+        "<b>Artigo 8.2.</b> Os trabalhadores na agricultura e seus representantes terão o dever de cumprir as medidas de segurança e de saúde prescritas e de cooperar com os empregadores para que estes cumpram seus próprios deveres e responsabilidades.\n"
+    </string>
+
+    <string name="title_workplace_3"><b>\nRecomendação nº 192 da OIT sobre Segurança e Saúde na Agricultura\n</b></string>
+
+    <string name="text_workplace_4">
+        "<b>Parágrafo 5\nPara dar efeito ao Artigo 7 da Convenção Nº 184, um conjunto de medidas sobre segurança e saúde no nível da empresa deve incluir:\n</b>"
+        \n
+        "(a) Serviços de segurança e saúde no trabalho;\n"
+        "(b) Medidas de avaliação e gestão dos riscos, na seguinte ordem de prioridade:\n"
+        "(<i>i</i>) Eliminação do risco;\n"
+        "(<i>ii</i>) Controle do risco na fonte;\n"
+        "(<i>iii</i>) Minimização do risco por meios como o desenho de sistemas de trabalho seguros, a introdução de medidas técnicas e organizacionais e práticas seguras e treinamento; e\n"
+        "(<i>iv</i>) Na medida em que o risco permaneça, fornecimento e uso de equipamento de proteção pessoal e vestuário, sem custo para o trabalhador;\n"
+        "(c) Medidas para lidar com acidentes e emergências, incluindo primeiros socorros e acesso a transporte apropriado para instalações médicas;\n"
+        "(d) Procedimentos de registo e notificação de acidentes e doenças;\n"
+        "(e) Medidas adequadas para proteger as pessoas presentes num sítio agrícola, a população na proximidade do mesmo e do ambiente em geral, dos riscos que possam resultar da actividade agrícola em causa, como as resultantes de resíduos agroquímicos, resíduos provenientes da pecuária, solos e contaminação da água, depleção do solo e alterações topográficas; e\n"
+        "(f) Medidas para assegurar que a tecnologia utilizada é adaptada ao clima, à organização do trabalho e às práticas de trabalho.\n\n"
+
+        "<b>A Convenção nº 184 também é complementada por outras Convenções da OIT sobre segurança e saúde:\n</b>"
+        \n
+        • Convenção Nº 155. relativa à Segurança e Saúde no Trabalho e ao Ambiente de Trabalho (mais a Recomendação nº 164),\n
+        • Convenção No. 161 sobre Serviços de Saúde Ocupacional (mais a Recomendação nº 171),\n
+        • Convenção Nº 170 relativa à segurança no uso de produtos químicos no trabalho (mais a recomendação nº 177), e\n
+        • Recomendação Nº 192 sobre Segurança e Saúde na Agricultura.\n
+        \n
+    </string>
+
+    <string name="references1">Referência 1 - OIT</string>
+    <string name="references2">Referência 2 - OIT</string>
+    <string name="references3">Referência 3 - OIT</string>
+
+    <string name="help_five">A técnica dos 5 porquês é simples e serve para identificar a causa raiz de um problema.
+Consiste em identificar um problema e perguntar pelo menos 5 vezes \“por que\”. A resposta ao último por que é a causa raiz do problema. A partir da identificação da causa raíz, é possível descobrir qual ação a ser realizada para reduzir a probabilidade do problema acontecer novamente. A ferramenta deve ser utilizada com \‘bom-senso\’, quando perceber que chegou a raiz do problema basta parar.</string>
+    <string name="help_ppe">Tenha certeza que os riscos não são evitáveis ou substituíveis. Equipamentos de proteção individual (EPI) devem ser fornecidos sem custo aos trabalhadores e colaboradores. Equipamentos de proteção coletiva (EPC) devem estar disponíveis aos trabalhadores.
+Profissionais devem ser treinados no uso e manutenção dos equipamentos individuais e coletivos.
+O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns riscos residuais que não podem ser reduzidos por outros meios, o empregador deve fornecer EPI apropriado, como macacões, luvas, óculos de proteção, botas de segurança e protetores auriculares.</string>
+
+    <string name="union_representation">Representação Sindical</string>
+    <string name="text_union_representation">
+        "Uma organização sindical forte é essencial para garantir que os empregadores previnam acidentes, doenças e morte de trabalhadores e outras pessoas na comunidade em geral.\n"
+        "Um dos principais trabalhos dos sindicatos e seus membros em nível local é garantir que o empregador cumpra com suas responsabilidades. Algumas das maneiras de conseguir isso incluem construir uma associação forte e eleger representantes de trabalhadores em saúde e segurança ocupacional.\n"
+    </string>
+
+    <string name="job_of_workers">O trabalho de um Representante de Trabalhadores em Saúde e Segurança</string>
+    <string name="text_job_of_workers">
+        "O termo "representante do trabalhador em saúde e segurança" abrange várias categorias de diferentes representantes. A União Internacional das Associações de Alimentos, Agricultura, Hotelaria, Restauração, Tabaco e Trabalhadores Associados (IUF/IUTA) acredita que qualquer representante de saúde e segurança do trabalhador deve ser um representante sindical selecionado ou eleito pelos membros do sindicato em seu local de trabalho.\n"
+        "No Artigo 8.1 (b) da Convenção nº 184 da OIT, os trabalhadores têm o direito de selecionar representantes de segurança e saúde. Os principais trabalhos que um representante em saúde e segurança do trabalhador inclui são:\n"
+        \n
+        • conversar com os membros e assumir suas queixas com a gerência\n
+        • envolver-se, informar e consultar membros\n
+        • coletar e distribuir informações em segurança e saúde no trabalho\n
+        • identificar perigos, investigar e enfrentar os riscos\n
+        • investigar incidentes de saúde e segurança no trabalho, problemas de saúde e inconformidades\n
+        • verificar se o empregador está cumprindo com os requisitos de saúde e segurança\n
+        • consultoria e negociação com a gerência\n
+        \n
+    </string>
+
+    <string name="government_obligations">Governos e suas Obrigações</string>
+    <string name="text_government_obligations">
+        "Os sindicatos acreditam que os governos têm um papel fundamental a desempenhar na proteção da saúde dos trabalhadores. Eles deviam:\n"
+        \n
+        • ratificar a Convenção nº 184 da OIT sobre Segurança e Saúde na Agricultura 2001\n
+        • desenvolver uma política nacional coerente em matéria de saúde, segurança e ambiente, em consulta com os sindicatos e os empregadores.\n
+        • no mínimo, aprovar leis baseadas na Convenção nº 184 da OIT sobre Segurança e Saúde na Agricultura 2001\n
+        • criar um inspetor com recursos suficientes para fazer cumprir a lei\n
+        \n
+    </string>
+
+    <string name="employers_obligations">Empregadores e suas Obrigações</string>
+    <string name="text_employers_obligations">
+        "Os empregadores têm a responsabilidade legal primária de proteger a saúde, a segurança e o bem-estar dos trabalhadores. Os sindicatos acreditam que mortes, ferimentos e problemas de saúde são causados ​​porque os empregadores não fornecem um ambiente de trabalho seguro e saudável.\n"
+        "O empregador deve fornecer:\n"
+        • um ambiente de trabalho onde os perigos são identificados, os riscos são avaliados, removidos ou controlados antes que ocorram problemas\n
+        • um ambiente de trabalho em que são tomadas medidas precoces para evitar danos\n
+        • sistemas seguros de trabalho\n
+        • locais de trabalho adaptados às necessidades do trabalhador\n
+        • informações completas e consulta aos trabalhadores e seus sindicatos\n
+        • bons programas de treinamento em saúde e segurança\n
+        • oportunidades para os trabalhadores através de seus sindicatos, para negociar cláusulas de saúde e segurança em acordos coletivos, e participar ativamente em questões de saúde e segurança\n
+        • políticas que abordam o impacto do trabalho sobre o ambiente mais amplo\n
+        \n
+        "Portanto, os empregadores devem reduzir ferimentos e problemas de saúde:\n"
+        \n
+        identificando perigos\n
+        avaliando, avaliando e priorizando riscos\n
+        enfrentando os riscos na fonte pela eliminação, substituição e prevenção / controle\n
+        gerir eficazmente a saúde, a segurança e o ambiente\n
+        \n
+    </string>
+
+    <string name="workers">Trabalhadores e Segurança e Saúde</string>
+    <string name="text_workers">
+        "Os sindicatos têm um papel na conscientização, mas não podem impedir ferimentos ou problemas de saúde apenas tornando os trabalhadores mais conscientes da segurança:\n"
+        \n
+        • todos os perigos e riscos conseqüentes são óbvios - especialmente danos à saúde durante um período de tempo\n
+        • trabalhadores não podem ser devidamente treinados ou informados\n
+        • stress, cansaço e más condições podem levar ao risco de ferimentos ou problemas de saúde\n
+        • os trabalhadores são humanos - cometem erros, mas um pequeno erro não deve custar a vida de alguém ou resultar em ferimentos graves\n
+        \n
+        "O Artigo 8 1 (b) da Convenção nº 184 da OIT sobre Segurança e Saúde na Agricultura 2001 dá aos trabalhadores o direito de se retirarem do perigo onde há um risco sério e iminente, e não devem ser penalizados por essas ações.\n"
+        "<b>Os três direitos básicos dos trabalhadores sobre Segurança e Saúde Ocupacional são claramente definidos pela Convenção 184 da OIT sobre saúde e segurança na agricultura:\nArtigo 8.1. Os trabalhadores da agricultura terão o direito de:\n</b>"
+
+        (a) ser informado e consultado sobre questões de segurança e saúde, incluindo os riscos decorrentes de novas tecnologias;\n
+        (b) participar da aplicação e revisão de medidas de segurança e saúde e, de acordo com a legislação e prática nacionais, selecionar representantes e representantes de segurança e saúde nos comitês de segurança e saúde; e\n
+        (c) para se afastarem do perigo resultante de sua atividade de trabalho quando tiverem uma justificativa razoável para acreditar que existe um risco iminente e sério à sua segurança e saúde e, assim, informar imediatamente seu supervisor. Eles não serão colocados em desvantagem como resultado dessas ações.\n
+        \n
+        "<b>Mas os trabalhadores também têm algumas obrigações que incluem:\n</b>"
+        \n
+        • observar os regulamentos de saúde, segurança e meio ambiente\n
+        • executar o trabalho com segurança de uma maneira que não coloque em risco a si e aos outros\n
+        • participando de treinamento em HS&amp;E\n
+        • usar equipamentos para HS&amp;E, incluindo equipamentos de proteção individual (EPI) adequados, quando necessário\n
+        • reportar situações perigosas\n
+        \n
+
+    </string>
+
+    <string name="help_what_if">
+        "E se? (What-if?) é uma técnica simples para identificar e prevenir riscos. Consiste em avaliar o fluxo do processo, necessitando ser realizado por pessoas que conheçam bem a atividade.\n"
+        "Para cada atividade a ser avaliada, questiona-se um evento adverso, podendo sugerir possíveis causas e consequências e medidas preventivas para evitar ou controlar o risco.\n"
+    </string>
+    <string name="activity_what">Atividade</string>
+    <string name="activity_what_ie">Insira aqui a atividade de trabalho</string>
+    <string name="question_what">E Se</string>
+    <string name="question_what_ie">Insira aqui qual evento adverso/problema pode ocorrer ao realizar a atividade</string>
+    <string name="cause_what">Causas</string>
+    <string name="cause_what_ie">Insira aqui possíveis causas para este evento adverso</string>
+    <string name="consequences_what">Consequências</string>
+    <string name="consequences_what_ie">Insira aqui quais possíveis danos ao trabalhador podem ocorrer</string>
+    <string name="measures_what">Medidas</string>
+    <string name="measures_what_ie">Insira aqui as medidas de correção para evitar o evento adverso e proteger o trabalhador</string>
+    <string name="injurious_incidents_title">Acidente</string>
+
+    <string name="share">Compartilhar este app</string>
+    <string name="msg_share">Aprenda sobre saúde e segurança ocupacional na aquicultura com o AquaSafe! Disponível para Android na Play Store: https://play.google.com/store/apps/details?id=br.gov.rs.ddpa_seapi.aquasaude.aquasafe</string>
+
+    <!-- Strings related to Quiz -->
+    <string name="nota_quiz">nota_quiz</string>
+    <string name="start">Iniciar</string>
+    <string name="quiz_description">"Teste seus conhecimentos sobre saúde e segurança ocupacional na aquicultura!"</string>
+    <string name="title_quiz">Quiz AquaSafe</string>
+    <string name="end_game">Finalizar quiz</string>
+    <string name="you_scored">Você tirou nota:</string>
+    <string name="erro_selecione">Selecione alguma alternativa</string>
+    <string name="next">Próxima</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="atencao_sair">Deseja sair do quiz?</string>
+    <string name="dialog_abandonar_voltar">O quiz será cancelado e todos os dados serão perdidos.</string>
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+
+    <string name="pergunta_1">"Contato da água com linhas de transmissão de energia elétrica, manipulação de substâncias nocivas ou tóxicas, contato com patógenos, movimentos repetitivos ou esforço físico e afogamento, são riscos (respectivamente):\n"</string>
+    <string name="pergunta_1_resposta_1">Físico, Acidente, Químico, Acidente e Ergonômico</string>
+    <string name="pergunta_1_resposta_certa">Acidente, Químico, Biológico, Ergonômico e Acidente</string>
+    <string name="pergunta_1_resposta_3">Físico, Químico, Físico, Acidente e Ergonômico</string>
+    <string name="pergunta_1_resposta_4">Químico, Físico, Biológico, Acidente e Ergonômico</string>
+
+    <string name="pergunta_2">
+        "Um trabalhador retira do mar lanternas de ostras que pesam 50 kg cada uma, afetando a coluna lombar, ombros e realizando um esforço muscular excessivo ao final da jornada de trabalho. Este trabalhador está em situação de risco:\n"
+        "1) Biológico;\n"
+        "2) Físico;\n"
+        "3) Ergonômico.\n"
+    </string>
+    <string name="pergunta_2_resposta_1">1</string>
+    <string name="pergunta_2_resposta_2">2</string>
+    <string name="pergunta_2_resposta_certa">3</string>
+    <string name="pergunta_2_resposta_4">Nenhuma das alternativas</string>
+
+    <string name="pergunta_3">
+        "A proximidade da água com  fios elétricos torna a aquicultura uma atividade de grande risco de choque elétrico, que pode ocasionar em acidentes fatais. O choque elétrico é considerado um risco:\n"
+        "1) Químico;\n"
+        "2) Acidente;\n"
+        "3) Ergonômico.\n"
+    </string>
+    <string name="pergunta_3_resposta_certa">2</string>
+    <string name="pergunta_3_resposta_2">1</string>
+    <string name="pergunta_3_resposta_3">3</string>
+    <string name="pergunta_3_resposta_4">Nenhuma das alternativas</string>
+
+    <string name="pergunta_4">
+        "As seguintes afirmações são verdadeiras quanto a procedimentos de segurança ao operar máquinas:\n"
+        "1) Antes de iniciar qualquer máquina ou equipamento, certifique-se de que é seguro fazê-lo;\n"
+        "2) Certifique-se de que o operador de qualquer máquina ou equipamento tenha acesso ao desligamento;\n"
+        "3) Não entre em máquinas ou equipamentos enquanto estiver ligada ou em movimento;\n"
+        "4) Livre-se de máquinas ou equipamentos que podem não ser seguros;\n"
+        "5) Todas listadas\n"
+    </string>
+    <string name="pergunta_4_resposta_1">1 e 2</string>
+    <string name="pergunta_4_resposta_2">1, 2 e 3</string>
+    <string name="pergunta_4_resposta_3">3, 4 e 5</string>
+    <string name="pergunta_4_resposta_certa">5</string>
+
+
+    <string name="pergunta_5">
+        "O perigo de capotamento em fazendas que utilizam tratores podem resultar em esmagamentos e afogamentos dos trabalhadores. Quais opções são verdadeiras para mitigar este risco?\n"
+        "1) Instalar cabine de segurança (ROPS) e cintos de segurança para evitar que o trabalhador seja lançado para fora e esmagado pelo maquinário;\n"
+        "2) Instalar macaco hidráulico para o trabalhador levantar o trator em caso de capotamento;\n"
+        "3) Fique longe de encostas e desníveis.\n"
+    </string>
+    <string name="pergunta_5_resposta_certa">Somente 1</string>
+    <string name="pergunta_5_resposta_2">1 e 2</string>
+    <string name="pergunta_5_resposta_3">1 e 3</string>
+    <string name="pergunta_5_resposta_4">1, 2 e 3</string>
+
+    <string name="pergunta_6">
+        "Todos os trabalhadores devem receber educação e treinamento sobre os riscos de saúde e segurança do metabissulfito de sódio. As seguintes afirmações são verdadeiras quanto a procedimentos de segurança ao utilizar este e outros compostos altamente tóxicos:\n"
+        "1) Substituir produtos tóxicos ou letais;\n"
+        "2) Utilizar em ambiente pouco ventilado;\n"
+        "3) Utilizar vestimenta protetora e máscaras de respirador;\n"
+        "4) Lavar bem as mãos após a exposição ao metabissulfito de sódio e ao final do turno de trabalho.\n"
+    </string>
+    <string name="pergunta_6_resposta_1">Somente 2</string>
+    <string name="pergunta_6_resposta_2">1, 2 e 3</string>
+    <string name="pergunta_6_resposta_certa">1, 3 e 4</string>
+    <string name="pergunta_6_resposta_4">1, 2, 3 e 4</string>
+
+    <string name="pergunta_7">
+        "Os empregadores devem selecionar os controles mais viáveis, eficazes e permanentes de acordo com uma hierarquia. Para mitigar os riscos, a correta sequência hierárquica de controle de risco é:\n"
+        "1) Práticas seguras de trabalho e controles administrativos;\n"
+        "2) Soluções incluindo eliminação ou substituição;\n"
+        "3) Equipamentos de proteção individual.\n"
+    </string>
+    <string name="pergunta_7_resposta_certa">2, 1, 3</string>
+    <string name="pergunta_7_resposta_2">1, 3, 2</string>
+    <string name="pergunta_7_resposta_3">3, 1, 2</string>
+    <string name="pergunta_7_resposta_4">2, 3, 1</string>
+
+    <string name="pergunta_8">
+        "A vacinação manual de peixes pode provocar perfuração com agulhas e infecções. Indique a melhor alternativa para eliminar o risco de perfuração durante a vacinação de peixes na aquicultura:\n"
+        "1) Instalar equipamento de vacinação automática;\n"
+        "2) Use mesa ondulada para imobilizar o peixe no sulco ondulado;\n"
+        "3) Usar luvas anti-corte.\n"
+    </string>
+    <string name="pergunta_8_resposta_certa">Somente 1</string>
+    <string name="pergunta_8_resposta_2">1 e 2</string>
+    <string name="pergunta_8_resposta_3">2 e 3</string>
+    <string name="pergunta_8_resposta_4">1, 2 e 3</string>
+
+    <string name="pergunta_9">
+        "A exposição constante a ruídos emitidos pelo motor do barco, máquinas de lavagem de ostras e de alta pressão podem levar a danos auditivos e surdez. Para mitigar os riscos, a correta sequência hierárquica de controle de risco é:\n"
+        "1) Construir barreiras que evitem que o ruído chegue ao trabalhador;\n"
+        "2) Usar protetor auricular;\n"
+        "3) Substituição por equipamento de menor ruído.\n"
+    </string>
+    <string name="pergunta_9_resposta_certa">3, 1, 2</string>
+    <string name="pergunta_9_resposta_2">1, 3, 2</string>
+    <string name="pergunta_9_resposta_3">3, 2, 1</string>
+    <string name="pergunta_9_resposta_4">1, 2, 3</string>
+
+    <string name="pergunta_10">
+        "O aerador de um viveiro parou de funcionar e isso pode afetar toda produção. O que você deve fazer?\n"
+        "1) Vai até o aerador na água verificar o que está acontecendo;\n"
+        "2) Desligar a chave de energia e vai até a água verificar o que está acontecendo;\n"
+        "3) Avisar superiores ou chamar pessoa especializada para resolver o problema.\n"
+    </string>
+    <string name="pergunta_10_resposta_certa">Somente 3</string>
+    <string name="pergunta_10_resposta_2">Somente 1</string>
+    <string name="pergunta_10_resposta_3">1 e 3</string>
+    <string name="pergunta_10_resposta_4">1 e 2</string>
+
+    <string name="processing">Processando...</string>
+    <string name="missing_radio">Verifique se você selecionou todos os botões de opção</string>
+
+    <!-- Strings related to Content Description -->
+    <string name="cd_child_labour">Duas crianças brincando à esquerda, e a direita os dizeres "Não ao trabalho infantil!"</string>
+    <string name="cd_quiz_logo">Logo do AquaSafe batendo como um coração ao ser pressionado</string>
+    <string name="whats_group">Entrar no grupo do WhatsApp</string>
+
+    <!-- Content related to the Whatsapp link -->
+    <string name="whatsapp">Junte-se à nós no WhatsApp</string>
+    <string name="whatsapp_text">Faça parte da nossa comunidade no WhatsApp!</string>
+    <string name="whatsapp_join">JUNTE-SE!</string>
+
+    <!-- Content related to COVID-19 -->
+    <string name="covid19">COVID-19</string>
+    <string name="what_is_sars">O que é SARS-COV-2?</string>
+    <string name="symptoms">Sintomas</string>
+    <string name="transmission">Transmissão</string>
+    <string name="protection_covid19">Proteção</string>
+    <string name="mask_covid19">" O que você precisa saber sobre Máscaras"</string>
+    <string name="other_protection_covid19">Outras medidas de proteção</string>
+
+    <!-- Content related to What is SARS information -->
+    <string name="what_is_sars_text">
+    • A doença de coronavírus 2019 (COVID-19) é causada por um vírus recém-descoberto.\n\n
+    • O ICTV (Comitê Internacional de Taxonomia de Vírus) designa oficialmente o nome do novo coronavírus como vírus SARS-COV-2 (Síndrome Respiratória Aguda Grave).\n\n
+    • A família Coronaviridae possui diferentes tipos de coronavírus. Alguns causam doenças respiratórias graves e são chamados SARS-COV, como SARS-COV (China 2002/2003) e MERS-COV (Oriente Médio, Arábia Saudita 2012).\n\n
+
+    </string>
+
+    <!-- Content related to COVID-19 Symptoms -->
+    <string name="common_symptoms">Sintomas Comuns</string>
+    <string name="severe_symptoms">Sintomas Graves</string>
+    <string name="common_symptoms_list">
+        • Febre\n
+        • Cansaço\n
+        • Perda de olfato\n
+        • Tosse seca\n
+    </string>
+    <string name="severe_symptoms_list">
+        • Febre alta\n
+        • Pneumonia\n
+        • Dificuldade respiratória\n
+    </string>
+
+    <!-- Content related to COVID-19 Other protection measures -->
+    <string name="other_protection_list_covid19">
+"• Limpe e desinfete as botas.\n
+• (Banho de pé).\n
+• Remova as roupas de trabalho antes de sair da fazenda.\n
+• Lave suas mãos com sabão e água.\n
+• Seque as mãos com papel toalha.\n
+• Nenhum equipamento de proteção individual deve ser compartilhado ou emprestado, mesmo após a desinfecção.\n
+• Se possível, tome um banho antes de ir para casa (ou assim que chegar).\n
+• Coloque roupas limpas, mantidas em um espaço fechado.\n
+• Evite usar itens pessoais, como telefones celulares, nas áreas de produção/trabalho.\n
+• Use equipamento de proteção individual (EPI) apropriado.\n
+• Restrinja o acesso a pessoas desnecessárias em fazendas e locais de produção e processamento.\n
+• Evite contato desnecessário e desprotegido com animais [selvagens].\n
+• Lave as mãos após o contato com animais ou produtos de origem animal.\n
+• Fique em casa se estiver se sentindo doente.\n
+• Se você tiver febre, tosse ou dificuldade em respirar, procure atendimento médico.\n"
+    </string>
+
+    <!-- Content related to COVID-19 protection-->
+    <string name="hierarchy_protection">"Como proteger o local de trabalho e os trabalhadores usando o controle de hierarquia?"</string>
+    <string name="workplace_protection">Proteção no local de trabalho</string>
+    <string name="yourself_protection">Como se proteger</string>
+
+    <!-- Content related to COVID-19 masks-->
+    <string name="which_mask">Qual máscara eu devo usar?</string>
+    <string name="non_sururgical_mask">Máscaras não cirúrgicas</string>
+    <string name="how_to_use_mask">Como usá-la?</string>
+    <string name="care_with_mask">Cuidado com o uso da máscara</string>
+    <string name="care_with_fabric_mask">Cuidado com o uso da máscara de tecido</string>
+    <string name="disposal_mask">Atenção ao descarte de máscaras</string>
+
+    <!-- Content related to COVID-19 Protections-->
+    <string name="hierarchy_protection_text">
+"1. Os controles de eliminação e substituição de riscos incluem quarentena e isolamento, o que significa um trabalhador por vez.\n\n
+2. Os controles de engenharia incluem instalar barreiras físicas entre os trabalhadores, principalmente se eles trabalharem lado a lado. Nesse contexto, o trabalhador deve ficar 2m (6 pés) longe um do outro.\n\n
+3. Os controles administrativos incluem:
+• treinamento para trabalhadores sobre o uso de equipamentos de proteção individual (EPI) e outras medidas de segurança.
+• Controlar a temperatura dos trabalhadores.\n\n
+4. Equipamento de Proteção Individual (EPI):
+• Usar máscaras em todas as atividades (fornecidas pelo empregador);
+• Use proteção facial, sobre a máscara, nas atividades de pesca e colheita e nas que envolvem salpicos de água.\n\n"
+    </string>
+
+    <string name="workplace_protection_text">
+"• Verifique se os locais de trabalho estão limpos e higienizados.\n\n
+• As superfícies precisam ser limpas com desinfetante regularmente, porque a contaminação nas superfícies tocadas por funcionários e clientes é uma das maneiras pelas quais o coronavírus se espalha.\n\n
+• Coloque dispensadores de desinfetante para as mãos (álcool gel) em locais de destaque no local de trabalho.\n\n
+• Exibir pôsteres promovendo a lavagem das mãos.\n\n
+• Certifique-se de que as pessoas tenham acesso a lugares onde possam lavar as mãos com água e sabão.\n\n
+• Instale um banho de pés (lava-pés) na entrada de fazendas e locais fechados, como laboratórios, locais onde são realizados cuidados, criação, desova, etc.\n\n
+• Mantenha 2 metros de distância entre você e qualquer pessoa.\n\n
+• Produtores, trabalhadores e colaboradores do grupo de risco (acima de 60 anos, pessoas com problemas médicos, como doenças cardiovasculares, diabetes, doenças respiratórias crônicas e câncer), devem permanecer em casa.\n\n"
+    </string>
+
+    <string name="yourself_protection_text">
+"1. Prefira lavar suas mãos com sabão e água\n\n
+2. Limpe suas mãos com álcool gel\n\n
+3. Não toque seu rosto\n\n
+4. Quando tossir ou espirrar, pratique a etiqueta respiratória (tossir em um braço com seu cotovelo flexionado)\n\n
+5. Evite contato físico (abraços, apertos de mão e beijos devem ser evitados)\n\n"
+    </string>
+
+    <!-- Content related to COVID-19 Masks-->
+    <string name="which_mask_text">
+"• As máscaras N95 podem ser escassas e devem ser usadas apenas para profissionais de saúde em contato com pacientes infectados ou suspeitos com COVID-19.\n\n
+• Alguns estudos mostram que as máscaras cirúrgicas têm alta eficiência na retenção de partículas virais.\n\n
+• Máscaras caseiras com 3 camadas de tecido também mostraram boa eficiência.\n\n
+• Não use máscaras com 'costura' frontal. A costura frontal diminui drasticamente a proteção.\n\n
+• Não toque na máscara.\n\n"
+    </string>
+
+    <string name="non_sirurgical_title">Nas máscaras não cirúrgicas, deve-se considerar o seguinte:</string>
+
+    <string name="non_sirurgical_text">
+"• Número de camadas de tecido.\n\n
+• Respirabilidade do material utilizado.\n\n
+• Não passar água pelo tecido.\n\n
+• Forma da máscara.\n\n
+• Ajuste da máscara.\n\n"
+    </string>
+
+    <string name="how_to_use_it_text">
+"• Coloque a máscara com cuidado, certificando-se de que ela cubra a boca e o nariz e amarre-a firmemente para minimizar qualquer espaço entre o rosto e a máscara.\n\n
+• Evite tocá-lo ao usar.\n\n
+• Troque a máscara assim que ela fique molhada por uma máscara limpa e seca.\n\n
+• Não reutilize máscaras de uso único.\n\n"
+    </string>
+
+    <string name="care_with_mask_text">
+"• Remova a máscara usando a técnica apropriada: não toque na frente da máscara, desamarre-a na parte de trás.\n
+• Após a remoção ou sempre que uma máscara for tocada inadvertidamente, limpe as mãos usando álcool gel ou sabão e água, se estiver visivelmente suja.\n\n"
+<b>COMO EU DEVO REMOVER A MÁSCARA?</b>
+"\n\n1. Lave suas mãos: lave suas mãos antes de tocar a máscara.\n
+2. Como eu devo remover a máscara? Remova a máscara segurando os elásticos/amarras, sem tocar a frente da máscara já que ela pode estar contaminada.\n
+3. Lave suas mãos novamente: lave suas mãos depois de remover a máscara.\n
+4. Lave a máscara: coloque-a para lavar o quanto antes.\n
+5. Guarde a máscara: caso você não possa lavar no momento, guarde-a em um saco fechado.\n\n"
+    </string>
+
+    <string name="care_with_fabric_mask_title">Como eu devo lavar a máscara?</string>
+
+    <string name="care_with_fabric_mask_text">
+"• Água sanitária: após o uso, mergulhe em água sanitária por 20 minutos.\n\n
+• Água e sabão: Depois, lave com água e sabão.\n\n
+• Lave separadamente: Lave a máscara separada de outras roupas.\n\n
+• Passado a máscara: depois de secar, é recomendado passar com ferro quente.\n\n
+• Guarde a máscara: guarde a máscara em um local limpo e seco.\n\n"
+    </string>
+
+    <string name="disposal_mask_text">
+"• As máscaras que não vêm dos serviços de saúde devem ser descartadas no lixo comum (não reciclável).\n\n
+• Remova a máscara e coloque em um saco separado.\n\n
+• Descartar imediatamente em uma lixeira fechada;\n\n"
+    </string>
+
+    <!-- Content related to COVID-19 Transmission-->
+    <string name="transmission_text">
+"• Aperto de mão\n
+• Gotas de saliva\n
+• Tosse\n
+• Espirro\n\n"
+<b>Objetos contaminados como:</b>
+"\n\n• Celulares\n
+• Mesas\n
+• Maçanetas\n
+• Brinquedos\n
+• Teclados de computador\n
+• etc.."
+    </string>
+</resources>

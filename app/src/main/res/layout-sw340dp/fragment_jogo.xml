@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    tools:context=".Quiz.QuizActivity$PerguntaFragment">
+
+
+    <LinearLayout
+        android:id="@+id/layout_game"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars = "vertical"
+            android:layout_marginBottom="10dp">
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/text_pergunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:scrollbars = "vertical"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <GridView
+            android:rowCount="4"
+            android:id="@+id/grid_respostas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_responde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/confirmar"
+        android:textColor="@color/cardview_light_background" />
+
+</LinearLayout>

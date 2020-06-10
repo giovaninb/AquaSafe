@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diving_q1" />
+
+    <RadioGroup
+        android:id="@+id/groupDiving_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn1_yes_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn1_no_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justDiving_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diving_q2" />
+
+    <RadioGroup
+        android:id="@+id/groupDiving_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn2_yes_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn2_no_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justDiving_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diving_q3" />
+
+    <RadioGroup
+        android:id="@+id/groupDiving_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn3_yes_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn3_no_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justDiving_q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diving_q4" />
+
+    <RadioGroup
+        android:id="@+id/groupDiving_question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn4_yes_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn4_no_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justDiving_q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diving_q5" />
+
+    <RadioGroup
+        android:id="@+id/groupDiving_question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn5_yes_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn5_no_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justDiving_q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+</LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.gov.rs.ddpa_seapi.aquasafe">
+    package="br.gov.rs.ddpa_seapi.aquasaude.aquasafe">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -59,12 +59,12 @@
             android:label="@string/title_activity_general_screen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Checklist.ChecklistActivity"
+            android:name=".ChecklistGeneral.ChecklistActivity"
             android:label="@string/title_activity_checklist"
-            android:parentActivityName=".Checklist.GeneralChecklistActivity"
+            android:parentActivityName=".ChecklistGeneral.GeneralChecklistActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Checklist.CheckActivity"
+            android:name=".ChecklistGeneral.CheckActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
             android:name=".ProtectionEquipment.ProtectionEquipmentActivity"
@@ -75,19 +75,131 @@
         <activity
             android:name=".Hazard.MainSpecificActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Tools_OSH.ToolsActivity" />
-        <activity
-            android:name=".Checklist.GeneralChecklistActivity"
-            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Hazard.HierarchyActivity"
+            android:label="@string/hierarchy_control"
             android:parentActivityName=".Hazard.GeneralScreenActivity" />
-
+        <activity
+            android:name=".ChecklistGeneral.GeneralChecklistActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChecklistManagement.ManagementActivity"
+            android:parentActivityName=".ChecklistGeneral.GeneralChecklistActivity" />
+        <activity
+            android:name=".ChecklistManagement.ActivityOne"
+            android:parentActivityName=".ChecklistManagement.ManagementActivity" />
+        <activity
+            android:name=".ChecklistWorkers.WorkersActivity"
+            android:parentActivityName=".ChecklistGeneral.GeneralChecklistActivity" />
+        <activity
+            android:name=".Tools.ToolsActivity"
+            android:label="@string/tools"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Tools_OSH.ToolsOSHActivity"
+            android:label="@string/osh_management_work"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FiveWhys.FiveWhysActivity"
+            android:label="@string/five_name"
+            android:parentActivityName=".Tools.ToolsActivity" />
         <activity
             android:name=".ProtectionEquipment.GeneralEquipmentActivity"
             android:label="@string/title_activity_general_equipment"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".ProtectionEquipment.ProtectionEquipmentActivity"></activity>
+            android:parentActivityName=".ProtectionEquipment.ProtectionEquipmentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Tools_OSH.WorkplaceActivity"
+            android:label="@string/osh_management_work_1"
+            android:parentActivityName=".Tools_OSH.ToolsOSHActivity" />
+        <activity
+            android:name=".Tools_OSH.OpportunitiesActivity"
+            android:label="@string/osh_management_work_2"
+            android:parentActivityName=".Tools_OSH.ToolsOSHActivity" />
+        <activity
+            android:name=".WhatIf.WhatIfActivity"
+            android:label="@string/what_if"
+            android:parentActivityName=".Tools.ToolsActivity" />
+
+        <activity
+            android:name=".Quiz.ControlActivty"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_quiz" />
+
+        <activity
+            android:name=".Quiz.QuizActivity"
+            android:label="@string/title_quiz" />
+
+        <activity
+            android:name=".COVID19.CovidActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".COVID19.SymptomsActivity"
+            android:parentActivityName=".COVID19.CovidActivity" />
+
+        <activity
+            android:name=".COVID19.TransmissionActivity"
+            android:parentActivityName=".COVID19.CovidActivity" />
+
+        <activity
+            android:name=".COVID19.ProtectionActivity"
+            android:parentActivityName=".COVID19.CovidActivity" />
+
+        <activity
+            android:name=".COVID19.MaskActivity"
+            android:parentActivityName=".COVID19.CovidActivity" />
+
+        <activity
+            android:name=".COVID19.OtherProtectionActivity"
+            android:parentActivityName=".COVID19.CovidActivity" />
+
+        <activity
+            android:name=".COVID19.ProtectHierarchyActivity"
+            android:parentActivityName=".COVID19.ProtectionActivity" />
+
+        <activity
+            android:name=".COVID19.ProtectWorkplaceActivity"
+            android:parentActivityName=".COVID19.ProtectionActivity" />
+
+        <activity
+        android:name=".COVID19.ProtectYourselfActivity"
+        android:parentActivityName=".COVID19.ProtectionActivity" />
+
+        <activity
+            android:name=".COVID19.WhichMaskActivity"
+            android:parentActivityName=".COVID19.MaskActivity" />
+
+        <activity
+            android:name=".COVID19.NonSirurgicalMaskActivity"
+            android:parentActivityName=".COVID19.MaskActivity" />
+
+        <activity
+            android:name=".COVID19.HowToUseMaskActivity"
+            android:parentActivityName=".COVID19.MaskActivity" />
+
+        <activity
+            android:name=".COVID19.CareWithMaskActivity"
+            android:parentActivityName=".COVID19.MaskActivity" />
+
+        <activity
+            android:name=".COVID19.CareFabricMaskActivity"
+            android:parentActivityName=".COVID19.MaskActivity" />
+
+        <activity
+            android:name=".COVID19.DisposalMaskActivity"
+            android:parentActivityName=".COVID19.MaskActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
     </application>
 
 </manifest>

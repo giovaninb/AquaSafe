@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/general_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Tools_OSH.WorkplaceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/text_workplace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:text="@string/text_workplace"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:tag="cause">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="@string/title_workplace"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_workplace_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:text="@string/text_workplace_2"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:tag="cause">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="@string/title_workplace_2"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_workplace_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:text="@string/text_workplace_3"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:tag="cause">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="@string/title_workplace_3"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_workplace_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:text="@string/text_workplace_4"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/references_1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/references_imgBtn_1"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_referencias_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/references_btn_1"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="@string/references1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/references_2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/references_imgBtn_2"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_referencias_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/references_btn_2"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="@string/references2"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/references_3"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/references_imgBtn_3"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_referencias_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/references_btn_3"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="@string/references3"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

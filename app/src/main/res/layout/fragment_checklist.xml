@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Checklist.ChecklistFragment">
+    tools:context=".ChecklistGeneral.ChecklistFragment">
 
 
     <LinearLayout
@@ -147,6 +147,46 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/checkbox_15"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_16"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_17"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_18"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_19"
+            android:textColor="#666" />
+
+        <CheckBox
+            android:id="@+id/checkbox_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/checkbox_20"
             android:textColor="#666" />
 
         <Button

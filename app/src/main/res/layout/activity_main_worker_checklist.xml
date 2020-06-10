@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/diving_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="@string/worker_name"
+                android:textSize="24sp" />
+
+            <include
+                android:id="@+id/information"
+                layout="@layout/content_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfo"
+                android:layout_centerInParent="true" />
+
+            <include
+                android:id="@+id/questions"
+                layout="@layout/worker_checklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/information" />
+
+            <Space
+                android:id="@+id/spaceEnd"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/questions" />
+
+            <include
+                android:id="@+id/end_diving"
+                layout="@layout/content_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spaceEnd"
+                android:layout_centerInParent="true" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/end_diving" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

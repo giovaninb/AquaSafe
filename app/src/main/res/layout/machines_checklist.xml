@@ -1,0 +1,251 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q1" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn1_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn1_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q2" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn2_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn2_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q3" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn3_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn3_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q4" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn4_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn4_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q5" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn5_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn5_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q6" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn6_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn6_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/machines_q7" />
+
+    <RadioGroup
+        android:id="@+id/groupMachines_question7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn7_yes_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn7_no_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justMachines_q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/corrective_action"
+        android:inputType="text|textMultiLine" />
+
+</LinearLayout>

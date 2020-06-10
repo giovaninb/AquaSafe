@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/diving_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/transitions_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="@string/what_if"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/help_what_if"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_help_black_24dp"
+                android:layout_alignRight="@+id/txtInfo"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:layout_marginTop="20dp"
+                android:id="@+id/questions_what"
+                layout="@layout/content_what_if"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfo" />
+
+            <Space
+                android:id="@+id/spaceEnd"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/questions_what" />
+
+            <include
+                android:id="@+id/end_what"
+                layout="@layout/content_what_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spaceEnd"
+                android:layout_centerInParent="true" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/end_what" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

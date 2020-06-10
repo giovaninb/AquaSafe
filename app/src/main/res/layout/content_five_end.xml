@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/root_cause"
+        android:layout_width="match_parent"
+        android:text="@string/root_text"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/solution_5whys"
+        android:layout_width="match_parent"
+        android:hint="@string/solution"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSharePDF"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/export_pdf" />
+
+</LinearLayout>

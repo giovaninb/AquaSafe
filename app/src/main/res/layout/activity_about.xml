@@ -15,18 +15,45 @@
         <ImageView
             android:id="@+id/logo_app"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_gravity="center" />
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo_aquasafe"
+            android:tint="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:contentDescription="@null" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
             android:text="@string/about_descrition"
             android:textSize="16sp" />
 
+        <ImageView
+            android:id="@+id/stop_child_labour"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/cd_child_labour"
+            android:src="@drawable/stop_child_labour" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="@string/about_information"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/another_project"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:text="@string/other_projects"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,8 +96,11 @@
 
         <ImageView
             android:id="@+id/imagem_logos"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:layout_height="280dp" />
+            android:src="@drawable/logos_about"
+            android:layout_height="280dp"
+            android:contentDescription="@null" />
 
         <TextView
             android:layout_width="wrap_content"

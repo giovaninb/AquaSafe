@@ -1,0 +1,298 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/justFive_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q1"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn1_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn1_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/justFive_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q2"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn2_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn2_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/justFive_q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q3"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn3_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn3_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/justFive_q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q4"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn4_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn4_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/justFive_q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q5"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn5_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn5_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justFive_q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q5"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn6_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn6_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justFive_q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q7"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn7_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn7_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/justFive_q8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/five_q8"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:id="@+id/textFive_q8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root" />
+
+    <RadioGroup
+        android:id="@+id/groupFive_question8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbtn8_yes_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/yes_rdbtn" />
+
+        <RadioButton
+            android:id="@+id/rdbtn8_no_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_rdbtn" />
+    </RadioGroup>
+
+</LinearLayout>

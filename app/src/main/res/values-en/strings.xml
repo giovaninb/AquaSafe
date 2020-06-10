@@ -1,347 +1,360 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hazard">Risks</string>
+    <string name="types_of_hazard">Types of Hazards</string>
     <string name="quiz">Quiz</string>
     <string name="tools">Tools</string>
-    <string name="osh">OSH</string>
-    <string name="workplace">Workplace</string>
     <string name="management">OSH management</string>
     <string name="equipment">PPE and CPE</string>
     <string name="checklist">Checklist</string>
     <string name="about">About</string>
     <string name="contact">Contact us</string>
+    <string name="youtube">Videos</string>
     <string name="app_name">AquaSafe</string>
     <string name="title_activity_hazard">HazardActivity</string>
-    <string name="information">General Information</string>
-    <string name="risk_explanation">Quick Risk Explanation</string>
+    <string name="risk_explanation">Occupational Risks</string>
+    <string name="hierarchy_control">Hierarchy of Controls</string>
 
     <string name="electrocution">Electrocution</string>
     <string name="noise">Noise</string>
     <string name="solar_radiation">Solar Radiation</string>
     <string name="fire_explosion">Fire and Explosion</string>
     <string name="extreme_temperatures">Extreme \n Temperatures</string>
-    <string name="humidity">Humidity and \nwetwork</string>
-    <string name="dust_gases">Toxic gases</string>
+    <string name="humidity">Humidity and \n exposure to water</string>
+    <string name="dust_gases">Dust and Gases</string>
     <string name="products">Substances, compounds \n or products chemical</string>
     <string name="resistance">Antimicrobial Resistance (AMR)</string>
-    <string name="zoonoses">Microorganisms</string>
+    <string name="zoonoses">Zoonoses</string>
     <string name="animals">Animals</string>
     <string name="excessive_physical_effort">Excessive physical effort</string>
     <string name="psychosocial">Psychosocial</string>
-    <string name="excessive_workday">Poor work organization</string>
+    <string name="excessive_workday">Excessive Workday</string>
     <string name="night_work">Night Work</string>
     <string name="machinery">Machinery</string>
-    <string name="slips">Slips, trips and falls</string>
+    <string name="slips">Slips</string>
     <string name="drowning">Drowning</string>
-    <string name="cutting_drilling">Needlestick injuries</string>
+    <string name="cutting_drilling">Needlestick Injuries</string>
 
     <string name="physic">Physical</string>
     <string name="chemical">Chemical</string>
     <string name="biologic">Biological</string>
     <string name="ergonomic">Ergonomic</string>
-    <string name="injurious_incidents">Safety</string>
+    <string name="injurious_incidents">Injurious Incidents</string>
+    <string name="injurious_incidents_title">Safety</string>
 
-    <string name="cause">Hazard Source</string>
-    <string name="type_hazard">Health Risks</string>
+
+    <string name="cause">Hazard</string>
+    <string name="type_hazard">Risk / Health Damage</string>
     <string name="control">Prevention and Control</string>
 
-    <string name="cause_electrocution">"Water contact with power transmission lines \n
-Lack of grounding systems \n
-Electric shock caused by working in high humidity locations \n
-Electric shocks caused by standby power when main power is turned off for maintenance
-reasons \n
-Bare wires"</string>
-    <string name="hazard_electrocution">"Burns \n
-Abnormal and irregular heart rhythm \n
-Nerve disorders \n
-Involuntary Muscle Contraction (spasm) \n
-Death"</string>
+    <string name="cause_electrocution">"Water contact with power transmission lines; \n
+Lack of grounding systems; \n
+Electric shock caused by working in high humidity locations; \n
+Electric shock caused by standby power when main power is turned off for maintenance reasons; \n
+Bare wires."</string>
+    <string name="hazard_electrocution">"Burns; \n
+Abnormal and irregular heart rhythm; \n
+Nerve disorders; \n
+Involuntary Muscle Contraction (spasm); \n
+Death."</string>
     <string name="control_electrocution">"<b>Elimination or replacement:</b>
-• Use Ground Fault Circuit Interrupters (GFCI), fuses and circuit breakers to reduce the likelihood of electric shock \n
+• Use Ground Fault Circuit Interrupters (GFCI), fuses and circuit breakers to reduce the likelihood of electric shock; \n
 <b>Engineering controls:</b>
-• Ensure the use of fuses and an adequate grounding system \n
-• Make sure all cables are intact and waterproof \n
-• Avoid electric overload
+• Ensure the use of fuses and an adequate grounding system; \n
+• Make sure all cables are intact and waterproof; \n
+• Avoid electric overload.
 
 <b>Administrative and PPE:</b>
-• Training workers on the risks of electric shock associated with using equipment
-close to water \n
-• Electrical installations must be reviewed and guaranteed by a qualified electrician \n
-• Never work alone so that in case of an electric shock, you have someone who can turn off the power \n
-• The power must be turned off when the equipment is handled \n
-• Ensure regular equipment maintenance \n
-• Place electrical hazard signs on equipment with risk of electric shock</string>
+• Training workers on the risks of electric shock associated with using equipment close to water; \n
+• Electrical installations must be reviewed and guaranteed by a qualified electrician; \n
+• Never work alone so that in case of an electric shock, you have someone who can turn off the power; \n
+• The power must be turned off when the equipment is handled; \n
+• Ensure regular equipment maintenance; \n
+• Place electrical hazard signs on equipment with risk of electric shock.</string>
 
-    <string name="cause_noise">"Constant exposure to noise emitted by vehicles and machines (boat engine, Oyster washing
-machines and high pressure washers) and water movements"</string>
-    <string name="hazard_noise">"Temporary or permanent hearing loss \n
-Inner ear injury (Acoustic trauma) from sudden very loud noise exposure \n
-Ringing/buzzing in the ear \n
-Physical and psychological stress \n
-Annoyance \n
-Rapid heart rate and hypertension \n
-Sleep disturbance \n
-Headaches \n
-Interference in communication and concentration"</string>
+    <string name="cause_noise">"Constant exposure to noise emitted by vehicles and machines (boat engine, Oyster washing machines and high pressure washers) and water movements."</string>
+    <string name="hazard_noise">"Temporary or permanent hearing loss; \n
+Inner ear injury (Acoustic trauma) from sudden very loud noise exposure; \n
+Ringing/buzzing in the ear; \n
+Physical and psychological stress; \n
+Annoyance; \n
+Rapid heart rate and hypertension; \n
+Sleep disturbance; \n
+Headaches; \n
+Interference in communication and concentration."</string>
     <string name="control_noise">"<b>Elimination or replacement:</b>
-• Replacement for less noise equipment
+• Replacing noisy equipment with quieter alternatives.
 
 <b>Engineering controls:</b>
-• Build barriers that prevent noise from reaching the worker \n
-• Isolate the noise source in an insulated room or enclosure \n
-• Maintain tools and equipment routinely\n
+• Build barriers that prevent noise from reaching the worker; \n
+• Isolate the noise source in an insulated room or enclosure; \n
+• Maintain tools and equipment routinely.\n
 
 <b>Administrative and PPE:</b>
-• Using headset \n
-• Work Rotation \n
-• Intervals between activities \n
-• Wear hearing protectors \n
-• Medical surveillance to detect early signs of hearing loss"</string>
+• Using headset; \n
+• Work Rotation; \n
+• Intervals between activities; \n
+• Wear hearing protectors; \n
+• Medical surveillance to detect early signs of hearing loss."</string>
 
-    <string name="cause_solar_radiation">"Exposure to ultraviolet radiation from the sun"</string>
-    <string name="hazard_solar_radiation">"Skin cancer \n
-Dehydration \n
-Headache \n
-Skin burns (first and second degree) \n
-Cataract \n
-Blindness \n
-Insolation \n
-Dermatitis"</string>
+    <string name="cause_solar_radiation">"Exposure to ultraviolet radiation from the sun."</string>
+    <string name="hazard_solar_radiation">"Skin cancer; \n
+Dehydration; \n
+Headache; \n
+Skin burns (first and second degree); \n
+Cataract; \n
+Blindness; \n
+Insolation; \n
+Dermatitis."</string>
     <string name="control_solar_radiation">"<b>Elimination or replacement:</b>
-• Working in covered areas and protected from the sun
+• Working in covered areas and protected from the sun.
 
 <b>Engineering controls:</b>
 N/A
 
 <b>Administrative and PPE:</b>
-• Wear sunscreen, hats and sunglasses \n
-• Reduce exposure to sunlight with labor turnover \n
-• Perform skin examinations at suspect points"</string>
+• Wear sunscreen, hats and sunglasses; \n
+• Reduce exposure to sunlight with work rotation; \n
+• Perform skin examinations at suspect points."</string>
 
-    <string name="cause_fire_explosion">"Damaged power supply \n
-Faulty electrical equipment \n
-Improperly discarded cigarettes \n
-Incorrect use and storage of flammable products \n
-Flammable gas leakage \n
-Positive Battery Terminal Exposed on Boats"</string>
-    <string name="hazard_fire_explosion">"Burns \n
-Disability as a result of serious sequelae \n
-Death"</string>
+    <string name="cause_fire_explosion">"Damaged power supply; \n
+Faulty electrical equipment; \n
+Improperly discarded cigarettes; \n
+Incorrect use and storage of flammable products; \n
+Flammable gas leakage; \n
+Positive Battery Terminal Exposed on Boats."</string>
+    <string name="hazard_fire_explosion">"Burns; \n
+Disability as a result of serious sequelae; \n
+Death."</string>
     <string name="control_fire_explosion"><b>"Elimination or replacement:</b>
-• Replace flammable substances \n
+• Replace flammable substances. \n
 
 <b>Engineering controls:</b>
-• Cover terminals to avoid sparks \n
-• Keep spark sources away from oxygen tanks and clothing \n
-• Install sprinkler suppression systems and exhaust fans \n
-• Regular maintenance of electrical equipment \n
+• Cover terminals to avoid sparks; \n
+• Keep spark sources away from oxygen tanks and clothing; \n
+• Install sprinkler suppression systems and exhaust fans; \n
+• Regular maintenance of electrical equipment. \n
 
 <b>Administrative and PPE:</b>
-• No smoking around sources of fires and explosions \n
-• Provide designated smoking area and enforce proper extinguishing of smoking materials \n
-• Good housekeeping to avoid clutter \n
-• Ensure safe use and storage of chemical substances \n
-• Training and signaling \n
-• Detect and repair leaks \n
-• Have fire extinguishers and check expiration dates"</string>
+• No smoking around sources of fires and explosions; \n
+• Provide designated smoking area and enforce proper extinguishing of smoking materials; \n
+• Good housekeeping to avoid clutter; \n
+• Ensure safe use and storage of chemical substances; \n
+• Training and signaling; \n
+• Detect and repair leaks; \n
+• Have fire extinguishers and check expiration dates."</string>
 
-    <string name="cause_extreme_temperatures">"Intense exposure to the sun at very high temperatures because of outdoor work \n
-Long exposure to very low temperatures, wind, rain and water"</string>
+    <string name="cause_extreme_temperatures">"Intense exposure to the sun at very high temperatures because of outdoor work; \n
+Long exposure to very low temperatures, wind, rain and water."</string>
     <string name="hazard_extreme_temperatures"><b>High temperature</b> \n
-Insolation \n
-Sunburns \n
-Dehydration \n
-Heat rashes, swelling, cramps and exhaustion \n
-Heat stroke\n
-<b>Low Temperature</b> \n
-Hypothermia \n
-Frostbite \n
-Chilblain</string>
+Insolation; \n
+Sunburns; \n
+Dehydration; \n
+Heat rashes, swelling, cramps and exhaustion; \n
+Heat stroke.\n
+
+<b>Low Temperature;</b> \n
+Hypothermia; \n
+Frostbite; \n
+Chilblain.</string>
     <string name="control_extreme_temperatures">"<b>Elimination or replacement:</b>
-<b>High temperature:</b> Working in covered areas; avoid working in extremely hot environments
-<b>Low temperature:</b> Avoid working in extremely cold environments
+<b>High temperature:</b> Working in covered areas; avoid working in extremely hot environments.
+<b>Low temperature:</b> Avoid working in extremely cold environments.
 
 <b>Engineering controls:</b>
-<b>High temperature:</b> automation and mechanization of tasks; ventilation and air
-conditioning, installing exhaust fans; insulating hot surfaces; shielding
-<b>Low temperature: </b>Thermal insulation
+<b>High temperature:</b> \n
+Automation and mechanization of tasks;\n
+Ventilation and air conditioning, installing exhaust fans;\n
+Insulating hot surfaces; \n
+Shielding.\n
+<b>Low temperature: </b>Thermal insulation.
 
 <b>Administrative and PPE:</b>
-<b>High temperature:</b>Rotation of work; shorten exposure duration and use frequent rest breaks; Intervals for fluid intake
-avoiding dehydration at elevated temperatures; train workers in recognition of symptoms of heat
-exposure; wear sunscreens, caps or hats; wear loose clothing that will allow sweat evaporation \n
-<b>Low temperature:</b> Intervals for the ingestion of hot drinks avoiding the consequences of low
-temperatures; Stay dry; keep active; rotation of work; train workers in recognition of symptoms of
-low temperature exposure; dress in layers of warm clothing including water proof and wind resistant wear</string>
+<b>High temperature:</b> \n
+Rotation of work;
+Shorten exposure duration and use frequent rest breaks;\n
+Intervals for fluid intake avoiding dehydration at elevated temperatures;\n
+Train workers in recognition of symptoms of heat exposure; \n
+Wear sunscreens, caps or hats;\n
+Wear loose clothing that will allow sweat evaporation. \n
 
-    <string name="cause_humidity">"Exposure during the occurrence of rainfall \n
-Exposure to seawater, tanks and ponds \n
-Exposure to water used in cleaning and damp locations"</string>
-    <string name="hazard_humidity">"Skin disease (irritant dermatitis) \n
-Slips, trips and falls"</string>
+<b>Low temperature:</b> \n
+Intervals for the ingestion of hot drinks avoiding the consequences of low temperatures;\n
+Stay dry; \n
+Keep active;\n
+Rotation of work;\n
+Train workers in recognition of symptoms of low temperature exposure;\n
+Dress in layers of warm clothing including water proof and wind resistant wear.</string>
+
+    <string name="cause_humidity">"Exposure during the occurrence of rainfall; \n
+Exposure to seawater, tanks and ponds; \n
+Exposure to water used in cleaning and damp locations."</string>
+    <string name="hazard_humidity">"Skin disease (irritant dermatitis); \n
+Slips, trips and falls."</string>
     <string name="control_humidity">"<b>Elimination or replacement:</b>
 N/A
 
 <b>Engineering controls:</b>
-• Building barriers that avoid direct contact with moisture
+• Building barriers that avoid direct contact with moisture.
 
 <b>Administrative and PPE:</b>
-• Intervals between activities \n
-• Minimize wet work to less than 2 hours \n
-• Wear personal protective equipment (PPE) such as gloves, boots, clothing and overalls"</string>
+• Intervals between activities; \n
+• Minimize wet work to less than 2 hours; \n
+• Wear personal protective equipment (PPE) such as gloves, boots, clothing and overalls."</string>
 
-    <string name="cause_dust_gases">"Earth moving and dust forming jobs \n
-Improper care of equipment \n
-Precarious maintenance of boat engines"</string>
-    <string name="hazard_dust_gases">"Fainting \n
-Dizziness \n
-Skin and respiratory irritation"</string>
+    <string name="cause_dust_gases">"Earth moving and dust forming jobs; \n
+Improper care of equipment; \n
+Precarious maintenance of boat engines."</string>
+    <string name="hazard_dust_gases">"Fainting; \n
+Dizziness; \n
+Skin and respiratory irritation."</string>
     <string name="control_dust_gases">"<b>Elimination or replacement:</b>
 N/A \n
 <b>Engineering controls:</b>
-• Detect and repair leaks
+• Detect and repair leaks.
 
 <b>Administrative and PPE:</b>
-• Use personal protective equipment (PPE) such as rubber gloves and respiratory protection mask for dust and gases \n
-• Replace chemicals with less toxic products \n
-• Reduce exposure time \n
-• Raising workers' awareness in the workplace \n
-• Use mechanical spreader \n
-• Signaling"</string>
+• Use personal protective equipment (PPE) such as rubber gloves and respiratory protection for dust and gases; \n
+• Replace chemicals with less toxic products; \n
+• Reduce exposure time; \n
+• Raising workers awareness in the workplace; \n
+• Use mechanical spreader; \n
+• Signaling."</string>
 
-    <string name="cause_products">"Substances for preparation and correction of ponds \n
-Products used in harvesting activities \n
-Contact with limestone, hydrogen peroxide, sodium metabisulfite, backpack sprays and sprayers manually \n
-Handling corrosive substances"</string>
-    <string name="hazard_products">"Burns \n
-Irritation of the skin and respiratory tract \n
-Premature aging \n
-Anxiety \n
-Depression \n
-Memory loss \n
-Poisoning \n
-Teratogenesis (formation and development in the uterus of abnormalities leading to malformations - only in women) \n
-Genetic disorder \n
-Cancer \n
-Death"</string>
+    <string name="cause_products">"Substances for preparation and correction of ponds; \n
+Products used in harvesting activities; \n
+Contact with limestone, hydrogen peroxide, sodium metabisulfite, backpack sprays and sprayers manually; \n
+Handling corrosive substances."</string>
+    <string name="hazard_products">"Burns; \n
+Irritation of the skin and respiratory tract; \n
+Premature aging; \n
+Anxiety; \n
+Depression; \n
+Memory loss; \n
+Poisoning; \n
+Teratogenesis (formation and development in the uterus of abnormalities leading to malformations - only in women); \n
+Genetic disorder; \n
+Cancer; \n
+Death."</string>
     <string name="control_products">"<b>Elimination or replacement:</b>
-• Replace toxic or lethal products
+• Replace toxic or lethal products.
 
 <b>Engineering controls:</b>
-• Chemicals should be stored properly in well-ventilated areas and away from reactive substances \n
-• Detect and repair leaks \n
-• Install sprinkler suppression systems \n
-• Mechanical equipment that reduces contact with chemical agents
+• Chemicals should be stored properly in well-ventilated areas and away from reactive substances; \n
+• Detect and repair leaks; \n
+• Install sprinkler suppression systems; \n
+• Mechanical equipment that reduces contact with chemical agents.
 
 <b>Administrative and PPE:</b>
-• Personal protective equipment (PPE) such as: Closed-toe shoes, Nitrile gloves, Goggles and appropriate masks \n
-• Training \n
-• Do not use pesticides or herbicides to avoid intoxication or contamination of water \n
-• Signaling"</string>
+• Personal protective equipment (PPE) such as: Closed-toe shoes, Nitrile gloves, Goggles and appropriate masks; \n
+• Training; \n
+• Do not use pesticides or herbicides to avoid intoxication or contamination of water; \n
+• Signaling."</string>
 
-    <string name="cause_resistance">"Antimicrobial resistance (AMR) is the ability of a microorganism (like bacteria, viruses, and some parasites) to stop an antimicrobial (such as antibiotics, antivirals and antimalarials) from working against it. As a result, standard treatments become ineffective, infections persist and may spread to others \n
-Aquacultural workers: handling fish, molluscs, crustaceans - in ponds, lakes, rivers, wetlands and coastal or offshore waters"</string>
-    <string name="hazard_resistance">"Workers on farms and in slaughtering houses are at high risk of exposure to ‘super bugs’ that in some cases can resist as many as 12 antibiotics \n
-Workers may carry these dangerous microbes home to family and community \n
-AMR strains of <i>E Coli</i>, <i>Staphylococci</i>, <i>Salmonella</i> and <i>Campylobacter</i> are all pathogens in the food chain that pose risks to workers \n
-Risk of contracting an AMR infectious disease through handling carcasses, infected work tools and raw meat products. The risk of contracting an AMR disease is greatly increased when a worker has suffered a skin laceration, cut or wound (however small) because many disease carrying microbes can only enter the body through roken skin \n
-Other AMR diseases can also spread through inhalation and ingestion"</string>
+    <string name="cause_resistance">"Antimicrobial resistance (AMR) is the ability of a microorganism (like bacteria, viruses, and some parasites) to stop an antimicrobial (such as antibiotics, antivirals and antimalarials) from working against it. As a result, standard treatments become ineffective, infections persist and may spread to others; \n
+Aquacultural workers: handling fish, molluscs, crustaceans - in ponds, lakes, rivers, wetlands and coastal or offshore waters."</string>
+    <string name="hazard_resistance">"Workers on farms and in slaughtering houses are at high risk of exposure to ‘super bugs’ that in some cases can resist as many as 12 antibiotics; \n
+Workers may carry these dangerous microbes home to family and community; \n
+AMR strains of <i>E Coli</i>, <i>Staphylococci</i>, <i>Salmonella</i> and <i>Campylobacter</i> are all pathogens in the food chain that pose risks to workers; \n
+Risk of contracting an AMR infectious disease through handling carcasses, infected work tools and raw meat products. The risk of contracting an AMR disease is greatly increased when a worker has suffered a skin laceration, cut or wound (however small) because many disease carrying microbes can only enter the body through broken skin; \n
+Other AMR diseases can also spread through inhalation and ingestion."</string>
     <string name="control_resistance">"<b>Elimination or replacement:</b>
-• Complete restriction of use of all classes of medically important antimicrobials in food-producing animals for prevention of infectious diseases that have not yet been clinically diagnosed; or for growth promotion \n
-• Do not use antimicrobials classified as highest priority critically important for human medicine for treatment of food-producing animals with a clinically diagnosed infectious disease \n
+• Complete restriction of use of all classes of medically important antimicrobials in food-producing animals for prevention of infectious diseases that have not yet been clinically diagnosed; or for growth promotion; \n
+• Do not use antimicrobials classified as highest priority critically important for human medicine for treatment of food-producing animals with a clinically diagnosed infectious disease. \n
 
 <b>Engineering controls:</b>
-• We recommend an overall reduction in use of all classes of medically important antimicrobials in food-producing animals \n
-• Use of quarantine and specific pathogen-free certified stocks, excluding vectors and external sources of contamination, and preventing internal cross-contamination
+• We recommend an overall reduction in use of all classes of medically important antimicrobials in food-producing animals; \n
+• Use of quarantine and specific pathogen-free certified stocks, excluding vectors and external sources of contamination, and preventing internal cross-contamination;
 
 <b>Administrative and PPE:</b>
-• Clean and disinfect boots- dispose of covers for shoes \n
-• Remove work clothes before leaving the farm \n
-• Wash hands thoroughly with warm water and soap \n
-• Dry hands with a paper towel \n
-• When hands are completely dry, disinfect with sanitizer and rub for at least 30 seconds \n
-• Always take a shower before going home \n
-• Change into clean clothes kept in an enclosed space \n
-• Avoid placing personal items, such as mobile phones, in production areas \n
-• Use appropriate personal protective equipment (PPE)"</string>
+• Clean and disinfect boots- dispose of covers for shoes; \n
+• Remove work clothes before leaving the farm; \n
+• Wash hands thoroughly with warm water and soap; \n
+• Dry hands with a paper towel; \n
+• When hands are completely dry, disinfect with sanitizer and rub for at least 30 seconds; \n
+• Always take a shower before going home; \n
+• Change into clean clothes kept in an enclosed space; \n
+• Avoid placing personal items, such as mobile phones, in production areas; \n
+• Use appropriate personal protective equipment (PPE)."</string>
 
-    <string name="cause_zoonoses">"Handling or activities that promote direct unintentional contact with pathogens \n
-Contact through contaminated water \n
-Contact through interaction with animals"</string>
-    <string name="hazard_zoonoses">"Infections"</string>
+    <string name="cause_zoonoses">"Handling or activities that promote direct unintentional contact with pathogens; \n
+Contact through contaminated water; \n
+Contact through interaction with animals."</string>
+    <string name="hazard_zoonoses">"Infections; \n Diseases."</string>
     <string name="control_zoonoses">"<b>Elimination or replacement:</b>
-• Control and elimination of pests and vectors
+• Control and elimination of pests and vectors.
 
 <b>Engineering controls:</b>
-• Control of vegetation around tanks and installations \n
+ N/A
 
 <b>Administrative and PPE:</b>
-• Sanitation \n
-• Appropriate personal protective equipment \n
-• Vaccination"</string>
+• Sanitation; \n
+• Control of vegetation around tanks and installations; \n
+• Appropriate personal protective equipment; \n
+• Vaccination."</string>
 
     <string name="cause_animals">"<b>Venomous</b>
-Handling fish with sharp teeth or spines that can cause cuts and stings \n
-Poisonous snakes, and scorpions, spiders, caterpillars, mosquitos, wasps and bees present in vegetation and water \n
+Handling fish with sharp teeth or spines that can cause cuts and stings; \n
+Poisonous snakes, and scorpions, spiders, caterpillars, mosquitos, wasps and bees present in vegetation and water. \n
 
 <b>Wild</b>
-Bites and attacks of alligators and other animals (in regions favorable to the appearance of these animals)"</string>
-    <string name="hazard_animals">"Stings \n
-Bites \n
-Deep cuts that may be infected \n
-Intense pain \n
-Wound-borne infections \n
-Skin or generalized reactions (allergies), depending on the causative agent \n
-Poisoning \n
-Death"</string>
+Bites and attacks of alligators and other animals (in regions favorable to the appearance of these animals)."</string>
+    <string name="hazard_animals">"Stings; \n
+Bites; \n
+Deep cuts that may be infected; \n
+Intense pain; \n
+Wound-borne infections; \n
+Skin or generalized reactions (allergies), depending on the causative agent; \n
+Poisoning; \n
+Death."</string>
     <string name="control_animals">"<b>Elimination or replacement:</b>
 N/A
 
 <b>Engineering controls:</b>
-• Control of vegetation around tanks and installations
-• Setting traps to catch venomous animals and insects
+• Setting traps to catch venomous animals and insects.
 
 <b>Administrative and PPE:</b>
-• Put in sight emergency phones and local poisoning centers \n
-• Closed shoes and gloves for animal handling"</string>
+• Control of vegetation around tanks and installations; \n
+• Put in sight emergency phones and local poisoning centers; \n
+• Closed shoes and gloves for animal handling."</string>
 
-    <string name="cause_excessive_physical_effort">"Loading of excess weight \n
-Awkward work posture during the handling of the animals in the harvesting process \n
-Manual filling of live tanks with water \n
-Loading fish from tanks or nets \n
-Netting and lifting of fish loads \n
-Netting, weighing and transfer of fish \n
-Repetitive movements \n
-Static loading (holding one position for extended period of time) \n
-Load full fishing nets \n
-Carrying sacks of feed without mechanical aid"</string>
+    <string name="cause_excessive_physical_effort">"Loading of excess weight; \n
+Awkward work posture during the handling of the animals in the harvesting process; \n
+Manual filling of live tanks with water; \n
+Loading fish from tanks or nets; \n
+Netting and lifting of fish loads; \n
+Netting, weighing and transfer of fish; \n
+Repetitive movements; \n
+Static loading (holding one position for extended period of time); \n
+Load full fishing nets; \n
+Carrying sacks of feed without mechanical aid."</string>
     <string name="hazard_excessive_physical_effort">"
-Low back, neck and shoulder pain \n
-Repetitive strain injury (RSI) \n
-Muscle aches and pains \n
-Weakness \n
-Stiffness \n
-Fatigue"</string>
+Low back, neck and shoulder pain; \n
+Repetitive strain injury (RSI)/Occupational Overuse Syndrome (OOS); \n
+Muscle aches and pains; \n
+Weakness; \n
+Stiffness; \n
+Fatigue."</string>
     <string name="control_excessive_physical_effort">"<b>Elimination or replacement:</b>
-• Use mechanical equipment to eliminate or reduce physical exertion \n
-• Use pulley, rail or crane to raise nets at the expense or transport loads
+• Use mechanical equipment to eliminate or reduce physical exertion; \n
+• Use pulley, rail or crane to raise nets.
 
 <b>Engineering controls:</b>
-• Decrease tank height to improve lifting postures
+• Decrease tank height to improve lifting postures.
 
 <b>Administrative and PPE:</b>
-• Maintain good posture and frequently changing \n
-• Where possible, reduce the weight of the load \n
-• Reduce the weight of high loads (such as fish nets filled with fish) \n
-• Take breaks \n
-• Worker training"</string>
+• Maintain good posture and frequently changing; \n
+• Where possible, reduce the weight of the load; \n
+• Reduce the weight of high loads (such as fish nets filled with fish); \n
+• Take breaks; \n
+• Worker training."</string>
 
-    <string name="cause_psychosocial">"Large fish kills \n
-Rremote locations away from family \n
-Abusive social environment \n
-Sleep deprivation \n
-High demand and low control situations"</string>
-    <string name="hazard_psychosocial">"Work-Related Anxiety, depression, and stress"</string>
+    <string name="cause_psychosocial">"Large fish kills; \n
+Remote locations away from family; \n
+Abusive social environment; \n
+Sleep deprivation; \n
+High demand and low control situations."</string>
+    <string name="hazard_psychosocial">"Work-related anxiety, depression, and stress."</string>
     <string name="control_psychosocial"><b>"Elimination or replacement:</b>
 N/A
 
@@ -349,116 +362,116 @@ N/A
 N/A
 
 <b>Administrative and PPE:</b>
-• Worker education and training focused on the worker's quality of life</string>
+• Worker education and training focused on the worker\"s quality of life.</string>
 
-    <string name="cause_excessive_workday">"Working hours longer than 8 hours per day or greater than 44 hours per week \n
-Little rest time or intervals"</string>
-    <string name="hazard_excessive_workday">"Tiredness and fatigue leading to poor attention and decreased productivity \n
-Muscle aches"</string>
+    <string name="cause_excessive_workday">"Working hours longer than 8 hours per day or greater than 44 hours per week; \n
+Little rest time or intervals."</string>
+    <string name="hazard_excessive_workday">"Tiredness and fatigue leading to poor attention and decreased productivity; \n
+Muscle aches."</string>
     <string name="control_excessive_workday">"<b>Elimination or replacement:</b>
-• Maintain adequate working hours
+• Maintain adequate working hours.
 
 <b>Engineering controls:</b>
 N/A \n
 <b>Administrative and PPE:</b>
-• "Better work organization"</string>
+• "Better work organization."</string>
 
-    <string name="cause_night_work">"Working at night with low visibility"</string>
-    <string name="hazard_night_work">"Fractures \n
-Drowning \n
-Falls \n
-Cuts \n
-Vision Disorders \n
-Sleep and tiredness \n
-Stress and other psychological disorders \n
-Increased propensity to accidents"</string>
+    <string name="cause_night_work">"Working at night with low visibility."</string>
+    <string name="hazard_night_work">"Fractures; \n
+Drowning; \n
+Falls; \n
+Cuts; \n
+Vision Disorders; \n
+Sleep and tiredness; \n
+Stress and other psychological disorders; \n
+Increased propensity to accidents."</string>
     <string name="control_night_work">"<b>Elimination or replacement:</b>
-• Change shift to daylight hours
+• Change work to be done during daylight hours.
 
 <b>Engineering controls:</b>
-• Provide adequate lighting and backup lighting
+• Provide adequate lighting and backup lighting.
 
 <b>Administrative and PPE:</b>
-• Limit night work to as few hours as possible"</string>
+• Limit night work to as few hours as possible."</string>
 
-    <string name="cause_machinery">"Tractor overturning \n
-Miscellaneous incidents with machines, aerators and equipment \n
-Machines without protective equipment"</string>
-    <string name="hazard_machinery">"Cuts and punctures \n
-Crushing \n
-Permanent disability \n
-Amputation of limbs \n
-Death"</string>
+    <string name="cause_machinery">"Tractor overturning/Tractor rollover  \n
+Miscellaneous incidents with machines, aerators and equipment; \n
+Machines without protective equipment."</string>
+    <string name="hazard_machinery">"Cuts and punctures; \n
+Crushing; \n
+Permanent disability; \n
+Amputation of limbs; \n
+Death."</string>
     <string name="control_machinery">"<b>Elimination or replacement:</b>
 N/A \n
 <b>Engineering controls:</b>
-• Equip vehicles (including ATVs) with rollover protection structures (ROPS) \n
-• Regulate the rear PTO of the rotary implements on the terminal drive of the equipment \n
-• Install protectors in equipment and machines \n
+• Equip vehicles (including ATVs) with rollover protection structures (ROPS); \n
+• Regulate the rear PTO of the rotary implements on the terminal drive of the equipment; \n
+• Install protectors in equipment and machines. \n
 
 <b>Administrative and PPE:</b>
-• Training to use machines and equipment \n
-• Use appropriate protective equipment \n
-• Avoid working alone \n
-• Avoid working while tired"</string>
+• Training to use machines and equipment; \n
+• Use appropriate protective equipment; \n
+• Avoid working alone; \n
+• Avoid working while tired."</string>
 
-    <string name="cause_slips">"Slips and falls can be caused by wet and slippery floors, tools left on runways, and discarded debris on the floor, such as oysters and open gutters \n
-Falls of heights, floating or fixed platforms"</string>
-    <string name="hazard_slips">"Fractures \n
-Contusions \n
-Dislocations \n
-Potential of drowning of injured worker \n
-Fainting and loss of consciousness \n
-Drowning"</string>
+    <string name="cause_slips">"Slips and falls can be caused by wet and slippery floors, tools left on runways, and discarded debris on the floor, such as oysters and open gutters; \n
+Falls from heights, floating or fixed plataforms."</string>
+    <string name="hazard_slips">"Fractures; \n
+Contusions; \n
+Dislocations; \n
+Potential of drowning of injured worker; \n
+Fainting and loss of consciousness; \n
+Drowning."</string>
     <string name="control_slips">"<b>Elimination or replacement:</b>
 N/A \n
 <b>Engineering controls:</b>
-• Non-slip floor
+• Non-slip floor.
 
 <b>Administrative and PPE:</b>
-• Obstacle walkways \n
-• Keep the floor dry \n
-• Non-slip footwear \n
-• Map of risks and signs"</string>
+• Obstacle walkways; \n
+• Keep the floor dry; \n
+• Non-slip footwear; \n
+• Map of risks and signs."</string>
 
-    <string name="cause_drowning">"Falls at sea or dams \n
-Lack of use of the Personal Flotation Device (PFD) \n
-Diving"</string>
-    <string name="hazard_drowning">"Drowning sequelae viz. Pneumonia, acute respiratory distress syndrome, brain damage, chemical and fluid imbalances in the body, permanent vegetative state \n
-Ingestion of excessive water through the oral and respiratory routes \n
-Decompression illness \n
-Death"</string>
+    <string name="cause_drowning">"Falls at sea or dams; \n
+Lack of use of the Personal Flotation Device (PFD); \n
+Diving."</string>
+    <string name="hazard_drowning">"Drowning sequelae viz. Pneumonia, acute respiratory distress syndrome, brain damage, chemical and fluid imbalances in the body, permanent vegetative state; \n
+Ingestion of excessive water through the oral and respiratory routes; \n
+Decompression illness; \n
+Death."</string>
     <string name="control_drowning">"<b>Elimination or replacement:</b>
 N/A
 
 <b>Engineering controls:</b>
-• Install floating life lines or other devices to exit ponds and tanks coated with plastic or smooth or muddy surfaces
+• Install floating life lines or other devices to exit ponds and tanks coated with plastic or smooth or muddy surfaces.
 
 <b>Administrative and PPE:</b>
-• Use of personal flotation device (PFD) such as lifejacket and emergency buoy \n
-• Training \n
-• Have knowledge of diving and swimming \n
-• Make sure on safety in diving and in doubles at least"</string>
+• Use of personal flotation device (PFD) such as lifejacket and emergency buoy; \n
+• Training; \n
+• Have knowledge of diving and swimming; \n
+• Make sure that the dive is performed in safety conditions, and with two divers ar least."</string>
 
-    <string name="cause_cutting_drilling">"Handling of syringe and needle in vaccination"</string>
-    <string name="hazard_cutting_drilling">"Local inflammation and severe pain \n
-Infections \n
-\"Influenza\" like syndrome with fever, muscle ache, and general malaise \n
-Anaphylactic reactions with coma, dyspnoea, and confusion"</string>
+    <string name="cause_cutting_drilling">"Handling of syringe and needle in vaccination."</string>
+    <string name="hazard_cutting_drilling">"Local inflammation and severe pain; \n
+Infections; \n
+\"Influenza\" like syndrome with fever, muscle ache, and general malaise; \n
+Anaphylactic reactions with coma, dyspnoea, and confusion."</string>
     <string name="control_cutting_drilling">"<b>Elimination or replacement:</b>
-• Install automatic vaccination equipment
+• Install automatic vaccination equipment.
 
 <b>Engineering controls:</b>
-• Use corrugated table to immobilize the fish in the wavy groove
+• Use corrugated table to immobilize the fish during vaccination.
 
 <b>Administrative and PPE:</b>
-• Vaccine training \n
-• Use of Personal Protective Equipment such as anti-cutting gloves (high strength polyurethane) \n
-• Well equipped first aid kit"</string>
+• Vaccine training; \n
+• Use of Personal Protective Equipment such as anti-cutting gloves (high strength polyurethane); \n
+• Well equipped first aid kit."</string>
 
-
+    <string name="highscore">"Your highest note: "</string>
     <string name="default_highscore">You have not filled out the checklist yet.</string>
-    <string name="checklist_introduction">introduction text</string>
+    <string name="checklist_introduction">Occupational Health is responsible for prevention and protection of people\'s health, acting in actions aimed at the promotion and preservation of their health. To help you - and encourage - we set up this general inspection checklist:</string>
 
     <string name="fill_checklist">Fill Checklist</string>
     <string name="back_result">Review last result</string>
@@ -473,18 +486,23 @@ Anaphylactic reactions with coma, dyspnoea, and confusion"</string>
     <string name="checkbox_1">I use personal protective equipment such as gloves, caps, sunscreen, masks and lifejackets.</string>
     <string name="checkbox_2">The vegetation around tanks and facilities is often cut. </string>
     <string name="checkbox_3">Often pest and vector control is performed.</string>
-    <string name="checkbox_4">Workplace is clean and organized.</string>
-    <string name="checkbox_5">All electrical installations are waterproof, have use of fuses and proper ground connection.</string>
-    <string name="checkbox_6">To avoid drowning, workers use buoys or lifejackets in contact with water.</string>
-    <string name="checkbox_7">To avoid prolonged exposures, there are frequent breaks and rotation of workers.</string>
-    <string name="checkbox_8">The workplace is flagged for risk.</string>
-    <string name="checkbox_9">The transport of load by the worker is carried out in order to avoid excess weight lifting.</string>
+    <string name="checkbox_4">The workplace is clean and organized.</string>
+    <string name="checkbox_5">All electrical equipment is waterproof, has a fuse and proper ground connection.</string>
+    <string name="checkbox_6">To avoid drowning, workers use lifebuoys or lifejackets in contact with water.</string>
+    <string name="checkbox_7">To avoid prolonged exposures to different hazards, there are frequent breaks and rotation of workers.</string>
+    <string name="checkbox_8">OSH risks in the workplace have been identified.</string>
+    <string name="checkbox_9">Loads transported by the worker are assessed to avoid workers lifting excessive weight.</string>
     <string name="checkbox_10">People involved in the production process were sufficiently trained for their functions.</string>
-    <string name="checkbox_11">Swimming or diving is a must for hiring in the workplace.</string>
-    <string name="checkbox_12">Chemicals are applied using appropriate masks and gloves.</string>
+    <string name="checkbox_11">As appropriate for their duties, workers should be able to swim and have necessary diving qualifications.</string>
+    <string name="checkbox_12">When working with chemicals, workers use appropriate masks and gloves.</string>
     <string name="checkbox_13">Workers are advised to have some type of immunization (tetanus, hepatitis A and B, typhoid, influenza and / or yellow fever).</string>
     <string name="checkbox_14">In my work environment, it is possible to take breaks or change of position after long periods of activity.</string>
     <string name="checkbox_15">I use cut resistant gloves when handling equipment or sharp machines.</string>
+    <string name="checkbox_16">Equipment or machines in my workplace have a "lock switch" not to be triggered during handling.</string>
+    <string name="checkbox_17">Workers are aware of their health and safety responsibilities and have they been warned of any potential hazards (physical, chemical, ergonomic, health, biological) that they may encounter at work.</string>
+    <string name="checkbox_18">Only authorized and trained personnel can operate tools and equipment or use chemicals.</string>
+    <string name="checkbox_19">There are opportunities for professional training and familiarization for new workers.</string>
+    <string name="checkbox_20">There are experienced and responsible workers to turn to if other workers need assistance.</string>
     <string name="confirm">Confirm</string>
 
     <string name="title_activity_physicist">PhysicistActivity</string>
@@ -500,77 +518,122 @@ Anaphylactic reactions with coma, dyspnoea, and confusion"</string>
     <string name="title_activity_checklist">ChecklistActivity</string>
     <string name="title_activity_result">ResultActivity</string>
 
-    <string name="safety">You work in a place x% appropriate!</string>
-    You work in a place x% appropriate!
     <string name="result_checklist">Check out some tips based on your markups to increase the level of health and safety:</string>
     <string name="result_max">You work in a place appropriate!</string>
     <string name="work">"You work in a place "</string>
-    <string name="porcent">% appropriate!</string>
     <string name="score">Your highest score:</string>
 
     <string name="answer_1">Always wear personal protective equipment to ensure your health and safety.</string>
     <string name="answer_2">Keep the vegetation always low to avoid hiding and abundance of animals</string>
     <string name="answer_3">Take pest control periodically to prevent insects, rodents and other animals or disease vectors in the workplace.</string>
-    <string name="answer_4">Clean and organized work environment avoids damage to the workers health and influence on the quality of the company.</string>
+    <string name="answer_4">Clean and organized work environment avoids damage to the workers\' health and influence on the quality of the company.</string>
     <string name="answer_5">Use of fuses, waterproofed and grounded electrical installations reduces the risk of electric shock.</string>
-    <string name="answer_6">The use of buoys, lines or lifejackets in water contact activities prevents drowning and possible deaths.</string>
-    <string name="answer_7">Jobs that require some type of prolonged exposure should be accompanied by frequent breaks and rotation of workers to avoid immediate or future health problems.</string>
-    <string name="answer_8">Signaling in the workplace helps to prevent risks and should be used to warn of possible accidents.</string>
+    <string name="answer_6">The use of lifebuoys, lines or lifejackets in water contact activities prevents drowning and possible deaths.</string>
+    <string name="answer_7">Jobs having some type of prolonged exposure to workplace hazards should be accompanied by frequent breaks and rotation of workers to avoid immediate or long term health problems.</string>
+    <string name="answer_8">Signaling in the workplace helps to prevent risks and should be used to warn of possible hazards or dangers.</string>
     <string name="answer_9">Use mechanical equipment to eliminate or reduce physical exertion. Use pulley, rail or crane to raise nets in the warehouse or transport loads. If the load carried is excess weight, the excess load must be removed in order to avoid future health problems and accidents.</string>
     <string name="answer_10">Personnel involved in aquaculture activities should use specific PPE and receive training and updates for their functions.</string>
-    <string name="answer_11">Knowing how to swim or dive can avoid accidents like fatal drownings.</string>
+    <string name="answer_11">Knowing how to swim or dive can assist to avoid drownings.</string>
     <string name="answer_12">The use of masks and gloves when handling chemicals is necessary to avoid poisoning and burns. Check the product instruction manual for correct use of protective equipment. Whenever possible, replace toxic or lethal products. Chemicals should be stored in a well-ventilated area away from incompatible substances.</string>
-    <string name="answer_13">Most countries do not have a special regulation of vaccines for aquaculture workers, however, it is recommended that workers who have direct contact with animals and water carry out Tetanus, Hepatitis A and B vaccines, typhoid, influenza and / or yellow fever.</string>
+    <string name="answer_13">Most countries do not have a special regulation of vaccines for aquaculture workers, however, it is recommended that workers who have direct contact with animals and water get vaccinated for Tetanus, Hepatitis A and B, typhoid, influenza and / or yellow fever.</string>
     <string name="answer_14">Pauses, maintaining good posture or changes of position during periods of work are essential when tasks are repetitive or need to be performed in a specific position.</string>
     <string name="answer_15">Resistant gloves to handle sharp equipment or machines are recommended to avoid cuts and more serious punctures. There are high strength polyurethane gloves on the market that protect the worker against cuts and other injuries.</string>
+    <string name="answer_16">Locking keys of machinery and equipment must be installed and workers trained and oriented on the requirement of this mechanism to avoid triggering equipment during cleaning or other work. In this way, serious injuries such as limb loss or fatal accidents such as firing furnaces, crushers or cooling chambers (and liken/similar) are avoided when a worker is inside.</string>
+    <string name="answer_17">Workers should be aware and trained about their health and safety responsibilities as well as the potential risks.</string>
+    <string name="answer_18">All workers must be trained to operate machines, tools, equipment and chemicals in order to minimize the risk of accidents.</string>
+    <string name="answer_19">Training of workers is essential.</string>
+    <string name="answer_20">Experienced workers or professionals are important in advising other workers on the activities.</string>
 
     <string name="name_shared_pref">br.gov.rs.fepagro.aquasafe.preferences</string>
-    <string name="score_checklist" translatable="false">scorechecklist</string>
-    <string name="string_topics" translatable="false">string_topics</string>
+    <string name="score_checklist">scoreChecklist</string>
+    <string name="string_topics">stringTopics</string>
 
 
-    <string name="about_descrition">O objetivo do AquaSafe é trazer melhorias para a aquicultua brasileira através da disponibilixação de informações sobre saúde ocupacional de forma ágil e de fácil compreensão. Com o desenvolvimento do aplicativo, informações científicas que estavam distribuídas em inglês e em diferentes locais da internet agora estão disponíveis facilmente e de forma off-line aos produtores, trabalhadores e demais interessados.</string>
-    <string name="equipe">EQUIPE</string>
+    <string name="about_descrition">Aquasafe is a platform for promoting workers\' safety and health in aquaculture, with actions aimed at aquaculture workers and producers, students and professionals.\nIt addresses the main hazards and associated health risks in aquaculture work environments. Information on prevention, use of safety equipment and damage to health is also available in the app.\nAquaSafe can be used in the assessment of occupational risks through a checklist and other tools. It assists in the decision making of injury and disease prevention methods, techniques or measures through providing information on eliminating or reducing risks, engineering controls and/or administrative controls and use of PPE.\nLearning can be assessed through an interactive quiz.\n </string>
+    <string name="about_information"><b>*This application does not replace management and assessments of trained professionals in loco.\n</b></string>
+    <string name="equipe">TEAM</string>
     <string name="equipe_names">
-        "<b>Coordenadora:\n</b>"
-        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
-        "<b>Desenvolvimento do Aplicativo:\n</b>"
-        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi)\n\n"
 
-        "<b>Equipe AquaSaúde:\n</b>"
-        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
-        "Flavielle Blanco Marques (UFCSPA | Estagiária Renapsi)\n"
+        "<b>Coordinator:\n</b>"
+        "Dr. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
 
-    </string>
+        "<b>Application Development:\n</b>"
+        "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Bruno Tavares (UFCSPA | CNPq)\n\n"
 
-    <string name="instituicoes">INSTITUIÇÕES</string>
-    <string name="bibliotecas">BIBLIOTECAS UTILIZADAS</string>,
+        "<b>AquaSafe Core Team:\n</b>"
+        "Dr. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
+        "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Bruno Tavares (UFCSPA | CNPq)\n"
+        "Dr. Silvio Cazella (UFCSPA)\n"
+        "Dr. Rebecca Mitchell (Macquarie University, Australia)\n"
+        "Dr. Luceni Hellebrandt\n"
+        "Dr. Kirill Buketov (IUF)\n"
+        "Dr. Andrew Watterson (University of Stirling, Scotland)\n"
+        "Dr. Mohamed Jeebhay (University of Cape Town, South Africa)\n"
+        "Dr. Dorothy Ngajilo (University of Cape Town, South Africa)\n"
+        "Dr. Deji Adeoye (Federal University of Agriculture, Nigeria)\n\n"
+
+        "<b>Technical consultancy Group<i>(ad hoc)</i>:\n</b>"
+        "Dr. Arpita Sharma (ICAR-CIFE)\n"
+        "Dr. Maria Helena Fermino (DDPA/SEAPI-RS)\n"
+        "Dr. Benito Brito (DDPA/SEAPI-RS)\n"
+        "Dr. Kelly Cristina Tagliari de Brito (DDPA/SEAPI-RS)\n"
+        "Julio Bastola (<i>ad hoc</i> Quality Tools)\n"
+        "Henrique Fonseca (<i>ad hoc</i> Work Safety Technician)\n\n"
+
+</string>
+
+
+    <string name="instituicoes">INSTITUTIONS</string>
+    <string name="bibliotecas">REFERENCES</string>
     <string name="bibliotecas_descricao">
-        " Ícones: flaticon.com\n"
-            "Checklist: github.com/edupooch/AquaSaude-Camarao\n"
+        " Ícones: flaticon.com\n\n"
+        " Checklist: github.com/edupooch/AquaSaude-Camarao\n\n"
+        " http://www.wcb.pe.ca/DocumentManagement/Document/pub_aquaculturesafetycodeofpractice.pdf\n\n"
+        " https://www.aquaculturecouncilwa.com/files/5814/0462/8115/WAAquaIndustryOHSCode2002.pdf\n\n"
+        " https://novascotia.ca/lae/healthandsafety/docs/FishSafe.pdf\n\n"
+        " https://www.dpc.mar.mil.br/sites/default/files/normam05.pdf\n\n"
+        " https://www.ccaimo.mar.mil.br/sites/default/files/solas_indice-2014_2.pdf\n\n"
+        " http://www.hse.gov.uk/toolbox/ppe.htm\n\n"
+        " http://www.fao.org/cofi/aq/90408/en/\n\n"
+        " http://www.fao.org/cofi/46125-015d659aed398efe120a5953620684aea.pdf\n\n"
+        " http://www.who.int/foodsafety/areas_work/antimicrobial-resistance/en/\n\n"
+        " http://apps.who.int/iris/bitstream/handle/10665/258970/9789241550130-eng.pdf?sequence=1\n\n"
+        " IUF meat division - AMR\n\n"
+        " OHSAS 18001\n\n"
+        " ILO\n\n"
+        " Koonse B. 2012. Good aquaculture practices to minimize bacterial resistance. In: Improving biosecurity through prudent and responsible use of veterinary medicines in aquatic food production. FAO fisheries and Aquaculture Technical Paper 547. Rome, Italy, 208p.\n\n"
+        " Myers ML, Durborow RM. Aquacultural safety and health. In: Edmir Carvalho ed. Health and Environment in Aquaculture. Croatia: InTech; 2012. doi: 10.5772/29258. Available at: http://www.intechopen.com/books/health-and-environment-in-aquaculture/aquacultural-safety-and-health\n\n"
+        " Myers ML, Cole HP. Simple solutions for reduced fish farm hazards. J Agromedicine. 2009;14:150–156.\n\n"
+        " Myers ML, Durborow RM, Cole HP. 2012. Inherently safer - Aquacultural work: Hierarchical hazard controls. Professional Safety: 44-51.\n\n"
+
     </string>
 
-    <string name="title_email">Aplicativo AquaSafe</string>
+    <string name="title_email">AquaSafe Application</string>
 
     <string name="floating">Floating Equipment</string>
     <string name="protecting">Protective Clothing</string>
     <string name="eye_protection">Eye protection</string>
     <string name="hearing_protection">Hearing protection</string>
-    <string name="sign_protection">Sign protection</string>
-    <string name="fire_protection">Fire protection</string>
-    <string name="first_aid">First aid \n</string>
+    <string name="sign_protection">Sign protection (CPE)</string>
+    <string name="fire_protection">Fire protection (CPE)</string>
+    <string name="first_aid">First aid (CPE)</string>
     <string name="electrical_shock_protection">Electrical shock protection</string>
     <string name="chemical_protection">Chemical protection</string>
     <string name="diving_protection">Diving protection</string>
 
+    <string name="risk_about_hazard">
+        Occupational risk is the probability of occurrence of an adverse health effect due to exposure to a hazard (OHSAS 18001). In aquaculture activities, workers are exposed to different hazards, which may be physical, chemical, biological, ergonomic and psychosocial. To eliminate, avoid or mitigate health risks related to these hazards, it is necessary to establish hazard control and risk management. \n<b>The classification of risks may vary according to the legislation of each country.</b>\n
+    </string>
     <string name="information_about_hazard">
-Occupational risk is the probability of occurrence of a health effect due to exposure to the hazard (OHSAS 18001). In aquaculture activities, workers are exposed to different hazards, which may be physical, chemical, biological, ergonomic and psychosocial. To eliminate, avoid or mitigate health risks related to these hazards, it is necessary to establish hazard control and risk management.\n
+According to occupational health and safety bodies, effective controls protect workers from workplace hazards. There is a wealth of information to help employers investigate options for controlling identified hazards. Before selecting any control measure, it is essential to request information from stakeholders (workers and employers) on their feasibility and effectiveness.\n
 \n
-According to OSHA, effective controls protect workers from workplace hazards. There is a wealth of information to help employers investigate options for controlling identified hazards. Before selecting any control measure, it is essential to request information from stakeholders (workers and employers) on their feasibility and effectiveness.\n
-\n
-• Employers should select the most viable, effective and permanent controls.\n
-• Select controls according to a hierarchy that emphasizes solutions including elimination or replacement first, followed by safe work practices, administrative controls, and finally personal protective equipment.\n
-• Avoid selecting controls that can directly or indirectly introduce new hazards.\n
+• Employers should select the most viable, effective and permanent controls.\n\n
+• Select controls according to a hierarchy that emphasizes solutions including elimination or replacement first, followed by safe work practices, administrative controls, and finally personal protective equipment.\n\n
+• Avoid selecting controls that can directly or indirectly introduce new hazards.
 </string>
 
     <string name="text_floating_equipment">
@@ -580,17 +643,20 @@ According to OSHA, effective controls protect workers from workplace hazards. Th
 • Models with specific shape and volume collar are able to keep the face at a safe distance from the water or untap the person quickly in cases of unconsciousness. Check for models that have this specificity.
 • Lifejackets are classified and should be used according to the form and conditions of use." \n
 
-\n<b>Buoys and lifelines</b>"
-• The buoys are devices for calm and inner waters in which help is always near. They are not safe for unconscious people or for long periods in the water.
+\n<b>Lifebuoys and lifelines</b>"
+• The lifebuoys are devices for calm and inner waters in which help is always near. They are not safe for unconscious people or for long periods in the water.
 • Life lines are used to rescue people in the water or to protect against falls.
 </string>
-    
+
     <string name="protective_clothing">
 <b>Gloves</b>\n
 • Gloves should be worn when handling animals, products, knives, needles, chemicals and hazardous substances.\n
 • Wear work gloves if you have injuries, abrasions, or irritations on your hands and arms, except when using them may cause a risk.\n
-• Rubber gloves can provide protection against moisture and cold and are effective when handling equipment.\n
-• Fabric gloves can be worn underneath for even thermal comfort, and mesh gloves provide good protection when handling equipment or gear with sharp edges. When working near a hoist, spear, saw or treadmill, wear anti-cutting gloves, tie long hair and do not wear loose clothing or jewelry.\n
+• Rubber gloves can provide protection against moisture and cold.\n
+• Anti-cutting gloves provide good protection when handling knives or materials with sharp edges.\n
+• Fabric gloves can be worn underneath for even thermal comfort.\n
+<b>• When working near a hoist, spear, saw or treadmill, tie long hair and do not wear loose clothing or jewelry.\n</b>
+
 \n
 <b>Shoes</b>\n
 • Wear safety boots or shoes with good traction that avoid slipping and falling, as well as when operating vehicles and machines.\n
@@ -607,26 +673,26 @@ According to OSHA, effective controls protect workers from workplace hazards. Th
 • Each diver must be equipped with a strong, sharp knife; weights with a quick release mechanism which are sufficient to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while conducting a dive, which exposes the diver to risks of falling objects or head injuries.
 </string>
 
-<string name="eye_protection_text">
+    <string name="eye_protection_text">
 • Protect eyes with safety or protective eyewear when activity requires eye protection.\n
 • Workers should wear sunglasses to protect their eyes from direct sunlight or the reflection of water or ice.\n
 • Do not wear standard sunglasses as a substitute for safety glasses when performing tasks that require the use of eye protection. For these tasks, wear appropriate glasses or protective masks.\n
 </string>
 
-<string name="hearing_protection_text">
-• Wear hearing protection (protectors, dampers, and earplugs) when using equipment or noisy machines (whenever the noise level exceeds 85 decibels). A good rule of thumb is if someone else is talking and can not be heard when they are at arm\'s length, then hearing protection should be used.\n
+    <string name="hearing_protection_text">
+• Wear hearing protection (protectors and dampers) when using equipment or noisy machines (whenever the noise level exceeds 80 decibels). A good rule of thumb is if someone else is talking and can not be heard when they are at arm\'s length, then hearing protection should be used.\n
 \n
 • Some of the most common equipment used by fish farmers where hearing protection should be used include a chainsaw (115 decibels), a gasoline engine (100 decibels), a tractor (80-110 decibels), oyster washing machines (> 80 decibels).\n
 </string>
 
-<string name="sign_protection_text">Place warning signs and emergency numbers in any chemical or noxious storage area. The signs should be placed according to the risks found in the workplace. \n
+    <string name="sign_protection_text">Place warning signs and emergency numbers in any chemical or noxious storage area. The signs should be placed according to the risks found in the workplace. \n
 \n
 <b>Here are some examples:</b> \n \n
 
 <b>Warning Signs (yellow)</b> \n
 • Corrosive substance \n
 • Toxic substance \n
-• Eflammable substance \n
+• Flammable substance \n
 • Harmful or irritant \n
 • Vehicles \n
 • Electrocution \n
@@ -648,10 +714,10 @@ According to OSHA, effective controls protect workers from workplace hazards. Th
 • No smoking \n
 • No entry \n
 • Do not open the safety device</string>
-    
+
     <string name="fire_protection_text">
 <b>Fire extinguisher</b>\n
-• Fire extinguishers must be on the validity date.\n
+• Fire extinguishers must not have expired and should be tested according to the manufacturers specifications.\n
 • "No smoking" signs should be affixed to all deposits or areas where flammable products are present.\n
 • Fire extinguishers must be kept fully charged and renewed as specified by the manufacturer.\n
 • Workers should be trained in the use of fire extinguishers.\n
@@ -663,7 +729,7 @@ According to OSHA, effective controls protect workers from workplace hazards. Th
 <b>• Water:</b> Suitable for wood fires, fabric, paper and solid materials in general.\n
 </string>
 
-<string name= "first_aid_text">
+    <string name= "first_aid_text">
 • Workers should be trained on first aid measures whenever possible.\n
 • Keep list of useful telephones visible and a kit for simple procedures.\n
 \n
@@ -678,7 +744,7 @@ According to OSHA, effective controls protect workers from workplace hazards. Th
 • Bandages\n
 </string>
 
-<string name="electrical_shock_protection_text">
+    <string name="electrical_shock_protection_text">
 Safe procedures should be adopted since electricity is an essential component in aquaculture activity. \n
 \n
 • Lock the main switches and place the locks and labels on them before working on power circuits so that no one else can use them while you are working.\n
@@ -690,7 +756,7 @@ Safe procedures should be adopted since electricity is an essential component in
 • When replacing a fuse or circuit breaker, make sure that its rating is correct for the circuit.\n
 </string>
 
-<string name="chemical_protection_text">
+    <string name="chemical_protection_text">
 The route of exposure or target organ damage of the chemical assists in making decisions about the protective equipment to be used.\n
 \n
 <b>Eyes</b>\n
@@ -723,6 +789,590 @@ The route of exposure or target organ damage of the chemical assists in making d
 • A dive should not be performed if a health and safety hazard can be caused by equipment near the dive site.\n
 
     </string>
+
+    <string name="creators">Flavielle | Giovani</string>
+    <string name="yes_rdbtn">Yes</string>
+    <string name="no_rdbtn">No</string>
+    <string name="corrective_action">Insert corrective action to be taken</string>
+    <string name="required_field">Required field!</string>
+    <string name="how_to_save_file">How do you want to save the file?</string>
+    <string name="save_on_device">Save to device</string>
+    <string name="external_app">Share with external application</string>
+    <string name="responsable">Responsable Person</string>
+    <string name="inspection_data">Date of Inspection (DD-MM-YYYY)</string>
+    <string name="export_csv">Export to CSV</string>
+    <string name="export_pdf">Export to PDF</string>
+    <string name="license">Available from AquaSafe.</string>
+    <string name="worker_name">Worker Checklist</string>
+    <string name="worker_q1">" 1 - Are the workers members of a union?"</string>
+    <string name="worker_q2">" 2 - Does the union have a member, specifically trained to address health and safety issues at this workplace? "</string>
+    <string name="worker_q3">" 3 - Is there a union-management OHS committee and is it functioning regularly?"</string>
+    <string name="worker_q4">" 4 - Is there a collective bargaining agreement, with provisions on OHS, signed between union and management? "</string>
+    <string name="worker_q5">" 5 - For issues relevant for women, is there a union women's committee at the workplace, or a female union representative, trained to address issues of gender equality, maternity rights and gender based violence? "</string>
+    <string name="info_management">Below are some checklists to help you with better management</string>
+    <string name="diving_name">"Diving (offshore farming) "</string>
+    <string name="protection_name">Personal Protective Equipment</string>
+    <string name="machines_name">Machines and Equipment</string>
+    <string name="eletrical_name">Electrical Shock</string>
+    <string name="boating_name">Boating and Falls</string>
+    <string name="chemicals_name">Chemical</string>
+    <string name="womens_name">Women\'s Safety and Health</string>
+    <string name="five_name">5 Whys</string>
+    <string name="problem">Problem</string>
+    <string name="main_problem">Define the problem clearly here</string>
+    <string name="root">Is that a root cause?</string>
+    <string name="root_text">Root cause:</string>
+    <string name="solution">What are the possible solutions?</string>
+    <string name="five_q1">Why did this happen?</string>
+    <string name="five_q2">If not, why did this happen?</string>
+    <string name="five_q3">If not, why did this happen?</string>
+    <string name="five_q4">If not, why did this happen?</string>
+    <string name="five_q5">If not, why did this happen?</string>
+    <string name="export_pdf_file">Export PDF file</string>
+    <string name="export_csv_file">Export CSV file</string>
+    <string name="diving_q1">1 - The dive equipment has been tested according to the manufacturer\'s specifications?</string>
+    <string name="diving_q2">2 - Before using the equipment, a correct function check is performed?</string>
+    <string name="diving_q3">3 - Each diver is always equipped with a knife; weights with a quick release mechanism to control buoyancy; a diving suit or other protective clothing; and proper protection of the head while diving?</string>
+    <string name="diving_q4">4 - If a breakdown or unpredictable situation occurs during a dive and there are no substitutions available on site, is the dive immediately aborted in cooperation with the other members of the dive team?</string>
+    <string name="diving_q5">5 - Will dive team members become aware of a malfunction or risk of diving equipment at the dive site notifying other divers immediately?</string>
+    <string name="protection_q1">1 - Are personal protective equipment (PPE) provided at no cost to workers and employees?</string>
+    <string name="protection_q2">2 - Is collective protection equipment (CPE) available and visible to workers?</string>
+    <string name="protection_q3">3 - Are workers trained in the use and maintenance of individual and collective equipment?</string>
+    <string name="protection_q4">4 - Do workers wear appropriate clothing to protect themselves from extreme temperatures?</string>
+    <string name="protection_q5">5 - Are protective equipment used by workers when handling chemicals?</string>
+    <string name="protection_q6">6 - Do workers wear tight-fitting clothes and tied hair when working near machines?</string>
+    <string name="machines_q1">1 - Are the equipment instruction manuals available to operators?</string>
+    <string name="machines_q2">2 - Are the tractors equipped with a safety cab (ROPS) to prevent crushing or drowning in case of overturning/rollover?</string>
+    <string name="machines_q3">3 - Are the equipment in good mechanical condition and have safety protection to prevent incidents?</string>
+    <string name="machines_q4">4 - Are machine and equipment operators aware of the hazards and risks related to their equipment?</string>
+    <string name="machines_q5">5 - Have operators been trained to use the machines and equipment they use?</string>
+    <string name="machines_q6">6 - Are hydraulic winches lowered at the end of a task and suspended loads never left unattended?</string>
+    <string name="machines_q7">7 - Are proper locking procedures used on machines and equipment?</string>
+    <string name="eletrical_q1">1 - Are the main switches off, locked, and flagged with labels before starting work on power circuits, so no one else can use them while another is working?</string>
+    <string name="eletrical_q2">2 - Are periodic electrical inspections done by qualified people?</string>
+    <string name="eletrical_q3">3 - Only qualified people work on electrical repairs and use appropriate instruments to test circuits?</string>
+    <string name="eletrical_q4">4 - Wiring, equipment, cables and plugs are in good condition and grounded?</string>
+    <string name="eletrical_q5">5 - Are workers aware of the procedure in case of contact with power lines?</string>
+    <string name="eletrical_q6">6 - Does the electrical system have ample capacity to handle all loads?</string>
+    <string name="eletrical_q7">7 - Do all electrical switches have a locking device to prevent unintentional starting of equipment during maintenance?</string>
+    <string name="boating_q1">1 - Is the vessel used safe and appropriate for the activity?</string>
+    <string name="boating_q2">2 - Are radio and other communication equipment on board and working?</string>
+    <string name="boating_q3">3 - Do workers have equipment and protective clothing, such as thermal protective clothing, lifejackets, or other personal flotation devices?</string>
+    <string name="boating_q4">4 - Are the weather conditions checked before doing any activities at sea?</string>
+    <string name="boating_q5">5 - Are the safety equipment in good working order?</string>
+    <string name="boating_q6">6 - When walking on the vessel, is there a suitable corridor or walkway to prevent workers falling in the sea?</string>
+    <string name="chemicals_q1">1 - Are chemicals stored appropriately in well ventilated areas and separated from reactable substances?</string>
+    <string name="chemicals_q2">2 - Are gas leaks detected periodically and repaired?</string>
+    <string name="chemicals_q3">3 - Are workers trained and aware of chemical hazards in the workplace?</string>
+    <string name="chemicals_q4">4 - Personal protective equipment (PPE) such as closed-toe shoes, nitrile gloves, goggles, and appropriate masks / respirators are provided and used when handling chemicals?</string>
+    <string name="chemicals_q5">5 - Warning signs and emergency numbers in chemical or noxious storage areas are available and visible?</string>
+    <string name="womens_q1">1 - Do female workers receive the same wages as men to perform the same function or task?</string>
+    <string name="womens_q2">2 - Are pregnant or breastfeeding workers removed from unhealthy situations and placed in activities of lower potential risk to their health and their baby?</string>
+    <string name="womens_q3">3 - Are breastfeeding breaks allowed or is there any support for breastfeeding women and/or their children?</string>
+    <string name="womens_q4">4 - Do female workers have scheduled breaks during activities with long periods of immersion or exposure to water and/or cold?</string>
+    <string name="womens_q5">5 - Is the manual transport of cargo carried by women less than that allowed for men?</string>
+    <string name="womens_q6">6 - Is there access to a clean bathroom, whenever the worker needs it during working journey?"</string>
+    <string name="five_q8">If not, why did this happen?</string>
+    <string name="five_q7">If not, why did this happen?</string>
+    <string name="five_q6">If not, why did this happen?</string>
+    <string name="information">"General Information "</string>
+    <string name="soon">Under development</string>
+    <string name="review_method">You have arrived in 8 attempts. Review the method!</string>
+    <string name="other_projects">Get to know more</string>
+
+    <string name="question_csv">QUESTION</string>
+    <string name="answer_csv">ANSWER</string>
+    <string name="corrective_csv">CORRECTIVE ACTION</string>
+    <string name="fail_file">Failed to save file</string>
+    <string name="epi">PPE</string>
+    <string name="epc">CPE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_general_equipment">GeneralEquipmentActivity</string>
+    <string name="risk">Risk</string>
+    <string name="chemical_protection_title">Title Chemical</string>
+    <string name="what_if">What if?</string>
+    <string name="osh_management_work">Workplace</string>
+    <string name="osh_management_work_1">OSH Management</string>
+    <string name="osh_management_work_2">Workers Representation and Opportunities</string>
+
+    <string name="text_workplace">
+        "International protocols and guidelines act as a basis for adapting or creating norms related to animal health and welfare, food safety, environmental integrity and socioeconomic aspects. The FAO and ILO has been doing important work in this direction, establishing guidelines for decent work, eradicating both child labor and modern slave labor, and establishing gender and ethnic minority equity in the concept of Decent Work, as well as developing OHS standards.\n"
+        "International Labour Organisation (ILO) Convention No. 184 and Recommendation No. 192 on Safety and Health in Agriculture adopts various proposals concerning health and safety in agriculture.\n\n"
+    </string>
+
+    <string name="title_workplace"><b>Applying the law:</b></string>
+
+    <string name="text_workplace_2">
+        \n
+        • Identify relevant national laws.\n
+        • Use ILO Convention No. 184 on Safety and Health in Agriculture.\n
+        • Apply standards to problems.\n
+        \n
+    </string>
+
+    <string name="title_workplace_2"><b>ILO Convention No. 184</b></string>
+
+    <string name="text_workplace_3">
+        "This is the first time that agriculture health and safety is considered. The convention addresses:\n"
+        \n
+        (1) Health and safety protection for agricultural workers;\n
+        (2) Workers’ rights;\n
+        (3) Employers’ duties (Risk assessment; training and information);\n
+        (4) Government obligations.\n
+        \n
+
+        "<b>Article 7: Employers’ duties regarding risk assessment, training and stopping dangerous operations\nThe employer shall:\n</b>"
+        "a) Carry out appropriate risk assessments in relation to the safety and health of workers and, on the basis of these results, adopt preventive and protective measures to ensure that under all conditions of their intended use, all agricultural activities, workplaces, machinery, equipment, chemicals, tools and processes under the control of the employer are safe and comply with prescribed safety and health standards;\n"
+        "b) Ensure that adequate and appropriate training and comprehensible instructions on safety and health and any necessary guidance or supervision are provided to workers in agriculture, including information on the hazards and risks associated with their work and the action to be taken for their protection, taking into account their level of education and differences in language; and\n"
+        "c) Take immediate steps to stop any operation where there is an imminent and serious danger to safety and health and to evacuate workers as appropriate.\n\n"
+
+        "<b>Article 8: Workers’ rights and duties\nArticle 8.1. Workers in agriculture shall have the right:\n</b>"
+        "(a) To be informed and consulted on safety and health matters including risks from new technologies;\n"
+        "(b) To participate in the application and review of safety and health measures and, in accordance with national law and practice, to select safety and health representatives and representatives in safety and health committees; and\n"
+        "(c) To remove themselves from danger resulting from their work activity when they have reasonable justification to believe there is an imminent and serious risk to their safety and health and so inform their supervisor immediately. They shall not be placed at any disadvantage as a result of these actions.\n\n"
+
+        "<b>Artigo 8.2.</b> Workers in agriculture and their representatives shall have the duty to comply with the prescribed safety and health measures and to co-operate with employers in order for the latter to comply with their own duties and responsibilities.\n"
+
+    </string>
+
+    <string name="title_workplace_3"><b>ILO Recommendation No. 192 on Safety and Health in Agriculture</b></string>
+
+    <string name="text_workplace_4">
+        "<b>\nParagraph 5.\nTo give effect to Article 7 of the Convention No. 184, a set of measures on safety and health at the level of the undertaking should include:\n</b>"
+        "(a) Occupational safety and health services;\n"
+        "(b) Risk assessment and management measures in the following order of priority:\n"
+        "(<i>i</i>) Elimination of the risk;\n"
+        "(<i>ii</i>) Control of the risk at the source;\n"
+        "(<i>iii</i>) Minimisation of the risk by such means as the design of safe work systems, the introduction of technical and organisational measures and safe practices, and training; and\n"
+        "(<i>iv</i>) In so far as the risk remains, provision and use of personal protective equipment and clothing, at no cost to the worker;\n"
+        "(c) Measures to deal with accidents and emergencies, including first aid and access to appropriate transportation to medical facilities;\n"
+        "(d) Procedures for the recording and notification of accidents and diseases;\n"
+        "(e) Appropriate measures to protect persons present at an agricultural site, the population in the vicinity of it and the general environment, from risks which may arise from the agricultural activity concerned, such as those due to agrochemical waste, livestock waste, soil and water contamination, soil depletion and topographic changes; and\n"
+        "(f) Measures to ensure that the technology used is adapted to climate, work organisation and working practices.\n\n"
+
+        "<b>Convention No. 184 is also complemented by other ILO Conventions on safety and health:\n</b>"
+        \n
+        • Convention No. 155.concerning Occupational Safety and Health and the Working Environment (plus Recommendation No. 164),\n
+        • Convention No. 161 concerning Occupational Health Services (plus Recommendation No. 171)\n
+        • Convention No. 170 concerning Safety in the Use of Chemicals at Work (plus Recommendation No. 177), and\n
+        • Recommendation No. 192 on Safety and Health in Agriculture.\n
+        \n
+
+    </string>
+
+    <string name="references1">Reference 1 - ILO</string>
+    <string name="references2">Reference 2 - ILO</string>
+    <string name="references3">Reference 3 - ILO</string>
+
+    <string name="help_five">The 5 whys technique is simple and serves to identify the root cause of a problem.
+It consists of identifying a problem and asking (at least) 5 \"why\" questions. The answer to the last why is the root cause of the problem. From the root cause identification, you can find out what action to take to reduce the probability of the problem happening again. The tool should be used with \'good judgment\', when you realize that reached the root of the problem just stop.</string>
+    <string name="help_ppe">Make sure the risks are not avoidable or replaceable. Personal protective equipment (PPE) must be provided free of charge to workers and employees. Collective protective equipment (CPE) must be available to workers.
+Workers should be trained in the use and maintenance of personal and collective protective equipment.
+PPE is the last line of defence and the least effective. Where there are still some residual risks that cannot be reduced by other means, the employer should provide appropriate PPE, such as coveralls, gloves, goggles, safety boots and hearing protectors.</string>
+
+    <string name="union_representation">Trade Union Representation</string>
+
+    <string name="text_union_representation">
+        "Strong trade union organisation is essential to ensure that employers prevent injuries, ill health, and death of working people and others in the wider community.\n"
+        "One of the main jobs of trade unions and their members at a local level is to make sure that the employer keeps to her/his responsibilities. Some of the ways to achieve this include building a strong membership, electing worker HS&amp;E representatives and organising for health, safety and the environment.\n"
+    </string>
+
+    <string name="job_of_workers">The job of a Worker HS&amp;E Representative</string>
+    <string name="text_job_of_workers">
+        "The term ‘worker HS&amp;E representative’ covers a number of different categories of representative. The IUF believes that any worker HS&amp;E representative should be a trade union representative selected or elected by fellow union members in their workplace.\n"
+        "In Article 8.1 (b) of ILO Convention No. 184 the workers have a right to select safety and health representatives. The main jobs that a worker HS&amp;E representative include is:\n"
+        \n
+        • talking to members, and taking up their complaints with management\n
+        • involving, informing, and consulting members\n
+        • collecting and distributing HS&amp;E information\n
+        • identifying hazards, investigating and tackling the risks\n
+        • investigating OSH incidents, ill health and near-misses\n
+        • checking that the employer is complying with health and safety requirements\n
+        • consulting and negotiating with management\n
+        \n
+
+    </string>
+
+    <string name="government_obligations">Governments and their Obligations</string>
+    <string name="text_government_obligations">
+        "Trade unions believe that Governments have a critical role to play in the protection of workers’ health. They should:\n"
+        \n
+        • ratify ILO Convention No. 184 on Safety and Health in Agriculture 2001\n
+        • develop a coherent national policy on health, safety and the environment, in consultation with trade unions and employers\n
+        • as a minimum, pass laws based upon ILO Convention No. 184 on Safety and Health in Agriculture 2001\n
+        • create an adequately resourced inspectorate to enforce the law\n
+        \n
+    </string>
+
+    <string name="employers_obligations">Employers and their Obligations</string>
+    <string name="text_employers_obligations">
+        "Employers have the primary legal responsibility to protect the health, safety and welfare of workers. Trade unions believe that deaths, injuries and ill health are caused because employers fail to provide a safe and healthy working environment.\n"
+        "The employer should provide:\n"
+        \n
+        • a working environment where hazards are identified, risks are assessed, removed or controlled before problems occur\n
+        • a working environment where early action is taken to prevent harm\n
+        • safe systems of working\n
+        • workplaces that are adapted to the needs of the worker\n
+        • full information to and consultation with workers and their unions\n
+        • good health and safety training programmes\n
+        • opportunities for workers through their unions, to negotiate health and safety clauses in collective agreements, and participate actively in health and safety matters\n
+        • policies that address the impact of work upon the wider environment\n
+        \n
+        "So employers should reduce injuries and ill health by:\n"
+        \n
+        • identifying hazards\n
+        • evaluating, assessing and prioritizing risks\n
+        • tackling the risks at source by elimination, substitution and prevention/control\n
+        • effectively managing health, safety and the environment\n
+        \n
+    </string>
+
+    <string name="workers">Workers and HS&amp;E</string>
+    <string name="text_workers">
+        "Trade unions have got a role in raising awareness but cannot stop injuries or ill health just by making workers more safety conscious:\n"
+        \n
+        • all hazards and consequent risks are obvious – especially damage to health over a period of time\n
+        • workers may not be properly trained or informed\n
+        • stress, tiredness and poor conditions can all lead to the risk of injury or ill health\n
+        • workers are human – they do make errors, but a small error should not cost someone their life or result in serious injury\n
+        \n
+        "Article 8 1 (b) of ILO Convention No. 184 on Safety and Health in Agriculture 2001 gives workers the right to remove themselves from danger where there is a serious and imminent risk, and not be penalised for these actions.\n"
+        "<b>The basic three workers right on OHS are clearly set by  ILO Convention 184 on health and safety in agriculture:\nArticle 8.1. Workers in agriculture shall have the right:\n</b>"
+        \n
+        (a) to be informed and consulted on safety and health matters including risks from new technologies;\n
+        (b) to participate in the application and review of safety and health measures and, in accordance with national law and practice, to select safety and health representatives and representatives in safety and health committees; and\n
+        (c) to remove themselves from danger resulting from their work activity when they have reasonable justification to believe there is an imminent and serious risk to their safety and health and so inform their supervisor immediately. They shall not be placed at any disadvantage as a result of these actions.\n
+        \n
+        "<b>But workers also have some obligations that include:\n</b>"
+        \n
+        • observing health, safety and environmental regulations\n
+        • carrying out work safely in a manner that does not endanger themselves and others\n
+        • attending HS&amp;E training\n
+        • using equipment for HS&amp;E including suitable personal protective equipment (PPE) where necessary\n
+        • reporting dangerous situations\n
+        \n
+
+    </string>
+
+    <string name="help_what_if">
+        "What-if? is a simple technique for identifying and preventing risks. It consists in evaluating the flow of the process, needing to be carried out by people who know the activity well.\n"
+        "For each activity to be evaluated, an adverse event is questioned and it may suggest possible causes and consequences and preventive measures to avoid or control the risk.\n"
+    </string>
+    <string name="activity_what">Activity</string>
+    <string name="activity_what_ie">Insert here the work activity</string>
+    <string name="question_what">What If</string>
+    <string name="question_what_ie">Insert here which adverse/problem event may occur when performing the activity</string>
+    <string name="cause_what">Causes</string>
+    <string name="cause_what_ie">Insert possible causes here for this adverse event</string>
+    <string name="consequences_what">Consequences</string>
+    <string name="consequences_what_ie">Insert here what possible damages to the worker may occur</string>
+    <string name="measures_what">Measures</string>
+    <string name="measures_what_ie">Insert here corrective measures to avoid the adverse event and protect the worker</string>
+
+    <string name="share">Share this app</string>
+    <string name="msg_share">Learn about Occupational Health and Safety in aquaculture with AquaSafe! Available for Android in the Play Store: https://play.google.com/store/apps/details?id=br.gov.rs.ddpa_seapi.aquasaude.aquasafe</string>
+
+    <!-- Strings related to Quiz -->
+    <string name="nota_quiz">nota_quiz</string>
+    <string name="start">Start</string>
+    <string name="quiz_description">"Test your knowledge on occupational safety and health in aquaculture!"</string>
+    <string name="title_quiz">Quiz AquaSafe</string>
+    <string name="end_game">"Finish quiz"</string>
+    <string name="you_scored">You scored:</string>
+    <string name="erro_selecione">Select an answer</string>
+    <string name="next">"Next"</string>
+    <string name="confirmar">"Confirm"</string>
+    <string name="atencao_sair">"Do you want to quit the quiz?"</string>
+    <string name="dialog_abandonar_voltar">"The quiz will be canceled and all data will be lost."</string>
+    <string name="dialog_yes">"Yes "</string>
+    <string name="dialog_no">"No"</string>
+
+    <string name="pergunta_1">"Contact of water with power transmission lines, handling of harmful or toxic substances, animal stings or contact with pathogens, repetitive movements or physical effort and drowning, are risks (respectively):\n"</string>
+    <string name="pergunta_1_resposta_1">Physical, Biological, Chemical, Accident and Ergonomic</string>
+    <string name="pergunta_1_resposta_certa">Physical, Chemical, Biological, Ergonomic and Accident</string>
+    <string name="pergunta_1_resposta_3">Biological, Chemical, Physical, Accident and Ergonomic</string>
+    <string name="pergunta_1_resposta_4">Chemical, Physical, Biological, Accident and Ergonomic</string>
+
+    <string name="pergunta_2">
+        "A worker removes oyster lanterns from the sea oyster lanterns weighing 50 kg each, affecting the lumbar spine, shoulders and excessive muscular effort at the end of the working day. This worker is at risk for which hazard:\n"
+        "1) Biological;\n"
+        "2) Physical environment;\n"
+        "3) Ergonomic.\n"
+    </string>
+    <string name="pergunta_2_resposta_1">1</string>
+    <string name="pergunta_2_resposta_2">2</string>
+    <string name="pergunta_2_resposta_certa">3</string>
+    <string name="pergunta_2_resposta_4">None of the alternatives</string>
+
+    <string name="pergunta_3">
+        "The proximity of water with electric wires makes aquaculture an activity at great risk of electric shock, which can lead to fatal accidents. Electric shock is considered a risk:\n"
+        "1) Chemical;\n"
+        "2) Physical environment;\n"
+        "3) Ergonomic.\n"
+    </string>
+    <string name="pergunta_3_resposta_certa">2</string>
+    <string name="pergunta_3_resposta_2">1</string>
+    <string name="pergunta_3_resposta_3">3</string>
+    <string name="pergunta_3_resposta_4">None of the alternatives</string>
+
+    <string name="pergunta_4">
+        "The following statements are true regarding safety procedures when operating machinery:\n"
+        "1) Before starting any machine or equipment, make sure it is safe to do so;\n"
+        "2) Make sure that the operator of any machine or equipment has access to the shutdown;\n"
+        "3) Do not enter machines or equipment while on or in motion;\n"
+        "4) Discard machines or equipment that may not be safe;\n"
+        "5) All of the above\n"
+    </string>
+    <string name="pergunta_4_resposta_1">1 and 2</string>
+    <string name="pergunta_4_resposta_2">1, 2 and 3</string>
+    <string name="pergunta_4_resposta_3">3, 4 and 5</string>
+    <string name="pergunta_4_resposta_certa">5</string>
+
+
+    <string name="pergunta_5">
+        "The danger of overturning on farms that use tractors can result in workers' crushing and drowning. What options are true to mitigate this risk?\n"
+        "1) Install security cabin (ROPS) and seat belts to prevent the worker from being thrown out and crushed by machinery;\n"
+        "2) Install hydraulic jack for the worker to lift the tractor in case of overturning;\n"
+        "3) Stay away from slopes and gaps.\n"
+    </string>
+    <string name="pergunta_5_resposta_certa">Only 1</string>
+    <string name="pergunta_5_resposta_2">1 and 2</string>
+    <string name="pergunta_5_resposta_3">1 and 3</string>
+    <string name="pergunta_5_resposta_4">1, 2 and 3</string>
+
+    <string name="pergunta_6">
+        "All workers should receive education and training on the health and safety risks of sodium metabisulfite. The following statements are true regarding safety procedures when using this and other highly toxic compounds:\n"
+        "1) Replace toxic or lethal products;\n"
+        "2) Use in a poorly ventilated environment;\n"
+        "3) Wear protective clothing and respirator masks;\n"
+        "4) Wash hands thoroughly after exposure to sodium metabisulphite and at the end of work shift.\n"
+    </string>
+    <string name="pergunta_6_resposta_1">Only 2</string>
+    <string name="pergunta_6_resposta_2">1, 2 and 3</string>
+    <string name="pergunta_6_resposta_certa">1, 3 and 4</string>
+    <string name="pergunta_6_resposta_4">1, 2, 3 and 4</string>
+
+    <string name="pergunta_7">
+        "Employers should select the most viable, effective and permanent controls according to a hierarchy. To mitigate risks, the correct hierarchical sequence of risk control is:\n"
+        "1) Safe work practices and administrative controls;\n"
+        "2) Solutions including elimination or replacement;\n"
+        "3) Protective personal equipment.\n"
+    </string>
+    <string name="pergunta_7_resposta_certa">2, 1, 3</string>
+    <string name="pergunta_7_resposta_2">1, 3, 2</string>
+    <string name="pergunta_7_resposta_3">3, 1, 2</string>
+    <string name="pergunta_7_resposta_4">2, 3, 1</string>
+
+    <string name="pergunta_8">
+        "Manual vaccination of fish may lead to needlestick injuries and infections. Indicate the best alternative for eliminating the risk of perforation during the vaccination of fish in aquaculture:\n"
+        "1) Install automatic vaccination equipment;\n"
+        "2) Use corrugated table to immobilize the fish in the wavy groove;\n"
+        "3) Wear anti-cutting gloves.\n"
+    </string>
+    <string name="pergunta_8_resposta_certa">Only 1</string>
+    <string name="pergunta_8_resposta_2">1 and 2</string>
+    <string name="pergunta_8_resposta_3">2 and 3</string>
+    <string name="pergunta_8_resposta_4">1, 2 and 3</string>
+
+    <string name="pergunta_9">
+        "Constant exposure to noise emitted by the boat engine, oyster washing machines and high pressure can lead to hearing damage and deafness. To mitigate risks, the correct hierarchical sequence of risk control is:\n"
+        "1) Build barriers that prevent noise from reaching the worker;\n"
+        "2) Wear hearing protection;\n"
+        "3) Replacement for less noise equipment.\n"
+    </string>
+    <string name="pergunta_9_resposta_certa">3, 1, 2</string>
+    <string name="pergunta_9_resposta_2">1, 3, 2</string>
+    <string name="pergunta_9_resposta_3">3, 2, 1</string>
+    <string name="pergunta_9_resposta_4">1, 2, 3</string>
+
+    <string name="pergunta_10">
+        "The pond aerator has stopped working and this can affect all production. What you should do?\n"
+        "1) Go to the aerator in the water to check what is happening;\n"
+        "2) Turn off the power switch and go to the water to check what is happening;\n"
+        "3) Warn seniors or call expert person to solve the problem.\n"
+    </string>
+    <string name="pergunta_10_resposta_certa">Only 3</string>
+    <string name="pergunta_10_resposta_2">Only 1</string>
+    <string name="pergunta_10_resposta_3">1 and 3</string>
+    <string name="pergunta_10_resposta_4">1 and 2</string>
+    <string name="processing">Processing...</string>
+
+    <string name="missing_radio">Check if you select all radio buttons</string>
+
+    <!-- Strings related to Content Description -->
+    <string name="cd_child_labour">Two children playing to the left, and the right to say "No to child labor!"</string>
+    <string name="cd_quiz_logo">Logo do AquaSafe batendo como um coração ao ser pressionado</string>
+    <string name="whats_group">Join the WhatsApp group</string>
+
+    <!-- Content related to the Whatsapp link -->
+    <string name="whatsapp">Join us on WhatsApp</string>
+    <string name="whatsapp_text">Join our WhatsApp community!</string>
+    <string name="whatsapp_join">JOIN!</string>
+
+    <!-- Content related to COVID-19 -->
+    <string name="covid19">COVID-19</string>
+    <string name="what_is_sars">What is SARS-COV-2?</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="transmission">Transmission</string>
+    <string name="protection_covid19">Protection</string>
+    <string name="mask_covid19">What do you have to know about Masks</string>
+    <string name="other_protection_covid19">Other protection measures</string>
+
+    <!-- Content related to What is SARS information -->
+    <string name="what_is_sars_text">
+        • Coronavirus disease 2019 (COVID-19) is caused by a newly discovered virus. \n\n
+        • The ICTV (International Committee on Taxonomy of Viruses) officially designate the name of the new coronavirus as SARS-COV-2 virus (Severe Acute Respiratory Syndrome). \n\n
+        • The Coronaviridae family has different types of coronavirus. Some cause severe respiratory diseases, and are called SARS-COV, as SARS-COV (China 2002/2003) and MERS-COV (Middle East, Saudi Arabia 2012).\n\n
+    </string>
+
+    <!-- Content related to COVID-19 Symptoms -->
+    <string name="common_symptoms">Common Symptoms</string>
+    <string name="severe_symptoms">Severe Symptoms</string>
+    <string name="common_symptoms_list">
+        • Fever\n
+        • Tiredness\n
+        • Loss of Smell\n
+        • Dry Cough\n
+    </string>
+    <string name="severe_symptoms_list">
+        • High fever\n
+        • Pneumonia\n
+        • Difficulty Breathing\n
+    </string>
+
+    <!-- Content related to COVID-19 Other protection measures -->
+    <string name="other_protection_list_covid19">
+"• Clean and disinfect boots.\n
+• (‘Footbath’).\n
+• Remove work clothes before leaving the farm.\n
+• Wash your hands with soap and water.\n
+• Dry your hands with paper towel.\n
+• No personal protective equipment should be shared or loaned, even after disinfection.\n
+• If possible, take a shower before you go home (or as soon as you arrive).\n
+• Put clean clothes, kept in an enclosed space.\n
+• Avoid using personal items, such as cell phones, in production/work areas.\n
+• Use appropriate personal protective equipment (PPE).\n
+• Restrict access to unnecessary people on farms and production and processing sites.\n
+• Avoid unnecessary and unprotected contact with [wild] animals.\n
+• Wash hands after contact with animals or animal products.\n
+• Stay home if you are feeling ill.\n
+• If you have a fever, cough or difficulty breathing, seek medical attention.\n"
+    </string>
+
+    <!-- Content related to COVID-19 protection-->
+    <string name="hierarchy_protection">"How to protect the workplace and workers using hierarchy control?"</string>
+    <string name="workplace_protection">Workplace protection</string>
+    <string name="yourself_protection">How to protect yourself</string>
+
+    <!-- Content related to COVID-19 masks-->
+    <string name="which_mask">Which mask should I use?</string>
+    <string name="non_sururgical_mask">Non-surgical masks</string>
+    <string name="how_to_use_mask">How to use it?</string>
+    <string name="care_with_mask">Care with the use of the mask</string>
+    <string name="care_with_fabric_mask">Care with the use of the fabric mask</string>
+    <string name="disposal_mask">Attention to disposal of masks</string>
+
+    <!-- Content related to COVID-19 Protections-->
+    <string name="hierarchy_protection_text">
+"1. Risk Elimination and Substitution Controls include quarantine and isolation, which means one worker at time.\n\n
+2. Engineering controls include install physical barriers between workers, mainly if they work side-by-side. In this context, worker should stay 2m (6 feets) far from each other.\n\n
+3. Administrative controls include:
+• training for workers on the use of workers on the use of Personal Protection Equipment (PPE) and others safety measures.
+• Control the temperature of the workers.\n\n
+4. Personal Protection Equipment (PPE):
+• Using masks in all activities (provided by the employer);
+• Use face shield, over the mask, in fishing and harvest activities and those involving splashing water.\n\n"
+    </string>
+
+    <string name="workplace_protection_text">
+"• Make sure the workplaces are clean and sanitized.\n\n
+• Surfaces need to be cleaned with disinfectant regularly, because contamination on surfaces touched by employees and customers is one of the ways in which the coronavirus spreads.\n\n
+• Place hand sanitizer (gel alcohol) dispensers in prominent locations in the workplace.\n\n
+• Display posters promoting hand washing.\n\n
+• Make sure people have access to places where they can wash their hands with soap and water.\n\n
+• Install a footbath (footwash) at the entrance to farms and closed places, such as laboratories, places where they perform nursery, breeding, spawning, etc.\n\n
+• Keep 2 meters of distance between you and anyone.\n\n
+• Producers, workers and collaborators of the risk group (over 60 years old, people with medical problems, such as cardiovascular disease, diabetes, chronic respiratory diseases and cancer), must remain at home.\n\n"
+    </string>
+
+    <string name="yourself_protection_text">
+"1. Prefer washing your hands with soap and water\n\n
+2. Clean hands with alcohol gel\n\n
+3. Do not touch your face\n\n
+4. When coughing or sneezing, practice the breathing tag (cough in one arm with your elbow flexed)\n\n
+5. Avoid physical contact (hugs, handshakes and kisses should be avoided)\n\n"
+    </string>
+
+    <!-- Content related to COVID-19 Masks-->
+    <string name="which_mask_text">
+"• N95 masks may be scarce and should only be used for healthcare workers in contact with infected or suspected patients with COVID-19.\n\n
+• Some studies show that surgical masks have high efficiency in retaining viral particles.\n\n
+• Homemade masks with 3 layers of fabric also showed good efficiency.\n\n
+• Do not use masks with front ‘stitching’. The front seam dramatically decreases protection.\n\n
+• Do not touch the mask.\n\n"
+    </string>
+
+    <string name="non_sirurgical_title">In non-surgical masks, the following should be considered:</string>
+
+    <string name="non_sirurgical_text">
+"• Number of layers of fabric.\n\n
+• Breathability of the material used.\n\n
+• Do not pass water through the fabric.\n\n
+• Shape of the mask.\n\n
+• Mask adjustment.\n\n"
+    </string>
+
+    <string name="how_to_use_it_text">
+"• Put the mask on carefully, making sure it covers your mouth and nose, and tie it tightly to minimize any gap between your face and the mask.\n\n
+• Avoid touching it when using.\n\n
+• Change the mask as soon as it gets wet with a clean, dry mask.\n\n
+• Do not reuse single-use masks.\n\n"
+    </string>
+
+    <string name="care_with_mask_text">
+"• Remove the mask using the appropriate technique: do not touch the front of the mask, untie it at the back.\n
+• After removal or whenever a mask is touched inadvertently, clean your hands using alcohol gel or soap and water if your hands are visibly soiled.\n\n"
+<b>HOW SHOULD I REMOVE THE MASK?</b>
+"\n\n1. Wash your hands: wash your hands before touching the mask.\n
+2. How should I remove the mask? Remove the mask by holding the elastics/ties, without touching the front of the mask as it may be contaminated.\n
+3. Wash your hands again: wash your hands after remove the mask.\n
+4. Wash the mask: put it to wash as soon as possible.\n
+5. Keep the mask: if you cannot wash at the moment, keep it in a closed bag.\n\n"
+    </string>
+
+    <string name="care_with_fabric_mask_title">How should I wash the mask?</string>
+
+    <string name="care_with_fabric_mask_text">
+"• Sanitary water: after use, soak in sanitary water for 20 minutes.\n\n
+• Water and soap: Then, wash with soap and water.\n\n
+• Wash separately: Wash the mask separately from other clothes.\n\n
+• Ironing the mask: after drying, it is recommended to ironing with hot iron.\n\n
+• Keep the mask: keep the mask in a clean and dry place.\n\n"
+    </string>
+
+    <string name="disposal_mask_text">
+"• Masks that do not come from health services should be disposed of in regular garbage (not recyclable).\n\n
+• Remove the mask and place in a separate bag.\n\n
+• Discard immediately in a closed bin;\n\n"
+    </string>
+
+    <!-- Content related to COVID-19 Transmission-->
+    <string name="transmission_text">
+"• Handshake\n
+• Saliva droplets\n
+• Cough\n
+• Sneeze\n\n"
+<b>Contaminated objects such as:</b>
+"\n\n• Cellphones\n
+• Tables\n
+• Door Handle\n
+• Toys\n
+• Computer keyboards\n
+• etc...\n"
+    </string>
+
+
 </resources>
+
 
 

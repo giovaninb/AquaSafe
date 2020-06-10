@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/general_background"
     tools:context=".Hazard.HierarchyActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10dp"
-        android:layout_alignParentLeft="true"
-        tools:ignore="RtlCompat">
-
+        tools:ignore="RtlCompat"
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_marginTop="10dp"
-            android:text="@string/information_about_hazard" />
+            android:text="@string/information_about_hazard"/>
+
+        <br.gov.rs.ddpa_seapi.aquasaude.aquasafe.Utils.PinchImageView
+            android:layout_width="match_parent"
+            android:id="@+id/hierarchy_image"
+            android:src="@drawable/hierarquia"
+            android:layout_height="280dp" />
+
     </LinearLayout>
-
-
-
-</android.support.constraint.ConstraintLayout>
+</ScrollView>

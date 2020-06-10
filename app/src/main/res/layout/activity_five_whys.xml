@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/diving_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="@string/five_name"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/help_five"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_margin="15dp"
+                android:src="@drawable/ic_help_black_24dp"
+                android:layout_alignRight="@+id/txtInfo"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/information_five"
+                layout="@layout/content_five_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfo"
+                android:layout_centerInParent="true" />
+
+            <include
+                android:id="@+id/questions_five"
+                layout="@layout/five_whys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/information_five" />
+
+            <Space
+                android:id="@+id/spaceEnd"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/questions_five" />
+
+            <include
+                android:id="@+id/end_five"
+                layout="@layout/content_five_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spaceEnd"
+                android:layout_centerInParent="true" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/end_five" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

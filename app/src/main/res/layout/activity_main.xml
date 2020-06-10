@@ -28,7 +28,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="20dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -43,11 +43,13 @@
 
                    <ImageButton
                        android:id="@+id/hazard"
+                       android:contentDescription="@string/hazard"
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
                        android:layout_weight="1"
                        android:background="@drawable/button_selector"
                        android:clickable="true"
+                       android:focusable="true"
                        android:padding="15dp"
                        android:src="@drawable/hazard2"
                        android:scaleType="fitCenter"
@@ -74,11 +76,13 @@
 
                 <ImageButton
                     android:id="@+id/equipment"
+                    android:contentDescription="@string/equipment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
                     android:src="@drawable/equipment"
                     android:scaleType="fitCenter"
@@ -115,11 +119,13 @@
 
                 <ImageButton
                     android:id="@+id/checklist"
+                    android:contentDescription="@string/checklist"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
                     android:src="@drawable/checklist"
                     android:scaleType="fitCenter"
@@ -145,11 +151,13 @@
 
                 <ImageButton
                     android:id="@+id/quiz"
+                    android:contentDescription="@string/quiz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
                     android:src="@drawable/quiz"
                     android:scaleType="fitCenter"/>
@@ -184,30 +192,27 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/OSH"
+                    android:id="@+id/osh_management"
+                    android:contentDescription="@string/management"
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
-                    android:src="@drawable/management"
+                    android:src="@drawable/ic_fishing"
                     android:scaleType="fitCenter"
-                    android:tag="OSH"/>
+                    android:tag="osh_management"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/workplace"
+                    android:text="@string/osh_management_work"
                     android:textColor="@color/text"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/management"
-                    android:textColor="@color/text"/>
+
+
             </LinearLayout>
 
             <LinearLayout
@@ -221,13 +226,15 @@
 
                 <ImageButton
                     android:id="@+id/tools"
+                    android:contentDescription="@string/tools"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:src="@drawable/management"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
-                    android:src="@drawable/tools"
                     android:scaleType="fitCenter"
                     android:tag="tools"/>
 
@@ -238,13 +245,7 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/tools"
                     android:textColor="@color/text"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/osh"
-                    android:textColor="@color/text"/>
+
 
             </LinearLayout>
 
@@ -271,12 +272,93 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/about"
+                    android:id="@+id/covid19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:contentDescription="@string/covid19"
+                    android:focusable="true"
+                    android:padding="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/covid19"
+                    android:tag="about"
+                    tools:src="@drawable/covid19" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/covid19"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/whatsapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:contentDescription="@string/whatsapp"
+                    android:focusable="true"
+                    android:padding="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/whatsapp"
+                    android:tag="contact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/whatsapp"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Quinta Linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/about"
+                    android:contentDescription="@string/about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
                     android:src="@drawable/about"
                     android:scaleType="fitCenter"
@@ -301,14 +383,16 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/contact"
+                    android:id="@+id/youtube_videos"
+                    android:contentDescription="@string/youtube"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_selector"
                     android:clickable="true"
+                    android:focusable="true"
                     android:padding="15dp"
-                    android:src="@drawable/contact"
+                    android:src="@drawable/youtube"
                     android:scaleType="fitCenter"
                     android:tag="contact"/>
 
@@ -317,11 +401,49 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginTop="10dp"
-                    android:text="@string/contact"
+                    android:text="@string/youtube"
                     android:textColor="@color/text" />
             </LinearLayout>
-
         </LinearLayout>
+
+
+        <Button
+            android:id="@+id/whats_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/whats_group"
+            android:textColor="@color/cardview_light_background"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/share_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/share"
+            android:textColor="@color/cardview_light_background" />
+
+        <Button
+            android:text="@string/contact"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:textColor="@color/cardview_light_background"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </ScrollView>
