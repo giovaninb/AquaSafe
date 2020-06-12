@@ -555,17 +555,17 @@ Anaphylactic reactions with coma, dyspnoea, and confusion."</string>
     <string name="equipe_names">
 
         "<b>Coordinator:\n</b>"
-        "Dr. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
+        "Dr. Lissandra Souto Cavalli (DDPA/SEAPDR-RS)\n\n"
 
         "<b>Application Development:\n</b>"
         "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
-        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPDR-RS)\n"
         "Bruno Tavares (UFCSPA | CNPq)\n\n"
 
         "<b>AquaSafe Core Team:\n</b>"
-        "Dr. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
+        "Dr. Lissandra Souto Cavalli (DDPA/SEAPDR-RS)\n"
         "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
-        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPDR-RS)\n"
         "Bruno Tavares (UFCSPA | CNPq)\n"
         "Dr. Silvio Cazella (UFCSPA)\n"
         "Dr. Rebecca Mitchell (Macquarie University, Australia)\n"
@@ -578,12 +578,18 @@ Anaphylactic reactions with coma, dyspnoea, and confusion."</string>
 
         "<b>Technical consultancy Group<i>(ad hoc)</i>:\n</b>"
         "Dr. Arpita Sharma (ICAR-CIFE)\n"
-        "Dr. Maria Helena Fermino (DDPA/SEAPI-RS)\n"
-        "Dr. Benito Brito (DDPA/SEAPI-RS)\n"
-        "Dr. Kelly Cristina Tagliari de Brito (DDPA/SEAPI-RS)\n"
+        "Dr. Maria Helena Fermino (DDPA/SEAPDR-RS)\n"
+        "Dr. Benito Brito (DDPA/SEAPDR-RS)\n"
+        "Dr. Kelly Cristina Tagliari de Brito (DDPA/SEAPDR-RS)\n"
         "Julio Bastola (<i>ad hoc</i> Quality Tools)\n"
         "Henrique Fonseca (<i>ad hoc</i> Work Safety Technician)\n\n"
 
+        "<b>COVID Update:\n</b>"
+        "Dr. Lissandra Souto Cavalli (DDPA/SEAPDR-RS)\n"
+        "Dr. Barbara Neis (Memorial University, Newfoundland and Labrador, Canada)\n"
+        "Eduarda Serpa (UFCSPA | DDPA/SEAPDR-RS)\n"
+        "Willian de Vargas (UFCSPA | DDPA/SEAPDR-RS)\n"
+        "Dr. Andrew Watterson (University of Stirling, Scotland)\n"
 </string>
 
 
@@ -1221,7 +1227,7 @@ PPE is the last line of defence and the least effective. Where there are still s
     <!-- Content related to What is SARS information -->
     <string name="what_is_sars_text">
         • Coronavirus disease 2019 (COVID-19) is caused by a newly discovered virus. \n\n
-        • The ICTV (International Committee on Taxonomy of Viruses) officially designate the name of the new coronavirus as SARS-COV-2 virus (Severe Acute Respiratory Syndrome). \n\n
+        • The ICTV (International Committee on Taxonomy of Viruses) officially designated the name of the new coronavirus as SARS-COV-2 virus (Severe Acute Respiratory Syndrome). \n\n
         • The Coronaviridae family has different types of coronavirus. Some cause severe respiratory diseases, and are called SARS-COV, as SARS-COV (China 2002/2003) and MERS-COV (Middle East, Saudi Arabia 2012).\n\n
     </string>
 
@@ -1261,7 +1267,7 @@ PPE is the last line of defence and the least effective. Where there are still s
 
     <!-- Content related to COVID-19 protection-->
     <string name="hierarchy_protection">"How to protect the workplace and workers using hierarchy control?"</string>
-    <string name="workplace_protection">Workplace protection</string>
+    <string name="workplace_protection">"How can employers improve a workplace safety?"</string>
     <string name="yourself_protection">How to protect yourself</string>
 
     <!-- Content related to COVID-19 masks-->
@@ -1291,7 +1297,7 @@ PPE is the last line of defence and the least effective. Where there are still s
 • Display posters promoting hand washing.\n\n
 • Make sure people have access to places where they can wash their hands with soap and water.\n\n
 • Install a footbath (footwash) at the entrance to farms and closed places, such as laboratories, places where they perform nursery, breeding, spawning, etc.\n\n
-• Keep 2 meters of distance between you and anyone.\n\n
+• Make sure the workers keep 2 meters of distance between each other.\n\n
 • Producers, workers and collaborators of the risk group (over 60 years old, people with medical problems, such as cardiovascular disease, diabetes, chronic respiratory diseases and cancer), must remain at home.\n\n"
     </string>
 
@@ -1315,7 +1321,7 @@ PPE is the last line of defence and the least effective. Where there are still s
     <string name="non_sirurgical_title">In non-surgical masks, the following should be considered:</string>
 
     <string name="non_sirurgical_text">
-"• Number of layers of fabric.\n\n
+"• Masks should be at least 3 layers of fabric.\n\n
 • Breathability of the material used.\n\n
 • Do not pass water through the fabric.\n\n
 • Shape of the mask.\n\n

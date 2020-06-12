@@ -535,17 +535,17 @@ Perfuração com agulhas."</string>
     <string name="equipe">EQUIPE</string>
     <string name="equipe_names">
         "<b>Coordenadora:\n</b>"
-        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n\n"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPDR-RS)\n\n"
 
         "<b>Desenvolvimento do Aplicativo:\n</b>"
         "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
-        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPDR-RS)\n"
         "Bruno Tavares (UFCSPA | CNPq)\n\n"
 
         "<b>Equipe Principal AquaSafe:\n</b>"
-        "Dra. Lissandra Souto Cavalli (DDPA/SEAPI-RS)\n"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPDR-RS)\n"
         "Flavielle Blanco Marques (UFCSPA | CNPq)\n"
-        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPI-RS)\n"
+        "Giovani Nícolas Bettoni (UFCSPA | DDPA/SEAPDR-RS)\n"
         "Bruno Tavares (UFCSPA | CNPq)\n"
         "Dr. Silvio Cazella (UFCSPA)\n"
         "Dra. Rebecca Mitchell (Macquarie University, Austrália)\n"
@@ -558,11 +558,18 @@ Perfuração com agulhas."</string>
 
         "<b>Equipe de Consultoria técnica <i>(ad hoc)</i>:\n</b>"
         "Dr. Arpita Sharma (ICAR-CIFE)\n"
-        "Dra. Maria Helena Fermino (DDPA/SEAPI-RS)\n"
-        "Dr. Benito Brito (DDPA/SEAPI-RS)\n"
-        "Dra. Kelly Cristina Tagliari de Brito (DDPA/SEAPI-RS)\n"
+        "Dra. Maria Helena Fermino (DDPA/SEAPDR-RS)\n"
+        "Dr. Benito Brito (DDPA/SEAPDR-RS)\n"
+        "Dra. Kelly Cristina Tagliari de Brito (DDPA/SEAPDR-RS)\n"
         "Julio Bastola (<i>ad hoc</i> Ferramentas da Qualidade e Gestão)\n"
         "Henrique Fonseca (<i>ad hoc</i> Técnico em Segurança no Trabalho)\n\n"
+
+        "<b>Atualização COVID:\n</b>"
+        "Dra. Lissandra Souto Cavalli (DDPA/SEAPDR-RS)\n"
+        "Dra. Barbara Neis (Memorial University, Newfoundland and Labrador, Canada)\n"
+        "Eduarda Serpa (UFCSPA | DDPA/SEAPDR-RS)\n"
+        "Willian de Vargas (UFCSPA | DDPA/SEAPDR-RS)\n"
+        "Dr. Andrew Watterson (University of Stirling, Scotland)\n"
 
     </string>
 
@@ -1236,9 +1243,8 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
     <!-- Content related to What is SARS information -->
     <string name="what_is_sars_text">
     • A doença de coronavírus 2019 (COVID-19) é causada por um vírus recém-descoberto.\n\n
-    • O ICTV (Comitê Internacional de Taxonomia de Vírus) designa oficialmente o nome do novo coronavírus como vírus SARS-COV-2 (Síndrome Respiratória Aguda Grave).\n\n
+    • O ICTV (Comitê Internacional de Taxonomia de Vírus) designou oficialmente o nome do novo coronavírus como vírus SARS-COV-2 (Síndrome Respiratória Aguda Grave).\n\n
     • A família Coronaviridae possui diferentes tipos de coronavírus. Alguns causam doenças respiratórias graves e são chamados SARS-COV, como SARS-COV (China 2002/2003) e MERS-COV (Oriente Médio, Arábia Saudita 2012).\n\n
-
     </string>
 
     <!-- Content related to COVID-19 Symptoms -->
@@ -1277,7 +1283,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 
     <!-- Content related to COVID-19 protection-->
     <string name="hierarchy_protection">"Como proteger o local de trabalho e os trabalhadores usando o controle de hierarquia?"</string>
-    <string name="workplace_protection">Proteção no local de trabalho</string>
+    <string name="workplace_protection">"Como empregadores podem melhorar a segurança do local de trabalho?"</string>
     <string name="yourself_protection">Como se proteger</string>
 
     <!-- Content related to COVID-19 masks-->
@@ -1307,7 +1313,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 • Exibir pôsteres promovendo a lavagem das mãos.\n\n
 • Certifique-se de que as pessoas tenham acesso a lugares onde possam lavar as mãos com água e sabão.\n\n
 • Instale um banho de pés (lava-pés) na entrada de fazendas e locais fechados, como laboratórios, locais onde são realizados cuidados, criação, desova, etc.\n\n
-• Mantenha 2 metros de distância entre você e qualquer pessoa.\n\n
+• Certifique-se de que os trabalhadores mantenham 2 metros de distância entre si.\n\n
 • Produtores, trabalhadores e colaboradores do grupo de risco (acima de 60 anos, pessoas com problemas médicos, como doenças cardiovasculares, diabetes, doenças respiratórias crônicas e câncer), devem permanecer em casa.\n\n"
     </string>
 
@@ -1331,7 +1337,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
     <string name="non_sirurgical_title">Nas máscaras não cirúrgicas, deve-se considerar o seguinte:</string>
 
     <string name="non_sirurgical_text">
-"• Número de camadas de tecido.\n\n
+"• As máscaras devem ter pelo menos 3 camadas de tecido.\n\n
 • Respirabilidade do material utilizado.\n\n
 • Não passar água pelo tecido.\n\n
 • Forma da máscara.\n\n
