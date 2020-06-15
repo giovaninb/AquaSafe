@@ -1248,16 +1248,16 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
     </string>
 
     <!-- Content related to COVID-19 Symptoms -->
-    <string name="common_symptoms">Sintomas Comuns</string>
-    <string name="severe_symptoms">Sintomas Graves</string>
+    <string name="common_symptoms">"Sintomas Comuns"</string>
+    <string name="severe_symptoms">"Sintomas Graves"</string>
     <string name="common_symptoms_list">
-        • Febre\n
+        \n• Febre\n
         • Cansaço\n
         • Perda de olfato\n
         • Tosse seca\n
     </string>
     <string name="severe_symptoms_list">
-        • Febre alta\n
+        \n• Febre alta\n
         • Pneumonia\n
         • Dificuldade respiratória\n
     </string>
@@ -1282,7 +1282,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
     </string>
 
     <!-- Content related to COVID-19 protection-->
-    <string name="hierarchy_protection">"Como proteger o local de trabalho e os trabalhadores usando o controle de hierarquia?"</string>
+    <string name="hierarchy_protection">"Como proteger o local de trabalho e os trabalhadores usando a hierarquia de controles?"</string>
     <string name="workplace_protection">"Como empregadores podem melhorar a segurança do local de trabalho?"</string>
     <string name="yourself_protection">Como se proteger</string>
 
@@ -1375,7 +1375,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
     <string name="disposal_mask_text">
 "• As máscaras que não vêm dos serviços de saúde devem ser descartadas no lixo comum (não reciclável).\n\n
 • Remova a máscara e coloque em um saco separado.\n\n
-• Descartar imediatamente em uma lixeira fechada;\n\n"
+• Descartar imediatamente em uma lixeira fechada.\n\n"
     </string>
 
     <!-- Content related to COVID-19 Transmission-->

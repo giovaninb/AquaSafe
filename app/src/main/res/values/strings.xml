@@ -1232,16 +1232,16 @@ PPE is the last line of defence and the least effective. Where there are still s
     </string>
 
     <!-- Content related to COVID-19 Symptoms -->
-    <string name="common_symptoms">Common Symptoms</string>
-    <string name="severe_symptoms">Severe Symptoms</string>
+    <string name="common_symptoms">"Common Symptoms"</string>
+    <string name="severe_symptoms">"Severe Symptoms"</string>
     <string name="common_symptoms_list">
-        • Fever\n
+        \n• Fever\n
         • Tiredness\n
         • Loss of Smell\n
         • Dry Cough\n
     </string>
     <string name="severe_symptoms_list">
-        • High fever\n
+        \n• High fever\n
         • Pneumonia\n
         • Difficulty Breathing\n
     </string>
@@ -1272,7 +1272,7 @@ PPE is the last line of defence and the least effective. Where there are still s
 
     <!-- Content related to COVID-19 masks-->
     <string name="which_mask">Which mask should I use?</string>
-    <string name="non_sururgical_mask">Non-surgical masks</string>
+    <string name="non_sururgical_mask">Non - surgical masks</string>
     <string name="how_to_use_mask">How to use it?</string>
     <string name="care_with_mask">Care with the use of the mask</string>
     <string name="care_with_fabric_mask">Care with the use of the fabric mask</string>
@@ -1359,7 +1359,7 @@ PPE is the last line of defence and the least effective. Where there are still s
     <string name="disposal_mask_text">
 "• Masks that do not come from health services should be disposed of in regular garbage (not recyclable).\n\n
 • Remove the mask and place in a separate bag.\n\n
-• Discard immediately in a closed bin;\n\n"
+• Discard immediately in a closed trash.\n\n"
     </string>
 
     <!-- Content related to COVID-19 Transmission-->

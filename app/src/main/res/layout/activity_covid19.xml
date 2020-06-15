@@ -24,14 +24,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:gravity="center|top"
+            android:orientation="horizontal">
 
             <!-- Primeiro botão da linha -->
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -60,12 +60,13 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/what_is_sars"
+                    android:textAlignment="center"
                     android:textColor="@color/text" />
             </LinearLayout>
 
             <!-- Segundo botão da linha -->
             <LinearLayout
-                android:layout_width="131dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -94,6 +95,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/symptoms"
+                    android:textAlignment="center"
                     android:textColor="@color/text" />
             </LinearLayout>
 
@@ -103,14 +105,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:gravity="center|top"
+            android:orientation="horizontal">
 
             <!-- Primeiro botão da linha -->
             <LinearLayout
-                android:layout_width="136dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -139,12 +141,13 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="@string/transmission"
+                    android:textAlignment="center"
                     android:textColor="@color/text" />
             </LinearLayout>
 
             <!-- Segundo botão da linha -->
             <LinearLayout
-                android:layout_width="131dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -172,8 +175,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:textAlignment="center"
                     android:text="@string/protection_covid19"
+                    android:textAlignment="center"
                     android:textColor="@color/text" />
             </LinearLayout>
 
@@ -183,14 +186,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:gravity="center|top"
+            android:orientation="horizontal">
 
             <!-- Primeiro botão da linha -->
             <LinearLayout
-                android:layout_width="136dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -218,14 +221,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:textAlignment="center"
                     android:text="@string/mask_covid19"
+                    android:textAlignment="center"
                     android:textColor="@color/text" />
             </LinearLayout>
 
             <!-- Segundo botão da linha -->
             <LinearLayout
-                android:layout_width="131dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"

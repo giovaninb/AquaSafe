@@ -33,7 +33,7 @@
 
             <TextView
                 android:id="@+id/workplace_protection"
-                android:layout_width="230dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/workplace_protection"
                 android:textAlignment="center"

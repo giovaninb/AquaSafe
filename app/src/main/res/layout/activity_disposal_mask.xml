@@ -32,7 +32,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="311dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/disposal_mask"
                 android:textAlignment="center"

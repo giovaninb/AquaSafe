@@ -19,11 +19,11 @@
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="center|top"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="147dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -48,17 +48,16 @@
                     android:tag="hazard" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/which_mask"
                     android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -83,10 +82,9 @@
                     android:tag="equipment" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/non_sururgical_mask"
                     android:textColor="@color/text" />
@@ -100,11 +98,11 @@
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="center|top"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -129,17 +127,16 @@
                     android:tag="hazard" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/how_to_use_mask"
                     android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="94dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -164,10 +161,9 @@
                     android:tag="equipment" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/care_with_mask"
                     android:textColor="@color/text" />
@@ -181,11 +177,11 @@
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="center|top"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -210,17 +206,16 @@
                     android:tag="hazard" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/care_with_fabric_mask"
                     android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="223dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -245,10 +240,9 @@
                     android:tag="equipment" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/disposal_mask"
                     android:textColor="@color/text" />
