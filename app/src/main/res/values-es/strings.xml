@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AquaSafe</string>
+    <string name="hazard">Riscos</string>
+    <string name="types_of_hazard">Tipos de peligros</string>
+    <string name="quiz">Quizz</string>
+    <string name="tools">Herramientas</string>
+    <string name="management">en el lugar de trabajo</string>
+    <string name="equipment">PPE y EPC</string>
+    <string name="checklist">Checklist</string>
+    <string name="about">Sobre</string>
+    <string name="contact">Contáctenos</string>
+    <string name="youtube">Videos</string>
+    <string name="title_activity_hazard">HazardActivity</string>
+    <string name="risk_explanation">Riesgos laborales</string>
+    <string name="hierarchy_control">" Jerarquía de controles"</string>
+
+    <string name="electrocution">Electrocución</string>
+    <string name="noise">Ruido</string>
+    <string name="solar_radiation">Radiación solar\n</string>
+    <string name="fire_explosion">Incendios y\n explosiones</string>
+    <string name="extreme_temperatures">Temperaturas \nExtremas</string>
+    <string name="humidity">Humedad y\n exposición al agua</string>
+    <string name="dust_gases">Polvo y gases</string>
+    <string name="products">Sustancias, compuestos \n o productos químicos</string>
+    <string name="resistance">Resistencia antimicrobiana</string>
+    <string name="zoonoses">Zoonosis</string>
+    <string name="animals">Animales</string>
+    <string name="excessive_physical_effort">Esfuerzo físico excesivo</string>
+    <string name="psychosocial">Psicosocial</string>
+    <string name="excessive_workday">Horas de trabajo excesivas</string>
+    <string name="night_work">Trabajo nocturno</string>
+    <string name="machinery">Accidentes con maquinaria</string>
+    <string name="slips">Resbalones</string>
+    <string name="drowning">Ahogo</string>
+    <string name="cutting_drilling">Cortes y Perforaciones</string>
+
+    <string name="physic">Fisico</string>
+    <string name="chemical">Químico</string>
+    <string name="biologic">Biologico</string>
+    <string name="ergonomic">Ergonómico</string>
+    <string name="injurious_incidents">Accidente</string>
+
+    <string name="cause">Causa/Fuente/Peligro</string>
+    <string name="type_hazard">Riesgo/Daño a la salud</string>
+    <string name="control">Control y Prevención</string>
+
+    <string name="cause_electrocution">"Contacto de agua con líneas de transmisión de energía eléctrica; \n
+Falta de sistemas de puesta a tierra en granjas; \n
+Choques causados por lugares húmedos; \n
+Choques a través de la energía de reserva cuando la alimentación principal está apagado por razones de mantenimiento; \n
+Cables desnudos."</string>
+    <string name="hazard_electrocution">"Quemaduras \n
+Contracción muscular involuntaria; \n
+Muerte."</string>
+    <string name="control_electrocution">"<b>Eliminación o reemplazo:</b>\n
+• Utilice interruptores de falla de circuito (GFCI) efectivos para reducir la probabilidad de descarga eléctrica.\n
+
+\n<b>Controles de ingeniería:</b>\n
+• Asegurar el uso de fusibles y un sistema de conexión a tierra adecuado; \n
+• Asegúrese de que todos los cables estén intactos e impermeables; \n
+• Evitar sobrecarga eléctrica. \n
+
+\n<b>Administrativo y PPE:</b>\n
+• Hacer que los trabajadores sean conscientes de los riesgos de descargas eléctricas por equipos cercanos al agua a través de capacitación; \n
+• Las instalaciones eléctricas deben ser revisadas y garantizadas por un profesional calificado para la función; \n
+• Nunca trabaje solo para que en caso de accidente, alguien pueda desconectar la alimentación; \n
+• La alimentación debe estar apagada cuando se maneja el equipo; \n
+• Asegurar el mantenimiento del equipo; \n
+• Indique equipos con riesgo de descarga eléctrica."</string>
+
+    <string name="cause_noise">"Exposición constante a los sonidos emitidos por el motor del barco; \n
+Lavadoras de ostras; \n
+Lavadoras de alta presión.</string>
+    <string name="hazard_noise">"Estrés físico y psicológico; \n
+Reducción de la productividad; \n
+Interferencia en comunicación y concentración; \n
+Dolores de cabeza; \n
+Pérdida auditiva temporal o permanente.</string>
+    <string name="control_noise">"<b>Eliminación o reemplazo:</b>\n
+• Reemplazo con equipo de menor ruido.\n
+
+\n<b>Controles de ingeniería:</b>\n
+• Construir barreras que impiden que el ruido llegue al trabajador.\n
+
+\n<b>Administrativo y PPE:</b>\n
+• Use protectores auditivos; \n
+• Rotación de trabajo; \n
+• Intervalos entre actividades; \n
+• Use equipo de protección personal (PPE)."</string>
+
+    <string name="cause_solar_radiation">"Exposición frecuente del individuo a agentes radiactivos. En acuicultura, la exposición a la radiación ultravioleta del sol es la más frecuente."</string>
+    <string name="hazard_solar_radiation">"Cáncer de piel; \n
+Deshidración; \n
+Dolor de cabeza; \n
+Quemaduras en la piel (primer y segundo grado); \n
+Catarata; \n
+Insolación; \n
+Dermatitis.</string>
+    <string name="control_solar_radiation">"\n<b>Eliminación o reemplazo:</b>\n
+• Trabajar en áreas cubiertas y protegidas del sol.\n
+
+\n<b>Controles de ingeniería:</b>\n
+N/A \n
+\n<b>Administrativo y PPE:</b>\n
+• Use protector solar, sombreros y lentes de sol; \n
+• Reduzca la exposición a la luz solar con la rotación del trabajo; \n
+• Realizar exámenes de la piel en puntos sospechosos."</string>
+
+    <string name="cause_fire_explosion">"Red eléctrica comprometida; \n
+Residuos de cigarrillos; \n
+Uso y almacenamiento incorrectos de productos inflamables; \n
+Fuga de gases; \n
+Terminal positivo de la batería expuesto en barcos;</string>
+    <string name="hazard_fire_explosion">"Quemaduras \n
+Discapacidad debido a secuelas graves; \n
+Muerte.</string>
+    <string name="control_fire_explosion">"\n<b>Eliminación o reemplazo:</b>\n
+• Reemplazar sustancias inflamables.\n
+
+\n<b>Controles de ingeniería:</b>\n
+• Cubra los terminales para evitar chispas; \n
+• Mantenga las fuentes de chispas alejadas de los tanques de oxígeno y la ropa; \n
+• Instale rociadores y sistemas de supresión de escape. \n
+
+\n<b>Administrativo y PPE:</b>\n
+• No fume cerca de fuentes de fuego y explosiones; \n
+• Mantenga las sustancias incompatibles separadas; \n
+• Entrenamiento y señalización; \n
+• Detectar y reparar fugas; \n
+• Tener extintores y validez.</string>
+
+    <string name="cause_extreme_temperatures">"Exposición intensa a la luz solar en temperaturas muy altas debido al trabajo abierto; \n
+Exposición prolongada a temperaturas muy bajas, viento, lluvia y agua."</string>
+    <string name="hazard_extreme_temperatures">"Insolación; \ n
+Quemaduras \n
+Deshidración; \n
+Resfriados; \n
+Gripe \n
+Neumonía; \n
+Hipotermia.</string>
+    <string name="control_extreme_temperatures">"\n<b>Eliminación o reemplazo:</b>\n
+• Trabajar en áreas cubiertas. \n
+
+\n<b>Controles de ingeniería:</b>\n
+• Ventilación, extractores y aislamiento térmico. \n
+
+\n<b>Administrativo y PPE:</b>\n
+• Use protectores solares, gorras o sombreros; \n
+• Use ropa protectora y zapatos apropiados; \n
+• Rotación de trabajo; \n
+• Intervalos para la ingesta de líquidos evitando la deshidratación a altas temperaturas; \n
+• Intervalos para beber bebidas calientes evitando las consecuencias de las bajas temperaturas.</string>
+
+    <string name="cause_humidity">"Exposición durante la ocurrencia de lluvia; \n
+Exposición al agua de mar, tanques y viveros; \n
+Exposición al agua utilizada en la limpieza y lugares húmedos.</string>
+    <string name="hazard_humidity">"<b>Los niveles reducidos de humedad pueden conducir a:</b>\n
+Caída de la presión arterial; \n
+Sequedad de las vías respiratorias superiores, membranas mucosas y piel; \n
+Resbalones y caídas; \n
+Enfermedades respiratorias, urinarias e infecciosas."</string>
+    <string name="control_humidity">"\n<b>Eliminación o reemplazo:</b>\n
+N/A \n
+
+\n<b>Controles de ingeniería:</b>\n
+• Construya barreras que eviten el contacto directo con la humedad.\n
+
+\n<b>Administrativo y PPE:</b>\n
+• Intervalos entre actividades; \n
+• Use equipo de protección personal (PPE) como guantes, botas y overoles."</string>
+    <string name="injurious_incidents_title">Accidente</string>
+
+    <string name="cause_dust_gases">"Movimiento de tierras y obras que forman polvo; \n
+Cuidado inapropiado con el equipo; \n
+Mal mantenimiento de los motores de los barcos."</string>
+    <string name="hazard_dust_gases">"Desmayo; \n
+Mareo; \n
+Irritación cutánea y respiratoria."</string>
+    <string name="control_dust_gases">"\n<b>Eliminación o reemplazo:</b>\n
+N/A \n
+\n<b>Controles de ingeniería:</b>\n
+• Detectar y reparar fugas.\n
+
+\n<b>Administrativo y PPE:</b>\n
+• Use equipo de protección personal (PPE) como guantes de goma y mascarilla de protección respiratoria para polvo y gases; \n
+• Sustituir productos químicos por otros menos tóxicos; \n
+• Reduce el tiempo de exposición; \n
+• Hacer que los trabajadores sean conscientes de los riesgos en el entorno laboral; \n
+• Use un separador mecánico; \n
+• Señalización."</string>
+
+    <string name="cause_products">"Sustancias de preparación y corrección de viveros; \n
+Productos utilizados en actividades pesqueras; \n
+Contacto con piedra caliza, peróxido de hidrógeno, metabisulfito de sodio, pulverizadores de mochila y pulverizadores manualmente; \n
+Manejo de sustancias corrosivas."</string>
+    <string name="hazard_products">"Quemaduras \n
+Irritación de la piel y del tracto respiratorio; \n
+Envejecimiento prematuro; \n
+Ansiedad; \n
+Depresión; \n
+Pérdida de memoria; \n
+Envenenamiento; \n
+Teratogénesis (formación y desarrollo en el útero de anormalidades que conducen a malformaciones, solo en mujeres); \n
+Trastorno genético; \n
+Cáncer; \n
+Muerte."</string>
+    <string name="control_products">"\n<b>Eliminación o reemplazo:</b>\n
+• Reemplazar productos tóxicos o letales.\n
+
+\n<b>Controles de ingeniería:</b>\n
+• Los productos químicos deben almacenarse adecuadamente en áreas bien ventiladas y separados de las sustancias que pueden reaccionar; \n
+• Detectar y reparar fugas; \n
+• Instalar sistemas de supresión de rociadores; \n
+• Equipo mecánico que reduce el contacto con agentes químicos. \n
+
+\n<b>Administrativo y PPE:</b>\n
+• Equipo de protección personal (PPE) como: zapatos cerrados, guantes de nitrilo, gafas y máscaras apropiadas; \n
+• Entrenamiento; \n
+• No use pesticidas o herbicidas para evitar envenenamiento o contaminación del agua; \n
+• Señalización."</string>
+
+
+</resources>

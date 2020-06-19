@@ -35,7 +35,6 @@
     <string name="drowning">Afogamento</string>
     <string name="cutting_drilling">Cortes e Perfurações</string>
 
-
     <string name="physic">Físico</string>
     <string name="chemical">Químico</string>
     <string name="biologic">Biológico</string>
@@ -1265,7 +1264,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
     <!-- Content related to COVID-19 Other protection measures -->
     <string name="other_protection_list_covid19">
 "• Limpe e desinfete as botas.\n
-• (Banho de pé).\n
+• Pedilúvio (Lava-pés).\n
 • Remova as roupas de trabalho antes de sair da fazenda.\n
 • Lave suas mãos com sabão e água.\n
 • Seque as mãos com papel toalha.\n
@@ -1275,7 +1274,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 • Evite usar itens pessoais, como telefones celulares, nas áreas de produção/trabalho.\n
 • Use equipamento de proteção individual (EPI) apropriado.\n
 • Restrinja o acesso a pessoas desnecessárias em fazendas e locais de produção e processamento.\n
-• Evite contato desnecessário e desprotegido com animais [selvagens].\n
+• Evite contato desnecessário e desprotegido com animais (selvagens).\n
 • Lave as mãos após o contato com animais ou produtos de origem animal.\n
 • Fique em casa se estiver se sentindo doente.\n
 • Se você tiver febre, tosse ou dificuldade em respirar, procure atendimento médico.\n"
@@ -1303,7 +1302,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 • Controlar a temperatura dos trabalhadores.\n\n
 4. Equipamento de Proteção Individual (EPI):
 • Usar máscaras em todas as atividades (fornecidas pelo empregador);
-• Use proteção facial, sobre a máscara, nas atividades de pesca e colheita e nas que envolvem salpicos de água.\n\n"
+• Use escudo de proteção facial, sobre a máscara, nas atividades de despesca e em todas que envolvem respingos de água.\n\n"
     </string>
 
     <string name="workplace_protection_text">
@@ -1312,7 +1311,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 • Coloque dispensadores de desinfetante para as mãos (álcool gel) em locais de destaque no local de trabalho.\n\n
 • Exibir pôsteres promovendo a lavagem das mãos.\n\n
 • Certifique-se de que as pessoas tenham acesso a lugares onde possam lavar as mãos com água e sabão.\n\n
-• Instale um banho de pés (lava-pés) na entrada de fazendas e locais fechados, como laboratórios, locais onde são realizados cuidados, criação, desova, etc.\n\n
+• Instale um pedilúvio (lava-pés) na entrada de fazendas e locais fechados, como laboratórios, locais onde são realizados cuidados, criação, desova, etc.\n\n
 • Certifique-se de que os trabalhadores mantenham 2 metros de distância entre si.\n\n
 • Produtores, trabalhadores e colaboradores do grupo de risco (acima de 60 anos, pessoas com problemas médicos, como doenças cardiovasculares, diabetes, doenças respiratórias crônicas e câncer), devem permanecer em casa.\n\n"
     </string>
@@ -1327,7 +1326,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 
     <!-- Content related to COVID-19 Masks-->
     <string name="which_mask_text">
-"• As máscaras N95 podem ser escassas e devem ser usadas apenas para profissionais de saúde em contato com pacientes infectados ou suspeitos com COVID-19.\n\n
+"• As máscaras N95 podem estar escassas e devem ser usadas apenas para profissionais de saúde em contato com pacientes infectados ou suspeitos com COVID-19.\n\n
 • Alguns estudos mostram que as máscaras cirúrgicas têm alta eficiência na retenção de partículas virais.\n\n
 • Máscaras caseiras com 3 camadas de tecido também mostraram boa eficiência.\n\n
 • Não use máscaras com 'costura' frontal. A costura frontal diminui drasticamente a proteção.\n\n
@@ -1353,7 +1352,7 @@ O EPI é a última linha de defesa e a menos eficaz. Onde ainda existem alguns r
 
     <string name="care_with_mask_text">
 "• Remova a máscara usando a técnica apropriada: não toque na frente da máscara, desamarre-a na parte de trás.\n
-• Após a remoção ou sempre que uma máscara for tocada inadvertidamente, limpe as mãos usando álcool gel ou sabão e água, se estiver visivelmente suja.\n\n"
+• Após a remoção ou sempre que uma máscara for tocada inadvertidamente, limpe as mãos usando álcool gel ou sabão e água, se as mãos estiverem visivelmente sujas.\n\n"
 <b>COMO EU DEVO REMOVER A MÁSCARA?</b>
 "\n\n1. Lave suas mãos: lave suas mãos antes de tocar a máscara.\n
 2. Como eu devo remover a máscara? Remova a máscara segurando os elásticos/amarras, sem tocar a frente da máscara já que ela pode estar contaminada.\n
