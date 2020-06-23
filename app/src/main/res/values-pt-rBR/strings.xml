@@ -812,7 +812,7 @@ no local, o mergulho deve ser imediatamente abortado em cooperação com os outr
     <string name="export_csv_file">Exportar arquivo CSV</string>
     <string name="export_pdf">Exportar para PDF</string>
     <string name="export_pdf_file">Exportar arquivo PDF</string>
-    <string name="license">Disponbilizado pelo AquaSafe.</string>
+    <string name="license">Disponibilizado pelo AquaSafe.</string>
 
     <!--String related to Worker Checklist -->
     <string name="worker_name">Trabalhador Checklist</string>

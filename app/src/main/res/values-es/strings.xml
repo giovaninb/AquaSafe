@@ -672,8 +672,299 @@ Advertir sobre una situación o acción que pueda generar daños o riesgos para 
 • No abra el dispositivo de seguridad \ n
 </string>
 
+    <string name="fire_protection_text">
+<b>Extintor de incendios</b>\n
+• Los extintores de incendios deben estar vencidos. \n
+• Los letreros de "No fumar" deben publicarse en todos los depósitos o áreas donde hay productos inflamables. \n
+• Los extintores de incendios deben mantenerse completamente cargados y renovados según lo especificado por el fabricante. \n
+• Los trabajadores deben estar capacitados en el uso de extintores de incendios. \n
+\n
+<b>Tipos de extintores de incendios: </b>\n
+<b>• Polvo químico:</b> adecuado para líquidos inflamables.\n
+<b>• Dióxido de carbono (CO2):</b> adecuado para incendios de equipos eléctricos.\n
+<b>• Agua:</b> Adecuado para incendios de madera, tela, papel y materiales sólidos en general..\n
+</string>
+
+    <string name="first_aid_text">
+• Los trabajadores deben recibir capacitación en primeros auxilios, siempre que sea posible. \n
+• Mantenga una lista de números de teléfono útiles visibles y un kit para procedimientos simples.\n
+\n
+<b>El kit de primeros auxilios puede incluir:</b>\n
+• Guantes de procedimiento \n
+• Gasa estéril \n
+• Algodón \n
+• Cinta adhesiva \n
+• Jabón neutro \n
+• Bandeja \n
+• Termómetro clínico \n
+• Vendajes \n
+</string>
+
+    <string name="electrical_shock_protection_text">
+Deben adoptarse procedimientos seguros, ya que la electricidad es un componente esencial en la actividad acuícola. \n
+\n
+• Bloquee los interruptores principales y coloque los bloqueos y las etiquetas en ellos antes de trabajar en los circuitos de alimentación para que nadie más pueda usarlos mientras está trabajando. \n
+• Inspecciones eléctricas periódicas por personal calificado. \n
+• Permita que solo personal calificado trabaje en reparaciones eléctricas y use instrumentos adecuados para probar los circuitos. \n
+• Asegúrese de que el cableado, el equipo, los cables y los enchufes estén en buenas condiciones y conectados a tierra. \n
+• No sobrecargue su instalación eléctrica. \n
+• Asegúrese de que todos los dispositivos y equipos estén correctamente conectados a tierra, especialmente los equipos utilizados en áreas húmedas. \n
+• Cuando reemplace un fusible o un disyuntor, asegúrese de que su clasificación sea correcta para el circuito. \n
+</string>
+
+    <string name="chemical_protection_text">
+La ruta de entrada o daño de la sustancia química ayuda a tomar decisiones sobre el equipo de protección que se utilizará.\n
+\n
+<b>Ojos</b>\n
+<b>Peligro - </b> salpicaduras químicas o metálicas, polvo, gas y vapor.\n
+\n
+• Use gafas de seguridad, gafas de proteccion, pantallas faciales, visores adecuados.\n
+\n
+<b>Manos y brazos</b>\n
+<b>Peligro - </b> productos químicos \n
+\n
+• Use guantes, guantes con puños, guanteletes y mangas que cubran parte o la totalidad del brazo. La elección del material debe tener en cuenta el producto químico manipulado.\n
+\n
+<b>Pies y piernas</b>\n
+<b>Peligro - </b>de productos químicos\n
+\n
+• Use botas de seguridad. Se debe seleccionar calzado adecuado para los riesgos identificados, incluidas las suelas resistentes a aceites o productos químicos.\n
+\n
+<b>Pulmones</b>\n
+<b>Peligro - </b> polvo, gases y vapores.\n
+\n
+• Use equipo de protección respiratoria (RPE). Algunos respiradores dependen de filtrar contaminantes del aire en el lugar de trabajo. Estos incluyen máscaras faciales y respiradores de filtrado simple. Se debe usar el tipo correcto de filtro de respiración, ya que cada uno solo es efectivo para una gama limitada de sustancias.\n
+\n
+<b>Todo el cuerpo</b>\n
+<b>Peligro</b> de salpicaduras químicas.\n
+\n
+• Use overoles convencionales o desechables, delantales.\n
+
+</string>
+    <string name="diving_protection_text">
+• El equipo de buceo debe ser probado de acuerdo con las especificaciones del fabricante. El registro de prueba del equipo de buceo debe mantenerse. Antes de usar, debe verificar que esté funcionando correctamente. \n
+\n
+• Los miembros del equipo de buceo que se den cuenta de un mal funcionamiento o riesgo de equipo de buceo en el sitio de buceo deben notificar a otros buzos que pueden verse afectados por el mal funcionamiento de inmediato. Si la falla ocurre durante una inmersión y no hay sustituciones disponibles. \n
+En el sitio, la inmersión debe ser abortada inmediatamente en cooperación con los otros miembros del equipo de buceo. \n
+\n
+• Cada buzo debe estar equipado con un cuchillo fuerte y afilado; pesas con un mecanismo de liberación rápida que son suficientes para controlar la flotabilidad; un traje de buceo u otra ropa protectora; y protección adecuada de la cabeza durante una inmersión, que expone al buzo al riesgo de caer objetos o lesiones en la cabeza. \n
+\n
+• No se debe realizar una inmersión si un equipo cercano al sitio de buceo podría causar un riesgo para la salud y la seguridad. \n
 
 
+    </string>
 
+    <!-- Strings related to Checklists -->
+    <string name="yes_rdbtn">Si</string>
+    <string name="no_rdbtn">No</string>
+    <string name="corrective_action">Insertar la acción correctiva a tomar</string>
+    <string name="required_field">¡Campo obligatorio!</string>
+    <string name="how_to_save_file">¿Cómo quieres guardar el archivo?</string>
+    <string name="save_on_device">Guardar en el dispositivo</string>
+    <string name="external_app">Compartir con aplicación externa</string>
+    <string name="responsable">Persona responsable</string>
+    <string name="inspection_data">Fecha de inspección (DD-MM-AAAA)</string>
+    <string name="export_csv">Exportar a CSV</string>
+    <string name="export_csv_file">Exportar archivo CSV</string>
+    <string name="export_pdf">Exportar a PDF</string>
+    <string name="export_pdf_file">Exportar archivo PDF</string>
+    <string name="license">Proporcionado por AquaSafe.</string>
+
+    <!--String related to Worker Checklist -->
+    <string name="worker_name">Lista de verificación de trabajadores</string>
+    <string name="worker_q1"> 1 - ¿Los trabajadores están afiliados a algún sindicato?</string>
+    <string name="worker_q2"> 2 - ¿Tiene el sindicato un miembro específicamente capacitado para abordar los problemas de salud y seguridad en este lugar de trabajo?</string>
+    <string name="worker_q3"> 3 - ¿Existe un comité de gestión sindical en materia de salud y seguridad en el trabajo? ¿Funciona regularmente?</string>
+    <string name="worker_q4"> 4 - ¿Existe un acuerdo de negociación colectiva, con disposiciones sobre Salud y Seguridad Ocupacional, firmado entre el sindicato y la gerencia?</string>
+    <string name="worker_q5"> 5 - Para cuestiones de derechos de las mujeres: ¿hay un comité sindical de mujeres en el lugar de trabajo o una representante sindical femenina, capacitada para abordar temas de igualdad de género, derechos de maternidad y violencia de género?</string>
+
+    <!-- Management Checklists Categories -->
+    <string name="info_management">A continuación hay algunas listas de verificación para ayudarlo a mejorar su gestión.</string>
+    <string name="diving_name">Bucear</string>
+    <string name="protection_name">Equipo de protección</string>
+    <string name="machines_name">Maquinas y equipos</string>
+    <string name="eletrical_name">Choque eléctrico</string>
+    <string name="boating_name">Cataratas y barcos</string>
+    <string name="chemicals_name">Productos quimicos</string>
+    <string name="womens_name">La salud de la mujer</string>
+
+    <!--String related to Diving Checklist -->
+    <string name="diving_q1"> 1 - ¿Se ha probado el equipo de buceo de acuerdo con las especificaciones del fabricante?</string>
+    <string name="diving_q2"> 2 - ¿Se realiza una verificación de funcionamiento correcta antes de usar el equipo?</string>
+    <string name="diving_q3"> 3 - ¿Cada buzo siempre está equipado con un cuchillo fuerte y afilado, pesas con un mecanismo de liberación rápida para controlar la flotabilidad, un traje de buceo u otra ropa protectora y protección adecuada para la cabeza al realizar la inmersión?</string>
+    <string name="diving_q4"> 4 - ¿Si se produce un mal funcionamiento o imprevisibilidad durante una inmersión y no hay sustituciones disponibles en el sitio, se cancela la inmersión inmediatamente en cooperación con los otros miembros del equipo de buceo?</string>
+    <string name="diving_q5"> 5 - ¿Los miembros del equipo de buceo se dan cuenta de otros buzos inmediatamente cuando se dan cuenta de un mal funcionamiento o riesgo de equipo de buceo en el sitio de buceo?</string>
+
+    <!--String related to Protection Equipament Checklist -->
+    <string name="protection_q1"> 1 - ¿Se proporcionan equipos de protección personal (EPP) de forma gratuita a los trabajadores y colaboradores?</string>
+    <string name="protection_q2"> 2 - ¿Hay equipos de protección colectiva (EPC) disponibles y visibles para los trabajadores?</string>
+    <string name="protection_q3"> 3 - ¿Están capacitados los profesionales en el uso y mantenimiento de equipos individuales y colectivos?</string>
+    <string name="protection_q4"> 4 - ¿Los trabajadores usan ropa adecuada para protegerse de las temperaturas extremas?</string>
+    <string name="protection_q5"> 5 - ¿Los trabajadores usan equipos de protección cuando manipulan productos químicos?</string>
+    <string name="protection_q6"> 6 - ¿Los trabajadores usan ropa y cabello ajustados cuando trabajan cerca de las máquinas?</string>
+
+    <!--String related to Machines and Equipament Checklist -->
+    <string name="machines_q1"> 1 - ¿Los manuales de instrucciones del equipo están disponibles para los operadores?</string>
+    <string name="machines_q2"> 2 - ¿Los tractores están equipados con una cabina de seguridad (ROPS) para evitar aplastamientos o ahogamientos en caso de vuelco?</string>
+    <string name="machines_q3"> 3 - ¿Están los equipos en buenas condiciones mecánicas y tienen protección de seguridad para evitar accidentes?</string>
+    <string name="machines_q4"> 4 - ¿Los operadores de máquinas y equipos conocen los riesgos?</string>
+    <string name="machines_q5"> 5 - ¿Los operadores estaban capacitados para usar las máquinas y los equipos que usan?</string>
+    <string name="machines_q6"> 6 - ¿Se bajan los cabrestantes hidráulicos al final de una tarea y las cargas suspendidas nunca se dejan desatendidas?</string>
+    <string name="machines_q7"> 7 - ¿Se utilizan procedimientos de etiquetado apropiados en máquinas y equipos?</string>
+
+    <!--String related to Eletrical Checklist -->
+    <string name="eletrical_q1"> 1 - ¿Los interruptores principales están desactivados, bloqueados y etiquetados antes de comenzar a trabajar en los circuitos de alimentación, para que nadie más pueda usarlos mientras otro está funcionando?</string>
+    <string name="eletrical_q2"> 2 - ¿Las inspecciones eléctricas periódicas son realizadas por personal calificado?</string>
+    <string name="eletrical_q3"> 3 - ¿Solo personas calificadas trabajan en reparaciones eléctricas y usan instrumentos adecuados para probar los circuitos?</string>
+    <string name="eletrical_q4"> 4 - ¿Están los cables, equipos, cables y enchufes en buenas condiciones y conectados a tierra?</string>
+    <string name="eletrical_q5"> 5 - ¿Conocen los trabajadores el procedimiento en caso de contacto accidental con líneas eléctricas?</string>
+    <string name="eletrical_q6"> 6 - ¿El sistema eléctrico tiene una amplia capacidad para manejar todas las cargas?</string>
+    <string name="eletrical_q7"> 7 - ¿Todos los interruptores eléctricos tienen un dispositivo de bloqueo para evitar el arranque accidental del equipo durante el mantenimiento?</string>
+
+    <!--String related to Boating Checklist -->
+    <string name="boating_q1"> 1 - ¿El barco es seguro y adecuado para la actividad?</string>
+    <string name="boating_q2"> 2 - ¿La radio y otros equipos de comunicación están a bordo y funcionando?</string>
+    <string name="boating_q3"> 3 - ¿Los trabajadores tienen equipo y ropa de protección, como ropa de protección térmica, un chaleco salvavidas u otros dispositivos de flotación?</string>
+    <string name="boating_q4"> 4 - ¿Se verificaron las condiciones climáticas antes de realizar actividades en el mar?</string>
+    <string name="boating_q5"> 5 - ¿Están los equipos de seguridad en buen estado de funcionamiento?</string>
+    <string name="boating_q6"> 6 - ¿Al ascender o descender de botes, hay un corredor o pasarela adecuada para evitar que los trabajadores se caigan por la borda?</string>
+
+    <!--String related to Chemicals Checklist -->
+    <string name="chemicals_q1"> 1 - ¿Los productos químicos se almacenan adecuadamente en áreas bien ventiladas y separados de las sustancias que pueden reaccionar?</string>
+    <string name="chemicals_q2"> 2 - ¿Las fugas de gas se detectan y reparan periódicamente?</string>
+    <string name="chemicals_q3"> 3 - ¿Están los trabajadores capacitados y conscientes de los riesgos químicos en el lugar de trabajo?</string>
+    <string name="chemicals_q4"> 4 - ¿Se proporcionan y se usan equipos de protección personal (EPP) tales como zapatos cerrados, guantes de nitrilo, gafas protectoras y máscaras/respiradores apropiados al manipular productos químicos?</string>
+    <string name="chemicals_q5"> 5 - ¿Hay señales de advertencia y números de emergencia en áreas de almacenamiento de productos químicos o nocivos disponibles y visibles?</string>
+
+    <!--String related to Womens Checklist -->
+    <string name="womens_q1"> 1 - ¿Las trabajadoras reciben el mismo salario que los hombres por realizar la misma función o tarea?</string>
+    <string name="womens_q2"> 2 - ¿Las trabajadoras embarazadas o en período de lactancia son retiradas de situaciones insalubres y colocadas en actividades con el menor riesgo potencial para su salud y el bebé?</string>
+    <string name="womens_q3"> 3 - ¿Se permiten descansos para amamantar o hay algún apoyo para las madres que amamantan y / o sus hijos?</string>
+    <string name="womens_q4"> 4 - ¿Los trabajadores tienen descansos programados cuando realizan actividades con largos períodos de inmersión o exposición al agua y/o al frío?</string>
+    <string name="womens_q5"> 5 - ¿El transporte manual de cargas realizado por mujeres y jóvenes es inferior al permitido para los hombres?</string>
+    <string name="womens_q6"> 6 - ¿Hay acceso a un baño limpio y en uso, cuando sea necesario, durante las horas de trabajo? </string>
+
+    <string name="five_name">5 Porqués</string>
+    <string name="problem">Problema</string>
+    <string name="main_problem">Ingrese el problema aquí</string>
+    <string name="five_q1"> ¿Por qué pasó esto?</string>
+    <string name="five_q2"> Si no, ¿por qué sucedió esto?</string>
+    <string name="five_q3"> Si no, ¿por qué sucedió esto?</string>
+    <string name="five_q4"> Si no, ¿por qué sucedió esto?</string>
+    <string name="five_q5"> Si no, ¿por qué sucedió esto?</string>
+    <string name="five_q6"> Si no, ¿por qué sucedió esto?</string>
+    <string name="five_q7"> Si no, ¿por qué sucedió esto?</string>
+    <string name="five_q8"> Si no, ¿por qué sucedió esto?</string>
+    <string name="root">¿Es esta una causa raíz?</string>
+    <string name="root_text">Causa raíz: </string>
+    <string name="solution">¿Cuáles son las posibles soluciones?</string>
+    <string name="creators">Flavielle | Giovani</string>
+
+    <string name="soon">Pronto</string>
+    <string name="review_method">Llegaste en 8 intentos. ¡Revisa el método!</string>
+
+    <string name="question_csv">PREGUNTA</string>
+    <string name="answer_csv">RESPUESTA</string>
+    <string name="corrective_csv">ACCIÓN CORRECTIVA</string>
+    <string name="fail_file">Error al guardar el archivo</string>
+    <string name="hello_blank_fragment">Hola fragment en blanco</string>
+
+    <string name="what_if">¿Y si?</string>
+
+    <string name="osh_management_work">Lugar de trabajo</string>
+    <string name="osh_management_work_1">"Gestión de la SST"</string>
+    <string name="osh_management_work_2">Representación de trabajadores y oportunidades</string>
+
+    <string name="text_workplace">
+        "Los protocolos y directrices internacionales sirven como base para adaptar o crear normas relacionadas con la salud y el bienestar de los animales, la inocuidad de los alimentos, la integridad ambiental y los aspectos socioeconómicos. La FAO y la OIT han estado haciendo un trabajo importante a este respecto, estableciendo directrices para el trabajo trabajo decente, erradicando el trabajo infantil y el trabajo esclavo moderno, y estableciendo la igualdad de género y el origen étnico minoritario en el concepto de Trabajo Decente, así como el desarrollo de estándares de SSO. \n"
+        "El Convenio núm. 184 de la Organización Internacional del Trabajo (OIT) y la Recomendación núm. 192 sobre Seguridad y Salud en la Agricultura adoptan varias propuestas sobre salud y seguridad en la agricultura. \n \n"
+    </string>
+    <string name="title_workplace"><b>Aplicando la ley:</b></string>
+
+    <string name="text_workplace_2">
+        \n
+        • Identificar las leyes nacionales relevantes. \n
+        • Uso del Convenio núm. 184 de la OIT sobre seguridad y salud en la agricultura. \n
+        • Aplicar patrones a los problemas. \n
+        \n
+    </string>
+
+    <string name="title_workplace_2"><b>Convención nº 184 de la OIT</b></string>
+
+    <string name="text_workplace_3">
+        "Esta es la primera vez que se aborda la salud y la seguridad en la agricultura. La convención aborda:\n"
+        \n
+        (1) Protección de la salud y la seguridad de los trabajadores agrícolas.;\n
+        (2) Derechos de los trabajadores;\n
+        (3) Deberes del empleador (evaluación de riesgos; capacitación e información);\n
+        (4) Obligaciones del gobierno.\n
+        \n
+
+        "<b>Artículo 7: Deberes de los empleadores en relación con la evaluación de riesgos, la capacitación y la interrupción de operaciones peligrosas \ nEl empleador debe: \ n</b>"
+        "(a) Llevar a cabo evaluaciones de riesgo apropiadas en relación con la seguridad y la salud de los trabajadores y, en función de estos resultados, adoptar medidas preventivas y de protección para garantizar que, en todas las condiciones a las que están destinadas, todas las actividades agrícolas, lugares de trabajo el trabajo, la maquinaria, el equipo, los productos químicos, las herramientas y los procesos bajo el control del empleador son seguros y cumplen con los estándares de salud y seguridad prescritos; \n"
+        "(b) garantizar que se brinden instrucciones de salud y seguridad adecuadas, comprensibles y adecuadas, y cualquier orientación o supervisión necesaria a los trabajadores agrícolas, incluida información sobre los peligros y riesgos asociados con su trabajo, así como las medidas que deben tomarse para protegerlos; teniendo en cuenta su nivel de educación y diferencias de idioma, y ​​\n"
+        "(c) Tomar medidas inmediatas para evitar cualquier operación en la que exista un peligro inminente y grave para la seguridad y la salud y evacuar a los trabajadores, según corresponda. \n \n"
+
+        "<b>Artículo 8: Derechos y deberes de los trabajadores \nArtículo 8.1. Los trabajadores agrícolas tendrán derecho a:\n</b>"
+        "(a) Ser informado y consultado sobre cuestiones de salud y seguridad, incluidos los riesgos derivados de las nuevas tecnologías; \n"
+        "(b) Participar en la aplicación y revisión de medidas de salud y seguridad y, de conformidad con la legislación y la práctica nacionales, seleccionar representantes de salud y seguridad y representantes en comités de seguridad y salud; y \n"
+        "(c) Alejarse del peligro que resulta de su actividad laboral cuando tienen una justificación razonable para creer que existe un riesgo inminente y grave para su seguridad y salud, y así informar a su supervisor de inmediato. No serán puestos en desventaja como resultado de estas acciones. \n \n "
+        "<b>Artículo 8.2.</b> Los trabajadores agrícolas y sus representantes tendrán el deber de cumplir con las medidas de seguridad y salud prescritas y cooperar con los empleadores para que cumplan con sus propios deberes y responsabilidades.\n"
+    </string>
+
+    <string name="title_workplace_3"><b>\nRecomendación núm. 192 de la OIT sobre seguridad y salud en la agricultura\n</b></string>
+
+    <string name="text_workplace_4">
+        "<b>Párrafo 5 \nPara dar efecto al artículo 7 del Convenio núm. 184, un conjunto de medidas sobre seguridad y salud a nivel de la empresa debe incluir:\n</b>"
+        \n
+        "(a) Servicios de seguridad y salud en el trabajo.;\n"
+        "(b) Evaluación de riesgos y medidas de gestión, en el siguiente orden de prioridad:\n"
+        "(<i>i</i>) Eliminación de riesgos.;\n"
+        "(<i>ii</i>) Control de riesgo en origen;\n"
+        "(<i>iii</i>) Minimizar el riesgo por medios tales como el diseño de sistemas de trabajo seguros, la introducción de medidas técnicas y organizativas y prácticas y capacitación seguras; y\n"
+        "(<i>iv</i>) En la medida en que persista el riesgo, el suministro y uso de equipo y ropa de protección personal, sin costo para el trabajador;\n"
+        "(c) Medidas para hacer frente a accidentes y emergencias, incluidos los primeros auxilios y el acceso al transporte adecuado a las instalaciones médicas.;\n"
+        "(d) Procedimientos de registro y notificación de accidentes y enfermedades.;\n"
+        "(e) Medidas apropiadas para proteger a las personas presentes en un sitio agrícola, la población en las proximidades del sitio y el medio ambiente en general, de los riesgos que pueden resultar de la actividad agrícola en cuestión, como los resultantes de los residuos agroquímicos, los residuos del ganado, el suelo y la contaminación del agua, agotamiento del suelo y cambios topográficos; y\n"
+        "(f) Medidas para garantizar que la tecnología utilizada se adapte al clima, la organización del trabajo y las prácticas laborales.\n\n"
+
+        "<b>La convención núm. 184 también se complementa con otros convenios de la OIT sobre seguridad y salud.:\n</b>"
+        \n
+        • Convención núm. 155. Relativo a la seguridad y la salud en el trabajo y el entorno laboral (más la Recomendación 164), \n
+        • Convención núm. 161 sobre servicios de salud en el trabajo (más la Recomendación núm. 171), \n
+        • Convención núm. 170 sobre seguridad en el uso de productos químicos en el trabajo (más la recomendación núm. 177), y \n
+        • Recomendación núm. 192 sobre seguridad y salud en la agricultura. \n
+        \n
+    </string>
+
+    <string name="references1">Referencia 1 - OIT</string>
+    <string name="references2">Referencia 2 - OIT</string>
+    <string name="references3">Referencia 3 - OIT</string>
+
+    <string name="help_five">La técnica de los 5 porqués es simple y sirve para identificar la causa raíz de un problema.
+Consiste en identificar un problema y preguntar al menos \"por qué\" al menos 5 veces. La respuesta al último por qué es la causa raíz del problema. A partir de la identificación de la causa raíz, es posible averiguar qué medidas se deben tomar para reducir la probabilidad de que el problema vuelva a ocurrir. La herramienta debe usarse con \"sentido común\", cuando se dé cuenta de que la raíz del problema ha llegado, simplemente deténgase.</string>
+    <string name="help_ppe">Asegúrese de que los riesgos no sean prevenibles o reemplazables. El equipo de protección personal (PPE) se debe proporcionar de forma gratuita a los trabajadores y colaboradores. El equipo de protección colectiva (EPC) debe estar disponible para los trabajadores.
+Los profesionales deben estar capacitados en el uso y mantenimiento de equipos individuales y colectivos.
+El PPE es la última línea de defensa y la menos efectiva. Cuando todavía existan algunos riesgos residuales que no pueden reducirse por otros medios, el empleador debe proporcionar el EPP adecuado, como monos, guantes, gafas protectoras, botas de seguridad y protectores auditivos.</string>
+
+    <string name="union_representation">Representación sindical</string>
+    <string name="text_union_representation">
+        "Una organización sindical fuerte es esencial para garantizar que los empleadores eviten accidentes, enfermedades y muertes para los trabajadores y otros en la comunidad en general. \n"
+        "Uno de los principales trabajos de los sindicatos y sus miembros a nivel local es garantizar que el empleador cumpla con sus responsabilidades. Algunas de las formas de lograrlo incluyen la construcción de una asociación sólida y la elección de representantes de los trabajadores de salud y seguridad en el trabajo. \n"</string>
+
+    <string name="job_of_workers">El trabajo de un representante de los trabajadores de salud y seguridad</string>
+    <string name="text_job_of_workers">
+        "El termino "representante de trabajadores de salud y seguridad" cubre varias categorías de diferentes representantes. La Unión Internacional de Asociaciones de Trabajadores de la Alimentación, Agricultura, Hostelería, Catering, Tabaco y Asociados (UITA / IUTA) cree que cualquier representante de salud y seguridad de los trabajadores debe ser un representante sindical seleccionado o elegido por los miembros del sindicato en su lugar de trabajo. \n"
+        "En el Artículo 8.1 (b) del Convenio núm. 184 de la OIT, los trabajadores tienen derecho a seleccionar representantes de salud y seguridad. Los principales trabajos que incluye un representante de salud y seguridad de los trabajadores son: \n"
+        \n
+        • hablar con los miembros y llevar sus quejas a la gerencia \n
+        • involucrarse, informar y consultar a los miembros \n
+        • recopilar y distribuir información sobre salud y seguridad en el trabajo \n
+        • identificar peligros, investigar y abordar riesgos \n
+        • investigar incidentes de salud y seguridad ocupacional, problemas de salud y no conformidades \n
+        • verificar que el empleador cumple con los requisitos de salud y seguridad \n
+        • consultoría de gestión y negociación \n
+        \n
+    </string>
 
 </resources>
